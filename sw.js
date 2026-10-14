@@ -1,5 +1,5 @@
 // Offline shell: cache the app, always try network first for the schedule data.
-var SHELL = "gf-shell-v13";
+var SHELL = "gf-shell-v14";
 var FILES = ["./index.html", "./app.css", "./app.js", "./rank.js", "./manifest.json", "./icon.svg"];
 self.addEventListener("install", function (e) {
   e.waitUntil(caches.open(SHELL).then(function (c) { return c.addAll(FILES); }).then(function () { return self.skipWaiting(); }));

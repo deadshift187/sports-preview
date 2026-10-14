@@ -31,12 +31,6 @@
   var state = { view: "foryou", group: "All", mine: false, q: "", data: null, open: {}, titles: [], focus: null };
   var SVC = [];
 
-  // Public tester build: no betting section; Movies & TV labelled beta (limited title data).
-  if (PUBLIC) {
-    var bb = $('#views button[data-v="bets"]'); if (bb) bb.remove();
-    var wb = $('#views button[data-v="watch"]'); if (wb) wb.textContent = "Movies & TV (beta)";
-    if (state.view === "bets") state.view = "foryou";
-  }
 
   fetch(DATA, { cache: "no-store" }).then(function (r) { return r.json(); }).then(function (d) {
     state.data = d; SVC = d.services || [];
@@ -50,10 +44,6 @@
     $("#list").innerHTML = '<div class="empty">Could not load schedule data.<br>Run <code>python refresh.py</code> then reload.</div>';
   });
 
-  // Movies & TV availability (optional file; the view shows a note if it's not built yet)
-  fetch(BASE + "data/titles.json", { cache: "no-store" }).then(function (r) { return r.json(); })
-    .then(function (d) { state.titles = d.titles || []; if (state.view === "watch") render(); })
-    .catch(function () { state.titles = []; });
 
   // ---- header controls
   $("#views").addEventListener("click", function (e) {
@@ -203,7 +193,7 @@
   function render() {
     var box = $("#list"); box.innerHTML = "";
     var owned = new Set(store.services);
-    $("#groups").style.display = (state.view === "watch" || state.view === "foryou" || state.focus) ? "none" : "";
+    $("#groups").style.display = (state.view === "foryou" || state.focus) ? "none" : "";
     buildFavbar();
 
     // A pinned favorite's page: its upcoming games (soonest first) with watch + radio.
@@ -218,25 +208,11 @@
       setFoot(); return;
     }
 
-    // Search works from ANY tab: a non-empty query shows matches across all days + titles.
+    // Search works from ANY tab: a non-empty query shows matching games across all days.
     if (state.q) { renderSearch(owned); return; }
     tzBanner();
     if (state.view === "bets") { renderBets(owned); return; }
     if (state.view === "foryou") { renderForYou(owned); return; }
-
-    // Movies & TV view, or title matches when searching from any view.
-    var titles = (state.titles || []).filter(titleMatch);
-    if (state.view === "watch") {
-      if (!state.titles.length) { box.appendChild(el("div", "empty", "Movies & TV is being built.\nRun the title fetcher (needs the data source) to fill this in.")); setFoot(); return; }
-      if (!titles.length) { box.appendChild(el("div", "empty", "No titles match “" + state.q + "”.")); setFoot(); return; }
-      box.appendChild(el("div", "day", "Movies & TV"));
-      titles.forEach(function (t) { box.appendChild(titleCard(t, owned)); });
-      setFoot(); return;
-    }
-    if (state.q && titles.length) {
-      box.appendChild(el("div", "day", "Movies & TV"));
-      titles.slice(0, 6).forEach(function (t) { box.appendChild(titleCard(t, owned)); });
-    }
 
     var games = (state.data.games || []).filter(function (g) {
       if (state.group !== "All" && g.group !== state.group) return false;
@@ -265,8 +241,6 @@
 
   function renderSearch(owned) {
     var box = $("#list");
-    var titles = (state.titles || []).filter(titleMatch);
-    if (titles.length) { box.appendChild(el("div", "day", "Movies & TV")); titles.slice(0, 8).forEach(function (t) { box.appendChild(titleCard(t, owned)); }); }
     var games = (state.data.games || []).filter(qMatch);
     games.sort(gameOrder);
     if (games.length) {
@@ -279,7 +253,7 @@
         box.appendChild(card(g, owned));
       });
     }
-    if (!titles.length && !games.length) box.appendChild(el("div", "empty", "Nothing matches “" + state.q + "”."));
+    if (!games.length) box.appendChild(el("div", "empty", "Nothing matches “" + state.q + "”."));
     setFoot();
   }
 
