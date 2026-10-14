@@ -912,7 +912,9 @@
   syncSeg();
   if ("serviceWorker" in navigator) {
     var hadController = !!navigator.serviceWorker.controller;
-    navigator.serviceWorker.register("sw.js").catch(function () {});
+    // updateViaCache:none -> always fetch a fresh sw.js (don't let the 10-min HTTP cache delay updates)
+    try { navigator.serviceWorker.register("sw.js", { updateViaCache: "none" }).catch(function () {}); }
+    catch (e) { navigator.serviceWorker.register("sw.js").catch(function () {}); }
     navigator.serviceWorker.addEventListener("controllerchange", function () {
       if (!hadController) return;        // first install, not an update
       if (document.getElementById("gfupd")) return;

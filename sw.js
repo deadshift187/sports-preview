@@ -3,7 +3,7 @@
 // old one is deleted on activate. The app shell (html/css/js) is served NETWORK-FIRST so a
 // returning visitor always gets the latest when online (falling back to cache offline); only
 // icons/static assets are cache-first. Schedule data is network-first too.
-var SHELL = "gf-20261014161608";   // build_public.py replaces this with gf-<timestamp>
+var SHELL = "gf-20261014162319";   // build_public.py replaces this with gf-<timestamp>
 var SHELL_FILES = ["./index.html", "./app.css", "./app.js", "./rank.js"];
 var STATIC = ["./manifest.json", "./icon.svg", "./icon-192.png", "./icon-512.png"];
 
