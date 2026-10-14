@@ -146,3 +146,14 @@ dialog::backdrop { background: rgba(0,0,0,.55); }
 .tzbtn.ghost { background: none; color: var(--text); border: 1px solid var(--line); font-weight: 500; }
 #cityQ { width: 100%; padding: 9px 11px; border-radius: 10px; border: 1px solid var(--line); background: var(--card); color: var(--text); font-size: 16px; margin: 4px 0; }
 #tzCurrent, #useLocNote { font-size: 12px; margin: 4px 0; }
+.livepill { background: var(--live); color: #fff; font-weight: 800; font-size: 11px; padding: 2px 7px; border-radius: 5px; animation: gfpulse 1.4s infinite; }
+@keyframes gfpulse { 0%,100% { opacity: 1; } 50% { opacity: .4; } }
+.livestate { color: var(--live); font-weight: 600; }
+.finalpill { font-weight: 600; }
+.badge { width: 24px; height: 24px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 10px; font-weight: 800; flex: none; }
+.livestrip { display: flex; gap: 8px; overflow-x: auto; padding: 2px 0 6px; scrollbar-width: none; }
+.livestrip::-webkit-scrollbar { display: none; }
+.livecard { flex: none; min-width: 128px; text-align: left; background: var(--card); border: 1px solid var(--live); border-radius: 12px; padding: 9px 11px; }
+.lc-lg { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: .4px; display: block; }
+.lc-score { font-size: 15px; font-weight: 700; margin: 2px 0; font-variant-numeric: tabular-nums; display: block; }
+.lc-state { font-size: 11px; color: var(--live); font-weight: 600; display: block; }

@@ -257,6 +257,27 @@
     setFoot();
   }
 
+  // Compact horizontal ticker of live games (your teams; or all live if you follow none).
+  function renderLiveStrip(myLive) {
+    var box = $("#list");
+    var all = (state.data.games || []).filter(function (g) { return g.status === "in"; });
+    var strip = (myLive && myLive.length) ? myLive : all;
+    if (!strip.length) return;
+    var wrap = el("div", "livestrip");
+    strip.slice(0, 12).forEach(function (g) {
+      var c = el("button", "livecard");
+      c.appendChild(el("span", "lc-lg", g.league_name));
+      var sc = g.score ? ((g.away && g.away.abbr || "") + " " + g.score.away + " · " + g.score.home + " " + (g.home && g.home.abbr || "")) :
+        ((g.away && g.away.abbr || "?") + " · " + (g.home && g.home.abbr || "?"));
+      c.appendChild(el("span", "lc-score", sc));
+      c.appendChild(el("span", "lc-state", GFLive.liveLine(g)));
+      c.onclick = function () { state.q = (g.home && g.home.name) || (g.away && g.away.name) || ""; $("#q").value = state.q; render(); };
+      wrap.appendChild(c);
+    });
+    box.appendChild(el("div", "day", "🔴 Live now"));
+    box.appendChild(wrap);
+  }
+
   function renderForYou(owned) {
     var box = $("#list");
     var now = new Date();
@@ -270,6 +291,7 @@
     }
 
     var live = mine.filter(function (g) { return g.status === "in"; });
+    renderLiveStrip(live);
     var today = mine.filter(function (g) { var s = parse(g.start); return g.status !== "in" && s && dayKeyG(g) === dayKeyNow(); });
     var week = mine.filter(function (g) { var s = parse(g.start); return g.status !== "in" && s && dayKeyG(g) !== dayKeyNow(); });
 
@@ -277,7 +299,6 @@
       box.appendChild(el("div", "foryou-empty", "Pin your teams, leagues and sports to build your home. Tap “Setup”, or star anything in the app. (Try the Dodgers, Rams, Kings, soccer, UFC…)"));
     }
     if (mine.length) {
-      section("🔴 Live now", "your teams", live);
       section("Up next today", null, today.slice(0, 8));
       section("This week for your teams", null, week.slice(0, 12));
     } else if (favList().length) {
@@ -459,9 +480,23 @@
     $("#foot").innerHTML = "Data checked " + when + " · no ads, no tracking · " + (PUBLIC ? '<a href="./privacy.html" style="color:inherit">Privacy</a>' : "on-device only") + ' · <span style="opacity:.6">' + ver + "</span>";
   }
 
+  function teamBadge(t) {
+    // Public/app-store build: colored abbreviation badge instead of a hotlinked logo image.
+    var ab = (t && (t.abbr || t.short || t.name || "")).slice(0, 4).toUpperCase();
+    var b = el("span", "badge", ab);
+    var col = (t && t.color) || "#2a313c";
+    b.style.background = col; b.style.color = contrastInk(col);
+    return b;
+  }
+  function contrastInk(hex) {
+    var m = /^#?([0-9a-f]{6})$/i.exec(hex || ""); if (!m) return "#fff";
+    var n = parseInt(m[1], 16), r = (n >> 16) & 255, g = (n >> 8) & 255, b = n & 255;
+    return (0.299 * r + 0.587 * g + 0.114 * b) > 150 ? "#111" : "#fff";
+  }
   function teamRow(t, league) {
     var r = el("div", "t");
-    if (t && t.logo) { var i = el("img"); i.src = t.logo; i.alt = ""; i.loading = "lazy"; r.appendChild(i); }
+    if (PUBLIC) { r.appendChild(teamBadge(t)); }
+    else if (t && t.logo) { var i = el("img"); i.src = t.logo; i.alt = ""; i.loading = "lazy"; r.appendChild(i); }
     r.appendChild(el("span", "n", (t && (t.name || t.short)) || "TBD"));
     if (t && t.id && league) {
       var key = teamKey(league, t.id);
@@ -486,8 +521,11 @@
     var meta = el("div", "meta");
     var s = parse(g.start);
     var time = el("span", null, g.status === "in" ? "" : (g.start ? fmtTimeG(g) : ""));
-    if (g.status === "in") { var lv = el("span", "live", g.status_detail || "LIVE"); meta.appendChild(lv); }
-    else if (g.status === "post") meta.appendChild(el("span", null, g.status_detail || "Final"));
+    if (g.status === "in") {
+      meta.appendChild(el("span", "livepill", "LIVE"));           // pulsing pill (CSS)
+      meta.appendChild(el("span", "livestate", GFLive.liveLine(g)));
+    }
+    else if (g.status === "post") meta.appendChild(el("span", "finalpill", g.status_detail || "Final"));
     else meta.appendChild(time);
     meta.appendChild(el("span", "lg", g.league_name));
     if (g.stale) meta.appendChild(el("span", "conf", "cached"));
@@ -911,6 +949,18 @@
   }
 
   syncSeg();
+
+  // --- live score polling: refresh only the live/soon leagues' scoreboards every ~45s ---
+  function liveRerender() { var y = window.scrollY; render(); window.scrollTo(0, y); }
+  function pollLive() {
+    if (!state.data || document.visibilityState !== "visible") return;
+    if (document.querySelector(".opensheet-bg")) return;    // don't re-render under a popup
+    try { if (window.GFLive) GFLive.refreshLive(state.data.games, liveRerender); } catch (e) {}
+  }
+  setInterval(pollLive, 45000);
+  document.addEventListener("visibilitychange", function () { if (document.visibilityState === "visible") pollLive(); });
+  setTimeout(pollLive, 3000);
+
   // --- app auto-update: keep the saved copy (instant open), check often, swap in safely ---
   function updatedToast() {
     var b = el("div", null, "Updated ✓"); b.id = "gfupd";
