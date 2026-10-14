@@ -1,0 +1,845 @@
+{
+ "_note": "services = things Saint can tick. channels = broadcaster names seen in feeds (regex fullmatch, case-insensitive) -> display label + which services carry it. Bundle carriage (YouTube TV etc.) merged from data/research/services.json.",
+ "services": [
+  {
+   "id": "antenna",
+   "name": "Free TV (antenna)",
+   "web": "",
+   "color": "#6b7280",
+   "ios_store": null,
+   "play_pkg": null,
+   "scheme": null
+  },
+  {
+   "id": "espn",
+   "name": "ESPN app (Unlimited)",
+   "web": "https://www.espn.com/watch/",
+   "color": "#d00",
+   "ios_store": "https://apps.apple.com/app/id317469184",
+   "play_pkg": "com.espn.score_center",
+   "scheme": null
+  },
+  {
+   "id": "espnplus",
+   "name": "ESPN Select / ESPN+",
+   "web": "https://www.espn.com/watch/",
+   "color": "#d00",
+   "ios_store": "https://apps.apple.com/app/id317469184",
+   "play_pkg": "com.espn.score_center",
+   "scheme": null
+  },
+  {
+   "id": "paramount",
+   "name": "Paramount+",
+   "web": "https://www.paramountplus.com/live-tv/",
+   "color": "#0064ff",
+   "ios_store": "https://apps.apple.com/app/id530168168",
+   "play_pkg": null,
+   "scheme": null
+  },
+  {
+   "id": "peacock",
+   "name": "Peacock",
+   "web": "https://www.peacocktv.com/sports",
+   "color": "#111",
+   "ios_store": "https://apps.apple.com/app/id1508186374",
+   "play_pkg": "com.peacocktv.peacockandroid",
+   "scheme": null
+  },
+  {
+   "id": "prime",
+   "name": "Prime Video",
+   "web": "https://www.amazon.com/gp/video/storefront/sports",
+   "color": "#00a8e1",
+   "ios_store": "https://apps.apple.com/app/id545519333",
+   "play_pkg": "com.amazon.avod.thirdpartyclient",
+   "scheme": null
+  },
+  {
+   "id": "appletv",
+   "name": "Apple TV",
+   "web": "https://tv.apple.com/us/room/sports",
+   "color": "#555",
+   "ios_store": "https://apps.apple.com/app/id1174078549",
+   "play_pkg": null,
+   "scheme": null
+  },
+  {
+   "id": "netflix",
+   "name": "Netflix",
+   "web": "https://www.netflix.com/",
+   "color": "#e50914",
+   "ios_store": "https://apps.apple.com/app/id363590051",
+   "play_pkg": "com.netflix.mediaclient",
+   "scheme": null
+  },
+  {
+   "id": "hbomax",
+   "name": "HBO Max (TNT Sports)",
+   "web": "https://www.max.com/sports",
+   "color": "#5822b4",
+   "ios_store": "https://apps.apple.com/app/id1666653815",
+   "play_pkg": "com.wbd.stream",
+   "scheme": null
+  },
+  {
+   "id": "foxone",
+   "name": "Fox One",
+   "web": "https://www.foxone.com/",
+   "color": "#003f87",
+   "ios_store": null,
+   "play_pkg": null,
+   "scheme": null
+  },
+  {
+   "id": "dazn",
+   "name": "DAZN",
+   "web": "https://www.dazn.com/",
+   "color": "#f8fc00",
+   "ios_store": "https://apps.apple.com/app/id1129523589",
+   "play_pkg": "com.dazn",
+   "scheme": null
+  },
+  {
+   "id": "youtubetv",
+   "name": "YouTube TV",
+   "web": "https://tv.youtube.com/",
+   "color": "#f00",
+   "ios_store": "https://apps.apple.com/app/id1193350206",
+   "play_pkg": null,
+   "scheme": null
+  },
+  {
+   "id": "fubo",
+   "name": "Fubo",
+   "web": "https://www.fubo.tv/",
+   "color": "#fa4616",
+   "ios_store": "https://apps.apple.com/app/id905401434",
+   "play_pkg": "com.fubo.mobile",
+   "scheme": null
+  },
+  {
+   "id": "hululive",
+   "name": "Hulu + Live TV",
+   "web": "https://www.hulu.com/live-tv",
+   "color": "#1ce783",
+   "ios_store": "https://apps.apple.com/app/id376510438",
+   "play_pkg": null,
+   "scheme": null
+  },
+  {
+   "id": "sling",
+   "name": "Sling TV",
+   "web": "https://watch.sling.com/",
+   "color": "#0a6ebd",
+   "ios_store": "https://apps.apple.com/app/id945077360",
+   "play_pkg": null,
+   "scheme": null
+  },
+  {
+   "id": "directv",
+   "name": "DIRECTV",
+   "web": "https://stream.directv.com/",
+   "color": "#00a6e2",
+   "ios_store": "https://apps.apple.com/app/id1136238277",
+   "play_pkg": null,
+   "scheme": null
+  },
+  {
+   "id": "cable",
+   "name": "Cable / satellite TV",
+   "web": "",
+   "color": "#6b7280",
+   "ios_store": null,
+   "play_pkg": null,
+   "scheme": null
+  },
+  {
+   "id": "nflplus",
+   "name": "NFL+",
+   "web": "https://www.nfl.com/plus/",
+   "color": "#013369",
+   "ios_store": "https://apps.apple.com/app/id389781154",
+   "play_pkg": "com.gotv.nflgamecenter.us.lite",
+   "scheme": null
+  },
+  {
+   "id": "sundayticket",
+   "name": "NFL Sunday Ticket",
+   "web": "https://tv.youtube.com/learn/nflsundayticket/",
+   "color": "#013369",
+   "ios_store": "https://apps.apple.com/app/id1193350206",
+   "play_pkg": null,
+   "scheme": null
+  },
+  {
+   "id": "nbalp",
+   "name": "NBA League Pass",
+   "web": "https://www.nba.com/watch/league-pass-stream",
+   "color": "#1d428a",
+   "ios_store": "https://apps.apple.com/app/id484672289",
+   "play_pkg": "com.nbaimd.gametime.nba2011",
+   "scheme": null
+  },
+  {
+   "id": "wnbalp",
+   "name": "WNBA League Pass",
+   "web": "https://leaguepass.wnba.com/",
+   "color": "#fa4d00",
+   "ios_store": null,
+   "play_pkg": null,
+   "scheme": null
+  },
+  {
+   "id": "mlbtv",
+   "name": "MLB.TV",
+   "web": "https://www.mlb.com/tv",
+   "color": "#002d72",
+   "ios_store": "https://apps.apple.com/app/id493619333",
+   "play_pkg": "com.bamnetworks.mobile.android.gameday.atbat",
+   "scheme": null
+  },
+  {
+   "id": "rsn",
+   "name": "Local sports network app",
+   "web": "",
+   "color": "#6b7280",
+   "ios_store": null,
+   "play_pkg": null,
+   "scheme": null
+  },
+  {
+   "id": "beinsports",
+   "name": "beIN SPORTS",
+   "web": "https://connect.beinsports.com/",
+   "color": "#5c2d91",
+   "ios_store": null,
+   "play_pkg": null,
+   "scheme": null
+  },
+  {
+   "id": "vix",
+   "name": "ViX",
+   "web": "https://vix.com/",
+   "color": "#ff5c00",
+   "ios_store": null,
+   "play_pkg": "com.univision.prendetv",
+   "scheme": null
+  },
+  {
+   "id": "tennischannel",
+   "name": "Tennis Channel",
+   "web": "https://www.tennischannel.com/",
+   "color": "#1b5e20",
+   "ios_store": null,
+   "play_pkg": null,
+   "scheme": null
+  },
+  {
+   "id": "willow",
+   "name": "Willow",
+   "web": "https://www.willow.tv/",
+   "color": "#0b6e4f",
+   "ios_store": "https://apps.apple.com/app/id370916083",
+   "play_pkg": "com.willow.cricket",
+   "scheme": null
+  },
+  {
+   "id": "flosports",
+   "name": "FloSports",
+   "web": "https://www.flosports.tv/",
+   "color": "#111",
+   "ios_store": null,
+   "play_pkg": null,
+   "scheme": null
+  },
+  {
+   "id": "siriusxm",
+   "name": "SiriusXM",
+   "web": "https://www.siriusxm.com/sports",
+   "color": "#0000eb",
+   "ios_store": null,
+   "play_pkg": null,
+   "scheme": null
+  }
+ ],
+ "channels": [
+  {
+   "match": "ESPN\\+|ESPN Select",
+   "label": "ESPN+",
+   "services": [
+    "espnplus",
+    "espn"
+   ],
+   "stream_only": true
+  },
+  {
+   "match": "ESPN Unlimited|ESPN App",
+   "label": "ESPN app",
+   "services": [
+    "espn"
+   ],
+   "stream_only": true
+  },
+  {
+   "match": "ESPN|ESPN2|ESPNU|ESPNEWS|ESPN Deportes|SEC Network|SECN|ACC Network|ACCN|ESPN2/ESPN Deportes",
+   "label": null,
+   "services": [
+    "espn",
+    "cable"
+   ],
+   "bundle": "espn"
+  },
+  {
+   "match": "SECN\\+|ACCNX|ACC Network Extra|SEC Network\\+",
+   "label": null,
+   "services": [
+    "espnplus",
+    "espn"
+   ],
+   "stream_only": true
+  },
+  {
+   "match": "ABC",
+   "label": "ABC",
+   "services": [
+    "antenna",
+    "espn",
+    "cable"
+   ],
+   "free_ota": true,
+   "bundle": "abc"
+  },
+  {
+   "match": "CBS",
+   "label": "CBS",
+   "services": [
+    "antenna",
+    "paramount",
+    "cable"
+   ],
+   "free_ota": true,
+   "bundle": "cbs"
+  },
+  {
+   "match": "CBSSN|CBS Sports Network",
+   "label": "CBS Sports Network",
+   "services": [
+    "cable"
+   ],
+   "bundle": "cbssn"
+  },
+  {
+   "match": "Paramount\\+|Paramount Plus",
+   "label": "Paramount+",
+   "services": [
+    "paramount"
+   ],
+   "stream_only": true
+  },
+  {
+   "match": "NBC",
+   "label": "NBC",
+   "services": [
+    "antenna",
+    "peacock",
+    "cable"
+   ],
+   "free_ota": true,
+   "bundle": "nbc"
+  },
+  {
+   "match": "Peacock",
+   "label": "Peacock",
+   "services": [
+    "peacock"
+   ],
+   "stream_only": true
+  },
+  {
+   "match": "USA Net|USA Network|USA",
+   "label": "USA Network",
+   "services": [
+    "cable"
+   ],
+   "bundle": "usa"
+  },
+  {
+   "match": "NBCSN",
+   "label": "NBCSN",
+   "services": [
+    "cable"
+   ],
+   "bundle": "nbcsn"
+  },
+  {
+   "match": "CNBC",
+   "label": "CNBC",
+   "services": [
+    "cable"
+   ],
+   "bundle": "cnbc"
+  },
+  {
+   "match": "Telemundo|Tele",
+   "label": "Telemundo",
+   "services": [
+    "antenna",
+    "peacock",
+    "cable"
+   ],
+   "free_ota": true,
+   "bundle": "telemundo"
+  },
+  {
+   "match": "Universo",
+   "label": "Universo",
+   "services": [
+    "cable"
+   ],
+   "bundle": "universo"
+  },
+  {
+   "match": "Fox|FOX",
+   "label": "FOX",
+   "services": [
+    "antenna",
+    "foxone",
+    "cable"
+   ],
+   "free_ota": true,
+   "bundle": "fox"
+  },
+  {
+   "match": "FS1|FS2|Fox Sports 1|Fox Sports 2|BTN|Big Ten Network|FOX Deportes|Fox Deportes",
+   "label": null,
+   "services": [
+    "foxone",
+    "cable"
+   ],
+   "bundle": "fs"
+  },
+  {
+   "match": "BN\\+|B1G\\+|Big Ten Plus",
+   "label": "B1G+",
+   "services": [],
+   "stream_only": true
+  },
+  {
+   "match": "Fox One",
+   "label": "Fox One",
+   "services": [
+    "foxone"
+   ],
+   "stream_only": true
+  },
+  {
+   "match": "Prime Video|Prime Video \\(Local\\)|Amazon Prime Video|Prime",
+   "label": "Prime Video",
+   "services": [
+    "prime"
+   ],
+   "stream_only": true
+  },
+  {
+   "match": "Apple TV|Apple TV\\+|MLS Season Pass",
+   "label": "Apple TV",
+   "services": [
+    "appletv"
+   ],
+   "stream_only": true
+  },
+  {
+   "match": "Netflix",
+   "label": "Netflix",
+   "services": [
+    "netflix"
+   ],
+   "stream_only": true
+  },
+  {
+   "match": "TNT|TBS|truTV|TruTV",
+   "label": null,
+   "services": [
+    "hbomax",
+    "cable"
+   ],
+   "bundle": "tnt"
+  },
+  {
+   "match": "HBO Max|Max|TNT Sports",
+   "label": "HBO Max",
+   "services": [
+    "hbomax"
+   ],
+   "stream_only": true
+  },
+  {
+   "match": "Disney\\+",
+   "label": "Disney+",
+   "services": [
+    "espn"
+   ],
+   "stream_only": true
+  },
+  {
+   "match": "Hulu",
+   "label": "Hulu",
+   "services": [
+    "hululive"
+   ],
+   "stream_only": true
+  },
+  {
+   "match": "NFL Net|NFL Network",
+   "label": "NFL Network",
+   "services": [
+    "nflplus",
+    "cable"
+   ],
+   "bundle": "nflnet"
+  },
+  {
+   "match": "NFL\\+",
+   "label": "NFL+",
+   "services": [
+    "nflplus"
+   ],
+   "stream_only": true
+  },
+  {
+   "match": "NBA TV",
+   "label": "NBA TV",
+   "services": [
+    "nbalp",
+    "cable"
+   ],
+   "bundle": "nbatv"
+  },
+  {
+   "match": "NBA League Pass",
+   "label": "NBA League Pass",
+   "services": [
+    "nbalp"
+   ],
+   "stream_only": true
+  },
+  {
+   "match": "MLB Network|MLB Net|MLBN",
+   "label": "MLB Network",
+   "services": [
+    "cable"
+   ],
+   "bundle": "mlbn"
+  },
+  {
+   "match": "MLB\\.TV",
+   "label": "MLB.TV",
+   "services": [
+    "mlbtv"
+   ],
+   "stream_only": true
+  },
+  {
+   "match": "NHL Net|NHL Network",
+   "label": "NHL Network",
+   "services": [
+    "cable"
+   ],
+   "bundle": "nhln"
+  },
+  {
+   "match": "Golf Chnl|Golf Channel|GOLF",
+   "label": "Golf Channel",
+   "services": [
+    "cable"
+   ],
+   "bundle": "golf"
+  },
+  {
+   "match": "Tennis Channel|Tennis Chnl|T2",
+   "label": "Tennis Channel",
+   "services": [
+    "tennischannel",
+    "cable"
+   ],
+   "bundle": "tennis"
+  },
+  {
+   "match": "beIn Sports|beIN SPORTS|beIN Sports|beIN SPORTS XTRA|beIN",
+   "label": "beIN SPORTS",
+   "services": [
+    "beinsports",
+    "cable"
+   ],
+   "bundle": "bein"
+  },
+  {
+   "match": "TUDN|Univision|UniMas|UniMás|Galavision|Galavisión",
+   "label": null,
+   "services": [
+    "antenna",
+    "vix",
+    "cable"
+   ],
+   "bundle": "univision"
+  },
+  {
+   "match": "ViX|ViX Premium",
+   "label": "ViX",
+   "services": [
+    "vix"
+   ],
+   "stream_only": true
+  },
+  {
+   "match": "DAZN",
+   "label": "DAZN",
+   "services": [
+    "dazn"
+   ],
+   "stream_only": true
+  },
+  {
+   "match": "CW|The CW",
+   "label": "The CW",
+   "services": [
+    "antenna",
+    "cable"
+   ],
+   "free_ota": true,
+   "bundle": "cw"
+  },
+  {
+   "match": "ION",
+   "label": "ION",
+   "services": [
+    "antenna",
+    "cable"
+   ],
+   "free_ota": true,
+   "bundle": "ion"
+  },
+  {
+   "match": "Scripps Sports",
+   "label": "Scripps Sports (ION / local)",
+   "services": [
+    "antenna"
+   ],
+   "free_ota": true
+  },
+  {
+   "match": "Willow|Willow TV",
+   "label": "Willow",
+   "services": [
+    "willow"
+   ],
+   "stream_only": true
+  },
+  {
+   "match": "NWSL\\+",
+   "label": "NWSL+ (free)",
+   "services": [],
+   "stream_only": true,
+   "free": true,
+   "needs_account": true,
+   "free_evidence": "https://www.nwslsoccer.com/"
+  },
+  {
+   "match": "Roku|The Roku Channel",
+   "label": "The Roku Channel (free)",
+   "services": [],
+   "stream_only": true,
+   "free": true,
+   "needs_account": true,
+   "free_evidence": "https://therokuchannel.roku.com/"
+  },
+  {
+   "match": "Fandango|Fandango at Home",
+   "label": "Fandango at Home (free)",
+   "services": [],
+   "stream_only": true,
+   "free": true,
+   "needs_account": true,
+   "free_evidence": "https://www.businesswire.com/news/home/20260813/"
+  },
+  {
+   "match": "YouTube",
+   "label": "YouTube (free)",
+   "services": [],
+   "stream_only": true,
+   "free": true,
+   "free_evidence": "https://www.youtube.com/"
+  },
+  {
+   "match": "Tubi",
+   "label": "Tubi (free)",
+   "services": [],
+   "stream_only": true,
+   "free": true,
+   "needs_account": true,
+   "free_evidence": "https://tubitv.com/"
+  },
+  {
+   "match": "Pluto|Pluto TV",
+   "label": "Pluto TV (free)",
+   "services": [],
+   "stream_only": true,
+   "free": true,
+   "free_evidence": "https://pluto.tv/"
+  },
+  {
+   "match": "FloSports|FloRugby|FloRacing|FloHockey|FloFootball",
+   "label": null,
+   "services": [
+    "flosports"
+   ],
+   "stream_only": true
+  },
+  {
+   "match": "MSG|MSG2|MSGSN|MSGB|MSG Sportsnet|NESN|YES|SNY|MASN|Marquee|CHSN|MNMT|Monumental|NBC Sports Phil|NBC Sports BA|NBC Sports Bay Area|NBC Sports Boston|NBC Sports Chicago|NBC Sports Philadelphia|Altitude Sports|Altitude|Spectrum SportsNet|SportsNet LA|SNLA|SportsNet Pittsburgh|SNP|Root Sports|ROOT|KHN|Kraken Hockey Network|Utah 16|KONG|KCOP|KING 5|KTVD-TV \\(My20\\)|The Spot - MTN|Victory|Rangers Sports Network|Rays TV|Twins TV|DSN|Blues App|CARNHL|MINNHL|CBJNHL|ABTV|MW\\+|FanDuel SN.*|FDSN.*|Bally Sports.*|Space City Home Network|SCHN|Arizona's Family.*|Gray Media.*|.*Sports Network|.*SportsNet.*",
+   "label": null,
+   "services": [
+    "rsn",
+    "cable"
+   ],
+   "local": true
+  }
+ ],
+ "carriage": {
+  "_note": "Pay-TV bundles that carry each cable channel group (bundle key on a channel). Used as fallback options only, ranked below free/owned. General carriage; verify per market.",
+  "espn": [
+   "youtubetv",
+   "fubo",
+   "hululive",
+   "sling",
+   "directv"
+  ],
+  "fs": [
+   "youtubetv",
+   "fubo",
+   "hululive",
+   "sling",
+   "directv"
+  ],
+  "tnt": [
+   "youtubetv",
+   "sling",
+   "directv",
+   "hululive"
+  ],
+  "cbssn": [
+   "youtubetv",
+   "fubo",
+   "hululive",
+   "directv"
+  ],
+  "usa": [
+   "youtubetv",
+   "fubo",
+   "hululive",
+   "sling",
+   "directv"
+  ],
+  "nbcsn": [
+   "youtubetv",
+   "fubo",
+   "hululive",
+   "sling",
+   "directv"
+  ],
+  "cnbc": [
+   "youtubetv",
+   "fubo",
+   "hululive",
+   "sling",
+   "directv"
+  ],
+  "nflnet": [
+   "youtubetv",
+   "fubo",
+   "sling",
+   "directv"
+  ],
+  "nbatv": [
+   "youtubetv",
+   "fubo",
+   "sling",
+   "directv"
+  ],
+  "mlbn": [
+   "youtubetv",
+   "fubo",
+   "directv"
+  ],
+  "nhln": [
+   "fubo",
+   "directv"
+  ],
+  "golf": [
+   "youtubetv",
+   "fubo",
+   "hululive",
+   "sling",
+   "directv"
+  ],
+  "tennis": [
+   "fubo",
+   "directv",
+   "sling"
+  ],
+  "bein": [
+   "fubo",
+   "sling",
+   "directv"
+  ],
+  "fox": [
+   "youtubetv",
+   "fubo",
+   "hululive",
+   "directv"
+  ],
+  "cbs": [
+   "youtubetv",
+   "fubo",
+   "hululive",
+   "directv"
+  ],
+  "nbc": [
+   "youtubetv",
+   "fubo",
+   "hululive",
+   "directv"
+  ],
+  "abc": [
+   "youtubetv",
+   "fubo",
+   "hululive",
+   "directv"
+  ],
+  "univision": [
+   "youtubetv",
+   "fubo",
+   "sling"
+  ],
+  "telemundo": [
+   "youtubetv",
+   "fubo",
+   "sling"
+  ],
+  "universo": [
+   "youtubetv",
+   "fubo",
+   "sling"
+  ],
+  "cw": [
+   "youtubetv",
+   "fubo",
+   "hululive"
+  ],
+  "ion": [
+   "youtubetv",
+   "fubo"
+  ]
+ }
+}

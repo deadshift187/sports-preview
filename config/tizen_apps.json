@@ -1,0 +1,30 @@
+{
+  "_note": "Maps our services to the streaming app on the Samsung TV. 'match' = lowercase substrings matched against the TV's INSTALLED app names at runtime (tizen.application.getAppsInfo) so we use each TV's REAL app id instead of guessing. 'appId' is only a fallback seed; left null on purpose until verified on Saint's Frame (run tv/verify_apps - see README). Fill an appId only after confirming it on the device.",
+  "services": {
+    "espn":       {"appId": null, "match": ["espn"]},
+    "espnplus":   {"appId": null, "match": ["espn"]},
+    "paramount":  {"appId": null, "match": ["paramount"]},
+    "peacock":    {"appId": null, "match": ["peacock"]},
+    "prime":      {"appId": null, "match": ["prime video", "amazon prime"]},
+    "appletv":    {"appId": null, "match": ["apple tv"]},
+    "netflix":    {"appId": null, "match": ["netflix"]},
+    "hbomax":     {"appId": null, "match": ["hbo max", "max"]},
+    "foxone":     {"appId": null, "match": ["fox one", "fox sports", "fox now", "fox"]},
+    "dazn":       {"appId": null, "match": ["dazn"]},
+    "youtubetv":  {"appId": null, "match": ["youtube tv"]},
+    "fubo":       {"appId": null, "match": ["fubo"]},
+    "hululive":   {"appId": null, "match": ["hulu"]},
+    "sling":      {"appId": null, "match": ["sling"]},
+    "directv":    {"appId": null, "match": ["directv"]},
+    "nflplus":    {"appId": null, "match": ["nfl"]},
+    "nbalp":      {"appId": null, "match": ["nba"]},
+    "wnbalp":     {"appId": null, "match": ["wnba"]},
+    "mlbtv":      {"appId": null, "match": ["mlb"]},
+    "beinsports": {"appId": null, "match": ["bein"]},
+    "vix":        {"appId": null, "match": ["vix"]},
+    "tennischannel": {"appId": null, "match": ["tennis channel"]},
+    "willow":     {"appId": null, "match": ["willow"]},
+    "victory":    {"appId": null, "match": ["victory"]},
+    "flosports":  {"appId": null, "match": ["flosports", "flo "]}
+  }
+}
