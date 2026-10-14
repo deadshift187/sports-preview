@@ -455,7 +455,8 @@
 
   function setFoot() {
     var d = state.data, when = d.generated ? new Date(d.generated).toLocaleString([], { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }) : "";
-    $("#foot").innerHTML = "Data checked " + when + " · no ads, no tracking · " + (PUBLIC ? '<a href="./privacy.html" style="color:inherit">Privacy</a>' : "on-device only");
+    var ver = window.GF_VERSION || "dev";
+    $("#foot").innerHTML = "Data checked " + when + " · no ads, no tracking · " + (PUBLIC ? '<a href="./privacy.html" style="color:inherit">Privacy</a>' : "on-device only") + ' · <span style="opacity:.6">' + ver + "</span>";
   }
 
   function teamRow(t, league) {
@@ -910,18 +911,47 @@
   }
 
   syncSeg();
+  // --- app auto-update: keep the saved copy (instant open), check often, swap in safely ---
+  function updatedToast() {
+    var b = el("div", null, "Updated ✓"); b.id = "gfupd";
+    b.style.cssText = "position:fixed;left:50%;bottom:16px;transform:translateX(-50%);z-index:99;background:#3fb68b;color:#062b1d;font-weight:700;padding:10px 18px;border-radius:12px;box-shadow:0 8px 30px rgba(0,0,0,.5);font-size:14px";
+    document.body.appendChild(b); setTimeout(function () { if (b.parentNode) b.parentNode.removeChild(b); }, 2500);
+  }
+  function safeToSwap() {
+    // never yank the page mid-popup or while typing
+    if (document.querySelector(".opensheet-bg")) return false;
+    var dlg = $("#settings"); if (dlg && dlg.open) return false;
+    var a = document.activeElement; if (a && (a.tagName === "INPUT" || a.tagName === "TEXTAREA" || a.isContentEditable)) return false;
+    return true;
+  }
   if ("serviceWorker" in navigator) {
-    var hadController = !!navigator.serviceWorker.controller;
-    // updateViaCache:none -> always fetch a fresh sw.js (don't let the 10-min HTTP cache delay updates)
-    try { navigator.serviceWorker.register("sw.js", { updateViaCache: "none" }).catch(function () {}); }
-    catch (e) { navigator.serviceWorker.register("sw.js").catch(function () {}); }
+    try { if (sessionStorage.getItem("gf_updated")) { sessionStorage.removeItem("gf_updated"); setTimeout(updatedToast, 400); } } catch (e) {}
+    var swReg = null, pendingSwap = false, reloading = false;
+    var applyUpdate = function () {
+      if (!swReg || !swReg.waiting) return;
+      if (!safeToSwap()) { pendingSwap = true; return; }   // defer until safe
+      pendingSwap = false;
+      try { sessionStorage.setItem("gf_updated", "1"); } catch (e) {}
+      swReg.waiting.postMessage({ type: "skipWaiting" });
+    };
     navigator.serviceWorker.addEventListener("controllerchange", function () {
-      if (!hadController) return;        // first install, not an update
-      if (document.getElementById("gfupd")) return;
-      var b = el("div", null, "Updated — tap to reload"); b.id = "gfupd";
-      b.style.cssText = "position:fixed;left:50%;bottom:16px;transform:translateX(-50%);z-index:99;background:#3fb68b;color:#062b1d;font-weight:700;padding:12px 20px;border-radius:12px;box-shadow:0 8px 30px rgba(0,0,0,.5);cursor:pointer;font-size:14px";
-      b.onclick = function () { location.reload(); };
-      document.body.appendChild(b);
+      if (reloading) return; reloading = true; location.reload();   // new version took over -> reload once
     });
+    var reg = navigator.serviceWorker.register("sw.js", { updateViaCache: "none" });
+    reg.then(function (r) {
+      swReg = r;
+      if (r.waiting && navigator.serviceWorker.controller) applyUpdate();  // one was already ready
+      r.addEventListener("updatefound", function () {
+        var nw = r.installing; if (!nw) return;
+        nw.addEventListener("statechange", function () {
+          if (nw.state === "installed" && navigator.serviceWorker.controller) applyUpdate();  // update (not first install)
+        });
+      });
+      r.update().catch(function () {});
+      setInterval(function () { r.update().catch(function () {}); }, 5 * 60 * 1000);   // every 5 min
+    }).catch(function () {});
+    var recheck = function () { if (document.visibilityState === "visible" && swReg) { swReg.update().catch(function () {}); if (pendingSwap) applyUpdate(); } };
+    document.addEventListener("visibilitychange", recheck);
+    window.addEventListener("focus", recheck);
   }
 })();
