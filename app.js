@@ -910,5 +910,16 @@
   }
 
   syncSeg();
-  if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(function () {});
+  if ("serviceWorker" in navigator) {
+    var hadController = !!navigator.serviceWorker.controller;
+    navigator.serviceWorker.register("sw.js").catch(function () {});
+    navigator.serviceWorker.addEventListener("controllerchange", function () {
+      if (!hadController) return;        // first install, not an update
+      if (document.getElementById("gfupd")) return;
+      var b = el("div", null, "Updated — tap to reload"); b.id = "gfupd";
+      b.style.cssText = "position:fixed;left:50%;bottom:16px;transform:translateX(-50%);z-index:99;background:#3fb68b;color:#062b1d;font-weight:700;padding:12px 20px;border-radius:12px;box-shadow:0 8px 30px rgba(0,0,0,.5);cursor:pointer;font-size:14px";
+      b.onclick = function () { location.reload(); };
+      document.body.appendChild(b);
+    });
+  }
 })();
