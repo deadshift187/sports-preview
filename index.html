@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Game Finder</title>
+<meta name="description" content="Where the game is on: TV, streaming and radio for every sport.">
+<meta name="theme-color" content="#0e1116">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Game Finder">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon.svg">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header class="top">
+  <div class="row">
+    <h1>Game Finder</h1>
+    <button id="mineBtn" class="pill" aria-pressed="false">My stuff</button>
+    <button id="setBtn" class="pill">Setup</button>
+  </div>
+  <input id="q" type="search" placeholder="Search: Arsenal, UFC, Dodgers, ESPN" autocomplete="off">
+  <nav id="views" class="seg">
+    <button data-v="foryou">For You</button>
+    <button data-v="live">Live</button>
+    <button data-v="today">Today</button>
+    <button data-v="weekend">Weekend</button>
+    <button data-v="week">Week</button>
+    <button data-v="watch">Movies &amp; TV</button>
+    <button data-v="bets">My Bets</button>
+  </nav>
+  <div id="favbar" class="chips"></div>
+  <div id="tzbanner" hidden></div>
+  <div id="groups" class="chips"></div>
+  <div class="legend">
+    <span class="lgi"><i class="dot green"></i>Free</span>
+    <span class="lgi"><i class="dot gold"></i>You have it</span>
+    <span class="lgi"><i class="dot orange"></i>Pay / download</span>
+  </div>
+</header>
+<main id="list"></main>
+<footer class="foot" id="foot"></footer>
+
+<dialog id="settings">
+  <div class="sheet">
+    <div class="sheethead"><h2>Your setup</h2><button class="pill" id="doneBtn">Done</button></div>
+    <p class="muted" id="welcome" hidden>Tick the services you pay for. Games you can watch come first, opened in the network's own app.</p>
+    <h3>Your city &amp; time zone</h3>
+    <div class="muted" id="tzCurrent"></div>
+    <input id="cityQ" type="search" placeholder="Search a city (any city worldwide)" autocomplete="off">
+    <div id="cityResults" class="chips wrap"></div>
+    <label class="checks" style="display:block"><label style="display:flex;gap:8px;align-items:center;font-size:14px;padding:6px 0"><input type="checkbox" id="useLoc"> <span>Use my location (follow my device while traveling)</span></label></label>
+    <div class="muted" id="useLocNote">Off by default. When on, times follow your device's time zone. Nothing is sent anywhere — it stays on this device.</div>
+    <h3>When you tap a game</h3>
+    <div class="openpick" id="openDefault"></div>
+    <div id="openOverrides"></div>
+    <h3>Services you have</h3>
+    <div id="svcList" class="checks"></div>
+    <h3>Follow sports</h3>
+    <div id="followGroups" class="chips wrap"></div>
+    <h3>Follow leagues</h3>
+    <div id="followLeagues" class="chips wrap"></div>
+    <h3>Follow teams</h3>
+    <input id="teamQ" type="search" placeholder="Find a team" autocomplete="off">
+    <div id="teamResults" class="chips wrap"></div>
+    <div id="followTeams" class="chips wrap"></div>
+  </div>
+</dialog>
+<script>window.GF_PUBLIC=true;</script>
+<script src="rank.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
