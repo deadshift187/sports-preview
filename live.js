@@ -24,10 +24,15 @@
       .then(function (d) { var m = {}; (d.events || []).forEach(function (e) { var p = parseEvent(e); m[p.eid] = p; }); return m; });
   }
 
+  // Only per-league "/{sport}/{league}/scoreboard" endpoints are CORS-open. Cricket/rugby come
+  // from ESPN's "scorepanel" (bare sport slug, no "/"), which blocks cross-origin, so skip those
+  // for live polling - their scores still update on the full data refresh.
+  function pollable(slug) { return slug && slug.indexOf("/") >= 0; }
+
   // Update live/soon ESPN games in `games` in place; call onUpdate(nChanged) if anything changed.
   function refreshLive(games, onUpdate) {
     var slugs = {};
-    (games || []).forEach(function (g) { if (g.espn && (g.status === "in" || isSoon(g))) slugs[g.espn] = 1; });
+    (games || []).forEach(function (g) { if (pollable(g.espn) && (g.status === "in" || isSoon(g))) slugs[g.espn] = 1; });
     var now = Date.now();
     var jobs = Object.keys(slugs).filter(function (s) { return !backoff[s] || backoff[s] < now; });
     if (!jobs.length) return Promise.resolve(0);
