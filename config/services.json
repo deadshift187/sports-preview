@@ -261,6 +261,15 @@
    "ios_store": null,
    "play_pkg": null,
    "scheme": null
+  },
+  {
+   "id": "cbssports",
+   "name": "CBS Sports app",
+   "web": "https://www.cbssports.com/live/",
+   "color": "#003087",
+   "ios_store": "https://apps.apple.com/app/id307184892",
+   "play_pkg": "com.handmark.sportcaster",
+   "scheme": null
   }
  ],
  "channels": [
@@ -325,6 +334,7 @@
    "match": "CBSSN|CBS Sports Network",
    "label": "CBS Sports Network",
    "services": [
+    "cbssports",
     "cable"
    ],
    "bundle": "cbssn"
