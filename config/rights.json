@@ -1,0 +1,1467 @@
+{
+ "_note": "Per-league US rights. holders[].all=true means the deal covers ALL matches so the refresh may attach it when a game has no per-game feed. Sourced from data/research/rights.json.",
+ "checked": "2026-10-12",
+ "leagues": {
+  "nfl": {
+   "holders": [
+    {
+     "name": "CBS",
+     "share": "select (Sunday afternoon, mostly AFC; AFC playoffs)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.sportsmediawatch.com/nfl-tv-schedule/"
+    },
+    {
+     "name": "FOX",
+     "share": "select (Sunday afternoon, mostly NFC; NFC playoffs)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.foxsports.com/stories/nfl/how-watch-nfl-games-2026-live-streaming-channels-free"
+    },
+    {
+     "name": "NBC",
+     "share": "select (Sunday Night Football + Kickoff game)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.sportsmediawatch.com/nfl-tv-schedule/"
+    },
+    {
+     "name": "ESPN / ABC",
+     "share": "select (Monday Night Football)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.sportsmediawatch.com/nfl-tv-schedule/"
+    },
+    {
+     "name": "NFL Network",
+     "share": "select (international + late-season games; now Disney-owned, produced by ESPN)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://plus.espn.com/"
+    },
+    {
+     "name": "Prime Video",
+     "share": "select (Thursday Night Football, Black Friday, one Wild Card game)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://cordcuttersnews.com/?p=235990"
+    },
+    {
+     "name": "Netflix",
+     "share": "select (reported 5 games: Week 1 Melbourne, Thanksgiving Eve, Christmas doubleheader; sources differ on exact list)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://cordcuttersnews.com/?p=235990"
+    },
+    {
+     "name": "NFL Sunday Ticket",
+     "share": "out-of-market (Sunday afternoon CBS/FOX games)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://fantasynerds.com/news/story/2026/09/08/2026-nfl-season-your-guide-to-watching-every-game-1617229"
+    },
+    {
+     "name": "NFL+",
+     "share": "local + primetime games on phone/tablet",
+     "lang": "en",
+     "all": false,
+     "verified": false,
+     "source": null
+    }
+   ],
+   "note": "Week 1 2026 kicked off Wed Sept 9 (Patriots at Seahawks, NBC). Flex scheduling can move games between CBS/FOX/NBC."
+  },
+  "nba": {
+   "holders": [
+    {
+     "name": "ABC / ESPN",
+     "share": "select national",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.sportsmediawatch.com/nba-tv-schedule/"
+    },
+    {
+     "name": "NBC / Peacock",
+     "share": "select national (Peacock streams all NBC Sports-produced games; some Peacock-exclusive Monday games)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://pr.nba.com/2025-26-nba-regular-season-schedule"
+    },
+    {
+     "name": "Prime Video",
+     "share": "select national (Thursday, some Friday/Saturday)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.sportsmediawatch.com/nba-tv-schedule/"
+    },
+    {
+     "name": "NBA TV",
+     "share": "select",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.sportsmediawatch.com/nba-tv-schedule/"
+    },
+    {
+     "name": "NBA League Pass",
+     "share": "out-of-market (all out-of-market locally televised games + NBA TV)",
+     "lang": "en",
+     "all": true,
+     "only_if_empty": true,
+     "verified": true,
+     "source": "https://www.sportsmediawatch.com/nba-tv-schedule/"
+    },
+    {
+     "name": "Regional networks (FanDuel Sports Network, NBC Sports regionals, MSG, CHSN, etc.)",
+     "share": "per-team local",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.sportsmediawatch.com/nba-tv-schedule/"
+    }
+   ],
+   "note": "Season 2 of the 11-year Disney/NBCU/Amazon deals (2025-26 to 2035-36). TNT no longer has NBA. Opening day 2026-27 = Oct 20."
+  },
+  "wnba": {
+   "holders": [
+    {
+     "name": "ESPN / ABC",
+     "share": "select national",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://pr.nba.com/2026-wnba-broadcast-schedule/"
+    },
+    {
+     "name": "NBC / Peacock",
+     "share": "select national (+ 2026 Finals on Peacock)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://pr.nba.com/2026-wnba-broadcast-schedule/"
+    },
+    {
+     "name": "USA Network (USA Sports / Versant)",
+     "share": "select national (48 games in 2026)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://pr.nba.com/2026-wnba-broadcast-schedule/"
+    },
+    {
+     "name": "ION (Scripps)",
+     "share": "select national (Friday nights, 50 games in 2026)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://pr.nba.com/2026-wnba-broadcast-schedule/"
+    },
+    {
+     "name": "Prime Video",
+     "share": "select national (30 games + Commissioner's Cup final)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://pr.nba.com/2026-wnba-broadcast-schedule/"
+    },
+    {
+     "name": "CBS / Paramount+",
+     "share": "select national (count not found)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://pr.nba.com/2026-wnba-broadcast-schedule/"
+    },
+    {
+     "name": "NBA TV",
+     "share": "select",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://pr.nba.com/2026-wnba-broadcast-schedule/"
+    },
+    {
+     "name": "WNBA League Pass",
+     "share": "out-of-market",
+     "lang": "en",
+     "all": false,
+     "verified": false,
+     "source": null
+    }
+   ],
+   "note": "11-year Disney/Amazon/NBCU deals began 2026 (https://www.wnba.com/news/media-rights-deal-disney-prime-nbc). Finals rotate Disney/Prime/NBCU. Off-season as of Oct 2026."
+  },
+  "mlb": {
+   "holders": [
+    {
+     "name": "FOX / FS1",
+     "share": "select national (Saturday) + NLCS (2026) + World Series",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.fox.com/"
+    },
+    {
+     "name": "TBS / TNT / truTV",
+     "share": "select national (Tuesday) + postseason rounds",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://insidersport.com/2025/11/20/new-mlb-deal-sees-mlb-tv-arrive-on-espn-and-a-return-to-nbc/"
+    },
+    {
+     "name": "NBC / Peacock",
+     "share": "select national (Sunday Night Baseball, Sunday Leadoff, Wild Card Series)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.nbcmiami.com/mlb/mlb-media-rights-deal-new-2026-nbc/3703781/"
+    },
+    {
+     "name": "Netflix",
+     "share": "select (Opening Night game, Home Run Derby, special event games)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.nbcmiami.com/mlb/mlb-media-rights-deal-new-2026-nbc/3703781/"
+    },
+    {
+     "name": "ESPN",
+     "share": "select national (midweek package) + sells/streams MLB.TV in ESPN app + in-market rights for Twins, D-backs, Guardians, Rockies, Padres, Mariners",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://insidersport.com/2025/11/20/new-mlb-deal-sees-mlb-tv-arrive-on-espn-and-a-return-to-nbc/"
+    },
+    {
+     "name": "MLB.TV",
+     "share": "out-of-market",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://insidersport.com/2025/11/20/new-mlb-deal-sees-mlb-tv-arrive-on-espn-and-a-return-to-nbc/"
+    },
+    {
+     "name": "MLB Network",
+     "share": "select",
+     "lang": "en",
+     "all": false,
+     "verified": false,
+     "source": null
+    },
+    {
+     "name": "Regional networks / MLB Local Media",
+     "share": "per-team local",
+     "lang": "en",
+     "all": false,
+     "verified": false,
+     "source": null
+    }
+   ],
+   "note": "NBC/Netflix/ESPN deals cover 2026-2028. Fox + TBS deals run through 2028. 2026 NLCS on FOX/FS1 (fox.com). Which postseason round TBS has in 2026 not separately confirmed."
+  },
+  "nhl": {
+   "holders": [
+    {
+     "name": "ESPN / ABC / ESPN+",
+     "share": "select national (ESPN Unlimited); ESPN+ = 'NHL Power Play' out-of-market (1,000+ games)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.sportsmediawatch.com/nhl-tv-schedule-2023-2024-how-watch-stream-live/"
+    },
+    {
+     "name": "TNT / truTV / TBS",
+     "share": "select national",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.sportsmediawatch.com/nhl-tv-schedule-2023-2024-how-watch-stream-live/"
+    },
+    {
+     "name": "NHL Network",
+     "share": "select (e.g. NHL Saturday)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.sportsmediawatch.com/nhl-tv-schedule-2023-2024-how-watch-stream-live/"
+    },
+    {
+     "name": "Regional networks (MSG, NESN, Monumental, Scripps, KCOP, Victory+, FanDuel SN, etc.)",
+     "share": "per-team local",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.sportsmediawatch.com/nhl-tv-schedule-2023-2024-how-watch-stream-live/"
+    }
+   ],
+   "note": "2025-26 split was 100 ESPN / 72 TNT national games (https://cordcuttersnews.com/nhl-increases-national-games-to-172-hulu-espn-hbo-max-more-to-stream/). ABC has the Stanley Cup Final in even years, TNT in odd years (2027 = TNT) - odd-year part NOT re-verified. SportsMediaWatch 2026-27 page also lists Prime Video on some games; likely Canada-only, not verified for US."
+  },
+  "mls": {
+   "holders": [
+    {
+     "name": "Apple TV",
+     "share": "all matches (MLS Season Pass discontinued after 2025; MLS now included in regular Apple TV subscription)",
+     "lang": "multi",
+     "all": true,
+     "verified": true,
+     "source": "https://support.apple.com/en-ae/111113"
+    },
+    {
+     "name": "FOX / FS1 / FOX Deportes",
+     "share": "select (linear simulcasts incl. playoffs)",
+     "lang": "en+es",
+     "all": false,
+     "verified": true,
+     "source": "https://www.mlssoccer.com/news/major-league-soccer-fox-sports-televisaunivision-tsn-rds-announce-multi-year-lin"
+    },
+    {
+     "name": "TelevisaUnivision (Univision/UniMás/TUDN)",
+     "share": "select (Spanish linear)",
+     "lang": "es",
+     "all": false,
+     "verified": true,
+     "source": "https://www.mlssoccer.com/news/major-league-soccer-fox-sports-televisaunivision-tsn-rds-announce-multi-year-lin"
+    }
+   ],
+   "note": "Fox/TelevisaUnivision linear deals were 4 years through 2026. 2027 linear partners not found."
+  },
+  "nwsl": {
+   "holders": [
+    {
+     "name": "CBS / CBS Sports Network / Paramount+",
+     "share": "select (+ Championship on CBS)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.nwslsoccer.com/news/nwsl-announces-new-media-partnerships-expanding-agreements"
+    },
+    {
+     "name": "ESPN / ABC",
+     "share": "select (36 games incl. all Decision Day)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.nwslsoccer.com/news/nwsl-announces-new-media-partnerships-expanding-agreements"
+    },
+    {
+     "name": "Prime Video",
+     "share": "select (27 matches)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.sportsvideo.org/2025/09/17/nwsl-brings-on-victory-as-rightsholder-expands-deals-with-cbs-and-espn-for-2026-27-seasons/"
+    },
+    {
+     "name": "ION (Scripps)",
+     "share": "select (Saturday nights)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.sportsvideo.org/2025/09/17/nwsl-brings-on-victory-as-rightsholder-expands-deals-with-cbs-and-espn-for-2026-27-seasons/"
+    },
+    {
+     "name": "Victory+",
+     "share": "select (free; ~57 games incl. Sunday primetime)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.nwslsoccer.com/news/nwsl-announces-new-media-partnerships-expanding-agreements"
+    },
+    {
+     "name": "NWSL+",
+     "share": "select (free, ~40 games)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.sportsvideo.org/2025/09/17/nwsl-brings-on-victory-as-rightsholder-expands-deals-with-cbs-and-espn-for-2026-27-seasons/"
+    }
+   ],
+   "note": "Deal through 2027."
+  },
+  "epl": {
+   "holders": [
+    {
+     "name": "Peacock",
+     "share": "select (~175 exclusive streams) + replays of all matches",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.peacocktv.com/sports"
+    },
+    {
+     "name": "NBC",
+     "share": "select (biggest weekend matches)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.renderfoot.com/blog/how-to-watch-premier-league-in-usa"
+    },
+    {
+     "name": "USA Network (USA Sports / Versant)",
+     "share": "select (hundreds of matches)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://cordcuttersnews.com/nbcu-spinoff-versant-launches-usa-sports-banner-for-wwe-wnba-nascar-more-ahead-of-msnbc-rebrand/"
+    },
+    {
+     "name": "Telemundo / Universo",
+     "share": "select (Spanish)",
+     "lang": "es",
+     "all": false,
+     "verified": true,
+     "source": "https://www.telemundo.com/deportes/futbol-estelar-liga-mx/bravos-de-juarez-vs-xolos-de-tijuana-como-y-donde-ver-en-vivo-liga-mx-rcna602423"
+    }
+   ],
+   "note": "USA Network is now Versant (spun off from NBCU Jan 2026). One guide says USA-only PL matches no longer simulcast on Peacock - NOT verified. Season Aug 21 2026 - May 30 2027."
+  },
+  "laliga": {
+   "holders": [
+    {
+     "name": "ESPN+",
+     "share": "all matches (380, English + Spanish feeds)",
+     "lang": "multi",
+     "all": true,
+     "verified": true,
+     "source": "https://www.laliga.com/en-NL/news/laliga-returns-to-espn-on-august-15-for-the-2026-27-season-after-leading-all-leagues-with-24-players-represented-in-the-world-cup-final"
+    },
+    {
+     "name": "ABC / ESPN / ESPN2",
+     "share": "select (20+ matches)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.laliga.com/en-NL/news/laliga-returns-to-espn-on-august-15-for-the-2026-27-season-after-leading-all-leagues-with-24-players-represented-in-the-world-cup-final"
+    },
+    {
+     "name": "ESPN Deportes",
+     "share": "select (200+ matches)",
+     "lang": "es",
+     "all": false,
+     "verified": true,
+     "source": "https://www.laliga.com/en-NL/news/laliga-returns-to-espn-on-august-15-for-the-2026-27-season-after-leading-all-leagues-with-24-players-represented-in-the-world-cup-final"
+    }
+   ],
+   "note": "ESPN deal runs through 2028-29."
+  },
+  "seriea": {
+   "holders": [
+    {
+     "name": "Paramount+",
+     "share": "all matches (380) + Coppa Italia (20+) + Supercoppa",
+     "lang": "en+it",
+     "all": true,
+     "verified": true,
+     "source": "https://cordcuttersnews.com/paramount-locks-in-italys-top-soccer-league-with-serie-a-rights-extension/"
+    },
+    {
+     "name": "CBS / CBS Sports Network / CBS Sports Golazo",
+     "share": "select",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://cordcuttersnews.com/paramount-locks-in-italys-top-soccer-league-with-serie-a-rights-extension/"
+    },
+    {
+     "name": "Spanish-language holder",
+     "share": "unknown (Fox Deportes deal expired)",
+     "lang": "es",
+     "all": false,
+     "verified": false,
+     "source": "https://www.marketscale.com/industries/sports-entertainment/serie-a-stays-with-cbs-one-more-year-before-testing-the-us-market-again.md"
+    }
+   ],
+   "note": "One-year CBS extension through 2026-27 only; league re-tenders US rights for 2027-28."
+  },
+  "bundesliga": {
+   "holders": [
+    {
+     "name": "USA Network (USA Sports / Versant)",
+     "share": "select (30+ matches per season on linear)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.businesswire.com/news/home/20260714639453/en/"
+    },
+    {
+     "name": "Fandango streaming (Versant; free)",
+     "share": "all remaining matches (USA Sports says 300+ live matches across USA Network + Fandango)",
+     "lang": "en",
+     "all": true,
+     "verified": true,
+     "source": "https://www.businesswire.com/news/home/20260714639453/en/"
+    },
+    {
+     "name": "Telemundo",
+     "share": "Spanish rights (reported by dpa only)",
+     "lang": "es",
+     "all": false,
+     "verified": false,
+     "source": "https://www.volksstimme.de/sport/fussball/us-tv-vertrag-bundesliga-vor-120-millionen-dollar-deal-4285850"
+    }
+   ],
+   "note": "NEW for 2026-27: ESPN+ no longer has Bundesliga. Deal 2026-27 through 2030-31. Exact consumer name of the Fandango streaming product (Fandango at Home?) not confirmed."
+  },
+  "ligue1": {
+   "holders": [
+    {
+     "name": "beIN SPORTS",
+     "share": "select (at least 4 live matches per matchweek; exclusive US rights holder)",
+     "lang": "en+es",
+     "all": false,
+     "verified": true,
+     "source": "https://www.produ.com/ushispanic/noticias/bein-media-group-renewed-its-exclusive-rights-deal-for-the-mcdonalds-ligue-1-and-ligue-2-bkt-championship-in-the-us-canada"
+    },
+    {
+     "name": "Fanatiz (beIN SPORTS CONNECT channels)",
+     "share": "same as beIN",
+     "lang": "en+es",
+     "all": false,
+     "verified": false,
+     "source": "https://www.renderfoot.com/blog/how-to-watch-ligue-1-in-usa"
+    },
+    {
+     "name": "Tubi",
+     "share": "select (free)",
+     "lang": "en",
+     "all": false,
+     "verified": false,
+     "source": "https://www.renderfoot.com/blog/how-to-watch-ligue-1-in-usa"
+    }
+   ],
+   "note": "beIN deal 2024-25 through 2028-29."
+  },
+  "ligamx": {
+   "holders": [
+    {
+     "name": "TelevisaUnivision (Univision / UniMás / TUDN / ViX)",
+     "share": "per home club (majority of clubs)",
+     "lang": "es",
+     "all": false,
+     "verified": true,
+     "source": "https://www.clarosports.com/us/vuelve-la-liga-mx-horarios-y-donde-ver-la-jornada-11-en-estados-unidos/"
+    },
+    {
+     "name": "FOX Deportes / Fox One (FS1/FS2 for some English)",
+     "share": "per home club",
+     "lang": "es (+en select)",
+     "all": false,
+     "verified": false,
+     "source": "https://www.clarosports.com/us/donde-ver-la-liga-mx-desde-ee-uu-canales-horarios-y-streaming/"
+    },
+    {
+     "name": "Telemundo / Universo / Peacock",
+     "share": "per home club (Chivas; Telemundo also claims Tigres + Juárez)",
+     "lang": "es",
+     "all": false,
+     "verified": true,
+     "source": "https://www.telemundo.com/deportes/futbol-estelar-liga-mx/bravos-de-juarez-vs-xolos-de-tijuana-como-y-donde-ver-en-vivo-liga-mx-rcna602423"
+    },
+    {
+     "name": "Paramount+ / CBS Sports Network",
+     "share": "select (40+ matches with English commentary, new 2026)",
+     "lang": "en",
+     "all": false,
+     "verified": false,
+     "source": "https://www.renderfoot.com/blog/how-to-watch-liga-mx-in-usa"
+    }
+   ],
+   "note": "Rights are sold per HOME club; away games follow the host's deal. US-facing sources contradict each other for several clubs (see liga_mx_clubs). Atlante replaced Mazatlán for 2026."
+  },
+  "eredivisie": {
+   "holders": [
+    {
+     "name": "ESPN+",
+     "share": "all matches (reported)",
+     "lang": "en",
+     "all": true,
+     "verified": false,
+     "source": "https://sportsbrackets.net/2026/08/01/2026-27-eredivisie-schedule/"
+    }
+   ],
+   "note": "Only schedule/affiliate sites confirm ESPN+ for 2026-27; no official renewal found."
+  },
+  "spl": {
+   "holders": [
+    {
+     "name": "Paramount+ / CBS Sports Network",
+     "share": "select (at least 1 per week, Old Firm on CBSSN)",
+     "lang": "en",
+     "all": false,
+     "verified": false,
+     "source": "https://worldsoccertalk.com/scottish-premiership-tv-schedule"
+    }
+   ],
+   "note": "Original CBS deal ran to 2024-25; renewal for 2026-27 not found in an official release."
+  },
+  "saudi": {
+   "holders": [
+    {
+     "name": "FS2",
+     "share": "select (English)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.fingerlakes1.com/2026/09/21/how-to-watch-the-saudi-pro-league-and-serbian-superliga-in-the-us-2026-27/"
+    },
+    {
+     "name": "FOX Deportes",
+     "share": "select (Spanish)",
+     "lang": "es",
+     "all": false,
+     "verified": true,
+     "source": "https://www.fingerlakes1.com/2026/09/21/how-to-watch-the-saudi-pro-league-and-serbian-superliga-in-the-us-2026-27/"
+    }
+   ],
+   "note": "Fox has had SPL since 2023-24. DAZN live rights are Europe only."
+  },
+  "ucl": {
+   "holders": [
+    {
+     "name": "Paramount+",
+     "share": "all matches",
+     "lang": "en",
+     "all": true,
+     "verified": true,
+     "source": "https://www.livesoccertv.com/channels/paramountplus/"
+    },
+    {
+     "name": "CBS / CBS Sports Network / CBS Sports Golazo",
+     "share": "select (incl. final on CBS)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.renderfoot.com/blog/what-channel-is-the-champions-league-on"
+    },
+    {
+     "name": "TelevisaUnivision (TUDN / Univision / UniMás / ViX)",
+     "share": "select/most (Spanish)",
+     "lang": "es",
+     "all": false,
+     "verified": true,
+     "source": "https://www.sportcal.com/?p=143453"
+    },
+    {
+     "name": "DAZN",
+     "share": "select (Spanish sublicense from TelevisaUnivision: 38 exclusive matches/season + shared knockouts)",
+     "lang": "es",
+     "all": false,
+     "verified": false,
+     "source": "https://www.sportcal.com/?p=143453"
+    }
+   ],
+   "note": "CBS English rights through 2029-30. TelevisaUnivision Spanish deal ends after 2026-27. DAZN sublicense article undated - confirm it covers 2026-27."
+  },
+  "uel": {
+   "holders": [
+    {
+     "name": "Paramount+",
+     "share": "all matches",
+     "lang": "en",
+     "all": true,
+     "verified": true,
+     "source": "https://www.renderfoot.com/blog/what-channel-is-the-champions-league-on"
+    },
+    {
+     "name": "CBS / CBSSN / Golazo",
+     "share": "select",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.renderfoot.com/blog/what-channel-is-the-champions-league-on"
+    },
+    {
+     "name": "TelevisaUnivision (TUDN / ViX)",
+     "share": "select (Spanish)",
+     "lang": "es",
+     "all": false,
+     "verified": false,
+     "source": null
+    }
+   ],
+   "note": "Same CBS package as UCL."
+  },
+  "uecl": {
+   "holders": [
+    {
+     "name": "Paramount+",
+     "share": "all matches",
+     "lang": "en",
+     "all": true,
+     "verified": true,
+     "source": "https://www.livesoccertv.com/channels/paramountplus/"
+    },
+    {
+     "name": "CBS / CBSSN",
+     "share": "select",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.livesoccertv.com/channels/paramountplus/"
+    },
+    {
+     "name": "TelevisaUnivision (TUDN / ViX)",
+     "share": "select (Spanish)",
+     "lang": "es",
+     "all": false,
+     "verified": false,
+     "source": null
+    }
+   ],
+   "note": ""
+  },
+  "facup": {
+   "holders": [
+    {
+     "name": "ESPN+",
+     "share": "all US-televised matches (~79/season, exclusive)",
+     "lang": "en",
+     "all": true,
+     "verified": false,
+     "source": "https://www.renderfoot.com/ar/blog/how-to-watch-fa-cup-in-usa"
+    },
+    {
+     "name": "ESPN / ESPN2",
+     "share": "select",
+     "lang": "en",
+     "all": false,
+     "verified": false,
+     "source": "https://www.renderfoot.com/ar/blog/how-to-watch-fa-cup-in-usa"
+    }
+   ],
+   "note": "ESPN reported through 2027-28; only secondary guide found."
+  },
+  "ufc": {
+   "holders": [
+    {
+     "name": "Paramount+",
+     "share": "all events (13 numbered + 30 Fight Nights/year; no PPV)",
+     "lang": "en",
+     "all": true,
+     "verified": true,
+     "source": "https://www.ufc.com/news/paramount-and-tko-announce-historic-ufc-media-rights-agreement"
+    },
+    {
+     "name": "CBS",
+     "share": "select numbered events simulcast",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.ufc.com/news/paramount-and-tko-announce-historic-ufc-media-rights-agreement"
+    }
+   ],
+   "note": "7-year deal from 2026. ESPN no longer has UFC."
+  },
+  "boxing": {
+   "holders": [
+    {
+     "name": "Paramount+ (Zuffa Boxing)",
+     "share": "all Zuffa Boxing events (CBS select simulcasts)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.cbssports.com/boxing/news/zuffa-boxing-media-rights-deal-paramount-2026"
+    },
+    {
+     "name": "DAZN",
+     "share": "Matchroom, Queensberry, Golden Boy, Top Rank (from Apr 2026), PBC (through end of 2026)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.si.com/fannation/boxing/dazn-completes-monopoly-by-adding-last-major-boxing-promotion"
+    },
+    {
+     "name": "Prime Video",
+     "share": "PBC PPVs + 'DAZN on Prime Video' add-on PPVs",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.sportcal.com/news/pbc-becomes-latest-boxing-promotion-to-join-dazn-with-global-deal/"
+    },
+    {
+     "name": "Netflix",
+     "share": "select one-off events (e.g. MVP/Jake Paul cards)",
+     "lang": "en",
+     "all": false,
+     "verified": false,
+     "source": "https://picks-s1.cbssports.com/boxing/news/boxing-schedule-for-2026-dates-location-fights-teofimo-lopez-shakur-stevenson-canelo-alvarez-oleksandr-usyk/"
+    },
+    {
+     "name": "ESPN / Top Rank",
+     "share": "none (ESPN deal lapsed July 2025)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.sportcal.com/news/top-rank-espn-deal-lapses-with-no-return-to-linear-tv-for-boxing-in-sight/"
+    }
+   ],
+   "note": "Boxing is per-promoter/per-event; map events to holder via promoter."
+  },
+  "f1": {
+   "holders": [
+    {
+     "name": "Apple TV",
+     "share": "all sessions (practice, qualifying, sprint, races); some races + all practice free in Apple TV app; F1 TV Premium included",
+     "lang": "en",
+     "all": true,
+     "verified": true,
+     "source": "https://techcrunch.com/2025/10/17/apple-and-formula-1-ink-five-year-us-streaming-deal-bringing-all-races-to-apple-tv"
+    }
+   ],
+   "note": "5-year deal from 2026. ESPN no longer has F1."
+  },
+  "nascar": {
+   "holders": [
+    {
+     "name": "FOX / FS1",
+     "share": "select (first portion of season incl. Daytona 500)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.nascar.com/news-media/2025/11/12/nascar-announces-start-times-networks-for-2026-national-series-races/"
+    },
+    {
+     "name": "Prime Video",
+     "share": "select (5 races, Coca-Cola 600 to San Diego)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.nascar.com/news-media/2025/11/12/nascar-announces-start-times-networks-for-2026-national-series-races/"
+    },
+    {
+     "name": "TNT / truTV",
+     "share": "select (5 summer races, In-Season Challenge)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.nascar.com/news-media/2025/11/12/nascar-announces-start-times-networks-for-2026-national-series-races/"
+    },
+    {
+     "name": "NBC / USA Network / Peacock",
+     "share": "select (final 14 races from Aug 9 incl. Championship Nov 8 on NBC)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.nascar.com/news-media/2025/11/12/nascar-announces-start-times-networks-for-2026-national-series-races/"
+    }
+   ],
+   "note": "Deal 2025-2031. As of Oct 12 2026 the playoffs are on NBC/USA."
+  },
+  "indycar": {
+   "holders": [
+    {
+     "name": "FOX",
+     "share": "all races (broadcast network)",
+     "lang": "en",
+     "all": true,
+     "verified": true,
+     "source": "https://www.indycar.com/news/2025/12/12-18-2026-nics-tv-times"
+    },
+    {
+     "name": "FS1 / FS2",
+     "share": "practice/qualifying + Indy NXT",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.indycar.com/news/2025/12/12-18-2026-nics-tv-times"
+    }
+   ],
+   "note": ""
+  },
+  "motogp": {
+   "holders": [
+    {
+     "name": "FS1 / FS2 (FOX for COTA)",
+     "share": "all races",
+     "lang": "en",
+     "all": true,
+     "verified": true,
+     "source": "https://awfulannouncing.com/fox/motogp-media-rights-deal-2026.html"
+    }
+   ],
+   "note": ""
+  },
+  "pga": {
+   "holders": [
+    {
+     "name": "CBS",
+     "share": "select weekend windows",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://thegolfnewsnet.com/golfnewsnetteam/2026/05/02/2026-cadillac-championship-pga-tour-tv-and-streaming-schedule-how-to-watch-on-golf-channel-peacock-cbs-pga-tour-live-142561/"
+    },
+    {
+     "name": "NBC",
+     "share": "select weekend windows",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://thegolfnewsnet.com/golfnewsnetteam/2026/03/07/2026-arnold-palmer-invitational-pga-tour-tv-and-streaming-schedule-how-to-watch-on-golf-channel-peacock-nbc-pga-tour-live-141051/"
+    },
+    {
+     "name": "Golf Channel (Versant)",
+     "share": "early rounds / lead-in coverage",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://thegolfnewsnet.com/golfnewsnetteam/2026/03/07/2026-arnold-palmer-invitational-pga-tour-tv-and-streaming-schedule-how-to-watch-on-golf-channel-peacock-nbc-pga-tour-live-141051/"
+    },
+    {
+     "name": "ESPN+ (PGA Tour Live)",
+     "share": "all events (featured groups streaming)",
+     "lang": "en",
+     "all": true,
+     "verified": true,
+     "source": "https://thegolfnewsnet.com/golfnewsnetteam/2026/05/02/2026-cadillac-championship-pga-tour-tv-and-streaming-schedule-how-to-watch-on-golf-channel-peacock-cbs-pga-tour-live-142561/"
+    }
+   ],
+   "note": "PGA Championship: ESPN + CBS. Golf Channel is now Versant (not NBCU)."
+  },
+  "liv": {
+   "holders": [
+    {
+     "name": "FOX / FS1 / FS2 / FOX Business",
+     "share": "all 14 events",
+     "lang": "en",
+     "all": true,
+     "verified": true,
+     "source": "https://www.foxsports.com/stories/presspass/fox-sports-unveils-expanded-2026-liv-golf-broadcast-schedule"
+    }
+   ],
+   "note": "2027 arrangements not found."
+  },
+  "dpwt": {
+   "holders": [
+    {
+     "name": "Golf Channel",
+     "share": "all events (~600 hrs/yr), through 2030",
+     "lang": "en",
+     "all": true,
+     "verified": true,
+     "source": "https://pressroom.versantmedia.com/golf-channel/press-releases/golf-channel-announces-multi-year-media-rights-extension-dp-world-0"
+    }
+   ],
+   "note": ""
+  },
+  "wta": {
+   "holders": [
+    {
+     "name": "Tennis Channel / T2",
+     "share": "all non-US WTA 1000/500/250 + WTA Finals, through 2032",
+     "lang": "en",
+     "all": true,
+     "verified": true,
+     "source": "https://www.foxsports.com/articles/tennis/wta-ventures-and-tennis-channel-agree-to-a-6year-rights-deal-through-2032"
+    }
+   ],
+   "note": "US-based WTA events sold separately; holders not found."
+  },
+  "atp": {
+   "holders": [
+    {
+     "name": "Tennis Channel",
+     "share": "select (reported)",
+     "lang": "en",
+     "all": false,
+     "verified": false,
+     "source": null
+    },
+    {
+     "name": "Tennis TV (ATP's own streamer)",
+     "share": "all tour-level (non-Slam)",
+     "lang": "en",
+     "all": true,
+     "verified": false,
+     "source": null
+    }
+   ],
+   "note": "Could not confirm the ATP US deal from a reliable source."
+  },
+  "cricket": {
+   "holders": [
+    {
+     "name": "Willow (Willow by Cricbuzz)",
+     "share": "all ICC events through end of 2027 (incl. 2027 Men's CWC)",
+     "lang": "en",
+     "all": true,
+     "verified": true,
+     "source": "https://www.icc-cricket.com/media-releases/willow-secures-icc-cricket-rights-in-the-usa-and-canada-up-until-the-end-of-2027"
+    },
+    {
+     "name": "Willow",
+     "share": "IPL (reported)",
+     "lang": "en",
+     "all": false,
+     "verified": false,
+     "source": "https://www.whathifi.com/streaming-entertainment/how-to-watch/ipl-2026-live-streams"
+    },
+    {
+     "name": "YouTube (free)",
+     "share": "select (Team USA T20 WC 2026 matches via Willow)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://sportsvideo.org/2026/02/03/u-s-icc-t20-world-cup-matches-available-for-free-on-youtube"
+    }
+   ],
+   "note": "Bilateral series rights vary per home board; not mapped."
+  },
+  "sixnations": {
+   "holders": [
+    {
+     "name": "Peacock",
+     "share": "all matches (2026)",
+     "lang": "en",
+     "all": true,
+     "verified": true,
+     "source": "https://www.tomsguide.com/entertainment/sports/how-to-watch-six-nations-in-u-s-for-free"
+    },
+    {
+     "name": "NBC / CNBC",
+     "share": "select",
+     "lang": "en",
+     "all": false,
+     "verified": false,
+     "source": null
+    }
+   ],
+   "note": "2027 US deal term not confirmed."
+  },
+  "afl": {
+   "holders": [
+    {
+     "name": "FS1 / FS2",
+     "share": "select (incl. Grand Final)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.tomsguide.com/entertainment/sports/watch-afl-2026-free-live-streams"
+    },
+    {
+     "name": "Watch AFL",
+     "share": "all matches (league's international streamer)",
+     "lang": "en",
+     "all": true,
+     "verified": true,
+     "source": "https://www.afl.com.au/news/146788/a-great-step-for-fans-new-service-to-take-live-afl-around-the-globe"
+    }
+   ],
+   "note": "Regular-season US channel count not confirmed."
+  },
+  "cfb": {
+   "holders": [
+    {
+     "name": "ESPN / ABC / ESPN2 / ESPNU / SEC Network / ACC Network / ESPN+ / SECN+ / ACCNX",
+     "share": "SEC (exclusive), ACC, Big 12, American, Sun Belt, MAC, CUSA, SWAC + College Football Playoff (title game on ABC from 2026-27)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.sportsvideo.org/2026/05/27/networks-unveil-2026-college-football-broadcast-schedules/"
+    },
+    {
+     "name": "FOX / FS1 / Big Ten Network",
+     "share": "Big Ten (89 games), Big 12, Mountain West, some American/independents",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.sportsvideo.org/2026/05/27/networks-unveil-2026-college-football-broadcast-schedules/"
+    },
+    {
+     "name": "CBS / CBS Sports Network",
+     "share": "Big Ten (3:30 window), new Pac-12, service academies",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.sportsvideo.org/2026/05/27/networks-unveil-2026-college-football-broadcast-schedules/"
+    },
+    {
+     "name": "NBC / Peacock",
+     "share": "Big Ten primetime + Notre Dame home games; some Peacock-exclusive Big Ten games",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.sportsvideo.org/2026/05/27/networks-unveil-2026-college-football-broadcast-schedules/"
+    },
+    {
+     "name": "The CW",
+     "share": "ACC, Mountain West, Pac-12 select (also streams in ESPN app w/ ESPN Unlimited)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.sportsvideo.org/2026/05/27/networks-unveil-2026-college-football-broadcast-schedules/"
+    },
+    {
+     "name": "USA Network (USA Sports)",
+     "share": "Pac-12 (22-game package)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.sportsvideo.org/2026/05/27/networks-unveil-2026-college-football-broadcast-schedules/"
+    },
+    {
+     "name": "TNT Sports",
+     "share": "Big 12 select",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.sportsvideo.org/2026/05/27/networks-unveil-2026-college-football-broadcast-schedules/"
+    }
+   ],
+   "note": "No Netflix college football package found."
+  },
+  "mcbb": {
+   "holders": [
+    {
+     "name": "ESPN family (ABC/ESPN/ESPN2/ESPNU/SECN/ACCN/ESPN+)",
+     "share": "SEC, ACC (all), Big 12 select",
+     "lang": "en",
+     "all": false,
+     "verified": false,
+     "source": "https://sportsbrackets.net/?p=43696"
+    },
+    {
+     "name": "FOX / FS1 / BTN",
+     "share": "Big Ten, Big 12, Big East (lead partner, 80+ games; Big East Tournament final on FOX)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://press.wbd.com/us/media-release/big-east-announces-new-media-rights-agreement"
+    },
+    {
+     "name": "NBC / Peacock",
+     "share": "Big Ten (many Peacock-exclusive) + Big East (60+ games)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://press.wbd.com/us/media-release/big-east-announces-new-media-rights-agreement"
+    },
+    {
+     "name": "TNT / TBS / truTV",
+     "share": "Big East (65+ games) + NCAA Tournament (shared with CBS)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://press.wbd.com/us/media-release/big-east-announces-new-media-rights-agreement"
+    },
+    {
+     "name": "CBS / CBS Sports Network",
+     "share": "Big Ten select + mid-majors + NCAA Tournament (shared with TNT)",
+     "lang": "en",
+     "all": false,
+     "verified": false,
+     "source": "https://sportsbrackets.net/?p=43696"
+    }
+   ],
+   "note": "Big East deal 2025-26 through 2030-31 (official). Per-conference split for other leagues only from a secondary 2026-27 guide. March Madness 2027 reportedly expands to 76 teams (secondary source, not verified)."
+  },
+  "brasileirao": {
+   "holders": [
+    {
+     "name": "Fanatiz",
+     "share": "select/all (per match listings)",
+     "lang": "pt/es",
+     "all": false,
+     "verified": false,
+     "source": "https://worldsoccertalk.com/brasileirao-tv-schedule-and-streaming-links"
+    },
+    {
+     "name": "Creator Sports Network (CSN)",
+     "share": "select (deal through 2026 reported Sept 2025)",
+     "lang": "unknown",
+     "all": false,
+     "verified": false,
+     "source": "https://senalnews.com/es/digital/cns-comienza-a-transmitir-el-brasileirao-a-para-estados-unidos-y-canada"
+    }
+   ],
+   "note": "Conflicting sources; treat as unknown."
+  },
+  "argentina": {
+   "holders": [
+    {
+     "name": "Fanatiz",
+     "share": "unknown (historically Spanish rights)",
+     "lang": "es",
+     "all": false,
+     "verified": false,
+     "source": "https://worldsoccertalk.com/amp/news/paramount-to-stream-argentine-league-through-2024-plus-copa-argentina-and-supercopa-20210324-CMS-329219.html"
+    }
+   ],
+   "note": "Paramount+ English deal ended 2024. No 2026 US rights holder found."
+  },
+  "carabao": {
+   "holders": [
+    {
+     "name": "Paramount+",
+     "share": "select (30+ ties/season) + EFL Championship",
+     "lang": "en",
+     "all": false,
+     "verified": false,
+     "source": "https://www.renderfoot.com/blog/how-to-watch-carabao-cup-in-usa"
+    },
+    {
+     "name": "CBS Sports Network / CBS Sports Golazo",
+     "share": "select",
+     "lang": "en",
+     "all": false,
+     "verified": false,
+     "source": "https://www.renderfoot.com/blog/how-to-watch-carabao-cup-in-usa"
+    }
+   ],
+   "note": "CBS reported through 2027-28; only secondary guide found."
+  },
+  "pfl": {
+   "holders": [
+    {
+     "name": "Vice TV",
+     "share": "select (8 PFL International events in 2026: MENA/Africa)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.advanced-television.com/2025/11/05/pfl-signs-vice-tv-deal-in-us/"
+    },
+    {
+     "name": "Main PFL Global events US home",
+     "share": "unknown (ESPN deal expired end of 2025; renewal/new partner not found)",
+     "lang": "en",
+     "all": false,
+     "verified": false,
+     "source": "https://www.sportcal.com/?p=148227"
+    }
+   ],
+   "note": "Bellator is owned by PFL; no separate Bellator US deal found."
+  },
+  "one": {
+   "holders": [
+    {
+     "name": "Prime Video",
+     "share": "select (ONE Fight Night events, ~12 in 2026)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://cagesidepress.com/2025/12/10/one-championship-announces-full-prime-video-2026-schedule-additional-events"
+    }
+   ],
+   "note": "ONE Friday Fights air in Asia primetime; US outlet for those not confirmed."
+  },
+  "bkfc": {
+   "holders": [
+    {
+     "name": "DAZN",
+     "share": "live events (3-year deal from Sept 2024)",
+     "lang": "en",
+     "all": false,
+     "verified": false,
+     "source": "https://beta.dazn.com/en-US/news/bkfc/dazn-and-bare-knuckle-fighting-championship-announce-broadcast-partnership/1ja3fkhfw2nyh1drqilzhkdfy6?page=1"
+    },
+    {
+     "name": "Fubo (Fubo Sports / BKFC channel)",
+     "share": "select / FAST channel",
+     "lang": "en",
+     "all": false,
+     "verified": false,
+     "source": "https://www.sportcal.com/media/fubotv-acquires-minority-stake-in-bkfc/"
+    }
+   ],
+   "note": "No 2026 confirmation of which outlet carries live US cards."
+  },
+  "lpga": {
+   "holders": [
+    {
+     "name": "Golf Channel",
+     "share": "most rounds",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://thegolfnewsnet.com/golfnewsnetteam/2026/04/25/2026-the-chevron-championship-lpga-tour-tv-and-streaming-schedule-how-to-watch-on-golf-channel-nbc-peacock-142403/"
+    },
+    {
+     "name": "NBC / Peacock",
+     "share": "select weekend windows",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://thegolfnewsnet.com/golfnewsnetteam/2026/04/25/2026-the-chevron-championship-lpga-tour-tv-and-streaming-schedule-how-to-watch-on-golf-channel-nbc-peacock-142403/"
+    },
+    {
+     "name": "CBS",
+     "share": "select (e.g. Mizuho Americas Open Sunday)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://thegolfnewsnet.com/golfnewsnetteam/2026/05/09/2026-mizuho-americas-open-lpga-tour-tv-and-streaming-schedule-how-to-watch-on-golf-channel-cbs-peacock-142670/"
+    },
+    {
+     "name": "USA Network",
+     "share": "select (U.S. Women's Open)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://thegolfnewsnet.com/golfnewsnetteam/2026/06/06/2026-us-womens-open-lpga-tv-and-streaming-schedule-how-to-watch-on-golf-channel-usa-network-nbc-peacock-143175/"
+    }
+   ],
+   "note": ""
+  },
+  "slams": {
+   "holders": [
+    {
+     "name": "ESPN / ESPN2 / ABC + ESPN+",
+     "share": "Australian Open, Wimbledon, US Open (every court on ESPN+)",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.espn.com/tennis/story/_/id/40326415/french-open-air-tnt-sports-2025-10-year-deal"
+    },
+    {
+     "name": "TNT / TBS / truTV + HBO Max",
+     "share": "French Open / Roland-Garros (all matches on HBO Max), 10-yr deal from 2025",
+     "lang": "en",
+     "all": false,
+     "verified": true,
+     "source": "https://www.espn.com/tennis/story/_/id/40326415/french-open-air-tnt-sports-2025-10-year-deal"
+    }
+   ],
+   "note": "ESPN contract end years not stated in source."
+  }
+ },
+ "liga_mx_clubs": [
+  {
+   "club": "América",
+   "en": null,
+   "es": "TUDN / Univision / ViX",
+   "source": "https://www.clarosports.com/us/vuelve-la-liga-mx-horarios-y-donde-ver-la-jornada-11-en-estados-unidos/",
+   "verified": true
+  },
+  {
+   "club": "Atlas",
+   "en": null,
+   "es": "TUDN / Univision",
+   "source": "https://www.clarosports.com/us/vuelve-la-liga-mx-horarios-y-donde-ver-la-jornada-11-en-estados-unidos/",
+   "verified": true
+  },
+  {
+   "club": "Pumas UNAM",
+   "en": null,
+   "es": "Univision / TUDN",
+   "source": "https://www.clarosports.com/us/vuelve-la-liga-mx-horarios-y-donde-ver-la-jornada-11-en-estados-unidos/",
+   "verified": true
+  },
+  {
+   "club": "Puebla",
+   "en": null,
+   "es": "TUDN",
+   "source": "https://www.clarosports.com/us/vuelve-la-liga-mx-horarios-y-donde-ver-la-jornada-11-en-estados-unidos/",
+   "verified": true
+  },
+  {
+   "club": "Querétaro",
+   "en": null,
+   "es": "ViX Premium (+TUDN per J1 listing)",
+   "source": "https://www.clarosports.com/us/vuelve-la-liga-mx-horarios-y-donde-ver-la-jornada-11-en-estados-unidos/",
+   "verified": true
+  },
+  {
+   "club": "Atlético San Luis",
+   "en": null,
+   "es": "ViX (J11) / TUDN (J1)",
+   "source": "https://www.clarosports.com/us/vuelve-la-liga-mx-horarios-y-donde-ver-la-jornada-11-en-estados-unidos/",
+   "verified": false
+  },
+  {
+   "club": "Pachuca",
+   "en": null,
+   "es": "ViX",
+   "source": "https://www.clarosports.com/us/vuelve-la-liga-mx-horarios-y-donde-ver-la-jornada-11-en-estados-unidos/",
+   "verified": false
+  },
+  {
+   "club": "Necaxa",
+   "en": null,
+   "es": "TUDN (J1 listing)",
+   "source": "https://www.clarosports.com/us/liga-mx-desde-estados-unidos-canales-fechas-y-horarios-de-la-jornada-1-del-apertura-2026/",
+   "verified": false
+  },
+  {
+   "club": "León",
+   "en": null,
+   "es": "TUDN (J1 listing)",
+   "source": "https://www.clarosports.com/us/liga-mx-desde-estados-unidos-canales-fechas-y-horarios-de-la-jornada-1-del-apertura-2026/",
+   "verified": false
+  },
+  {
+   "club": "Cruz Azul",
+   "en": null,
+   "es": "TelevisaUnivision (TUDN/Univision/ViX) per guides",
+   "source": "https://www.renderfoot.com/blog/how-to-watch-liga-mx-in-usa",
+   "verified": false
+  },
+  {
+   "club": "Toluca",
+   "en": null,
+   "es": "TUDN / UniMás / ViX per guide",
+   "source": "https://www.cabletv.com/sports/watch-liga-mx",
+   "verified": false
+  },
+  {
+   "club": "Chivas (Guadalajara)",
+   "en": "Telemundo deal historically incl. English rights (platform unclear)",
+   "es": "Telemundo / Universo / Peacock",
+   "source": "https://www.clarosports.com/us/donde-ver-la-liga-mx-desde-ee-uu-canales-horarios-y-streaming/",
+   "verified": true
+  },
+  {
+   "club": "Tigres UANL",
+   "en": null,
+   "es": "CONFLICT: Telemundo/Universo/Peacock (Telemundo + CableTV) vs FOX Deportes/Universo/Estrella TV (ClaroSports J11)",
+   "source": "https://www.clarosports.com/us/vuelve-la-liga-mx-horarios-y-donde-ver-la-jornada-11-en-estados-unidos/",
+   "verified": false
+  },
+  {
+   "club": "FC Juárez",
+   "en": null,
+   "es": "CONFLICT: Telemundo/Peacock (telemundo.com J11) vs FOX Deportes (ClaroSports)",
+   "source": "https://www.telemundo.com/deportes/futbol-estelar-liga-mx/bravos-de-juarez-vs-xolos-de-tijuana-como-y-donde-ver-en-vivo-liga-mx-rcna602423",
+   "verified": false
+  },
+  {
+   "club": "Monterrey",
+   "en": "FS1/FS2 select (per guide)",
+   "es": "FOX Deportes (ClaroSports J1)",
+   "source": "https://www.clarosports.com/us/liga-mx-desde-estados-unidos-canales-fechas-y-horarios-de-la-jornada-1-del-apertura-2026/",
+   "verified": false
+  },
+  {
+   "club": "Santos Laguna",
+   "en": "FS1/FS2 select (per guide)",
+   "es": "FOX Deportes",
+   "source": "https://www.clarosports.com/us/donde-ver-la-liga-mx-desde-ee-uu-canales-horarios-y-streaming/",
+   "verified": false
+  },
+  {
+   "club": "Tijuana (Xolos)",
+   "en": "FS1/FS2 select (per guide)",
+   "es": "CONFLICT: FOX Deportes (ClaroSports) vs TUDN/UniMás/ViX (CableTV, ClaroSports J1)",
+   "source": "https://www.clarosports.com/us/donde-ver-la-liga-mx-desde-ee-uu-canales-horarios-y-streaming/",
+   "verified": false
+  },
+  {
+   "club": "Atlante",
+   "en": null,
+   "es": "unknown (Mexican listings say FOX/Fox One - Mexico market)",
+   "source": "https://www.publimetro.com.mx/deportes/2026/07/16/donde-ver-todos-los-partidos-del-apertura-2026-en-la-liga-mx/",
+   "verified": false
+  }
+ ]
+}

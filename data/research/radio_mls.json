@@ -1,0 +1,367 @@
+{
+ "league": "MLS",
+ "checked": "2026-10-12",
+ "teams": [
+  {
+   "espn_id": "18418",
+   "abbr": "ATL",
+   "team": "Atlanta United FC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "https://www.atlutd.com/fans/app",
+   "source": "https://www.atlutd.com/club/club-partners",
+   "verified": false,
+   "note": "Checked atlutd.com/schedule/tv-and-streaming, /club/club-partners, /fans/app, /media/matchday-information and /espanol pages (2026). None names a radio station, call letters or frequency. AUDACY appears as a logo under 'Atlanta United Team Partners', but its role is not described. The app page mentions only 'broadcast info'. Spanish site es.atlutd.com could not be reached."
+  },
+  {
+   "espn_id": "20906",
+   "abbr": "ATX",
+   "team": "Austin FC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "https://www.austinfc.com/club/corporate-partners",
+   "verified": false,
+   "note": "austinfc.com/club/corporate-partners lists 'Broadcast Partners': iHeart Radio (links to iheartmedia.com Austin stations) and Univision (univision.com/local/austin-kakw). The page gives no call letters, frequency or language for the radio partner, so no station is listed. The page is undated. The /espanol, /fans/matchday and /schedule pages have no radio info."
+  },
+  {
+   "espn_id": "9720",
+   "abbr": "MTL",
+   "team": "CF Montréal",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not checked: WebSearch budget for this turn was exhausted (200-call shared limit) and WebFetch could not resolve this club's domain (ENOTFOUND). No station confirmed; needs a follow-up pass."
+  },
+  {
+   "espn_id": "21300",
+   "abbr": "CLT",
+   "team": "Charlotte FC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not checked: WebSearch budget for this turn was exhausted (200-call shared limit) and WebFetch could not resolve this club's domain (ENOTFOUND). No station confirmed; needs a follow-up pass."
+  },
+  {
+   "espn_id": "182",
+   "abbr": "CHI",
+   "team": "Chicago Fire FC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not checked: WebSearch budget for this turn was exhausted (200-call shared limit) and WebFetch could not resolve this club's domain (ENOTFOUND). No station confirmed; needs a follow-up pass."
+  },
+  {
+   "espn_id": "184",
+   "abbr": "COL",
+   "team": "Colorado Rapids",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not checked: WebSearch budget for this turn was exhausted (200-call shared limit) and WebFetch could not resolve this club's domain (ENOTFOUND). No station confirmed; needs a follow-up pass."
+  },
+  {
+   "espn_id": "183",
+   "abbr": "CLB",
+   "team": "Columbus Crew",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not checked: WebSearch budget for this turn was exhausted (200-call shared limit) and WebFetch could not resolve this club's domain (ENOTFOUND). No station confirmed; needs a follow-up pass."
+  },
+  {
+   "espn_id": "193",
+   "abbr": "DC",
+   "team": "D.C. United",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not checked: WebSearch budget for this turn was exhausted (200-call shared limit) and WebFetch could not resolve this club's domain (ENOTFOUND). No station confirmed; needs a follow-up pass."
+  },
+  {
+   "espn_id": "18267",
+   "abbr": "CIN",
+   "team": "FC Cincinnati",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not checked: WebSearch budget for this turn was exhausted (200-call shared limit) and WebFetch could not resolve this club's domain (ENOTFOUND). No station confirmed; needs a follow-up pass."
+  },
+  {
+   "espn_id": "185",
+   "abbr": "DAL",
+   "team": "FC Dallas",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not checked: WebSearch budget for this turn was exhausted (200-call shared limit) and WebFetch could not resolve this club's domain (ENOTFOUND). No station confirmed; needs a follow-up pass."
+  },
+  {
+   "espn_id": "6077",
+   "abbr": "HOU",
+   "team": "Houston Dynamo FC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not checked: WebSearch budget for this turn was exhausted (200-call shared limit) and WebFetch could not resolve this club's domain (ENOTFOUND). No station confirmed; needs a follow-up pass."
+  },
+  {
+   "espn_id": "20232",
+   "abbr": "MIA",
+   "team": "Inter Miami CF",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not checked: WebSearch budget for this turn was exhausted (200-call shared limit) and WebFetch could not resolve this club's domain (ENOTFOUND). No station confirmed; needs a follow-up pass."
+  },
+  {
+   "espn_id": "187",
+   "abbr": "LA",
+   "team": "LA Galaxy",
+   "stations": [
+    {
+     "call": "KWKW",
+     "freq": "",
+     "market": "Los Angeles",
+     "lang": "es",
+     "role": "spanish",
+     "stream": {
+      "app": "Tu Liga Radio",
+      "url": "https://www.tuligaradio.com/"
+     }
+    },
+    {
+     "call": "LA Galaxy Radio Stream",
+     "freq": "",
+     "market": "Los Angeles",
+     "lang": "en",
+     "role": "stream-only",
+     "stream": {
+      "app": "YouTube",
+      "url": "https://www.youtube.com/@lagalaxy/streams"
+     }
+    }
+   ],
+   "network": "",
+   "team_audio_url": "https://www.lagalaxy.com/radio",
+   "source": "https://www.lagalaxy.com/news/radio-stream-presented-by-west-coast-trial-lawyers-la-galaxy-at-st-louis-city-sc-october-11-2026",
+   "verified": true,
+   "note": "2026 season. lagalaxy.com/radio: 'Radio Stream presented by West Coast Trial Lawyers' throughout the 2026 season, English call by Joe Tutino on YouTube. 10/11/2026 match article: English on YouTube, Spanish 'Tu Liga Radio en Espanol' (tuligaradio.com). KWKW is listed as the club's radio partner on https://www.lagalaxy.com/club/partners, linked to tuligaradio.com. Neither page gives a frequency, so freq is left blank. No English over-the-air AM/FM station was found on the club pages."
+  },
+  {
+   "espn_id": "18966",
+   "abbr": "LAFC",
+   "team": "LAFC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not checked: WebSearch budget for this turn was exhausted (200-call shared limit) and WebFetch could not resolve this club's domain (ENOTFOUND). No station confirmed; needs a follow-up pass."
+  },
+  {
+   "espn_id": "17362",
+   "abbr": "MIN",
+   "team": "Minnesota United FC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not checked: WebSearch budget for this turn was exhausted (200-call shared limit) and WebFetch could not resolve this club's domain (ENOTFOUND). No station confirmed; needs a follow-up pass."
+  },
+  {
+   "espn_id": "18986",
+   "abbr": "NSH",
+   "team": "Nashville SC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not checked: WebSearch budget for this turn was exhausted (200-call shared limit) and WebFetch could not resolve this club's domain (ENOTFOUND). No station confirmed; needs a follow-up pass."
+  },
+  {
+   "espn_id": "189",
+   "abbr": "NE",
+   "team": "New England Revolution",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not checked: WebSearch budget for this turn was exhausted (200-call shared limit) and WebFetch could not resolve this club's domain (ENOTFOUND). No station confirmed; needs a follow-up pass."
+  },
+  {
+   "espn_id": "17606",
+   "abbr": "NYC",
+   "team": "New York City FC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not checked: WebSearch budget for this turn was exhausted (200-call shared limit) and WebFetch could not resolve this club's domain (ENOTFOUND). No station confirmed; needs a follow-up pass."
+  },
+  {
+   "espn_id": "12011",
+   "abbr": "ORL",
+   "team": "Orlando City SC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not checked: WebSearch budget for this turn was exhausted (200-call shared limit) and WebFetch could not resolve this club's domain (ENOTFOUND). No station confirmed; needs a follow-up pass."
+  },
+  {
+   "espn_id": "10739",
+   "abbr": "PHI",
+   "team": "Philadelphia Union",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not checked: WebSearch budget for this turn was exhausted (200-call shared limit) and WebFetch could not resolve this club's domain (ENOTFOUND). No station confirmed; needs a follow-up pass."
+  },
+  {
+   "espn_id": "9723",
+   "abbr": "POR",
+   "team": "Portland Timbers",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not checked: WebSearch budget for this turn was exhausted (200-call shared limit) and WebFetch could not resolve this club's domain (ENOTFOUND). No station confirmed; needs a follow-up pass."
+  },
+  {
+   "espn_id": "4771",
+   "abbr": "RSL",
+   "team": "Real Salt Lake",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not checked: WebSearch budget for this turn was exhausted (200-call shared limit) and WebFetch could not resolve this club's domain (ENOTFOUND). No station confirmed; needs a follow-up pass."
+  },
+  {
+   "espn_id": "190",
+   "abbr": "RBNY",
+   "team": "Red Bull New York",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not checked: WebSearch budget for this turn was exhausted (200-call shared limit) and WebFetch could not resolve this club's domain (ENOTFOUND). No station confirmed; needs a follow-up pass."
+  },
+  {
+   "espn_id": "22529",
+   "abbr": "SD",
+   "team": "San Diego FC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not checked: WebSearch budget for this turn was exhausted (200-call shared limit) and WebFetch could not resolve this club's domain (ENOTFOUND). No station confirmed; needs a follow-up pass."
+  },
+  {
+   "espn_id": "191",
+   "abbr": "SJ",
+   "team": "San Jose Earthquakes",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not checked: WebSearch budget for this turn was exhausted (200-call shared limit) and WebFetch could not resolve this club's domain (ENOTFOUND). No station confirmed; needs a follow-up pass."
+  },
+  {
+   "espn_id": "9726",
+   "abbr": "SEA",
+   "team": "Seattle Sounders FC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not checked: WebSearch budget for this turn was exhausted (200-call shared limit) and WebFetch could not resolve this club's domain (ENOTFOUND). No station confirmed; needs a follow-up pass."
+  },
+  {
+   "espn_id": "186",
+   "abbr": "SKC",
+   "team": "Sporting Kansas City",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not checked: WebSearch budget for this turn was exhausted (200-call shared limit) and WebFetch could not resolve this club's domain (ENOTFOUND). No station confirmed; needs a follow-up pass."
+  },
+  {
+   "espn_id": "21812",
+   "abbr": "STL",
+   "team": "St. Louis CITY SC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not checked: WebSearch budget for this turn was exhausted (200-call shared limit) and WebFetch could not resolve this club's domain (ENOTFOUND). No station confirmed; needs a follow-up pass."
+  },
+  {
+   "espn_id": "7318",
+   "abbr": "TOR",
+   "team": "Toronto FC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not checked: WebSearch budget for this turn was exhausted (200-call shared limit) and WebFetch could not resolve this club's domain (ENOTFOUND). No station confirmed; needs a follow-up pass."
+  },
+  {
+   "espn_id": "9727",
+   "abbr": "VAN",
+   "team": "Vancouver Whitecaps",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not checked: WebSearch budget for this turn was exhausted (200-call shared limit) and WebFetch could not resolve this club's domain (ENOTFOUND). No station confirmed; needs a follow-up pass."
+  }
+ ],
+ "league_audio": [
+  {
+   "name": "Apple TV (MLS)",
+   "what": "MLS press release dated 11/13/2025: in 2026 all MLS matches stream on Apple TV for subscribers at no extra cost, and the standalone MLS Season Pass ends after 2025. The release does NOT mention radio, local radio calls, home/away audio or language feeds, so the audio-option claim is UNVERIFIED.",
+   "url": "https://tv.apple.com/",
+   "source": "https://www.atlutd.com/news/major-league-soccer-is-coming-to-apple-tv-starting-in-2026"
+  }
+ ]
+}

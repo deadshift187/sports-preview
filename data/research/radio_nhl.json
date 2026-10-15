@@ -1,0 +1,778 @@
+{
+ "league": "NHL",
+ "checked": "2026-10-12",
+ "teams": [
+  {
+   "espn_id": "25",
+   "abbr": "ANA",
+   "team": "Anaheim Ducks",
+   "stations": [
+    {
+     "call": "Ducks Stream",
+     "freq": null,
+     "market": "online",
+     "lang": "en",
+     "role": "team audio stream (no terrestrial flagship found)",
+     "stream": {
+      "app": "TuneIn",
+      "url": null
+     }
+    }
+   ],
+   "team_audio_url": "https://www.nhl.com/ducks/info/where-to-watch",
+   "source": "https://www.nhl.com/ducks/info/where-to-watch",
+   "verified": true,
+   "note": "Team page: 'Ducks Stream powered by TuneIn is a 24/7 audio resource' for the Ducks. No terrestrial radio flagship found on team pages or 2026-27 game previews."
+  },
+  {
+   "espn_id": "1",
+   "abbr": "BOS",
+   "team": "Boston Bruins",
+   "stations": [
+    {
+     "call": "98.5 The Sports Hub",
+     "freq": "98.5 FM",
+     "market": "Boston",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.nhl.com/bruins/team/broadcast-info",
+   "source": "https://www.nhl.com/bruins/team/broadcast-info",
+   "verified": true,
+   "note": "Team page: Ryan Johnston is the radio play-by-play voice 'for Bruins games 98.5 The Sports Hub' (Boston Bruins Radio Network). Call letters not stated in source."
+  },
+  {
+   "espn_id": "2",
+   "abbr": "BUF",
+   "team": "Buffalo Sabres",
+   "stations": [
+    {
+     "call": "WGR",
+     "freq": "550 AM",
+     "market": "Buffalo",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "Buffalo Sabres App",
+      "url": null
+     }
+    }
+   ],
+   "team_audio_url": "https://www.nhl.com/sabres/news/buffalo-sabres-utah-mammoth-how-to-watch-lineups",
+   "source": "https://www.nhl.com/sabres/news/buffalo-sabres-utah-mammoth-how-to-watch-lineups",
+   "verified": true,
+   "note": "Oct 10, 2026 team preview: 'Radio: WGR 550 / Buffalo Sabres App'."
+  },
+  {
+   "espn_id": "3",
+   "abbr": "CGY",
+   "team": "Calgary Flames",
+   "stations": [],
+   "team_audio_url": "https://www.nhl.com/flames/news/topic/game-day/index",
+   "source": "https://www.nhl.com/flames/news/topic/game-day/index",
+   "verified": false,
+   "note": "Could not confirm. 2026-27 Flames game-day/preview pages list TV only. Unconfirmed lead (Wikipedia): QR Calgary 770 (CHQR). Station site fetch failed."
+  },
+  {
+   "espn_id": "7",
+   "abbr": "CAR",
+   "team": "Carolina Hurricanes",
+   "stations": [
+    {
+     "call": "99.9 The Fan",
+     "freq": "99.9 FM",
+     "market": "Raleigh-Durham",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "Hurricanes App",
+      "url": null
+     }
+    }
+   ],
+   "team_audio_url": "https://www.nhl.com/hurricanes/team/broadcast-info/",
+   "source": "https://www.nhl.com/hurricanes/team/broadcast-info/",
+   "verified": true,
+   "note": "Team page: 'All Carolina Hurricanes games can be heard on the team's flagship radio station, 99.9 The Fan, and occasionally its sister network, Buzz Sports Radio.' Oct 10, 2026 preview: 'Listen: 99.9 The Fan, Hurricanes App'. Call letters not stated in source."
+  },
+  {
+   "espn_id": "4",
+   "abbr": "CHI",
+   "team": "Chicago Blackhawks",
+   "stations": [
+    {
+     "call": "WGN",
+     "freq": null,
+     "market": "Chicago",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "WGN Radio app / wgnradio.com / TuneIn / iHeartRadio",
+      "url": "https://wgnradio.com"
+     }
+    }
+   ],
+   "team_audio_url": "https://www.nhl.com/blackhawks/team/broadcast",
+   "source": "https://www.nhl.com/blackhawks/news/release-blackhawks-and-wgn-radio-agree-to-multi-year-radio-rights-extension",
+   "verified": true,
+   "note": "Sept 14, 2026 release: multi-year WGN Radio extension; WGN Radio flagship since 2008-09; all 84 games; streams on wgnradio.com, WGN Radio and Blackhawks apps, TuneIn, iHeartRadio. Frequency not stated in source. No Spanish radio confirmed for 2026-27."
+  },
+  {
+   "espn_id": "17",
+   "abbr": "COL",
+   "team": "Colorado Avalanche",
+   "stations": [
+    {
+     "call": "KKSE-FM",
+     "freq": "92.5 FM",
+     "market": "Denver",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "Altitude Sports Radio",
+      "url": "https://www.altitudesportsradio.com"
+     }
+    },
+    {
+     "call": "KKSE",
+     "freq": "950 AM",
+     "market": "Denver",
+     "lang": "en",
+     "role": "co-flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.nhl.com/avalanche/fans/how-to-watch",
+   "source": "https://www.altitudesportsradio.com",
+   "verified": true,
+   "note": "Team page links 'Altitude Sports Radio 92.5FM/950AM'; station site: 'Home of the Colorado Avalanche' and lists the KKSE public inspection file."
+  },
+  {
+   "espn_id": "29",
+   "abbr": "CBJ",
+   "team": "Columbus Blue Jackets",
+   "stations": [
+    {
+     "call": "97.1 The Fan",
+     "freq": "97.1 FM",
+     "market": "Columbus",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "93.3 The Bus",
+     "freq": "93.3 FM",
+     "market": "Columbus",
+     "lang": "en",
+     "role": "conflict overflow",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.nhl.com/bluejackets/multimedia/radio-network",
+   "source": "https://www.nhl.com/bluejackets/multimedia/radio-network",
+   "verified": true,
+   "note": "Team page: '97.1 The Fan is your flagship radio home of the Columbus Blue Jackets. 93.3 FM The Bus broadcasts select games each season due to programming conflicts.' Call letters not stated in source."
+  },
+  {
+   "espn_id": "9",
+   "abbr": "DAL",
+   "team": "Dallas Stars",
+   "stations": [
+    {
+     "call": "The Ticket",
+     "freq": "96.7 FM / 1310 AM",
+     "market": "Dallas-Fort Worth",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.nhl.com/stars/multimedia/broadcast",
+   "source": "https://www.nhl.com/stars/multimedia/broadcast",
+   "verified": true,
+   "note": "Team page: 'Sportsradio 96.7 FM and 1310 The Ticket enters its 17th season as the flagship radio home of Dallas Stars hockey and will broadcast all 84 regular-season games.'"
+  },
+  {
+   "espn_id": "5",
+   "abbr": "DET",
+   "team": "Detroit Red Wings",
+   "stations": [
+    {
+     "call": "WXYT-FM",
+     "freq": "97.1 FM",
+     "market": "Detroit",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.nhl.com/redwings/multimedia/radio-affiliates",
+   "source": "https://www.nhl.com/redwings/tickets/broadcast",
+   "verified": true,
+   "note": "Team radio affiliates page lists Detroit WXYT 97.1 FM; 2026-27 broadcast schedule lists 97.1 FM for every game."
+  },
+  {
+   "espn_id": "6",
+   "abbr": "EDM",
+   "team": "Edmonton Oilers",
+   "stations": [
+    {
+     "call": "CHED",
+     "freq": "880 AM",
+     "market": "Edmonton",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "880CHED player",
+      "url": "https://globalnews.ca/radio/880ched/player/"
+     }
+    }
+   ],
+   "team_audio_url": "https://www.nhl.com/oilers/news/preview-oilers-at-kings-10-13-26",
+   "source": "https://www.nhl.com/oilers/news/preview-oilers-at-kings-10-13-26",
+   "verified": true,
+   "note": "Oct 13, 2026 team preview: 'listen on the Oilers Radio Network, including 880CHED'. Station brands itself 880CHED (globalnews.ca/radio/880ched)."
+  },
+  {
+   "espn_id": "26",
+   "abbr": "FLA",
+   "team": "Florida Panthers",
+   "stations": [
+    {
+     "call": "WQAM",
+     "freq": "560 AM / 104.3 FM",
+     "market": "Miami / Fort Lauderdale",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.nhl.com/panthers/multimedia/radiocorner",
+   "source": "https://www.nhl.com/panthers/news/preview-panthers-start-back-to-back-with-visit-to-buffalo",
+   "verified": true,
+   "note": "Oct 12, 2026 preview: 'Radio: 104.3 WQAM-FM/560 WQAM-AM (Dade/Broward); 106.3 WESP-FM (Palm Beach); 100.3 WCTH-FM (Florida Keys)...'. No Spanish radio found for 2026-27."
+  },
+  {
+   "espn_id": "8",
+   "abbr": "LA",
+   "team": "Los Angeles Kings",
+   "stations": [
+    {
+     "call": "KLAA",
+     "freq": "830 AM",
+     "market": "Los Angeles",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "LA Kings App / ESPN LA App",
+      "url": null
+     }
+    },
+    {
+     "call": "ESPN LA",
+     "freq": "710 AM",
+     "market": "Los Angeles",
+     "lang": "en",
+     "role": "co-flagship (select games)",
+     "stream": null
+    },
+    {
+     "call": "La Primera",
+     "freq": "1330 AM",
+     "market": "Los Angeles",
+     "lang": "es",
+     "role": "spanish (select home games)",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.nhl.com/kings/fans/tune-in",
+   "source": "https://www.nhl.com/kings/fans/tune-in",
+   "verified": true,
+   "note": "2026-27 Tune In schedule lists 'ESPN LA 710 KLAA AM 830 LA Kings App ESPN LA App' with 'La Primera AM 1330' on select home games; Oct 10, 2026 preview: 'Listen: 830 AM KLAA, ESPN LA App, LA Kings App'. Some road games list only the apps."
+  },
+  {
+   "espn_id": "30",
+   "abbr": "MIN",
+   "team": "Minnesota Wild",
+   "stations": [
+    {
+     "call": "KFAN",
+     "freq": "100.3 FM",
+     "market": "Minneapolis-St. Paul",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "iHeartRadio",
+      "url": "https://www.kfan.com/listen"
+     }
+    }
+   ],
+   "team_audio_url": "https://www.nhl.com/wild/info/radio-network",
+   "source": "https://www.nhl.com/wild/info/radio-network",
+   "verified": true,
+   "note": "Team page: 'KFAN FM 100.3 and iHeart Radio enter the 16th season as the audio home of the Minnesota Wild'; games also on kfan.com/listen and iHeartRadio app."
+  },
+  {
+   "espn_id": "10",
+   "abbr": "MTL",
+   "team": "Montreal Canadiens",
+   "stations": [
+    {
+     "call": "TSN 690",
+     "freq": "690 AM",
+     "market": "Montreal",
+     "lang": "en",
+     "role": "english flagship",
+     "stream": null
+    },
+    {
+     "call": "98,5 fm Cogeco",
+     "freq": "98.5 FM",
+     "market": "Montreal",
+     "lang": "fr",
+     "role": "french flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.nhl.com/canadiens/fans/broadcast",
+   "source": "https://www.nhl.com/canadiens/fans/broadcast",
+   "verified": true,
+   "note": "Team page: 'All Canadiens games are available to listen to on the radio in Montreal or online worldwide': 98,5 fm Cogeco Montreal (French, all games) and TSN 690 AM Montreal (English, all games)."
+  },
+  {
+   "espn_id": "27",
+   "abbr": "NSH",
+   "team": "Nashville Predators",
+   "stations": [
+    {
+     "call": "102.5 The Game",
+     "freq": "102.5 FM",
+     "market": "Nashville",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "The Game app",
+      "url": "https://www.thegamenashville.com/nashville-predators"
+     }
+    },
+    {
+     "call": "El Jefe",
+     "freq": null,
+     "market": "Nashville",
+     "lang": "es",
+     "role": "spanish",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.nhl.com/predators/multimedia/broadcast",
+   "source": "https://www.nhl.com/predators/multimedia/broadcast",
+   "verified": true,
+   "note": "Team site 'Preds Radio' menu links to thegamenashville.com/nashville-predators (102.5 The Game, Predators radio network affiliates listed) and 'Preds Radio (Espanol)' to the El Jefe Radio page (Spanish play-by-play). El Jefe frequency not stated in source."
+  },
+  {
+   "espn_id": "11",
+   "abbr": "NJ",
+   "team": "New Jersey Devils",
+   "stations": [
+    {
+     "call": "Devils Hockey Network",
+     "freq": null,
+     "market": "online",
+     "lang": "en",
+     "role": "team audio stream (no terrestrial flagship found)",
+     "stream": {
+      "app": "NewJerseyDevils.com / Devils + Prudential Center App",
+      "url": null
+     }
+    }
+   ],
+   "team_audio_url": "https://www.nhl.com/devils/podcasts/devils-hockey-network",
+   "source": "https://www.nhl.com/devils/news/preview-2026020090",
+   "verified": true,
+   "note": "Oct 13, 2026 preview: 'LISTEN: Devils Hockey Network'; network page: 'Matt & Chico Streaming Live All Season Long' on NewJerseyDevils.com and the team app. No terrestrial flagship found."
+  },
+  {
+   "espn_id": "12",
+   "abbr": "NYI",
+   "team": "New York Islanders",
+   "stations": [
+    {
+     "call": "WRHU",
+     "freq": "88.7 FM",
+     "market": "Long Island (Hofstra University)",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "NY Islanders + UBS Arena app / NHL app",
+      "url": null
+     }
+    },
+    {
+     "call": "WRCN-FM",
+     "freq": "103.9 FM",
+     "market": "Suffolk County",
+     "lang": "en",
+     "role": "affiliate",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.nhl.com/islanders/info/tune-in",
+   "source": "https://www.nhl.com/islanders/info/tune-in",
+   "verified": true,
+   "note": "Team page: 'every Islanders game will be available live on 88.7FM WRHU, 103.9FM LI News Radio, as well as the NY Islanders + UBS Arena app, the NHL app and SiriusXM'; WRHU 'entering its 15th season as the radio home'."
+  },
+  {
+   "espn_id": "13",
+   "abbr": "NYR",
+   "team": "New York Rangers",
+   "stations": [
+    {
+     "call": "WHSQ",
+     "freq": "880 AM",
+     "market": "New York",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.nhl.com/rangers/team/broadcast",
+   "source": "https://www.nhl.com/rangers/team/broadcast",
+   "verified": true,
+   "note": "Team 2026-27 broadcast schedule lists '880 AM' for every game. Call letters WHSQ taken from the Mets page naming 'WHSQ 880 (880 AM) New York' (same frequency/market); Rangers page itself shows only '880 AM'."
+  },
+  {
+   "espn_id": "14",
+   "abbr": "OTT",
+   "team": "Ottawa Senators",
+   "stations": [
+    {
+     "call": "TSN 1200",
+     "freq": "1200 AM",
+     "market": "Ottawa",
+     "lang": "en",
+     "role": "english flagship",
+     "stream": null
+    },
+    {
+     "call": "104.7 Outaouais",
+     "freq": "104.7 FM",
+     "market": "Ottawa-Gatineau",
+     "lang": "fr",
+     "role": "french flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.nhl.com/senators/news/topic/game-previews/senators-look-to-stay-perfect-on-home-ice",
+   "source": "https://www.nhl.com/senators/news/topic/game-previews/senators-look-to-stay-perfect-on-home-ice",
+   "verified": true,
+   "note": "Oct 10, 2026 team preview: 'Listen: TSN 1200 (English), 104.7 Outaouais (French)'."
+  },
+  {
+   "espn_id": "15",
+   "abbr": "PHI",
+   "team": "Philadelphia Flyers",
+   "stations": [
+    {
+     "call": "97.5 The Fanatic",
+     "freq": "97.5 FM",
+     "market": "Philadelphia",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "WMMR",
+     "freq": "93.3 FM",
+     "market": "Philadelphia",
+     "lang": "en",
+     "role": "alternate",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.nhl.com/flyers/info/how-to-watch",
+   "source": "https://www.nhl.com/flyers/info/how-to-watch",
+   "verified": true,
+   "note": "Team page: 'Radio broadcasts are also available on 97.5 The Fanatic and alternately on 93.3 WMMR.'"
+  },
+  {
+   "espn_id": "16",
+   "abbr": "PIT",
+   "team": "Pittsburgh Penguins",
+   "stations": [
+    {
+     "call": "105.9 The X",
+     "freq": "105.9 FM",
+     "market": "Pittsburgh",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "iHeartRadio / Penguins app",
+      "url": null
+     }
+    }
+   ],
+   "team_audio_url": "https://www.nhl.com/penguins/fans/how-to-watch-games",
+   "source": "https://www.nhl.com/penguins/fans/how-to-watch-games",
+   "verified": true,
+   "note": "Team page: '105.9 the X is the home of the Pittsburgh Penguins on radio. Listen to games on the Penguins app, on the iHeart website, or over the air!'"
+  },
+  {
+   "espn_id": "18",
+   "abbr": "SJ",
+   "team": "San Jose Sharks",
+   "stations": [
+    {
+     "call": "Sharks Audio Network",
+     "freq": null,
+     "market": "online",
+     "lang": "en",
+     "role": "team audio stream (no terrestrial Bay Area flagship)",
+     "stream": {
+      "app": "Sharks + SAP Center App / TuneIn",
+      "url": "https://www.sjsharks.com/listen"
+     }
+    }
+   ],
+   "team_audio_url": "https://www.nhl.com/sharks/team/broadcast",
+   "source": "https://www.nhl.com/sharks/team/broadcast",
+   "verified": true,
+   "note": "Team page: 7th straight season all games on the Sharks Audio Network (app, sjsharks.com/listen, TuneIn, Alexa). Terrestrial affiliates outside San Jose incl. Sacramento ESPN 1320 AM, Fresno 790/1430, Modesto 970; SiriusXM."
+  },
+  {
+   "espn_id": "124292",
+   "abbr": "SEA",
+   "team": "Seattle Kraken",
+   "stations": [
+    {
+     "call": "KJR-FM",
+     "freq": "93.3 FM",
+     "market": "Seattle",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "iHeartRadio",
+      "url": null
+     }
+    }
+   ],
+   "team_audio_url": "https://www.nhl.com/kraken/news/kraken-radio-broadcast-partnership-extended-iheart-media-seattle-sports-radio-kjr-fm",
+   "source": "https://www.nhl.com/kraken/news/kraken-radio-broadcast-partnership-extended-iheart-media-seattle-sports-radio-kjr-fm",
+   "verified": true,
+   "note": "Aug 27, 2026: multi-year extension keeps iHeartMedia Seattle's Sports Radio 93.3 KJR FM as the team's flagship station (iHeart Kraken Audio Network)."
+  },
+  {
+   "espn_id": "19",
+   "abbr": "STL",
+   "team": "St. Louis Blues",
+   "stations": [
+    {
+     "call": "101 ESPN",
+     "freq": "101.1 FM",
+     "market": "St. Louis",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "Blues App / 101espn.com",
+      "url": "https://www.101espn.com"
+     }
+    }
+   ],
+   "team_audio_url": "https://www.nhl.com/blues/fans/where-to-watch",
+   "source": "https://www.nhl.com/blues/fans/where-to-watch",
+   "verified": true,
+   "note": "Team page: 'every Blues game will be available live on 101 ESPN (101.1 FM) and in the Blues App'; also 101espn.com."
+  },
+  {
+   "espn_id": "20",
+   "abbr": "TB",
+   "team": "Tampa Bay Lightning",
+   "stations": [
+    {
+     "call": "102.5 The Bone",
+     "freq": "102.5 FM",
+     "market": "Tampa Bay",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "station site",
+      "url": "https://theboneonline.com"
+     }
+    }
+   ],
+   "team_audio_url": "https://www.nhl.com/lightning/news/nuts-bolts-rematch-against-the-rangers-oct-13-2026",
+   "source": "https://www.nhl.com/lightning/news/nuts-bolts-rematch-against-the-rangers-oct-13-2026",
+   "verified": true,
+   "note": "Oct 13, 2026 team preview lists radio as '102.5' FM linked to theboneonline.com, plus 'Lightning Radio 24/7' stream. Call letters not stated in source."
+  },
+  {
+   "espn_id": "21",
+   "abbr": "TOR",
+   "team": "Toronto Maple Leafs",
+   "stations": [
+    {
+     "call": "CJCL",
+     "freq": "590 AM",
+     "market": "Toronto",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.nhl.com/mapleleafs/news/game-day-colorado-oct-10-2026",
+   "source": "https://www.nhl.com/mapleleafs/news/game-day-colorado-oct-10-2026",
+   "verified": true,
+   "note": "Oct 10, 2026 game-day notes: 'RADIO: SPORTSNET 590'. Sept 15, 2026 release names 'radio broadcast partners Sportsnet and TSN' (TSN station not named for 2026-27, so not listed). CJCL call letters from the Blue Jays page ('CJCL/Sportsnet 590 The FAN')."
+  },
+  {
+   "espn_id": "129764",
+   "abbr": "UTAH",
+   "team": "Utah Mammoth",
+   "stations": [
+    {
+     "call": "KSL Sports Zone",
+     "freq": "97.5 FM",
+     "market": "Salt Lake City",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "KSL Sports App / Mammoth App",
+      "url": null
+     }
+    }
+   ],
+   "team_audio_url": "https://www.nhl.com/utah/news/utah-ends-road-trip-in-buffalo-game-preview-10-10-26",
+   "source": "https://www.nhl.com/utah/news/utah-ends-road-trip-in-buffalo-game-preview-10-10-26",
+   "verified": true,
+   "note": "Oct 10, 2026 team preview: 'RADIO: Mammoth App, NHL App, NHL.com, KSL Sports Zone (97.5FM), KSL Sports App, Sirius XM'. Call letters not stated in source."
+  },
+  {
+   "espn_id": "22",
+   "abbr": "VAN",
+   "team": "Vancouver Canucks",
+   "stations": [
+    {
+     "call": "KiSS West Coast",
+     "freq": null,
+     "market": "Vancouver",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.nhl.com/canucks/news/canucks-play-second-game-of-back-to-back-against-rangers-on-sunday",
+   "source": "https://www.nhl.com/canucks/news/canucks-play-second-game-of-back-to-back-against-rangers-on-sunday",
+   "verified": true,
+   "note": "Oct 11, 2026 team preview: 'listen to Brendan Batchelor's radio call on KiSS West Coast'; game notes: 'Radio: KiSS West Coast'. Frequency/call letters not stated in source."
+  },
+  {
+   "espn_id": "37",
+   "abbr": "VGK",
+   "team": "Vegas Golden Knights",
+   "stations": [
+    {
+     "call": "X 107.9",
+     "freq": "107.9 FM",
+     "market": "Las Vegas",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "105.7 Maxima",
+     "freq": "105.7 FM",
+     "market": "Las Vegas",
+     "lang": "es",
+     "role": "spanish",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.nhl.com/goldenknights/news/golden-knights-announce-2026-27-television-broadcast-team",
+   "source": "https://www.nhl.com/goldenknights/news/golden-knights-announce-2026-27-television-broadcast-team",
+   "verified": true,
+   "note": "2026-27 release: 'All Golden Knights games will also be broadcast on X 107.9, the team's English-language radio flagship'; Spanish calls on 105.7 Maxima (Beasley Media Group partnership)."
+  },
+  {
+   "espn_id": "23",
+   "abbr": "WSH",
+   "team": "Washington Capitals",
+   "stations": [
+    {
+     "call": "WJFK-FM",
+     "freq": "106.7 FM",
+     "market": "Washington, DC",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "Capitals Radio Network / Capitals app",
+      "url": "https://www.washcaps.com/radio"
+     }
+    },
+    {
+     "call": "WFED",
+     "freq": "1500 AM",
+     "market": "Washington, DC",
+     "lang": "en",
+     "role": "co-flagship (AM)",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.nhl.com/capitals/multimedia/caps-radio",
+   "source": "https://www.nhl.com/capitals/multimedia/caps-radio",
+   "verified": true,
+   "note": "Team page: 'The Washington Capitals air broadcasts of their games on WJFK 106.7 FM and Hubbard Radio (WFED 1500). 106.7 The Fan serves as the flagship FM station'; Caps Radio 24/7 also on Audacy and TuneIn."
+  },
+  {
+   "espn_id": "28",
+   "abbr": "WPG",
+   "team": "Winnipeg Jets",
+   "stations": [
+    {
+     "call": "CJOB",
+     "freq": "680 AM",
+     "market": "Winnipeg",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "Global News radio player",
+      "url": "https://globalnews.ca/radio/cjob"
+     }
+    },
+    {
+     "call": "Power 97",
+     "freq": null,
+     "market": "Winnipeg",
+     "lang": "en",
+     "role": "co-flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.nhl.com/jets/multimedia/broadcast-information",
+   "source": "https://www.nhl.com/jets/multimedia/broadcast-information",
+   "verified": true,
+   "note": "Team page: 'All Winnipeg Jets regular season and exhibition games can be heard live on 680 CJOB and Power 97 as well as online at globalnews.ca/radio/cjob'."
+  }
+ ],
+ "league_audio": [
+  {
+   "name": "NHL app team radio feeds",
+   "what": "NHL's official schedule API carries a home/away team radio stream (radioLink HLS feed) for each 2026-27 game; several clubs (Islanders, Capitals, Utah) also list the NHL app as a way to hear their radio broadcast.",
+   "url": null,
+   "source": "https://api-web.nhle.com/v1/schedule/2026-10-10"
+  },
+  {
+   "name": "SiriusXM",
+   "what": "Team radio broadcasts are carried on SiriusXM for some clubs (Islanders, Utah, Sharks and Hurricanes pages mention SiriusXM listings).",
+   "url": null,
+   "source": "https://www.nhl.com/islanders/info/tune-in"
+  },
+  {
+   "name": "NHL national radio",
+   "what": "No national (league-wide) NHL radio rightsholder was found in the 2026-27 sources checked; listen via team flagships/apps.",
+   "url": null,
+   "source": "https://www.nhl.com/info/how-to-watch-and-stream-nhl-games"
+  }
+ ]
+}

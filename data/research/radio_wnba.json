@@ -1,0 +1,295 @@
+{
+ "league": "WNBA",
+ "checked": "2026-10-12",
+ "teams": [
+  {
+   "espn_id": "20",
+   "abbr": "ATL",
+   "team": "Atlanta Dream",
+   "stations": [],
+   "team_audio_url": null,
+   "source": "https://dream.wnba.com/news/atlanta-dream-renews-partnership-with-gray-media-for-local-broadcasts-and-announces-2026-national-broadcast-schedule",
+   "verified": false,
+   "note": "2026 local deal is TV only (Gray Media: WANF / Peachtree TV WPCH / Peachtree Sports Network). No radio partner found for 2025 or 2026. (Wikipedia's 'WANF' entry is the TV station, not radio.)"
+  },
+  {
+   "espn_id": "19",
+   "abbr": "CHI",
+   "team": "Chicago Sky",
+   "stations": [
+    {
+     "call": "WSCR",
+     "freq": "670 AM",
+     "market": "Chicago",
+     "lang": "en",
+     "role": "radio partner",
+     "stream": {
+      "app": "Audacy",
+      "url": null
+     }
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://radioink.com/2025/05/15/chicago-sky-to-take-high-profile-games-to-radio-on-the-score/",
+   "verified": false,
+   "note": "670 The Score (Audacy) carried SELECT Sky games in 2025 only (Audacy app streaming per 2025 search snippets). Sky's 2026 broadcast release (sky.wnba.com) mentions only WCIU The U TV; no 2026 radio deal confirmed. The Score added an FM simulcast on 104.3 in Feb 2026 but no Sky tie confirmed."
+  },
+  {
+   "espn_id": "18",
+   "abbr": "CON",
+   "team": "Connecticut Sun",
+   "stations": [],
+   "team_audio_url": null,
+   "source": "https://www.nbcsportsboston.com/wnba/connecticut-sun/broadcast-schedule-2026-dates-times-how-to-watch/783509/",
+   "verified": false,
+   "note": "2026 coverage found is TV only (NBC Sports Boston 27 games, NBC Connecticut). No radio partner found for 2025 or 2026."
+  },
+  {
+   "espn_id": "3",
+   "abbr": "DAL",
+   "team": "Dallas Wings",
+   "stations": [],
+   "team_audio_url": null,
+   "source": "https://wings.wnba.com/news/dallas-wings-partners-with-tegnas-kfaa-for-broadcast-rights-agreement",
+   "verified": false,
+   "note": "Local deal is TV (TEGNA KFAA + Gray/Corridor regional TV, KCBD Lubbock 2026). No radio flagship found for 2025 or 2026; only national SiriusXM ESPN Xtra for select games."
+  },
+  {
+   "espn_id": "129689",
+   "abbr": "GS",
+   "team": "Golden State Valkyries",
+   "stations": [
+    {
+     "call": "KGMZ-FM",
+     "freq": "95.7 FM",
+     "market": "San Francisco Bay Area",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "Audacy",
+      "url": null
+     }
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://valkyries.wnba.com/news/golden-state-valkyries-announce-local-television-and-radio-broadcast-schedule-20260425",
+   "verified": true,
+   "note": "2026 team release: ALL games stream live on the Audacy App; SELECT games air on 95.7 The Game (17 games Audacy-app only, mostly road). Kevin Danna play-by-play. Multi-year deal (Audacy press 5/14/2025: https://audacyinc.com/press/95-7-the-game-will-be-the-valkyries-flagship-radio-station/)."
+  },
+  {
+   "espn_id": "5",
+   "abbr": "IND",
+   "team": "Indiana Fever",
+   "stations": [
+    {
+     "call": "WIBC-HD2",
+     "freq": "93.5 FM / 107.5 FM",
+     "market": "Indianapolis",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "107.5 The Fan app",
+      "url": "https://1075thefan.com/listen-live"
+     }
+    },
+    {
+     "call": "WIBC",
+     "freq": "93.1 FM",
+     "market": "Indianapolis",
+     "lang": "en",
+     "role": "radio partner",
+     "stream": null
+    },
+    {
+     "call": "WOWO",
+     "freq": "92.3 FM",
+     "market": "Fort Wayne",
+     "lang": "en",
+     "role": "radio partner",
+     "stream": null
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://go.feverbasketball.com/indiana-fever-ways-to-watch",
+   "verified": true,
+   "note": "Team page: all 2026 preseason + regular season games on 93.5/107.5 The Fan (Old National Bank Radio Network). The Fan's 2026 guide (https://1075thefan.com/563334/how-to-listen-indiana-fever-games/) says some games (e.g. May 9/15/17/20/22) air on 93.1 WIBC instead. WOWO 92.3 = first affiliate of new Fever Radio Network, all 44 games + postseason (Radio Ink 5/5/2026, https://radioink.com/?p=103063). John Nolan pbp, Bria Goss analyst."
+  },
+  {
+   "espn_id": "17",
+   "abbr": "LV",
+   "team": "Las Vegas Aces",
+   "stations": [
+    {
+     "call": "KWWN",
+     "freq": "1100 AM",
+     "market": "Las Vegas",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://aces.wnba.com/watch-listen-stream",
+   "verified": false,
+   "note": "Team Watch/Listen page text is for the 2024 season: KWWN/ESPN Radio 1100 AM, plus 7 games on FOX Sports Radio 98.9/1340. Wikipedia lists KWWN as 2025 radio. No 2026 confirmation found."
+  },
+  {
+   "espn_id": "6",
+   "abbr": "LA",
+   "team": "Los Angeles Sparks",
+   "stations": [],
+   "team_audio_url": null,
+   "source": "https://sparks.wnba.com/news/sparks-announce-2026-spectrum-sportsnet-broadcast-schedule",
+   "verified": false,
+   "note": "2026 local deal is TV (Spectrum SportsNet, 14th season). No radio partner found for 2025 or 2026 (last radio deal found: KLAC 570 / KWKU 1220 in 2004)."
+  },
+  {
+   "espn_id": "8",
+   "abbr": "MIN",
+   "team": "Minnesota Lynx",
+   "stations": [
+    {
+     "call": "KFXN-FM",
+     "freq": "100.3 FM",
+     "market": "Minneapolis-St. Paul",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "iHeartRadio (search 'Minnesota Lynx') / Lynx app",
+      "url": null
+     }
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://www.canishoopus.com/2025/4/30/24420677/minnesota-lynx-announce-2025-broadcast-schedule-cheryl-reeve-napheesa-collier-kayla-mcbride",
+   "verified": false,
+   "note": "2025: all 44 games on KFAN 100.3 (KFXN-FM), streamed exclusively on iHeartRadio app + Lynx app, Sloane Martin pbp (search snippet; page 403 on fetch). iHeartMedia multi-year deal began 2023-24. Lynx 2026 broadcast release (fetched) mentions only Victory+ streaming/TV, no radio. A third-party 2026 listing (icdb.tv) cites 'iHeart Radio: Minnesota Lynx' with Sloane Martin, but not an official source."
+  },
+  {
+   "espn_id": "9",
+   "abbr": "NY",
+   "team": "New York Liberty",
+   "stations": [],
+   "team_audio_url": null,
+   "source": "https://www.siriusxm.com/blog/aces-liberty-wnba",
+   "verified": false,
+   "note": "No local radio flagship found for 2025 or 2026. 2026 local coverage is TV (WNYW FOX 5 / WWOR My9, Liberty Live streaming). Only audio found: select national games on SiriusXM ESPN Xtra ch. 81 (2025)."
+  },
+  {
+   "espn_id": "11",
+   "abbr": "PHX",
+   "team": "Phoenix Mercury",
+   "stations": [],
+   "team_audio_url": null,
+   "source": "https://www.azfamily.com/2026/04/22/phoenix-mercury-release-national-broadcast-schedule/",
+   "verified": false,
+   "note": "2026 local deal is TV (Arizona's Family / Gray Media through 2030; Merc+ app). No radio partner found for 2025 or 2026."
+  },
+  {
+   "espn_id": "132052",
+   "abbr": "POR",
+   "team": "Portland Fire",
+   "stations": [
+    {
+     "call": "KMTT",
+     "freq": "910 AM",
+     "market": "Portland, OR",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "Audacy (Portland area only)",
+      "url": null
+     }
+    },
+    {
+     "call": "KRSK",
+     "freq": "105.1 FM",
+     "market": "Portland, OR",
+     "lang": "en",
+     "role": "radio partner",
+     "stream": {
+      "app": "Audacy (Portland area only)",
+      "url": null
+     }
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://www.oursportscentral.com/services/releases/portland-fire-announces-radio-talent-for-2026-debut-season/n-6349271",
+   "verified": true,
+   "note": "Team release 4/16/2026: Audacy exclusive radio rights holder, all regular-season games on 910 ESPN Portland (KMTT-AM); A.J. Kanell pbp, Sophia Jones color. Select-game simulcast on 105.1 The Fan (KRSK-FM) and Audacy-app streaming within Portland area per Audacy/Radio Ink April 2026 coverage (search snippets: https://radioink.com/2026/04/07/portland-fire-thorns-head-to-radio-with-audacy-partnership/)."
+  },
+  {
+   "espn_id": "14",
+   "abbr": "SEA",
+   "team": "Seattle Storm",
+   "stations": [],
+   "team_audio_url": null,
+   "source": "https://storm.wnba.com/news/storm-announce-2026-local-broadcast-schedule",
+   "verified": false,
+   "note": "2026 local deal is TV (KOMO, KUNS/CW, Prime Video in WA). Storm 2026 broadcast-team release (fetched) has no radio; only mention is Dick Fain's personal KJR show. No radio partner found for 2025 or 2026."
+  },
+  {
+   "espn_id": "131935",
+   "abbr": "TOR",
+   "team": "Toronto Tempo",
+   "stations": [],
+   "team_audio_url": null,
+   "source": "https://www.wnba.com/news/wnba-canadian-media-rights-bell-media",
+   "verified": false,
+   "note": "2026 Canadian rights = Bell Media TV/streaming (TSN all Tempo games; CTV/Crave simulcasts). No radio deal (TSN 1050 / Sportsnet 590) found."
+  },
+  {
+   "espn_id": "16",
+   "abbr": "WSH",
+   "team": "Washington Mystics",
+   "stations": [
+    {
+     "call": "WTEM",
+     "freq": "980 AM",
+     "market": "Washington, DC",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "Audacy",
+      "url": null
+     }
+    },
+    {
+     "call": "WJFK-FM",
+     "freq": "106.7 FM",
+     "market": "Washington, DC",
+     "lang": "en",
+     "role": "radio partner",
+     "stream": {
+      "app": "Audacy",
+      "url": null
+     }
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://monumentalsports.com/2024/06/washington-mystics-and-audacy-announce-partnership-for-live-radio-broadcasts/",
+   "verified": false,
+   "note": "Official Audacy deal announced June 2024: The Team 980 flagship (simulcast of MNMT TV audio), select games on 106.7 The Fan / The Bet WJFK-AM, all games on Audacy app. Mystics/MNMT 2026 releases (fetched, 4/23/2026) mention only TV/streaming. Only 2026 evidence is a third-party July 2026 preview (icdb.tv search snippet) citing Team 980 / 106.7 The Fan / Audacy app; not officially confirmed for 2026."
+  }
+ ],
+ "league_audio": [
+  {
+   "name": "WNBA League Pass",
+   "what": "$39.99/yr annual plan; live out-of-market games, on-demand, archives, select alternate and Spanish (ESPN Deportes) broadcasts. Page does NOT mention any audio-only/radio feeds, so no confirmed League Pass audio.",
+   "url": "https://www.wnba.com/leaguepass",
+   "source": "https://www.wnba.com/leaguepass (fetched)"
+  },
+  {
+   "name": "SiriusXM ESPN Xtra (ch. 81) - select WNBA games",
+   "what": "National satellite/app audio for select games: 2026 AT&T WNBA All-Star Game (July 25, 2026) on ESPN Xtra ch. 81 + SiriusXM app; 2026 season opener Fever vs. Wings listed as listen-live on ESPN Xtra ch. 81 + app. 2025 had several regular-season games on ESPN Xtra. Not every game.",
+   "url": "https://www.siriusxm.com/blog/wnba-all-star-game-listen",
+   "source": "https://www.siriusxm.com/blog/wnba-all-star-game-listen (fetched); https://www.siriusxm.com/blog/category/sports/wnba-sports (fetched)"
+  },
+  {
+   "name": "SiriusXM NBA Radio - WNBA Draft",
+   "what": "Live coverage of the 2026 WNBA Draft on SiriusXM NBA Radio.",
+   "url": "https://www.siriusxm.com/blog/wnba-draft",
+   "source": "https://www.siriusxm.com/blog/category/sports/wnba-sports (fetched)"
+  }
+ ]
+}

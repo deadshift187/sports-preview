@@ -32,7 +32,9 @@
   function classify(w, owned, idx) {
     if (w.tba) return { w: w, cat: "pay", color: "orange", owned: false, open: null, viaBundle: false, needsAccount: false, freeNote: "", tba: true, idx: idx };
     var apps = w.apps || [], bundles = w.bundles || [];
-    var isFree = !!(w.free_ota || w.free);
+    // GREEN is proven-only. A free flag is honored only when the listing is CONFIRMED; a guessed
+    // or league-deal "free" drops to have/pay so we never show an unverified channel as free.
+    var isFree = !!(w.free_ota || w.free) && w.confidence === "confirmed";
     var ownedApp = pick(apps, owned), ownedBundle = pick(bundles, owned);
     var cat, open = null, viaBundle = false;
 
@@ -62,7 +64,7 @@
     out.sort(function (a, b) {
       return (CAT[a.cat] - CAT[b.cat]) ||
         ((a.viaBundle ? 1 : 0) - (b.viaBundle ? 1 : 0)) ||
-        ((CONF[a.w.confidence] || 0) - (CONF[b.w.confidence] || 0)) ||
+        ((a.w.confidence in CONF ? CONF[a.w.confidence] : 3) - (b.w.confidence in CONF ? CONF[b.w.confidence] : 3)) ||
         ((a.w.market === "national" ? 0 : 1) - (b.w.market === "national" ? 0 : 1)) ||
         (a.idx - b.idx);
     });

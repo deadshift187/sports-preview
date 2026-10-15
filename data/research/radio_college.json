@@ -1,0 +1,1343 @@
+{
+ "league": "College",
+ "checked": "2026-10-12",
+ "teams": [
+  {
+   "espn_id": "103",
+   "abbr": "BC",
+   "team": "Boston College Eagles",
+   "conference": "ACC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "NOT VERIFIED: session WebSearch budget (200/turn, shared) was exhausted before any search ran, and WebFetch failed (DNS ENOTFOUND on most athletics/network domains; goduke.com returned JS-only shell; guessed clemsontigers.com/seminoles.com radio paths 404). No source read, so no network/flagship recorded per never-guess rule. Re-run in a fresh turn."
+  },
+  {
+   "espn_id": "25",
+   "abbr": "CAL",
+   "team": "California Golden Bears",
+   "conference": "ACC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "NOT VERIFIED: session WebSearch budget (200/turn, shared) was exhausted before any search ran, and WebFetch failed (DNS ENOTFOUND on most athletics/network domains; goduke.com returned JS-only shell; guessed clemsontigers.com/seminoles.com radio paths 404). No source read, so no network/flagship recorded per never-guess rule. Re-run in a fresh turn."
+  },
+  {
+   "espn_id": "228",
+   "abbr": "CLEM",
+   "team": "Clemson Tigers",
+   "conference": "ACC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "NOT VERIFIED: session WebSearch budget (200/turn, shared) was exhausted before any search ran, and WebFetch failed (DNS ENOTFOUND on most athletics/network domains; goduke.com returned JS-only shell; guessed clemsontigers.com/seminoles.com radio paths 404). No source read, so no network/flagship recorded per never-guess rule. Re-run in a fresh turn."
+  },
+  {
+   "espn_id": "150",
+   "abbr": "DUKE",
+   "team": "Duke Blue Devils",
+   "conference": "ACC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "NOT VERIFIED: session WebSearch budget (200/turn, shared) was exhausted before any search ran, and WebFetch failed (DNS ENOTFOUND on most athletics/network domains; goduke.com returned JS-only shell; guessed clemsontigers.com/seminoles.com radio paths 404). No source read, so no network/flagship recorded per never-guess rule. Re-run in a fresh turn."
+  },
+  {
+   "espn_id": "52",
+   "abbr": "FSU",
+   "team": "Florida State Seminoles",
+   "conference": "ACC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "NOT VERIFIED: session WebSearch budget (200/turn, shared) was exhausted before any search ran, and WebFetch failed (DNS ENOTFOUND on most athletics/network domains; goduke.com returned JS-only shell; guessed clemsontigers.com/seminoles.com radio paths 404). No source read, so no network/flagship recorded per never-guess rule. Re-run in a fresh turn."
+  },
+  {
+   "espn_id": "59",
+   "abbr": "GT",
+   "team": "Georgia Tech Yellow Jackets",
+   "conference": "ACC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "NOT VERIFIED: session WebSearch budget (200/turn, shared) was exhausted before any search ran, and WebFetch failed (DNS ENOTFOUND on most athletics/network domains; goduke.com returned JS-only shell; guessed clemsontigers.com/seminoles.com radio paths 404). No source read, so no network/flagship recorded per never-guess rule. Re-run in a fresh turn."
+  },
+  {
+   "espn_id": "97",
+   "abbr": "LOU",
+   "team": "Louisville Cardinals",
+   "conference": "ACC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "NOT VERIFIED: session WebSearch budget (200/turn, shared) was exhausted before any search ran, and WebFetch failed (DNS ENOTFOUND on most athletics/network domains; goduke.com returned JS-only shell; guessed clemsontigers.com/seminoles.com radio paths 404). No source read, so no network/flagship recorded per never-guess rule. Re-run in a fresh turn."
+  },
+  {
+   "espn_id": "2390",
+   "abbr": "MIA",
+   "team": "Miami Hurricanes",
+   "conference": "ACC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "NOT VERIFIED: session WebSearch budget (200/turn, shared) was exhausted before any search ran, and WebFetch failed (DNS ENOTFOUND on most athletics/network domains; goduke.com returned JS-only shell; guessed clemsontigers.com/seminoles.com radio paths 404). No source read, so no network/flagship recorded per never-guess rule. Re-run in a fresh turn."
+  },
+  {
+   "espn_id": "152",
+   "abbr": "NCSU",
+   "team": "NC State Wolfpack",
+   "conference": "ACC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "NOT VERIFIED: session WebSearch budget (200/turn, shared) was exhausted before any search ran, and WebFetch failed (DNS ENOTFOUND on most athletics/network domains; goduke.com returned JS-only shell; guessed clemsontigers.com/seminoles.com radio paths 404). No source read, so no network/flagship recorded per never-guess rule. Re-run in a fresh turn."
+  },
+  {
+   "espn_id": "153",
+   "abbr": "UNC",
+   "team": "North Carolina Tar Heels",
+   "conference": "ACC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "NOT VERIFIED: session WebSearch budget (200/turn, shared) was exhausted before any search ran, and WebFetch failed (DNS ENOTFOUND on most athletics/network domains; goduke.com returned JS-only shell; guessed clemsontigers.com/seminoles.com radio paths 404). No source read, so no network/flagship recorded per never-guess rule. Re-run in a fresh turn."
+  },
+  {
+   "espn_id": "221",
+   "abbr": "PITT",
+   "team": "Pittsburgh Panthers",
+   "conference": "ACC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "NOT VERIFIED: session WebSearch budget (200/turn, shared) was exhausted before any search ran, and WebFetch failed (DNS ENOTFOUND on most athletics/network domains; goduke.com returned JS-only shell; guessed clemsontigers.com/seminoles.com radio paths 404). No source read, so no network/flagship recorded per never-guess rule. Re-run in a fresh turn."
+  },
+  {
+   "espn_id": "2567",
+   "abbr": "SMU",
+   "team": "SMU Mustangs",
+   "conference": "ACC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "NOT VERIFIED: session WebSearch budget (200/turn, shared) was exhausted before any search ran, and WebFetch failed (DNS ENOTFOUND on most athletics/network domains; goduke.com returned JS-only shell; guessed clemsontigers.com/seminoles.com radio paths 404). No source read, so no network/flagship recorded per never-guess rule. Re-run in a fresh turn."
+  },
+  {
+   "espn_id": "24",
+   "abbr": "STAN",
+   "team": "Stanford Cardinal",
+   "conference": "ACC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "NOT VERIFIED: session WebSearch budget (200/turn, shared) was exhausted before any search ran, and WebFetch failed (DNS ENOTFOUND on most athletics/network domains; goduke.com returned JS-only shell; guessed clemsontigers.com/seminoles.com radio paths 404). No source read, so no network/flagship recorded per never-guess rule. Re-run in a fresh turn."
+  },
+  {
+   "espn_id": "183",
+   "abbr": "SYR",
+   "team": "Syracuse Orange",
+   "conference": "ACC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "NOT VERIFIED: session WebSearch budget (200/turn, shared) was exhausted before any search ran, and WebFetch failed (DNS ENOTFOUND on most athletics/network domains; goduke.com returned JS-only shell; guessed clemsontigers.com/seminoles.com radio paths 404). No source read, so no network/flagship recorded per never-guess rule. Re-run in a fresh turn."
+  },
+  {
+   "espn_id": "258",
+   "abbr": "UVA",
+   "team": "Virginia Cavaliers",
+   "conference": "ACC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "NOT VERIFIED: session WebSearch budget (200/turn, shared) was exhausted before any search ran, and WebFetch failed (DNS ENOTFOUND on most athletics/network domains; goduke.com returned JS-only shell; guessed clemsontigers.com/seminoles.com radio paths 404). No source read, so no network/flagship recorded per never-guess rule. Re-run in a fresh turn."
+  },
+  {
+   "espn_id": "259",
+   "abbr": "VT",
+   "team": "Virginia Tech Hokies",
+   "conference": "ACC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "NOT VERIFIED: session WebSearch budget (200/turn, shared) was exhausted before any search ran, and WebFetch failed (DNS ENOTFOUND on most athletics/network domains; goduke.com returned JS-only shell; guessed clemsontigers.com/seminoles.com radio paths 404). No source read, so no network/flagship recorded per never-guess rule. Re-run in a fresh turn."
+  },
+  {
+   "espn_id": "154",
+   "abbr": "WAKE",
+   "team": "Wake Forest Demon Deacons",
+   "conference": "ACC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "NOT VERIFIED: session WebSearch budget (200/turn, shared) was exhausted before any search ran, and WebFetch failed (DNS ENOTFOUND on most athletics/network domains; goduke.com returned JS-only shell; guessed clemsontigers.com/seminoles.com radio paths 404). No source read, so no network/flagship recorded per never-guess rule. Re-run in a fresh turn."
+  },
+  {
+   "espn_id": "87",
+   "abbr": "ND",
+   "team": "Notre Dame Fighting Irish",
+   "conference": "FBS Independent",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "NOT VERIFIED: session WebSearch budget (200/turn, shared) was exhausted before any search ran, and WebFetch failed (DNS ENOTFOUND on most athletics/network domains; goduke.com returned JS-only shell; guessed clemsontigers.com/seminoles.com radio paths 404). No source read, so no network/flagship recorded per never-guess rule. Re-run in a fresh turn. Also check Westwood One national ND package."
+  },
+  {
+   "espn_id": "333",
+   "abbr": "ALA",
+   "team": "Alabama Crimson Tide",
+   "conference": "SEC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not verified 2026-10-12: WebSearch budget exhausted (200/turn shared limit) and DNS resolution failed for all hosts (WebFetch + curl: ENOTFOUND, local DNS 192.168.2.248 timed out). No data entered to avoid guessing; re-run research when network is back."
+  },
+  {
+   "espn_id": "8",
+   "abbr": "ARK",
+   "team": "Arkansas Razorbacks",
+   "conference": "SEC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not verified 2026-10-12: WebSearch budget exhausted (200/turn shared limit) and DNS resolution failed for all hosts (WebFetch + curl: ENOTFOUND, local DNS 192.168.2.248 timed out). No data entered to avoid guessing; re-run research when network is back."
+  },
+  {
+   "espn_id": "2",
+   "abbr": "AUB",
+   "team": "Auburn Tigers",
+   "conference": "SEC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not verified 2026-10-12: WebSearch budget exhausted (200/turn shared limit) and DNS resolution failed for all hosts (WebFetch + curl: ENOTFOUND, local DNS 192.168.2.248 timed out). No data entered to avoid guessing; re-run research when network is back."
+  },
+  {
+   "espn_id": "57",
+   "abbr": "FLA",
+   "team": "Florida Gators",
+   "conference": "SEC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not verified 2026-10-12: WebSearch budget exhausted (200/turn shared limit) and DNS resolution failed for all hosts (WebFetch + curl: ENOTFOUND, local DNS 192.168.2.248 timed out). No data entered to avoid guessing; re-run research when network is back."
+  },
+  {
+   "espn_id": "61",
+   "abbr": "UGA",
+   "team": "Georgia Bulldogs",
+   "conference": "SEC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not verified 2026-10-12: WebSearch budget exhausted (200/turn shared limit) and DNS resolution failed for all hosts (WebFetch + curl: ENOTFOUND, local DNS 192.168.2.248 timed out). No data entered to avoid guessing; re-run research when network is back."
+  },
+  {
+   "espn_id": "96",
+   "abbr": "UK",
+   "team": "Kentucky Wildcats",
+   "conference": "SEC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not verified 2026-10-12: WebSearch budget exhausted (200/turn shared limit) and DNS resolution failed for all hosts (WebFetch + curl: ENOTFOUND, local DNS 192.168.2.248 timed out). No data entered to avoid guessing; re-run research when network is back."
+  },
+  {
+   "espn_id": "99",
+   "abbr": "LSU",
+   "team": "LSU Tigers",
+   "conference": "SEC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not verified 2026-10-12: WebSearch budget exhausted (200/turn shared limit) and DNS resolution failed for all hosts (WebFetch + curl: ENOTFOUND, local DNS 192.168.2.248 timed out). No data entered to avoid guessing; re-run research when network is back."
+  },
+  {
+   "espn_id": "344",
+   "abbr": "MSST",
+   "team": "Mississippi State Bulldogs",
+   "conference": "SEC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not verified 2026-10-12: WebSearch budget exhausted (200/turn shared limit) and DNS resolution failed for all hosts (WebFetch + curl: ENOTFOUND, local DNS 192.168.2.248 timed out). No data entered to avoid guessing; re-run research when network is back."
+  },
+  {
+   "espn_id": "142",
+   "abbr": "MIZ",
+   "team": "Missouri Tigers",
+   "conference": "SEC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not verified 2026-10-12: WebSearch budget exhausted (200/turn shared limit) and DNS resolution failed for all hosts (WebFetch + curl: ENOTFOUND, local DNS 192.168.2.248 timed out). No data entered to avoid guessing; re-run research when network is back."
+  },
+  {
+   "espn_id": "201",
+   "abbr": "OU",
+   "team": "Oklahoma Sooners",
+   "conference": "SEC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not verified 2026-10-12: WebSearch budget exhausted (200/turn shared limit) and DNS resolution failed for all hosts (WebFetch + curl: ENOTFOUND, local DNS 192.168.2.248 timed out). No data entered to avoid guessing; re-run research when network is back."
+  },
+  {
+   "espn_id": "145",
+   "abbr": "MISS",
+   "team": "Ole Miss Rebels",
+   "conference": "SEC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not verified 2026-10-12: WebSearch budget exhausted (200/turn shared limit) and DNS resolution failed for all hosts (WebFetch + curl: ENOTFOUND, local DNS 192.168.2.248 timed out). No data entered to avoid guessing; re-run research when network is back."
+  },
+  {
+   "espn_id": "2579",
+   "abbr": "SC",
+   "team": "South Carolina Gamecocks",
+   "conference": "SEC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not verified 2026-10-12: WebSearch budget exhausted (200/turn shared limit) and DNS resolution failed for all hosts (WebFetch + curl: ENOTFOUND, local DNS 192.168.2.248 timed out). No data entered to avoid guessing; re-run research when network is back."
+  },
+  {
+   "espn_id": "2633",
+   "abbr": "TENN",
+   "team": "Tennessee Volunteers",
+   "conference": "SEC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not verified 2026-10-12: WebSearch budget exhausted (200/turn shared limit) and DNS resolution failed for all hosts (WebFetch + curl: ENOTFOUND, local DNS 192.168.2.248 timed out). No data entered to avoid guessing; re-run research when network is back."
+  },
+  {
+   "espn_id": "251",
+   "abbr": "TEX",
+   "team": "Texas Longhorns",
+   "conference": "SEC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not verified 2026-10-12: WebSearch budget exhausted (200/turn shared limit) and DNS resolution failed for all hosts (WebFetch + curl: ENOTFOUND, local DNS 192.168.2.248 timed out). No data entered to avoid guessing; re-run research when network is back."
+  },
+  {
+   "espn_id": "245",
+   "abbr": "TA&M",
+   "team": "Texas A&M Aggies",
+   "conference": "SEC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not verified 2026-10-12: WebSearch budget exhausted (200/turn shared limit) and DNS resolution failed for all hosts (WebFetch + curl: ENOTFOUND, local DNS 192.168.2.248 timed out). No data entered to avoid guessing; re-run research when network is back."
+  },
+  {
+   "espn_id": "238",
+   "abbr": "VAN",
+   "team": "Vanderbilt Commodores",
+   "conference": "SEC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "",
+   "verified": false,
+   "note": "Not verified 2026-10-12: WebSearch budget exhausted (200/turn shared limit) and DNS resolution failed for all hosts (WebFetch + curl: ENOTFOUND, local DNS 192.168.2.248 timed out). No data entered to avoid guessing; re-run research when network is back."
+  },
+  {
+   "espn_id": "356",
+   "abbr": "ILL",
+   "team": "Illinois Fighting Illini",
+   "conference": "Big Ten",
+   "stations": [],
+   "network": null,
+   "team_audio_url": null,
+   "source": null,
+   "verified": false,
+   "note": "NOT RESEARCHED: 2026-10-12 run hit the shared WebSearch cap (200/turn) and local DNS failed for all WebFetch calls (getaddrinfo ENOTFOUND), so no page was read. Values left empty on purpose instead of guessed; re-run when network/search budget is available."
+  },
+  {
+   "espn_id": "84",
+   "abbr": "IU",
+   "team": "Indiana Hoosiers",
+   "conference": "Big Ten",
+   "stations": [],
+   "network": null,
+   "team_audio_url": null,
+   "source": null,
+   "verified": false,
+   "note": "NOT RESEARCHED: 2026-10-12 run hit the shared WebSearch cap (200/turn) and local DNS failed for all WebFetch calls (getaddrinfo ENOTFOUND), so no page was read. Values left empty on purpose instead of guessed; re-run when network/search budget is available."
+  },
+  {
+   "espn_id": "2294",
+   "abbr": "IOWA",
+   "team": "Iowa Hawkeyes",
+   "conference": "Big Ten",
+   "stations": [],
+   "network": null,
+   "team_audio_url": null,
+   "source": null,
+   "verified": false,
+   "note": "NOT RESEARCHED: 2026-10-12 run hit the shared WebSearch cap (200/turn) and local DNS failed for all WebFetch calls (getaddrinfo ENOTFOUND), so no page was read. Values left empty on purpose instead of guessed; re-run when network/search budget is available."
+  },
+  {
+   "espn_id": "120",
+   "abbr": "MD",
+   "team": "Maryland Terrapins",
+   "conference": "Big Ten",
+   "stations": [],
+   "network": null,
+   "team_audio_url": null,
+   "source": null,
+   "verified": false,
+   "note": "NOT RESEARCHED: 2026-10-12 run hit the shared WebSearch cap (200/turn) and local DNS failed for all WebFetch calls (getaddrinfo ENOTFOUND), so no page was read. Values left empty on purpose instead of guessed; re-run when network/search budget is available."
+  },
+  {
+   "espn_id": "130",
+   "abbr": "MICH",
+   "team": "Michigan Wolverines",
+   "conference": "Big Ten",
+   "stations": [],
+   "network": null,
+   "team_audio_url": null,
+   "source": null,
+   "verified": false,
+   "note": "NOT RESEARCHED: 2026-10-12 run hit the shared WebSearch cap (200/turn) and local DNS failed for all WebFetch calls (getaddrinfo ENOTFOUND), so no page was read. Values left empty on purpose instead of guessed; re-run when network/search budget is available."
+  },
+  {
+   "espn_id": "127",
+   "abbr": "MSU",
+   "team": "Michigan State Spartans",
+   "conference": "Big Ten",
+   "stations": [],
+   "network": null,
+   "team_audio_url": null,
+   "source": null,
+   "verified": false,
+   "note": "NOT RESEARCHED: 2026-10-12 run hit the shared WebSearch cap (200/turn) and local DNS failed for all WebFetch calls (getaddrinfo ENOTFOUND), so no page was read. Values left empty on purpose instead of guessed; re-run when network/search budget is available."
+  },
+  {
+   "espn_id": "135",
+   "abbr": "MINN",
+   "team": "Minnesota Golden Gophers",
+   "conference": "Big Ten",
+   "stations": [],
+   "network": null,
+   "team_audio_url": null,
+   "source": null,
+   "verified": false,
+   "note": "NOT RESEARCHED: 2026-10-12 run hit the shared WebSearch cap (200/turn) and local DNS failed for all WebFetch calls (getaddrinfo ENOTFOUND), so no page was read. Values left empty on purpose instead of guessed; re-run when network/search budget is available."
+  },
+  {
+   "espn_id": "158",
+   "abbr": "NEB",
+   "team": "Nebraska Cornhuskers",
+   "conference": "Big Ten",
+   "stations": [],
+   "network": null,
+   "team_audio_url": null,
+   "source": null,
+   "verified": false,
+   "note": "NOT RESEARCHED: 2026-10-12 run hit the shared WebSearch cap (200/turn) and local DNS failed for all WebFetch calls (getaddrinfo ENOTFOUND), so no page was read. Values left empty on purpose instead of guessed; re-run when network/search budget is available."
+  },
+  {
+   "espn_id": "77",
+   "abbr": "NU",
+   "team": "Northwestern Wildcats",
+   "conference": "Big Ten",
+   "stations": [],
+   "network": null,
+   "team_audio_url": null,
+   "source": null,
+   "verified": false,
+   "note": "NOT RESEARCHED: 2026-10-12 run hit the shared WebSearch cap (200/turn) and local DNS failed for all WebFetch calls (getaddrinfo ENOTFOUND), so no page was read. Values left empty on purpose instead of guessed; re-run when network/search budget is available."
+  },
+  {
+   "espn_id": "194",
+   "abbr": "OSU",
+   "team": "Ohio State Buckeyes",
+   "conference": "Big Ten",
+   "stations": [],
+   "network": null,
+   "team_audio_url": null,
+   "source": null,
+   "verified": false,
+   "note": "NOT RESEARCHED: 2026-10-12 run hit the shared WebSearch cap (200/turn) and local DNS failed for all WebFetch calls (getaddrinfo ENOTFOUND), so no page was read. Values left empty on purpose instead of guessed; re-run when network/search budget is available."
+  },
+  {
+   "espn_id": "2483",
+   "abbr": "ORE",
+   "team": "Oregon Ducks",
+   "conference": "Big Ten",
+   "stations": [],
+   "network": null,
+   "team_audio_url": null,
+   "source": null,
+   "verified": false,
+   "note": "NOT RESEARCHED: 2026-10-12 run hit the shared WebSearch cap (200/turn) and local DNS failed for all WebFetch calls (getaddrinfo ENOTFOUND), so no page was read. Values left empty on purpose instead of guessed; re-run when network/search budget is available."
+  },
+  {
+   "espn_id": "213",
+   "abbr": "PSU",
+   "team": "Penn State Nittany Lions",
+   "conference": "Big Ten",
+   "stations": [],
+   "network": null,
+   "team_audio_url": null,
+   "source": null,
+   "verified": false,
+   "note": "NOT RESEARCHED: 2026-10-12 run hit the shared WebSearch cap (200/turn) and local DNS failed for all WebFetch calls (getaddrinfo ENOTFOUND), so no page was read. Values left empty on purpose instead of guessed; re-run when network/search budget is available."
+  },
+  {
+   "espn_id": "2509",
+   "abbr": "PUR",
+   "team": "Purdue Boilermakers",
+   "conference": "Big Ten",
+   "stations": [],
+   "network": null,
+   "team_audio_url": null,
+   "source": null,
+   "verified": false,
+   "note": "NOT RESEARCHED: 2026-10-12 run hit the shared WebSearch cap (200/turn) and local DNS failed for all WebFetch calls (getaddrinfo ENOTFOUND), so no page was read. Values left empty on purpose instead of guessed; re-run when network/search budget is available."
+  },
+  {
+   "espn_id": "164",
+   "abbr": "RUTG",
+   "team": "Rutgers Scarlet Knights",
+   "conference": "Big Ten",
+   "stations": [],
+   "network": null,
+   "team_audio_url": null,
+   "source": null,
+   "verified": false,
+   "note": "NOT RESEARCHED: 2026-10-12 run hit the shared WebSearch cap (200/turn) and local DNS failed for all WebFetch calls (getaddrinfo ENOTFOUND), so no page was read. Values left empty on purpose instead of guessed; re-run when network/search budget is available."
+  },
+  {
+   "espn_id": "26",
+   "abbr": "UCLA",
+   "team": "UCLA Bruins",
+   "conference": "Big Ten",
+   "stations": [],
+   "network": null,
+   "team_audio_url": null,
+   "source": null,
+   "verified": false,
+   "note": "NOT RESEARCHED: 2026-10-12 run hit the shared WebSearch cap (200/turn) and local DNS failed for all WebFetch calls (getaddrinfo ENOTFOUND), so no page was read. Values left empty on purpose instead of guessed; re-run when network/search budget is available."
+  },
+  {
+   "espn_id": "30",
+   "abbr": "USC",
+   "team": "USC Trojans",
+   "conference": "Big Ten",
+   "stations": [],
+   "network": null,
+   "team_audio_url": null,
+   "source": null,
+   "verified": false,
+   "note": "NOT RESEARCHED: 2026-10-12 run hit the shared WebSearch cap (200/turn) and local DNS failed for all WebFetch calls (getaddrinfo ENOTFOUND), so no page was read. Values left empty on purpose instead of guessed; re-run when network/search budget is available."
+  },
+  {
+   "espn_id": "264",
+   "abbr": "WASH",
+   "team": "Washington Huskies",
+   "conference": "Big Ten",
+   "stations": [],
+   "network": null,
+   "team_audio_url": null,
+   "source": null,
+   "verified": false,
+   "note": "NOT RESEARCHED: 2026-10-12 run hit the shared WebSearch cap (200/turn) and local DNS failed for all WebFetch calls (getaddrinfo ENOTFOUND), so no page was read. Values left empty on purpose instead of guessed; re-run when network/search budget is available."
+  },
+  {
+   "espn_id": "275",
+   "abbr": "WIS",
+   "team": "Wisconsin Badgers",
+   "conference": "Big Ten",
+   "stations": [],
+   "network": null,
+   "team_audio_url": null,
+   "source": null,
+   "verified": false,
+   "note": "NOT RESEARCHED: 2026-10-12 run hit the shared WebSearch cap (200/turn) and local DNS failed for all WebFetch calls (getaddrinfo ENOTFOUND), so no page was read. Values left empty on purpose instead of guessed; re-run when network/search budget is available."
+  },
+  {
+   "espn_id": "12",
+   "abbr": "ARIZ",
+   "team": "Arizona Wildcats",
+   "conference": "Big 12",
+   "stations": [
+    {
+     "call": "",
+     "freq": "1290 AM",
+     "market": "Tucson",
+     "lang": "en",
+     "role": "affiliate",
+     "sports": [
+      "football",
+      "mbb"
+     ],
+     "stream": {
+      "app": "wildcatsradio1290.com",
+      "url": "https://wildcatsradio1290.com"
+     }
+    },
+    {
+     "call": "",
+     "freq": "92.5 FM",
+     "market": "Tucson",
+     "lang": "es",
+     "role": "spanish",
+     "sports": [
+      "football"
+     ],
+     "stream": {
+      "app": "Urbana Tucson app",
+      "url": "https://urbanatucson.com"
+     }
+    }
+   ],
+   "network": "Arizona Wildcats Sports Network (Learfield)",
+   "team_audio_url": "https://arizonawildcats.com/sports/2016/8/16/live-audio",
+   "source": "https://arizonawildcats.com/news/2025/12/3/mens-basketball-tommy-lloyd-radio-show-begins-dec-11",
+   "verified": false,
+   "note": "The 2025 and 2026 articles (Lloyd show, plus https://arizonawildcats.com/news/2026/8/26/brent-brennan-radio-show-2026) confirm that the Voice of the Wildcats does the coaches' shows on 'Wildcats Radio 1290 AM'. They do not name the call letters or explicitly call it the game flagship. The network name comes from affiliateresources.learfield.com/arizona/, whose station list is password-protected. The Spanish home-game broadcasts on Urbana 92.5 FM come from a 2024 article (https://arizonawildcats.com/news/2024/10/5/...)."
+  },
+  {
+   "espn_id": "9",
+   "abbr": "ASU",
+   "team": "Arizona State Sun Devils",
+   "conference": "Big 12",
+   "stations": [
+    {
+     "call": "KMVP",
+     "freq": "98.7 FM",
+     "market": "Phoenix",
+     "lang": "en",
+     "role": "flagship",
+     "sports": [
+      "football",
+      "mbb"
+     ],
+     "stream": {
+      "app": "Arizona Sports App",
+      "url": null
+     }
+    }
+   ],
+   "network": "Sun Devil Radio Network",
+   "team_audio_url": "https://thesundevils.com/media-coverage",
+   "source": "https://thesundevils.com/media-coverage",
+   "verified": true,
+   "note": "Live official page says 'Phoenix - Flagship Station KMVP 98.7FM Football, Men's Basketball' and that FB/MBB stream free on the Arizona Sports App; FB, MBB, WBB and baseball also on SiriusXM. Page content itself carries no season year."
+  },
+  {
+   "espn_id": "239",
+   "abbr": "BAY",
+   "team": "Baylor Bears",
+   "conference": "Big 12",
+   "stations": [
+    {
+     "call": "KRZI",
+     "freq": "1660 AM / 92.3 FM",
+     "market": "Waco",
+     "lang": "en",
+     "role": "flagship",
+     "sports": [
+      "football",
+      "mbb"
+     ],
+     "stream": {
+      "app": "CenTexSportsFan.com",
+      "url": "https://www.centexsportsfan.com/"
+     }
+    },
+    {
+     "call": "",
+     "freq": "101.9 FM",
+     "market": "Temple",
+     "lang": "en",
+     "role": "affiliate",
+     "sports": [
+      "football",
+      "mbb"
+     ],
+     "stream": null
+    }
+   ],
+   "network": "Baylor Sports Media Network (Playfly Sports)",
+   "team_audio_url": "https://baylorbears.com/watch/?Live=7090&type=Live&path=radio",
+   "source": "https://baylorbears.com/news/2026/6/29/gandy-jackson-to-join-baylor-football-radio-crew",
+   "verified": false,
+   "note": "2025 and 2026 articles confirm the network name and Playfly (also https://baylorbears.com/news/2025/8/21/football-nick-florence-to-join-baylor-sports-media-network). KRZI '(flagship)' comes from https://baylorbears.com/sports/2018/5/17/radio, an older page that still lists SiriusXM as 'TBD'. The baylorbears.com homepage (2026) links 'Listen Online' to centexsportsfan.com, which is the KRZI site."
+  },
+  {
+   "espn_id": "252",
+   "abbr": "BYU",
+   "team": "BYU Cougars",
+   "conference": "Big 12",
+   "stations": [
+    {
+     "call": "KSL",
+     "freq": "102.7 FM / 1160 AM",
+     "market": "Salt Lake City",
+     "lang": "en",
+     "role": "affiliate",
+     "sports": [
+      "football",
+      "mbb"
+     ],
+     "stream": null
+    },
+    {
+     "call": "BYUradio",
+     "freq": "SiriusXM 143",
+     "market": "National",
+     "lang": "en",
+     "role": "affiliate",
+     "sports": [
+      "football",
+      "mbb"
+     ],
+     "stream": {
+      "app": "BYUradio",
+      "url": "https://www.byuradio.org"
+     }
+    }
+   ],
+   "network": "KSL News Radio + BYUradio (network name not stated)",
+   "team_audio_url": "https://byucougars.com/how-to-watch-byu-this-season",
+   "source": "https://byucougars.com/how-to-watch-byu-this-season",
+   "verified": true,
+   "note": "The official how-to page (2026) lists 'KSL News Radio 102.7 FM/1160 AM: Live game broadcasts of football and men's basketball' and 'BYU Radio: listen live on BYUradio.org and Sirius XM 143'. It does not use the word 'flagship'. ESPN 960 carries women's soccer and baseball. BYU site nav also links 'Sirius XM Big 12 Radio', but that siriusxm.com URL returned 404."
+  },
+  {
+   "espn_id": "2116",
+   "abbr": "UCF",
+   "team": "UCF Knights",
+   "conference": "Big 12",
+   "stations": [
+    {
+     "call": "",
+     "freq": "96.9 FM",
+     "market": "Orlando",
+     "lang": "en",
+     "role": "affiliate",
+     "sports": [
+      "football"
+     ],
+     "stream": {
+      "app": "iHeartRadio",
+      "url": "https://www.iheart.com/live/969-the-game-601/"
+     }
+    }
+   ],
+   "network": "",
+   "team_audio_url": "https://www.iheart.com/live/969-the-game-601/",
+   "source": "https://ucfknights.com/news/2026/08/24/quarterback-alonza-barnett-iii-honored-on-manning-award-watch-list",
+   "verified": false,
+   "note": "The only radio signal found: ucfknights.com's site-wide 'Listen Live' link points to iHeart '96.9 The Game, Orlando's Sports Leader'. No page naming UCF's network, flagship or MBB station was found (search budget was exhausted). Sports and role are unconfirmed."
+  },
+  {
+   "espn_id": "2132",
+   "abbr": "CIN",
+   "team": "Cincinnati Bearcats",
+   "conference": "Big 12",
+   "stations": [
+    {
+     "call": "WLW",
+     "freq": "700 AM",
+     "market": "Cincinnati",
+     "lang": "en",
+     "role": "flagship",
+     "sports": [
+      "football"
+     ],
+     "stream": {
+      "app": "iHeartRadio",
+      "url": null
+     }
+    },
+    {
+     "call": "WEBN",
+     "freq": "102.7 FM",
+     "market": "Cincinnati",
+     "lang": "en",
+     "role": "flagship",
+     "sports": [
+      "football"
+     ],
+     "stream": {
+      "app": "iHeartRadio",
+      "url": null
+     }
+    },
+    {
+     "call": "WCKY",
+     "freq": "1530 AM",
+     "market": "Cincinnati",
+     "lang": "en",
+     "role": "flagship",
+     "sports": [
+      "football"
+     ],
+     "stream": null
+    },
+    {
+     "call": "WSAI",
+     "freq": "1360 AM",
+     "market": "Cincinnati",
+     "lang": "en",
+     "role": "flagship",
+     "sports": [
+      "football"
+     ],
+     "stream": null
+    }
+   ],
+   "network": "Cincinnati Bearcats Football Radio Network",
+   "team_audio_url": "https://gobearcats.com/news/2026/08/18/cincinnati-announces-2026-football-radio-crew-and-coach-satterfield-show-schedule",
+   "source": "https://gobearcats.com/news/2026/08/18/cincinnati-announces-2026-football-radio-crew-and-coach-satterfield-show-schedule",
+   "verified": true,
+   "note": "2026 article: broadcasts are 'heard across flagship stations 700 WLW, 1530 WCKY, and 1360 WSAI, as well as streaming via the iHeartRadio app'. The per-game flagship is 700 WLW for most games, and 102.7 WEBN for early games that conflict with the Reds. MBB radio station is NOT confirmed; the 10/7/2026 MBB exhibition 'Listen Live' linked to YouTube."
+  },
+  {
+   "espn_id": "38",
+   "abbr": "COLO",
+   "team": "Colorado Buffaloes",
+   "conference": "Big 12",
+   "stations": [
+    {
+     "call": "KOA",
+     "freq": "850 AM",
+     "market": "Denver",
+     "lang": "en",
+     "role": "affiliate",
+     "sports": [
+      "football",
+      "mbb"
+     ],
+     "stream": {
+      "app": "Varsity Network app (Learfield)",
+      "url": "https://thevarsitynetwork.com/"
+     }
+    }
+   ],
+   "network": "Colorado Radio Network (Learfield)",
+   "team_audio_url": "https://cubuffs.com/sports/2007/10/9/1265154",
+   "source": "https://cubuffs.com/sports/2007/10/9/1265154",
+   "verified": true,
+   "note": "The live official 'Colorado Radio Network' page shows 'Colorado Buffaloes On 850 KOA'. Mark Johnson is in his 23rd year calling FB/MBB, and Gary Barnett is in his 11th full season on the KOA team. The Learfield affiliate list (affiliateresources.learfield.com/colorado-buffaloes/) shows Denver KOA 850 AM for football and MBB. The word 'flagship' is not used. The Varsity App is linked from the Learfield page."
+  },
+  {
+   "espn_id": "248",
+   "abbr": "HOU",
+   "team": "Houston Cougars",
+   "conference": "Big 12",
+   "stations": [
+    {
+     "call": "KPRC",
+     "freq": "950 AM",
+     "market": "Houston",
+     "lang": "en",
+     "role": "affiliate",
+     "sports": [
+      "football",
+      "mbb"
+     ],
+     "stream": {
+      "app": "Varsity Network app (Learfield)",
+      "url": "https://thevarsitynetwork.com/audioapplink/source/university-of-houston:oas-1504"
+     }
+    }
+   ],
+   "network": "Houston Cougars radio (Learfield; network name not stated)",
+   "team_audio_url": "https://uhcougars.com/watch",
+   "source": "https://affiliateresources.learfield.com/houston-cougars/",
+   "verified": true,
+   "note": "The Learfield affiliate list (c2026) shows Houston KPRC 950 AM for football and MBB. The list does not label a flagship. Varsity app deep link is from the uhcougars.com homepage."
+  },
+  {
+   "espn_id": "66",
+   "abbr": "ISU",
+   "team": "Iowa State Cyclones",
+   "conference": "Big 12",
+   "stations": [
+    {
+     "call": "KXNO",
+     "freq": "1460 AM",
+     "market": "Des Moines",
+     "lang": "en",
+     "role": "affiliate",
+     "sports": [
+      "football",
+      "mbb"
+     ],
+     "stream": null
+    },
+    {
+     "call": "KDRB",
+     "freq": "100.3 FM",
+     "market": "Des Moines",
+     "lang": "en",
+     "role": "affiliate",
+     "sports": [
+      "football",
+      "mbb"
+     ],
+     "stream": null
+    },
+    {
+     "call": "KASI",
+     "freq": "1430 AM",
+     "market": "Ames",
+     "lang": "en",
+     "role": "affiliate",
+     "sports": [
+      "football",
+      "mbb"
+     ],
+     "stream": null
+    },
+    {
+     "call": "KCYZ",
+     "freq": "105.1 FM",
+     "market": "Ames",
+     "lang": "en",
+     "role": "affiliate",
+     "sports": [
+      "football",
+      "mbb"
+     ],
+     "stream": null
+    }
+   ],
+   "network": "Iowa State Cyclones radio network (Learfield; full name not stated)",
+   "team_audio_url": "https://thevarsitynetwork.com/feed/source/oas-1022?path=general",
+   "source": "https://affiliateresources.learfield.com/iowa-state-cyclones/",
+   "verified": true,
+   "note": "Stations come from the Learfield affiliate list (c2026), which does not label a flagship. cyclones.com links 'Radio Network' to that list and also links 'Varsity Network (Radio)' and 'TuneIn Radio' (https://tunein.com/search/?query=iowa%20state%20athletics). SiriusXM is also listed on the Learfield page."
+  },
+  {
+   "espn_id": "2305",
+   "abbr": "KU",
+   "team": "Kansas Jayhawks",
+   "conference": "Big 12",
+   "stations": [
+    {
+     "call": "KLWN",
+     "freq": "1320 AM / 101.7 FM",
+     "market": "Lawrence",
+     "lang": "en",
+     "role": "affiliate",
+     "sports": [
+      "football",
+      "mbb"
+     ],
+     "stream": null
+    },
+    {
+     "call": "KMXN",
+     "freq": "92.9 FM",
+     "market": "Lawrence",
+     "lang": "en",
+     "role": "affiliate",
+     "sports": [
+      "football",
+      "mbb"
+     ],
+     "stream": null
+    },
+    {
+     "call": "KKSW",
+     "freq": "105.9 FM",
+     "market": "Lawrence",
+     "lang": "en",
+     "role": "affiliate",
+     "sports": [
+      "football",
+      "mbb"
+     ],
+     "stream": null
+    },
+    {
+     "call": "WHB",
+     "freq": "810 AM",
+     "market": "Kansas City",
+     "lang": "en",
+     "role": "affiliate",
+     "sports": [
+      "football",
+      "mbb"
+     ],
+     "stream": null
+    }
+   ],
+   "network": "Jayhawk Sports Network (Learfield)",
+   "team_audio_url": "https://kuathletics.leanplayer.com/",
+   "source": "https://affiliateresources.learfield.com/kansas-jayhawks/",
+   "verified": true,
+   "note": "The network name comes from https://kuathletics.com/sports/2024/6/27/jayhawk-sports-network.aspx (2026 Hawk Talk schedules). Stations come from the Learfield list (c2026), which does not label a flagship. A 2024 KU article moved MBB from 105.9 FM to 92.9 FM 'The Bull'. Live and on-demand audio is at kuathletics.leanplayer.com, plus the Varsity App."
+  },
+  {
+   "espn_id": "2306",
+   "abbr": "KSU",
+   "team": "Kansas State Wildcats",
+   "conference": "Big 12",
+   "stations": [
+    {
+     "call": "KMAN",
+     "freq": "1350 AM / 93.3 FM",
+     "market": "Manhattan",
+     "lang": "en",
+     "role": "flagship",
+     "sports": [
+      "football",
+      "mbb"
+     ],
+     "stream": {
+      "app": "K-StateHD.TV / Varsity Network app",
+      "url": "https://thevarsitynetwork.com/audioapplink/source/kansas-state-university:oas-1358/content/kstate:allaccess-Live-5617"
+     }
+    },
+    {
+     "call": "KFNZ",
+     "freq": "610 AM / 96.5 FM",
+     "market": "Kansas City",
+     "lang": "en",
+     "role": "affiliate",
+     "sports": [
+      "football",
+      "mbb"
+     ],
+     "stream": null
+    },
+    {
+     "call": "WIBW",
+     "freq": "580 AM / 104.9 FM",
+     "market": "Topeka",
+     "lang": "en",
+     "role": "affiliate",
+     "sports": [
+      "football",
+      "mbb"
+     ],
+     "stream": null
+    },
+    {
+     "call": "KFH",
+     "freq": "1240 AM / 97.5 FM",
+     "market": "Wichita",
+     "lang": "en",
+     "role": "affiliate",
+     "sports": [
+      "football",
+      "mbb"
+     ],
+     "stream": null
+    }
+   ],
+   "network": "K-State Sports Network (Learfield)",
+   "team_audio_url": "https://www.kstatesports.com/sports/2015/6/29/_131476204439108399",
+   "source": "https://www.kstatesports.com/sports/2015/6/29/_131476204439108399",
+   "verified": true,
+   "note": "The official page has 2026 and 2026-27 show schedules. It calls KMAN (1350/93.3/93.7) 'the network's flagship station' and lists KMAN Manhattan under 'All Network Affiliates (Football, Men's Basketball)'. It also lists SiriusXM, K-StateHD.TV, TuneIn and the Gameday app. Learfield's deal runs through spring 2028."
+  },
+  {
+   "espn_id": "197",
+   "abbr": "OKST",
+   "team": "Oklahoma State Cowboys",
+   "conference": "Big 12",
+   "stations": [
+    {
+     "call": "KSPI",
+     "freq": "93.7 FM",
+     "market": "Stillwater",
+     "lang": "en",
+     "role": "flagship",
+     "sports": [
+      "football",
+      "mbb"
+     ],
+     "stream": {
+      "app": "Varsity Network / Go Pokes / KSPI apps",
+      "url": "https://thevarsitynetwork.com/audioapplink"
+     }
+    },
+    {
+     "call": "KXXY",
+     "freq": "96.1 FM",
+     "market": "Oklahoma City",
+     "lang": "en",
+     "role": "affiliate",
+     "sports": [
+      "football",
+      "mbb"
+     ],
+     "stream": null
+    },
+    {
+     "call": "KOTV",
+     "freq": "1170 AM",
+     "market": "Tulsa",
+     "lang": "en",
+     "role": "affiliate",
+     "sports": [
+      "football",
+      "mbb"
+     ],
+     "stream": null
+    }
+   ],
+   "network": "Cowboy Radio Network (Learfield / Cowboy Sports Properties)",
+   "team_audio_url": "https://okstate.com/watch",
+   "source": "https://okstate.com/news/2024/8/12/general-stillwater-radio-to-continue-as-flagship-broadcast-partner-for-oklahoma-state-athletics",
+   "verified": true,
+   "note": "A 2024 article announced a six-year extension: Stillwater Radio is the 'flagship broadcast partner', and HOT 93.7 (KSPI-FM) airs all FB, MBB, baseball and wrestling. Streams are at StillwaterRadio.net, OkState.com, and the KSPI, Go Pokes and Varsity apps. A 2026 article (https://okstate.com/news/2026/4/16/...) confirms the Cowboy Radio Network name. OKC and Tulsa stations come from the Learfield list (c2026) and the okstate.com Radio Network page."
+  },
+  {
+   "espn_id": "2628",
+   "abbr": "TCU",
+   "team": "TCU Horned Frogs",
+   "conference": "Big 12",
+   "stations": [
+    {
+     "call": "KZPS",
+     "freq": "92.5 FM",
+     "market": "Dallas-Fort Worth",
+     "lang": "en",
+     "role": "flagship",
+     "sports": [
+      "football"
+     ],
+     "stream": {
+      "app": "iHeartRadio / Varsity Network / Riff Ram app",
+      "url": null
+     }
+    },
+    {
+     "call": "KFXR",
+     "freq": "1190 AM",
+     "market": "Dallas-Fort Worth",
+     "lang": "en",
+     "role": "affiliate",
+     "sports": [
+      "mbb"
+     ],
+     "stream": {
+      "app": "iHeartRadio",
+      "url": null
+     }
+    },
+    {
+     "call": "KTNO",
+     "freq": "620 AM",
+     "market": "Fort Worth/Dallas",
+     "lang": "es",
+     "role": "spanish",
+     "sports": [
+      "football"
+     ],
+     "stream": null
+    }
+   ],
+   "network": "Horned Frogs Sports Network (Learfield)",
+   "team_audio_url": "https://gofrogs.com/sports/2018/7/24/tcu-sports-network-home",
+   "source": "https://gofrogs.com/sports/2018/7/24/tcu-sports-network-home",
+   "verified": true,
+   "note": "Live official page: 'flagship station KZPS 92.5 FM' (iHeart Lone Star 92.5). MBB's 'new home' is iHeart Talk Radio 1190 AM (KFXR). Listening options on mobile are the iHeart app, the Varsity App and the Riff Ram App. Spanish football is on KTNO 620 AM. The radio content has no season date."
+  },
+  {
+   "espn_id": "2641",
+   "abbr": "TTU",
+   "team": "Texas Tech Red Raiders",
+   "conference": "Big 12",
+   "stations": [
+    {
+     "call": "KTTU",
+     "freq": "950 AM / 97.3 FM",
+     "market": "Lubbock",
+     "lang": "en",
+     "role": "affiliate",
+     "sports": [
+      "football",
+      "mbb"
+     ],
+     "stream": null
+    },
+    {
+     "call": "KJTV",
+     "freq": "100.7 FM",
+     "market": "Lubbock",
+     "lang": "en",
+     "role": "affiliate",
+     "sports": [
+      "football",
+      "mbb"
+     ],
+     "stream": null
+    },
+    {
+     "call": "KXTQ",
+     "freq": "106.5 FM",
+     "market": "Lubbock",
+     "lang": "en",
+     "role": "affiliate",
+     "sports": [
+      "football"
+     ],
+     "stream": null
+    }
+   ],
+   "network": "Texas Tech Red Raiders radio network (Learfield; full name not stated)",
+   "team_audio_url": "https://texastech.com/sports/2016/6/8/sponsorship-rrsp-affiliates-html",
+   "source": "https://affiliateresources.learfield.com/texas-tech-red-raiders/",
+   "verified": true,
+   "note": "The texastech.com 'Sports Network' link resolves to the Learfield affiliate list (c2026). The list does not label a flagship, and it links the Varsity App, SiriusXM and TuneIn."
+  },
+  {
+   "espn_id": "254",
+   "abbr": "UTAH",
+   "team": "Utah Utes",
+   "conference": "Big 12",
+   "stations": [
+    {
+     "call": "KALL",
+     "freq": "700 AM / 92.1 FM (ESPN 700)",
+     "market": "Salt Lake City",
+     "lang": "en",
+     "role": "flagship",
+     "sports": [
+      "football",
+      "mbb"
+     ],
+     "stream": {
+      "app": "ESPN 700/92.1 app",
+      "url": "https://espn700sports.com/"
+     }
+    }
+   ],
+   "network": "Utah radio network (Crimson Brand Partners)",
+   "team_audio_url": "https://utahutes.com/sports/2023/7/26/utah-utes-radio-flagship-espn-700-92-1-kall.aspx",
+   "source": "https://utahutes.com/sports/2023/7/26/utah-utes-radio-flagship-espn-700-92-1-kall.aspx",
+   "verified": true,
+   "note": "Page 'Utah Utes Flagship Radio - ESPN 700 & 92.1 KALL' (Bill Riley is in his 18th year as Voice in 2026-27). All FB/MBB games stream via UtahUtes.com and the ESPN 700/92.1 app, and also air on SiriusXM."
+  },
+  {
+   "espn_id": "277",
+   "abbr": "WVU",
+   "team": "West Virginia Mountaineers",
+   "conference": "Big 12",
+   "stations": [
+    {
+     "call": "WVAQ",
+     "freq": "101.9 FM",
+     "market": "Morgantown",
+     "lang": "en",
+     "role": "flagship",
+     "sports": [
+      "football",
+      "mbb"
+     ],
+     "stream": {
+      "app": "Varsity Network app (Learfield)",
+      "url": "https://wvusports.com/VarsityNetwork"
+     }
+    },
+    {
+     "call": "WAJR",
+     "freq": "1440 AM / 104.5 FM",
+     "market": "Morgantown",
+     "lang": "en",
+     "role": "flagship",
+     "sports": [
+      "football",
+      "mbb"
+     ],
+     "stream": null
+    },
+    {
+     "call": "WJFA",
+     "freq": "98.7 FM / 910 AM",
+     "market": "Pittsburgh, PA",
+     "lang": "en",
+     "role": "affiliate",
+     "sports": [
+      "football"
+     ],
+     "stream": null
+    }
+   ],
+   "network": "Mountaineer Sports Network (Learfield)",
+   "team_audio_url": "https://wvusports.com/VarsityNetwork",
+   "source": "https://wvusports.com/news/2026/7/1/athletics-communications-new-flagship-affiliates-for-msn-radio-from-learfield",
+   "verified": true,
+   "note": "July 2026 article says WVAQ and WAJR return as flagships starting with the 2026 season. WAJR is given as 1440 AM in that article, but the Learfield list shows 1140 AM, so the AM frequency is uncertain. The Pittsburgh affiliate comes from the Learfield list (c2026)."
+  }
+ ]
+}

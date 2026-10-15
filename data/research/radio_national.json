@@ -1,0 +1,542 @@
+{
+ "_note": "National / satellite / league-wide audio rules applied to every matching game by refresh.py build_listen. SiriusXM fixed league channels are the always-available baseline (no scraping, stable year-round, re-verify each season). Per-game SiriusXM sat/app numbers are NOT hardcoded (reassigned daily). Sourced in OUTPOST TOOLKIT\\apps\\GAMEFINDER-RADIO-FEEDS.md (live siriusxm.com inspection 2026-10-13).",
+ "checked": "2026-10-12",
+ "rules": [
+  {
+   "name": "SiriusXM NFL Radio, Ch. 88",
+   "kind": "satellite",
+   "app": "SiriusXM",
+   "link": "https://www.siriusxm.com/channels/siriusxm-nfl-radio",
+   "leagues": [
+    "nfl"
+   ],
+   "lang": "en",
+   "source": "https://www.siriusxm.com/sports/nfl26",
+   "confidence": "season",
+   "checked": "2026-10-13",
+   "note": "Fixed league channel. Each game also has home/away feeds on rotating sat (~190s/260s) + app (~800s) numbers published daily on siriusxm.com/sports/nfl26 - not listed here because they change per day."
+  },
+  {
+   "name": "SiriusXM NBA Radio, Ch. 86",
+   "kind": "satellite",
+   "app": "SiriusXM",
+   "link": "https://www.siriusxm.com/channels/siriusxm-nba-radio",
+   "leagues": [
+    "nba"
+   ],
+   "lang": "en",
+   "source": "https://www.siriusxm.com/sports",
+   "confidence": "season",
+   "checked": "2026-10-13",
+   "note": "Fixed league channel; per-game feeds vary daily."
+  },
+  {
+   "name": "MLB Network Radio, Ch. 89",
+   "kind": "satellite",
+   "app": "SiriusXM",
+   "link": "https://www.siriusxm.com/channels/mlb-network-radio",
+   "leagues": [
+    "mlb"
+   ],
+   "lang": "en",
+   "source": "https://www.siriusxm.com/sports/mlb",
+   "confidence": "season",
+   "checked": "2026-10-13",
+   "note": "Fixed national channel; per-game home/away feeds on ~200s sat numbers published daily."
+  },
+  {
+   "name": "NHL Network Radio, Ch. 91",
+   "kind": "satellite",
+   "app": "SiriusXM",
+   "link": "https://www.siriusxm.com/channels/nhl-network-radio",
+   "leagues": [
+    "nhl"
+   ],
+   "lang": "en",
+   "source": "https://www.siriusxm.com/sports/nhl",
+   "confidence": "season",
+   "checked": "2026-10-13",
+   "note": "Fixed national channel; per-game feeds vary daily."
+  },
+  {
+   "name": "SiriusXM NASCAR Radio, Ch. 90",
+   "kind": "satellite",
+   "app": "SiriusXM",
+   "link": "https://www.siriusxm.com/channels/siriusxm-nascar-radio",
+   "leagues": [
+    "nascar",
+    "xfinity",
+    "trucks"
+   ],
+   "lang": "en",
+   "source": "https://www.siriusxm.com/sports/nascar",
+   "confidence": "season",
+   "checked": "2026-10-13",
+   "note": "NASCAR races air live here."
+  },
+  {
+   "name": "SiriusXM PGA Tour Radio, Ch. 92",
+   "kind": "satellite",
+   "app": "SiriusXM",
+   "link": "https://www.siriusxm.com/channels/pga-tour-radio",
+   "leagues": [
+    "pga"
+   ],
+   "lang": "en",
+   "source": "https://www.siriusxm.com/sports-pass-guide",
+   "confidence": "unverified",
+   "checked": "2026-10-13",
+   "note": "Channel number from a web source, not confirmed on a live SiriusXM page. NOTE: the dedicated PGA Tour Radio channel page 404s as of 2026-10-13; channel number unconfirmed."
+  },
+  {
+   "name": "SiriusXM college channels (SEC 256, Big Ten 257, ACC 258)",
+   "kind": "satellite",
+   "app": "SiriusXM",
+   "link": "https://www.siriusxm.com/sports/college-football",
+   "leagues": [
+    "cfb"
+   ],
+   "lang": "en",
+   "source": "https://www.siriusxm.com/sports/college-football",
+   "confidence": "season",
+   "checked": "2026-10-13",
+   "note": "Conference radio channels: SEC 256, Big Ten 257, ACC 258. Exact per-game channel is on the SiriusXM college-football schedule page."
+  },
+  {
+   "name": "Westwood One (national NFL radio)",
+   "kind": "national",
+   "app": "",
+   "link": "https://www.westwoodonesports.com/",
+   "leagues": [
+    "nfl"
+   ],
+   "lang": "en",
+   "weekday": [
+    3,
+    6,
+    0
+   ],
+   "source": "https://www.nfl.com/",
+   "confidence": "unverified",
+   "checked": "2026-10-13",
+   "note": "Westwood One carries the primetime national games (Thu/Sun/Mon night) + full postseason. Shown on primetime days; confirm the specific game on westwoodonesports.com."
+  },
+  {
+   "name": "NFL+ (live local & national game audio)",
+   "kind": "app",
+   "app": "NFL+",
+   "link": "https://www.nfl.com/plus/",
+   "leagues": [
+    "nfl"
+   ],
+   "lang": "en",
+   "source": "https://www.nfl.com/plus/",
+   "confidence": "season",
+   "checked": "2026-10-12",
+   "note": "NFL+ includes home or away live audio for every game plus all national games."
+  },
+  {
+   "name": "ESPN Radio (national MLB postseason)",
+   "kind": "national",
+   "app": "ESPN app",
+   "link": "https://www.espn.com/radio/",
+   "leagues": [
+    "mlb"
+   ],
+   "lang": "en",
+   "when": "(playoff|postseason|wild card|division series|championship series|world series|ALDS|NLDS|ALCS|NLCS|game [0-9])",
+   "source": "https://www.espn.com/radio/",
+   "confidence": "unverified",
+   "checked": "2026-10-13",
+   "note": "ESPN Radio carries national MLB postseason play-by-play. Shown when the game looks like a postseason game; confirm on espn.com/radio."
+  },
+  {
+   "name": "MLB.TV / MLB app (out-of-market audio)",
+   "kind": "app",
+   "app": "MLB app",
+   "link": "https://www.mlb.com/live-stream-games/subscribe/audio",
+   "leagues": [
+    "mlb"
+   ],
+   "lang": "en",
+   "source": "https://www.mlb.com/live-stream-games",
+   "confidence": "season",
+   "checked": "2026-10-13",
+   "note": "Home & away radio feeds for out-of-market games in the MLB app."
+  }
+ ],
+ "_note_research": "Keys siriusxm/national/intl/league_apps/stream_apps/not_verified added 2026-10-12 by the radio research pass. The existing 'rules' list (used by refresh.py build_listen) is untouched.",
+ "siriusxm": {
+  "fetchable_endpoint": {
+   "url": "https://www.siriusxm.com/sports/{slug}  (slugs seen 2026-10-12: nfl26, mlb, nba, nhl, college-football, soccer, formula-1, nascar, canadian-football-league; hub https://www.siriusxm.com/sports also links nfl, mens-college-basketball, womens-college-basketball, college-baseball, college-softball, indycar, pga-tour)",
+   "method": "Plain HTTPS GET with a browser User-Agent. No login, no API key. Returns HTML (250-725 KB). It is NOT a JSON API: per-game data is embedded in the Next.js RSC payload (self.__next_f.push strings). Unescape the \\\" sequences, then brace-match each object containing \"gameID\" (team sports, F1) or \"raceID\" (NASCAR). json.loads works on each object.",
+   "fields": "Team games: gameID, gameDate, endDateTime, homeLeagueAbbreviation (NFL/MLB/NBA/NHL/NCAAF/EPL/UCL/MLS/USL/INTL/CFL), homeTeamCity, awayTeamCity, homeTeamAbbreviation, awayTeamAbbreviation, homeStream, awayStream (satellite/radio channel), homeInternetStream, awayInternetStream (app channel), nationalStream, nationalInternetStream, spanishStream, spanishInternetStream, homeStreamLink/awayStreamLink/nationalStreamLink/spanishStreamLink (sxm.app.link deep links), tbdTime, home/awayConfernceAbbreviation (sic; college only: SEC, BIG10, ACC, BIG12, AAC...). F1: gameID, eventName, gameDate, gameEndDate, venueName, nationalStream, nationalInternetStream, nationalStreamLink. NASCAR: raceID, raceOrDriverName, seriesName, seriesKey, startDateTime, venueOrTeamName, nationalStream, nationalStreamLink. Missing values are the literal string \"$undefined\".",
+   "sample": {
+    "gameID": 178632,
+    "gameDate": "2026-10-12T20:15:00-04:00",
+    "homeLeagueAbbreviation": "NFL",
+    "awayTeamCity": "Buffalo Bills",
+    "homeTeamCity": "Los Angeles Rams",
+    "awayStream": "193",
+    "homeStream": "192",
+    "nationalStream": "88",
+    "spanishStream": "194",
+    "awayInternetStream": "803",
+    "homeInternetStream": "818",
+    "spanishInternetStream": "832",
+    "homeStreamLink": "https://sxm.app.link/rDee5FH2nFb"
+   },
+   "coverage": "Rolling ~7-day window per league page. 2026-10-12 pull: NFL 15 games (10/12-10/19), MLB 11 (LCS, 10/13-10/20), NHL 62, NBA 26, NCAAF 61, soccer 18, CFL 4, F1 30 sessions (to 12/06), NASCAR 15 races (to 11/08). The /sports hub shows only 1 game per league.",
+   "notes": "Channel numbers are reassigned per game and day (NFL team feeds rotate 192-200 / 261-268), so scrape daily and do not hardcode them. The page defaults to the 'Streaming & Most Radios' lineup. The NFL slug is season-specific (nfl26), so discover slugs from the hub's /sports/ links each run. api.edge-gateway.siriusxm.com appears in the page config only as a base URL; no public unauthenticated per-game JSON endpoint was found. Reminder calendars are linked at https://siriusxm.roktcalendar.com/{nfl,nba,nascar,f1,pga,indycar} (not tested). There were transient DNS failures during testing, so add retries.",
+   "source": "https://www.siriusxm.com/sports",
+   "verified": true
+  },
+  "plans": {
+   "what": "Game broadcasts and NFL Radio are included with Platinum, All Access, and Music & Entertainment; new SiriusXM Sports Pass $5/month. The app has home + visiting broadcasts for every NFL game; in-vehicle home/road needs sports play-by-play.",
+   "source": "https://investor.siriusxm.com/news-events/press-releases/detail/2298/siriusxm-announces-nfl-programming-roster-additions-for",
+   "verified": true
+  },
+  "channels": [
+   {
+    "league": "NFL",
+    "channels": "88 (SiriusXM NFL Radio, also the national feed for primetime and international games); team feeds rotate per game: satellite 192-200 and 261-268, app 800-831; Spanish 194 seen on MNF",
+    "what": "Every NFL game home + away (app), regular season through Super Bowl",
+    "source": "https://www.siriusxm.com/sports/nfl26",
+    "also": "https://www.siriusxm.com/channels/siriusxm-nfl-radio",
+    "verified": true
+   },
+   {
+    "league": "MLB",
+    "channels": "89 (MLB Network Radio); 2026 LCS: team feeds satellite 202-206, app 848-866; national feed 80/81; Spanish 204/207",
+    "what": "Postseason home/away/national/Spanish feeds",
+    "source": "https://www.siriusxm.com/sports/mlb",
+    "also": "https://www.siriusxm.com/channels/mlb-network-radio",
+    "verified": true
+   },
+   {
+    "league": "NBA",
+    "channels": "86 (SiriusXM NBA Radio); per-game feeds mostly app-only 880-909, some satellite (86, 95, 96, 99, 170, 217); one national feed on 81",
+    "what": "Team radio feeds",
+    "source": "https://www.siriusxm.com/sports/nba",
+    "also": "https://www.siriusxm.com/channels/siriusxm-nba-radio",
+    "verified": true
+   },
+   {
+    "league": "NHL",
+    "channels": "91 (NHL Network Radio); home feeds satellite 223-227, 247-250, 160, 170, 95; app 920-951",
+    "what": "Team radio feeds",
+    "source": "https://www.siriusxm.com/sports/nhl",
+    "also": "https://www.siriusxm.com/channels/nhl-network-radio",
+    "verified": true
+   },
+   {
+    "league": "NCAAF",
+    "channels": "Conference channels: SEC Radio 256 (moved from 374), Big Ten Radio 257 (moved from 372), ACC Radio 258 (moved from 371). Per-game feeds: satellite 82-85, 166-167, 228-238, 247-249, 256-258, 261-271; app 952-998; national feeds 80/81/99 on marquee games",
+    "what": "Team/conference feeds; the home/awayConfernceAbbreviation field filters SEC/BIG10/ACC/BIG12",
+    "source": "https://www.siriusxm.com/sports/college-football",
+    "also": "https://www.siriusxm.com/channels/siriusxm-nba-radio (the page carries the 'has moved from Channel ...' notices for SEC/Big Ten/ACC Radio)",
+    "verified": true
+   },
+   {
+    "league": "NCAAF Big 12",
+    "channels": null,
+    "what": "No dedicated Big 12 Radio channel number found; Big 12 games appear on rotating feeds (83, 84, 166, 237, 238, 249, 261-264)",
+    "source": "https://www.siriusxm.com/sports/college-football",
+    "verified": false
+   },
+   {
+    "league": "Soccer (EPL, UCL, MLS, USMNT, USL)",
+    "channels": "188 (SiriusXM FC); EPL also on 247; MLS feeds on 188/95, app 176",
+    "what": "Per-match listing on the soccer page",
+    "source": "https://www.siriusxm.com/sports/soccer",
+    "also": "https://www.siriusxm.com/channels/siriusxm-fc",
+    "verified": true
+   },
+   {
+    "league": "F1",
+    "channels": "251 satellite (app channel 835)",
+    "what": "Practice, qualifying, sprint and race sessions",
+    "source": "https://www.siriusxm.com/sports/formula-1",
+    "also": "https://www.siriusxm.com/channels/siriusxm-f1-radio",
+    "verified": true
+   },
+   {
+    "league": "NASCAR",
+    "channels": "90 (SiriusXM NASCAR Radio)",
+    "what": "Cup, O'Reilly Auto Parts and Truck Series races + qualifying",
+    "source": "https://www.siriusxm.com/sports/nascar",
+    "also": "https://www.siriusxm.com/channels/siriusxm-nascar-radio",
+    "verified": true
+   },
+   {
+    "league": "CFL",
+    "channels": "160 (home feed), app 969; 157 seen as the Spanish/alt feed",
+    "what": "CFL games",
+    "source": "https://www.siriusxm.com/sports/canadian-football-league",
+    "verified": true
+   },
+   {
+    "league": "ESPN Radio on SiriusXM",
+    "channels": "80",
+    "what": "ESPN Radio simulcast; national MLB postseason and some CFB national feeds list ch 80",
+    "source": "https://www.siriusxm.com/channels/espn-radio",
+    "verified": true
+   },
+   {
+    "league": "PGA Tour",
+    "channels": null,
+    "what": "The pga-tour sports page has no event data; /channels/pga-tour-radio returned 404",
+    "source": "https://www.siriusxm.com/sports/pga-tour",
+    "verified": false
+   },
+   {
+    "league": "Fights",
+    "channels": null,
+    "what": "/channels/siriusxm-fight-nation now resolves to a WWE Radio page; no fight play-by-play channel confirmed",
+    "source": "https://www.siriusxm.com/channels/siriusxm-fight-nation",
+    "verified": false
+   }
+  ]
+ },
+ "national": [
+  {
+   "network": "Westwood One",
+   "league": "NFL",
+   "what": "Thursday Night Football, Sunday Night Football, Monday Night Football, NFL London/Paris games (e.g. 10/15 SEA@DEN TNF, 10/18 HOU-JAX London, 10/18 DAL@GB SNF, 10/19 WAS@SF MNF, 10/25 PIT-NO Paris), with announcers. Playoffs/Super Bowl NOT confirmed on a fetched page.",
+   "listen": [
+    {
+     "app": "Westwood One Sports (iOS, free, Cumulus Media)",
+     "url": "https://apps.apple.com/us/app/westwood-one-sports/id6743144592"
+    },
+    {
+     "app": "Station Finder",
+     "url": "https://www.westwoodonesports.com/station-finder/"
+    }
+   ],
+   "schedule_url": "https://www.westwoodonesports.com/more/eventGrid?id=47029&range=current&offset=0&limit=10&timezone=America/New_York&widgetTitle=Upcoming+NFL+Broadcasts",
+   "fetchable": "Yes. Server-rendered HTML (SoCast/WordPress), no login. Each event has date, matchup, venue, a line like '7:30 PM ET // Thursday Night Football // Announcers: ...', and a link /events/{id}/. Page through it with offset/limit. No JSON: /wp-json/ has no event routes and no iCal was found.",
+   "source": "https://www.westwoodonesports.com/nfl/",
+   "verified": true
+  },
+  {
+   "network": "Westwood One",
+   "league": "NCAAF",
+   "what": "Saturday national game (10/17 Penn State@Michigan, 10/24 Ole Miss@Texas, 10/31 Florida-Georgia, 11/28 Michigan@Ohio State), SEC Championship 12/5, Army-Navy 12/12",
+   "listen": [
+    {
+     "app": "Westwood One Sports",
+     "url": "https://apps.apple.com/us/app/westwood-one-sports/id6743144592"
+    }
+   ],
+   "schedule_url": "https://www.westwoodonesports.com/more/eventGrid?id=47030&range=current&offset=0&limit=10&timezone=America/New_York&widgetTitle=Upcoming+NCAA+Football+Broadcasts",
+   "source": "https://www.westwoodonesports.com/ncaa-football/",
+   "verified": true
+  },
+  {
+   "network": "Westwood One",
+   "league": "Other",
+   "what": "Site sections: NCAA Basketball, Golf, U.S. Soccer, NCAA MCWS, WCWS, Lacrosse, Hockey (no 2026-27 detail fetched)",
+   "schedule_url": "https://www.westwoodonesports.com/",
+   "source": "https://www.westwoodonesports.com/",
+   "verified": false
+  },
+  {
+   "network": "ESPN Radio",
+   "league": "MLB",
+   "what": "MLB postseason: ALCS Guardians-Rays and NLCS Brewers-Dodgers listed on the weekly program grid",
+   "listen": [
+    {
+     "app": "ESPN.com player",
+     "url": "https://www.espn.com/espnradio/play?s=espn"
+    },
+    {
+     "app": "SiriusXM ch 80",
+     "url": "https://www.siriusxm.com/channels/espn-radio"
+    },
+    {
+     "app": "TuneIn",
+     "url": "https://tunein.com/espnradio/"
+    }
+   ],
+   "schedule_url": "https://www.espn.com/espnradio/schedule",
+   "fetchable": "HTML weekly grid (weekday + time, no calendar dates); no JSON found",
+   "source": "https://www.espn.com/espnradio/schedule",
+   "verified": true
+  },
+  {
+   "network": "ESPN Radio",
+   "league": "NCAAF / NBA / CFP",
+   "what": "Not confirmed on a fetched ESPN page. SiriusXM lists the Florida@Texas (10/17) national feed on ch 80, which is ESPN Radio's SiriusXM channel.",
+   "source": "https://www.siriusxm.com/sports/college-football",
+   "verified": false
+  },
+  {
+   "network": "Fox Sports Radio",
+   "league": "talk",
+   "what": "National sports talk station on iHeart (id 4732). Live play-by-play rights not confirmed.",
+   "listen": [
+    {
+     "app": "iHeartRadio",
+     "url": "https://www.iheart.com/live/fox-sports-radio-4732/"
+    }
+   ],
+   "source": "https://www.iheart.com/live/fox-sports-radio-4732/",
+   "verified": false
+  },
+  {
+   "network": "Compass Media Networks",
+   "league": "NFL",
+   "what": "Select NFL Sunday afternoon games (18th NFL season), plus Dallas Cowboys (Cowboys Live) and Las Vegas Raiders (Raiders Radio Network) broadcasts",
+   "listen": [
+    {
+     "app": "Compass sports player",
+     "url": "https://sports.compassmedianetworks.com/  (per game: /Home/Player/{ID})"
+    },
+    {
+     "app": "Gameday listening options",
+     "url": "https://bio.to/compassmedianet"
+    }
+   ],
+   "schedule_url": "https://sports.compassmedianetworks.com/",
+   "fetchable": "Yes. HTML list of games with date, time (ET) and /Home/Player/{ID} links; no feed/JSON seen",
+   "source": "https://www.compassmedianetworks.com/index.php/2026/09/08/compass-media-networks-celebrates-18-years-of-nfl-coverage-announces-2026-schedule-broadcast-crews/",
+   "verified": true
+  },
+  {
+   "network": "Compass Media Networks",
+   "league": "NCAAF",
+   "what": "College football incl. Big Ten (BTN multi-year extension), Pac-12 Championship, B1G Championship; 10/17 Ohio State@Indiana, Auburn@Georgia",
+   "schedule_url": "https://sports.compassmedianetworks.com/",
+   "source": "https://www.compassmedianetworks.com/index.php/sports/",
+   "verified": true
+  },
+  {
+   "network": "TUDN Radio",
+   "league": "Spanish",
+   "what": "Listed as a station on Univision radio (stream https://tu.streamguys1.com/tudnradio/playlist.m3u8 found in the page). Which live games it carries is NOT confirmed.",
+   "listen": [
+    {
+     "app": "Univision radio",
+     "url": "https://www.univision.com/radio"
+    }
+   ],
+   "source": "https://www.univision.com/radio",
+   "verified": false
+  }
+ ],
+ "intl": [
+  {
+   "network": "BBC Radio 5 Live",
+   "league": "Premier League, boxing",
+   "what": "Live Premier League commentary (e.g. 2026-10-17 Brentford v Liverpool 14:00Z, Newcastle v Aston Villa 16:30Z) and live boxing (Dubois v Wardley 2, 21:00Z)",
+   "geo": "The live 5 Live stream is available outside the UK via the BBC.com station directory, but the BBC says sport 'can be subject to rights restrictions' live or outside the UK, so expect individual commentaries to be geo-blocked in the US. The BBC Sounds app is closed to listeners outside the UK.",
+   "schedule_url": "https://rms.api.bbc.co.uk/v2/broadcasts/schedules/bbc_radio_five_live/{YYYY-MM-DD}",
+   "fetchable": "Yes. Public JSON, no auth. data[]: start, end (UTC ISO), duration, titles.primary ('Premier League Football', 'Boxing'), titles.secondary, synopses.short ('Live football commentary of X v Y in the Premier League.'), service_id, container.id. Same data at /v2/experience/inline/schedules/bbc_radio_five_live/{date}. HTML version: https://www.bbc.co.uk/schedules/p00fzl7g (the .json suffix returns 404).",
+   "source": "https://rms.api.bbc.co.uk/v2/broadcasts/schedules/bbc_radio_five_live/2026-10-17",
+   "geo_source": "https://www.bbc.co.uk/sounds/help/questions/programme-availability/sports-availability",
+   "geo_source2": "https://www.bbc.co.uk/sounds/help/questions/listening-outside-the-uk/outside-uk-changes",
+   "verified": true
+  },
+  {
+   "network": "BBC Radio 5 Sports Extra",
+   "league": "Premier League, WSL, boxing",
+   "what": "Extra commentaries, e.g. 2026-10-17 WSL Arsenal v Birmingham City, PL Manchester City v Ipswich Town, boxing undercard",
+   "geo": "Same rights caveat as 5 Live",
+   "schedule_url": "https://rms.api.bbc.co.uk/v2/broadcasts/schedules/bbc_radio_five_live_sports_extra/{YYYY-MM-DD}",
+   "source": "https://rms.api.bbc.co.uk/v2/broadcasts/schedules/bbc_radio_five_live_sports_extra/2026-10-17",
+   "verified": true
+  },
+  {
+   "network": "BBC Radio 5 Live",
+   "league": "Champions League / F1",
+   "what": "Not seen in the sampled schedule day; not confirmed",
+   "source": null,
+   "verified": false
+  },
+  {
+   "network": "talkSPORT",
+   "league": "Premier League etc.",
+   "what": "Not confirmed: talksport.com returns a 'Verifying Device' bot challenge to scripted fetches, so rights, geo and schedule could not be read",
+   "geo": null,
+   "schedule_url": "https://talksport.com/radio/schedule/",
+   "source": null,
+   "verified": false
+  }
+ ],
+ "league_apps": [
+  {
+   "league": "NFL",
+   "name": "NFL+ (NFL app)",
+   "what": "'Listen to home or away live audio broadcasts for every game this season and access live audio of all nationally broadcasted games' (NFL+ and NFL+ Premium). The page shows no price.",
+   "url": "https://www.nfl.com/plus/",
+   "app_scheme": "nflmobile:// (iOS app-id 389781154, from the apple-itunes-app meta)",
+   "source": "https://www.nfl.com/plus/",
+   "verified": true
+  },
+  {
+   "league": "NBA",
+   "name": "NBA League Pass Audio (NBA app)",
+   "what": "Audio-only with no blackouts: League Pass Audio retailPrice $9.99 USD (sku BLPAUDIO, non-renewing, excluded in international regions). Also, every League Pass / Premium / Team Pass subscription 'includes access to live radio broadcasts of all NBA games'.",
+   "url": "https://www.nba.com/league-pass-purchase",
+   "source": "https://www.nba.com/league-pass-purchase",
+   "verified": true
+  },
+  {
+   "league": "MLS",
+   "name": "Apple TV",
+   "what": "All 2026 MLS matches incl. Leagues Cup and MLS Cup Playoffs, no blackouts, included with an Apple TV subscription at $14.99/month after a 7-day trial. A local radio audio option is NOT confirmed.",
+   "url": "https://www.mlssoccer.com/how-to-watch/",
+   "source": "https://www.mlssoccer.com/how-to-watch/",
+   "verified": true
+  },
+  {
+   "league": "MLB",
+   "name": "MLB app audio",
+   "what": "Not confirmed: mlb.com/live-stream-games/subscribe/audio redirects to the postseason MLB.TV page, and the product text and price are JS-rendered",
+   "url": "https://www.mlb.com/live-stream-games/subscribe/postseason",
+   "source": null,
+   "verified": false
+  }
+ ],
+ "stream_apps": [
+  {
+   "app": "iHeartRadio",
+   "web_pattern": "https://www.iheart.com/live/{slug}-{id}/  (https://www.iheart.com/live/{id}/ redirects to the canonical slug URL)",
+   "scheme": "ihr://play/live/{id}  (from al:ios:url / al:android:url meta)",
+   "lookup_api": "https://api.iheart.com/api/v2/content/liveStations?callLetters=KLAC-AM -> hits[].id, name, streams.secure_hls_stream; search: https://api.iheart.com/api/v3/search/all?keywords={q}&station=true (no auth)",
+   "example": "https://www.iheart.com/live/fox-sports-radio-4732/ ; https://www.iheart.com/live/570-klac-189/",
+   "source": "https://www.iheart.com/live/fox-sports-radio-4732/",
+   "verified": true
+  },
+  {
+   "app": "TuneIn",
+   "web_pattern": "https://tunein.com/radio/s{id}/  (redirects to the canonical URL, e.g. https://tunein.com/espnradio/)",
+   "scheme": "Android: tunein://profile/s{id} (from <link rel=alternate href=android-app://tunein.player/tunein/profile/s25876>); iOS scheme not confirmed (iOS app id 418987775)",
+   "lookup_api": "https://opml.radiotime.com/Search.ashx?query={q}&render=json -> body[].guide_id (s#####), no auth",
+   "example": "ESPN Radio = s25876",
+   "source": "https://tunein.com/radio/s25876/",
+   "verified": true
+  },
+  {
+   "app": "Audacy",
+   "web_pattern": "https://www.audacy.com/stations/{slug} (unconfirmed)",
+   "scheme": null,
+   "note": "audacy.com is a client-rendered SPA: /stations/wfan and a made-up slug both return the same 8.8 KB shell, so slugs cannot be checked by fetching; no apple-app-site-association file was found",
+   "source": "https://www.audacy.com/stations/wfan",
+   "verified": false
+  }
+ ],
+ "not_verified": [
+  "NHL app / NHL.com audio offering",
+  "Premier League app audio",
+  "F1 TV plans / team radio (f1tv.formula1.com is JS-only)",
+  "UFC (no radio) - not checked",
+  "Westwood One NFL playoffs/Super Bowl",
+  "ESPN Radio NBA/CFP 2026-27",
+  "Fox Sports Radio play-by-play",
+  "TUDN Radio live game rights",
+  "talkSPORT rights/geo",
+  "SiriusXM PGA Tour Radio and fight channel numbers",
+  "SiriusXM Big 12 channel"
+ ]
+}

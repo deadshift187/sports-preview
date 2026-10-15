@@ -1,0 +1,920 @@
+{
+ "league": "MLB",
+ "checked": "2026-10-12",
+ "teams": [
+  {
+   "espn_id": "29",
+   "abbr": "ARI",
+   "team": "Arizona Diamondbacks",
+   "stations": [
+    {
+     "call": "KMVP-FM",
+     "freq": "98.7 FM",
+     "market": "Phoenix",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "KTAR",
+     "freq": "620 AM",
+     "market": "Phoenix",
+     "lang": "en",
+     "role": "co-flagship",
+     "stream": null
+    },
+    {
+     "call": "KNAI",
+     "freq": "101.9 FM / 860 AM",
+     "market": "Phoenix",
+     "lang": "es",
+     "role": "spanish flagship",
+     "stream": {
+      "app": "La Campesina app",
+      "url": null
+     }
+    }
+   ],
+   "team_audio_url": "https://www.mlb.com/dbacks/schedule/broadcast-affiliates",
+   "source": "https://www.mlb.com/dbacks/schedule/broadcast-affiliates",
+   "verified": true,
+   "note": "Team page lists KMVP 98.7 FM and KTAR 620 AM for Phoenix; MLB API shows KTAR as 'ESPN 620' on select games. Spanish: MLB API (Sept 2026) lists 'La Campesina 101.9 FM & 860 AM' (KNAI); team affiliates page still lists KHOV 105.1 FM as the Phoenix Spanish station. Cross-checked against MLB Stats API 2026 game broadcasts (https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-09-14&endDate=2026-09-27&hydrate=broadcasts(all))."
+  },
+  {
+   "espn_id": "11",
+   "abbr": "ATH",
+   "team": "Athletics",
+   "stations": [
+    {
+     "call": "KSTE",
+     "freq": "650 AM",
+     "market": "Sacramento",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "KNEW",
+     "freq": "960 AM",
+     "market": "Bay Area",
+     "lang": "en",
+     "role": "affiliate",
+     "stream": null
+    },
+    {
+     "call": "KVMX",
+     "freq": "92.1 FM / 105.5 FM",
+     "market": "Sacramento",
+     "lang": "es",
+     "role": "spanish (home games only)",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.mlb.com/athletics/schedule/affiliates",
+   "source": "https://www.mlb.com/athletics/schedule/affiliates",
+   "verified": true,
+   "note": "Team page: 'Fans in Sacramento can catch every game on Talk 650 KSTE'. A's Cast is the team's free 24/7 stream (Northern California). KVMX marked 'Home Games Only (Spanish)'. Cross-checked against MLB Stats API 2026 game broadcasts (https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-09-14&endDate=2026-09-27&hydrate=broadcasts(all))."
+  },
+  {
+   "espn_id": "15",
+   "abbr": "ATL",
+   "team": "Atlanta Braves",
+   "stations": [
+    {
+     "call": "WCNN",
+     "freq": "680 AM / 93.7 FM",
+     "market": "Atlanta",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "La Mejor",
+     "freq": "1600 / 1460 / 1130 AM",
+     "market": "Atlanta",
+     "lang": "es",
+     "role": "spanish",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.mlb.com/braves/schedule/radio-affiliates",
+   "source": "https://www.mlb.com/braves/schedule/radio-affiliates",
+   "verified": true,
+   "note": "Team page: 'The Fan, 680 and 93.7FM (WCNN)', 170+ station network. Spanish 'La Mejor 1600/1460/1130 AM' from MLB API only (no call letters given). Cross-checked against MLB Stats API 2026 game broadcasts (https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-09-14&endDate=2026-09-27&hydrate=broadcasts(all))."
+  },
+  {
+   "espn_id": "1",
+   "abbr": "BAL",
+   "team": "Baltimore Orioles",
+   "stations": [
+    {
+     "call": "WBAL",
+     "freq": "1090 AM / 101.5 FM",
+     "market": "Baltimore",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "WBAL Radio stream",
+      "url": null
+     }
+    },
+    {
+     "call": "98 Rock",
+     "freq": "97.9 FM",
+     "market": "Baltimore",
+     "lang": "en",
+     "role": "co-flagship",
+     "stream": {
+      "app": "98 Rock stream",
+      "url": null
+     }
+    }
+   ],
+   "team_audio_url": "https://www.mlb.com/orioles/schedule/broadcast-affiliates",
+   "source": "https://www.mlb.com/orioles/schedule/broadcast-affiliates",
+   "verified": true,
+   "note": "Team page: 98 Rock (97.9 FM) & WBAL NewsRadio AM 1090 / FM 101.5 are the flagship stations (Hearst). No Spanish radio listed. Cross-checked against MLB Stats API 2026 game broadcasts (https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-09-14&endDate=2026-09-27&hydrate=broadcasts(all))."
+  },
+  {
+   "espn_id": "2",
+   "abbr": "BOS",
+   "team": "Boston Red Sox",
+   "stations": [
+    {
+     "call": "WEEI-FM",
+     "freq": "93.7 FM",
+     "market": "Boston",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "WCCM",
+     "freq": "1490 AM",
+     "market": "Haverhill",
+     "lang": "es",
+     "role": "spanish",
+     "stream": null
+    },
+    {
+     "call": "WESX",
+     "freq": "1230 AM",
+     "market": "Nahant",
+     "lang": "es",
+     "role": "spanish",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.mlb.com/redsox/schedule/radio-affiliates",
+   "source": "https://www.mlb.com/redsox/schedule/radio-affiliates",
+   "verified": true,
+   "note": "Team affiliates page lists WEEI 93.7 FM for Boston (not labelled 'flagship' but it is the Boston station and the MLB API home radio feed); WCCM and WESX marked (Spanish). Cross-checked against MLB Stats API 2026 game broadcasts (https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-09-14&endDate=2026-09-27&hydrate=broadcasts(all))."
+  },
+  {
+   "espn_id": "16",
+   "abbr": "CHC",
+   "team": "Chicago Cubs",
+   "stations": [
+    {
+     "call": "WSCR",
+     "freq": "104.3 FM",
+     "market": "Chicago",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "WPPN",
+     "freq": "106.7 FM",
+     "market": "Chicago",
+     "lang": "es",
+     "role": "spanish",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.mlb.com/cubs/schedule/affiliates",
+   "source": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-09-14&endDate=2026-09-27&hydrate=broadcasts(all)",
+   "verified": true,
+   "note": "Cubs affiliates page lists only out-of-market affiliates; flagship taken from MLB Stats API ('104.3 The Score', WSCR) for every Sept 2026 game. Spanish: 'WPPN 106.7 / TUDN'. Cross-checked against MLB Stats API 2026 game broadcasts (https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-09-14&endDate=2026-09-27&hydrate=broadcasts(all))."
+  },
+  {
+   "espn_id": "4",
+   "abbr": "CHW",
+   "team": "Chicago White Sox",
+   "stations": [
+    {
+     "call": "WMVP",
+     "freq": "1000 AM",
+     "market": "Chicago",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "La Ley",
+     "freq": "107.9 FM HD3",
+     "market": "Chicago",
+     "lang": "es",
+     "role": "spanish",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.mlb.com/whitesox/schedule/radio-affiliates",
+   "source": "https://www.mlb.com/whitesox/schedule/radio-affiliates",
+   "verified": true,
+   "note": "Team page: 'Flagship Station ESPN WMVP AM 1000' plus 'La Ley 107.9-3'; MLB API tags 107.9 La Ley as Spanish. Cross-checked against MLB Stats API 2026 game broadcasts (https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-09-14&endDate=2026-09-27&hydrate=broadcasts(all))."
+  },
+  {
+   "espn_id": "17",
+   "abbr": "CIN",
+   "team": "Cincinnati Reds",
+   "stations": [
+    {
+     "call": "WLW",
+     "freq": "700 AM / 94.5 FM",
+     "market": "Cincinnati",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.mlb.com/reds/fans/radio/affiliates",
+   "source": "https://www.mlb.com/reds/fans/radio/affiliates",
+   "verified": true,
+   "note": "Team page: 'Cincinnati-Flagship WLW AM 700 / WLW FM 94.5'. No Spanish station listed. Cross-checked against MLB Stats API 2026 game broadcasts (https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-09-14&endDate=2026-09-27&hydrate=broadcasts(all))."
+  },
+  {
+   "espn_id": "5",
+   "abbr": "CLE",
+   "team": "Cleveland Guardians",
+   "stations": [
+    {
+     "call": "WTAM",
+     "freq": "1100 AM / 106.9 FM",
+     "market": "Cleveland",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "iHeartRadio",
+      "url": null
+     }
+    },
+    {
+     "call": "WMMS",
+     "freq": "100.7 FM",
+     "market": "Cleveland",
+     "lang": "en",
+     "role": "co-flagship",
+     "stream": null
+    },
+    {
+     "call": "WARF",
+     "freq": "1350 AM",
+     "market": "Cleveland",
+     "lang": "es",
+     "role": "spanish",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.mlb.com/guardians/schedule/radio-affiliates",
+   "source": "https://www.mlb.com/guardians/schedule/radio-affiliates",
+   "verified": true,
+   "note": "Team page: Flagship WTAM AM 1100 & 106.9 FM; WMMS 100.7 FM also listed; 'IHeart app ... Stream for free WTAM 1100'. Spanish WARF 1350 from MLB API. Cross-checked against MLB Stats API 2026 game broadcasts (https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-09-14&endDate=2026-09-27&hydrate=broadcasts(all))."
+  },
+  {
+   "espn_id": "27",
+   "abbr": "COL",
+   "team": "Colorado Rockies",
+   "stations": [
+    {
+     "call": "KOA",
+     "freq": "850 AM / 94.1 FM",
+     "market": "Denver",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "KHOW",
+     "freq": "630 AM",
+     "market": "Denver",
+     "lang": "en",
+     "role": "conflict overflow",
+     "stream": null
+    },
+    {
+     "call": "KNRV",
+     "freq": "1150 AM / 96.1 FM",
+     "market": "Denver",
+     "lang": "es",
+     "role": "spanish",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.mlb.com/rockies/schedule/radio-affiliates",
+   "source": "https://www.mlb.com/rockies/schedule/radio-affiliates",
+   "verified": true,
+   "note": "Team page: Broncos conflicts move KOA's Rockies broadcast to KHOW 630 AM & 103.5 HD2. KOA 850 AM/94.1 FM confirmed by MLB API. Spanish KNRV per mlb.com/rockies/team/broadcasters and MLB API. Cross-checked against MLB Stats API 2026 game broadcasts (https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-09-14&endDate=2026-09-27&hydrate=broadcasts(all))."
+  },
+  {
+   "espn_id": "6",
+   "abbr": "DET",
+   "team": "Detroit Tigers",
+   "stations": [
+    {
+     "call": "WXYT-FM",
+     "freq": "97.1 FM",
+     "market": "Detroit",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "WDTW",
+     "freq": "1310 AM / 107.9 FM",
+     "market": "Detroit",
+     "lang": "es",
+     "role": "spanish",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.mlb.com/tigers/schedule/affiliates",
+   "source": "https://www.mlb.com/tigers/schedule/affiliates",
+   "verified": true,
+   "note": "Team page lists Detroit WXYT 97.1 FM first in the network. Spanish 'LaZ WDTW 1310AM/107.9FM' from MLB API only. Cross-checked against MLB Stats API 2026 game broadcasts (https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-09-14&endDate=2026-09-27&hydrate=broadcasts(all))."
+  },
+  {
+   "espn_id": "18",
+   "abbr": "HOU",
+   "team": "Houston Astros",
+   "stations": [
+    {
+     "call": "KBME",
+     "freq": "790 AM",
+     "market": "Houston",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "KTRH",
+     "freq": "740 AM",
+     "market": "Houston",
+     "lang": "en",
+     "role": "co-flagship",
+     "stream": null
+    },
+    {
+     "call": "KLTN",
+     "freq": "102.9 FM HD2",
+     "market": "Houston",
+     "lang": "es",
+     "role": "spanish",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.mlb.com/astros/schedule/radio-affiliates",
+   "source": "https://www.mlb.com/astros/schedule/radio-affiliates",
+   "verified": true,
+   "note": "mlb.com/astros/team/broadcasters: 'SportsTalk 790 KBME serves as the Astros flagship radio station'. Affiliates page: Houston KBME / KTRH 790 AM / 740 AM; Houston (Spanish) KLTN-TUDN 102.9 HD2. MLB API also lists KBME on 94.5 FM HD-2. Cross-checked against MLB Stats API 2026 game broadcasts (https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-09-14&endDate=2026-09-27&hydrate=broadcasts(all))."
+  },
+  {
+   "espn_id": "7",
+   "abbr": "KC",
+   "team": "Kansas City Royals",
+   "stations": [
+    {
+     "call": "KFNZ-FM",
+     "freq": "96.5 FM",
+     "market": "Kansas City",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "KFNZ",
+     "freq": "610 AM",
+     "market": "Kansas City",
+     "lang": "en",
+     "role": "co-flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.mlb.com/royals/fans/royals-live-audio",
+   "source": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-09-14&endDate=2026-09-27&hydrate=broadcasts(all)",
+   "verified": true,
+   "note": "Royals have no affiliates page live; flagship from MLB Stats API ('96.5 The Fan' KFNZ 96.5 and 'KFNZ 610AM') and team page mention of '96.5 The Fan'. No Spanish radio found. Cross-checked against MLB Stats API 2026 game broadcasts (https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-09-14&endDate=2026-09-27&hydrate=broadcasts(all))."
+  },
+  {
+   "espn_id": "3",
+   "abbr": "LAA",
+   "team": "Los Angeles Angels",
+   "stations": [
+    {
+     "call": "KLAA",
+     "freq": "830 AM",
+     "market": "Los Angeles / Orange County",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "AM830 app / am830.net",
+      "url": "https://am830.net"
+     }
+    },
+    {
+     "call": "KWKW",
+     "freq": "1330 AM",
+     "market": "Los Angeles",
+     "lang": "es",
+     "role": "spanish flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.mlb.com/angels/schedule/broadcast-affiliates",
+   "source": "https://www.mlb.com/angels/schedule/broadcast-affiliates",
+   "verified": true,
+   "note": "Team page: 'The Radio Flagship stations for the Angels are: AM830 KLAA (English), KWKW ESPN Deportes 1330 AM (Spanish)'. AM830 app carries both languages. Cross-checked against MLB Stats API 2026 game broadcasts (https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-09-14&endDate=2026-09-27&hydrate=broadcasts(all))."
+  },
+  {
+   "espn_id": "19",
+   "abbr": "LAD",
+   "team": "Los Angeles Dodgers",
+   "stations": [
+    {
+     "call": "KLAC",
+     "freq": "570 AM",
+     "market": "Los Angeles",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "KTNQ",
+     "freq": "1020 AM",
+     "market": "Los Angeles",
+     "lang": "es",
+     "role": "spanish flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.mlb.com/dodgers/schedule/radio-network",
+   "source": "https://www.mlb.com/dodgers/schedule/radio-network",
+   "verified": true,
+   "note": "Team page: 'KLAC AM 570 Los Angeles - Flagship Station'; Spanish 'KTNQ 1020 AM (Flagship)'. Cross-checked against MLB Stats API 2026 game broadcasts (https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-09-14&endDate=2026-09-27&hydrate=broadcasts(all))."
+  },
+  {
+   "espn_id": "28",
+   "abbr": "MIA",
+   "team": "Miami Marlins",
+   "stations": [
+    {
+     "call": "WQAM",
+     "freq": "560 AM / 104.3 FM",
+     "market": "Miami",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "WAQI",
+     "freq": "710 AM",
+     "market": "Miami",
+     "lang": "es",
+     "role": "spanish",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.mlb.com/marlins/team/broadcasters",
+   "source": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-09-14&endDate=2026-09-27&hydrate=broadcasts(all)",
+   "verified": true,
+   "note": "Marlins watch page has no radio list; stations from MLB Stats API ('560AM WQAM', 'WQAM 104.3', 'WAQI 710'). Broadcasters page names WAQI for Spanish radio. Cross-checked against MLB Stats API 2026 game broadcasts (https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-09-14&endDate=2026-09-27&hydrate=broadcasts(all))."
+  },
+  {
+   "espn_id": "8",
+   "abbr": "MIL",
+   "team": "Milwaukee Brewers",
+   "stations": [
+    {
+     "call": "WTMJ",
+     "freq": "620 AM / 103.3 FM",
+     "market": "Milwaukee",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.mlb.com/brewers/schedule/brewers-radio-network",
+   "source": "https://www.mlb.com/brewers/schedule/brewers-radio-network",
+   "verified": true,
+   "note": "Network page lists Milwaukee WTMJ-AM/FM 620 AM / 103.3 FM (not labelled 'flagship' on page; MLB API home feed 'WTMJ 620'). MLB API shows a 'TUDN' Spanish feed for 2026 postseason games only (no call letters). Cross-checked against MLB Stats API 2026 game broadcasts (https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-09-14&endDate=2026-09-27&hydrate=broadcasts(all))."
+  },
+  {
+   "espn_id": "9",
+   "abbr": "MIN",
+   "team": "Minnesota Twins",
+   "stations": [
+    {
+     "call": "WCCO",
+     "freq": "830 AM",
+     "market": "Minneapolis-St. Paul",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "Audacy",
+      "url": null
+     }
+    },
+    {
+     "call": "The Wolf",
+     "freq": "102.9 FM",
+     "market": "Minneapolis-St. Paul",
+     "lang": "en",
+     "role": "co-flagship",
+     "stream": null
+    },
+    {
+     "call": "LosTwins.com",
+     "freq": null,
+     "market": "online",
+     "lang": "es",
+     "role": "spanish stream",
+     "stream": {
+      "app": "LosTwins.com",
+      "url": "https://www.mlb.com/es/twins"
+     }
+    }
+   ],
+   "team_audio_url": "https://www.mlb.com/twins/team/broadcasters",
+   "source": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-09-14&endDate=2026-09-27&hydrate=broadcasts(all)",
+   "verified": true,
+   "note": "Twins broadcast pages are offseason placeholders; MLB Stats API lists 'WCCO 830', 'The Wolf 102.9 FM', 'TIBN' (Treasure Island Baseball Network) and 'Audacy App' for every Sept 2026 game; Spanish via 'LosTwins.com' (stream, no station). 'The Wolf' call letters not given in source. Cross-checked against MLB Stats API 2026 game broadcasts (https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-09-14&endDate=2026-09-27&hydrate=broadcasts(all))."
+  },
+  {
+   "espn_id": "21",
+   "abbr": "NYM",
+   "team": "New York Mets",
+   "stations": [
+    {
+     "call": "WHSQ",
+     "freq": "880 AM",
+     "market": "New York",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "Audacy",
+      "url": null
+     }
+    },
+    {
+     "call": "92.3 FM HD2",
+     "freq": "92.3 FM HD2",
+     "market": "New York",
+     "lang": "es",
+     "role": "spanish",
+     "stream": {
+      "app": "Audacy",
+      "url": null
+     }
+    }
+   ],
+   "team_audio_url": "https://www.mlb.com/mets/schedule/watch",
+   "source": "https://www.mlb.com/mets/schedule/watch",
+   "verified": true,
+   "note": "Team page: 'WHSQ 880 (880 AM) New York, NY (Flagship)'. Spanish: team page still says 'ESPN 1050 AM (Spanish)', but MLB API for Sept 2026 lists 'Audacy App 92.3 HD2' as the Spanish feed - treat Spanish as unconfirmed. Cross-checked against MLB Stats API 2026 game broadcasts (https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-09-14&endDate=2026-09-27&hydrate=broadcasts(all))."
+  },
+  {
+   "espn_id": "10",
+   "abbr": "NYY",
+   "team": "New York Yankees",
+   "stations": [
+    {
+     "call": "WFAN",
+     "freq": "660 AM / 101.9 FM",
+     "market": "New York",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "WADO",
+     "freq": "1280 AM",
+     "market": "New York",
+     "lang": "es",
+     "role": "spanish",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.mlb.com/yankees/schedule/watch",
+   "source": "https://www.mlb.com/yankees/schedule/watch",
+   "verified": true,
+   "note": "Team page: 'Flagship Radio Station: WFAN 660 AM (English)'; broadcasters page 'WFAN 660AM / 101.9FM' and Spanish on WADO; MLB API 'WADO 1280'. Cross-checked against MLB Stats API 2026 game broadcasts (https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-09-14&endDate=2026-09-27&hydrate=broadcasts(all))."
+  },
+  {
+   "espn_id": "22",
+   "abbr": "PHI",
+   "team": "Philadelphia Phillies",
+   "stations": [
+    {
+     "call": "WIP-FM",
+     "freq": "94.1 FM",
+     "market": "Philadelphia",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "WPHT",
+     "freq": "1210 AM",
+     "market": "Philadelphia",
+     "lang": "en",
+     "role": "conflict overflow",
+     "stream": null
+    },
+    {
+     "call": "Rumba",
+     "freq": "106.1 FM",
+     "market": "Philadelphia",
+     "lang": "es",
+     "role": "spanish flagship",
+     "stream": {
+      "app": "iHeartRadio",
+      "url": null
+     }
+    }
+   ],
+   "team_audio_url": "https://www.mlb.com/phillies/schedule/watch",
+   "source": "https://www.mlb.com/phillies/schedule/watch",
+   "verified": true,
+   "note": "Team page: 'Flagship Radio Stations: WIP 94.1 FM (English), iHeart Radio & Rumba 106.1 FM (Spanish)'. WPHT 1210 used once in Sept 2026 per MLB API. Rumba call letters not given. Cross-checked against MLB Stats API 2026 game broadcasts (https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-09-14&endDate=2026-09-27&hydrate=broadcasts(all))."
+  },
+  {
+   "espn_id": "23",
+   "abbr": "PIT",
+   "team": "Pittsburgh Pirates",
+   "stations": [
+    {
+     "call": "KDKA-FM",
+     "freq": "93.7 FM",
+     "market": "Pittsburgh",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "KDKA",
+     "freq": "1020 AM / 100.1 FM",
+     "market": "Pittsburgh",
+     "lang": "en",
+     "role": "co-flagship (select games)",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.mlb.com/pirates/schedule/broadcast-schedule",
+   "source": "https://www.mlb.com/pirates/schedule/broadcast-schedule",
+   "verified": true,
+   "note": "Team page: 'Listen to Pirates Baseball on SportsRadio 93.7 THE FAN, 100.1 FM/KDKA-AM 1020'; 2026 schedule shows most games on 93.7 The Fan, some day games on 100.1 FM/AM 1020. No Spanish radio found. Cross-checked against MLB Stats API 2026 game broadcasts (https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-09-14&endDate=2026-09-27&hydrate=broadcasts(all))."
+  },
+  {
+   "espn_id": "25",
+   "abbr": "SD",
+   "team": "San Diego Padres",
+   "stations": [
+    {
+     "call": "KWFN",
+     "freq": "97.3 FM",
+     "market": "San Diego",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "XEMO",
+     "freq": "860 AM",
+     "market": "San Diego / Tijuana",
+     "lang": "es",
+     "role": "spanish",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.mlb.com/padres/team/broadcasters",
+   "source": "https://www.mlb.com/padres/team/broadcasters",
+   "verified": true,
+   "note": "Broadcasters page: lead radio voice on 'the club's flagship station 97.3 The Fan'; Spanish radio XEMO. MLB API: 'KWFN 97.3', 'XEMO 860'. Cross-checked against MLB Stats API 2026 game broadcasts (https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-09-14&endDate=2026-09-27&hydrate=broadcasts(all))."
+  },
+  {
+   "espn_id": "26",
+   "abbr": "SF",
+   "team": "San Francisco Giants",
+   "stations": [
+    {
+     "call": "KNBR",
+     "freq": "680 AM / 104.5 FM",
+     "market": "San Francisco",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "KSFN",
+     "freq": "1510 AM / 99.3 FM",
+     "market": "San Francisco",
+     "lang": "es",
+     "role": "spanish flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.mlb.com/giants/schedule/watch",
+   "source": "https://www.mlb.com/giants/schedule/watch",
+   "verified": true,
+   "note": "Team page: 'KNBR (English flagship) 104.5 FM/680 AM'; 'KSFN (Spanish flagship) 1510 AM/99.3 FM'. Cross-checked against MLB Stats API 2026 game broadcasts (https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-09-14&endDate=2026-09-27&hydrate=broadcasts(all))."
+  },
+  {
+   "espn_id": "12",
+   "abbr": "SEA",
+   "team": "Seattle Mariners",
+   "stations": [
+    {
+     "call": "KIRO",
+     "freq": "710 AM",
+     "market": "Seattle",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "Seattle Sports app / SeattleSports.com",
+      "url": "https://www.seattlesports.com"
+     }
+    },
+    {
+     "call": "KTTH",
+     "freq": "770 AM",
+     "market": "Seattle",
+     "lang": "en",
+     "role": "conflict overflow",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.mlb.com/mariners/schedule/broadcast-affiliates",
+   "source": "https://www.mlb.com/mariners/schedule/broadcast-affiliates",
+   "verified": true,
+   "note": "Team page: 'flagship station Seattle Sports 710 AM' (KIRO 710 Seattle (Flagship)); in-territory fans can stream on the Seattle Sports 710 AM app with no blackouts. KTTH 770 used for some Sept 2026 games per MLB API. Spanish is a TV SAP feed (home Fri-Sun), not radio; MLB API labels it 'Mariners ES Radio'. Cross-checked against MLB Stats API 2026 game broadcasts (https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-09-14&endDate=2026-09-27&hydrate=broadcasts(all))."
+  },
+  {
+   "espn_id": "24",
+   "abbr": "STL",
+   "team": "St. Louis Cardinals",
+   "stations": [
+    {
+     "call": "KMOX",
+     "freq": "1120 AM / 104.1 FM",
+     "market": "St. Louis",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "WIJR",
+     "freq": "880 AM",
+     "market": "St. Louis",
+     "lang": "es",
+     "role": "spanish flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.mlb.com/cardinals/schedule/radio-affiliates",
+   "source": "https://www.mlb.com/cardinals/schedule/radio-affiliates",
+   "verified": true,
+   "note": "Team page: 'St. Louis (Flagship) KMOX 1120 AM'; Missouri Spanish 'St. Louis (Flagship) WIJR AM 880'. MLB API: 'KMOX 1120 AM/104.1 FM'. Cross-checked against MLB Stats API 2026 game broadcasts (https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-09-14&endDate=2026-09-27&hydrate=broadcasts(all))."
+  },
+  {
+   "espn_id": "30",
+   "abbr": "TB",
+   "team": "Tampa Bay Rays",
+   "stations": [
+    {
+     "call": "WDAE",
+     "freq": "95.7 FM / 620 AM",
+     "market": "Tampa / St. Petersburg",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "WQBN",
+     "freq": "106.7 FM / 1300 AM",
+     "market": "Tampa / St. Petersburg",
+     "lang": "es",
+     "role": "spanish flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.mlb.com/rays/fans/radio",
+   "source": "https://www.mlb.com/rays/fans/radio",
+   "verified": true,
+   "note": "Team page: Rays Radio Network WDAE 95.7 FM / 620 AM Tampa; Spanish Radio Network WQBN 106.7 FM / 1300 AM. Cross-checked against MLB Stats API 2026 game broadcasts (https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-09-14&endDate=2026-09-27&hydrate=broadcasts(all))."
+  },
+  {
+   "espn_id": "13",
+   "abbr": "TEX",
+   "team": "Texas Rangers",
+   "stations": [
+    {
+     "call": "KRLD-FM",
+     "freq": "105.3 FM",
+     "market": "Dallas-Fort Worth",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "Audacy",
+      "url": null
+     }
+    },
+    {
+     "call": "KRLD",
+     "freq": "1080 AM",
+     "market": "Dallas-Fort Worth",
+     "lang": "en",
+     "role": "conflict overflow",
+     "stream": null
+    },
+    {
+     "call": "KFLC",
+     "freq": "1270 AM",
+     "market": "Dallas-Fort Worth",
+     "lang": "es",
+     "role": "spanish",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.mlb.com/rangers/schedule/watch",
+   "source": "https://www.mlb.com/rangers/schedule/watch",
+   "verified": true,
+   "note": "Team pages: '105.3 The FAN, the Rangers' English radio flagship'; 'Stream on the Audacy app or on Audacy.com'. KRLD 1080 and Spanish KFLC 1270 from MLB API. Cross-checked against MLB Stats API 2026 game broadcasts (https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-09-14&endDate=2026-09-27&hydrate=broadcasts(all))."
+  },
+  {
+   "espn_id": "14",
+   "abbr": "TOR",
+   "team": "Toronto Blue Jays",
+   "stations": [
+    {
+     "call": "CJCL",
+     "freq": "590 AM",
+     "market": "Toronto",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.mlb.com/bluejays/schedule/blue-jays-radio-network",
+   "source": "https://www.mlb.com/bluejays/schedule/blue-jays-radio-network",
+   "verified": true,
+   "note": "Team page: 'Toronto: CJCL/Sportsnet 590 The FAN - 590 AM'. No French or Spanish radio flagship found for 2026. Cross-checked against MLB Stats API 2026 game broadcasts (https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-09-14&endDate=2026-09-27&hydrate=broadcasts(all))."
+  },
+  {
+   "espn_id": "20",
+   "abbr": "WSH",
+   "team": "Washington Nationals",
+   "stations": [
+    {
+     "call": "WJFK-FM",
+     "freq": "106.7 FM",
+     "market": "Washington, DC",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "WFED",
+     "freq": "1500 AM",
+     "market": "Washington, DC",
+     "lang": "en",
+     "role": "co-flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.mlb.com/nationals/team/broadcast-affiliates",
+   "source": "https://www.mlb.com/nationals/team/broadcast-affiliates",
+   "verified": true,
+   "note": "Team page: 'In addition to the flagship station 106.7 The Fan...'; Washington DC WJFK 106.7 FM and WFED 1500 AM. No Spanish radio listed. Cross-checked against MLB Stats API 2026 game broadcasts (https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-09-14&endDate=2026-09-27&hydrate=broadcasts(all))."
+  }
+ ],
+ "league_audio": [
+  {
+   "name": "MLB.TV / MLB app audio",
+   "what": "MLB.TV subscribers can watch or listen to audio of every out-of-market regular-season game live (home/away radio feeds) in the MLB app; in-market blackouts apply to video.",
+   "url": "https://www.mlb.com/live-stream-games",
+   "source": "https://www.mlb.com/tigers/schedule/affiliates"
+  },
+  {
+   "name": "ESPN Radio (MLB Postseason national radio)",
+   "what": "ESPN Radio is the national radio broadcaster of the 2026 MLB Postseason: MLB's official schedule data lists 'ESPN Radio' (isNational=true) on all 2026 postseason games scheduled Sept 29 - Oct 12 (Wild Card Series, Division Series and LCS games), alongside each club's local flagship. World Series games were not yet in the data checked.",
+   "url": null,
+   "source": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-09-29&endDate=2026-10-12&gameType=F,D,L,W&hydrate=broadcasts(all)"
+  },
+  {
+   "name": "Team flagship radio apps",
+   "what": "Several flagships stream games in-territory for free (e.g. Seattle Sports 710 app, AM830 app for Angels in English/Spanish, A's Cast); streaming rights vary by club.",
+   "url": null,
+   "source": "https://www.mlb.com/mariners/schedule/broadcast-affiliates"
+  }
+ ]
+}

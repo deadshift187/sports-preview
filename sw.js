@@ -3,7 +3,7 @@
 // version every few minutes / on foreground / on launch. A new version installs in the background
 // and only swaps in when the page says it's safe (not mid-popup / typing) - see app.js.
 // SHELL is stamped per publish by build_public.py so each deploy is its own cache.
-var SHELL = "gf-20261014170239";   // build_public.py replaces this with gf-<timestamp>
+var SHELL = "gf-d4b785eb7c";   // build_public.py replaces this with gf-<timestamp>
 var SHELL_FILES = ["./index.html", "./app.css", "./app.js", "./rank.js", "./live.js"];
 var STATIC = ["./manifest.json", "./icon.svg", "./icon-192.png", "./icon-512.png"];
 
@@ -37,6 +37,9 @@ function networkFirst(req) {
 self.addEventListener("fetch", function (e) {
   var req = e.request;
   if (req.method !== "GET") return;
+  // Never touch cross-origin requests (ESPN live scores, Polymarket): if we cached them they'd
+  // freeze forever. Let them go straight to the network, uncached.
+  try { if (new URL(req.url).origin !== self.location.origin) return; } catch (x) { return; }
   // Schedule data is network-first (its own refresh cycle); everything else opens from cache.
   e.respondWith(req.url.indexOf("/data/") >= 0 ? networkFirst(req) : cacheFirst(req));
 });

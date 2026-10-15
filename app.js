@@ -28,7 +28,7 @@
   function load(k, d) { try { var v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } }
   function save(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
 
-  var state = { view: "foryou", group: "All", mine: false, q: "", data: null, open: {}, titles: [], focus: null };
+  var state = { view: "foryou", group: "All", mine: false, q: "", data: null, open: {}, titles: [], focus: null, showOther: false };
   var SVC = [];
 
 
@@ -41,7 +41,7 @@
       if (!state.q && document.activeElement !== $("#q")) openSettings();
     }
   }).catch(function (e) {
-    $("#list").innerHTML = '<div class="empty">Could not load schedule data.<br>Run <code>python refresh.py</code> then reload.</div>';
+    $("#list").innerHTML = '<div class="empty">Couldn\'t load the schedule.<br>Check your connection and reopen the app.</div>';
   });
 
 
@@ -50,7 +50,7 @@
     var b = e.target.closest("button"); if (!b) return;
     state.view = b.dataset.v; syncSeg(); render();
   });
-  function syncSeg() { [].forEach.call($("#views").children, function (b) { b.classList.toggle("on", b.dataset.v === state.view); }); }
+  function syncSeg() { [].forEach.call($("#views").children, function (b) { var on = b.dataset.v === state.view; b.classList.toggle("on", on); b.setAttribute("role", "tab"); b.setAttribute("aria-selected", on ? "true" : "false"); }); }
   $("#q").addEventListener("input", function (e) { state.q = e.target.value.trim().toLowerCase(); render(); });
   $("#mineBtn").addEventListener("click", function () {
     state.mine = !state.mine; this.setAttribute("aria-pressed", state.mine); this.classList.toggle("on", state.mine); render();
@@ -113,8 +113,14 @@
     try { return new Date(g.start).toLocaleDateString([], { weekday: "long", month: "short", day: "numeric", timeZone: tz }); }
     catch (e) { return new Date(g.start).toLocaleDateString([], { weekday: "long", month: "short", day: "numeric" }); }
   }
+  // Live for DISPLAY - guards against a game stuck "in" long after it actually ended (see live.js
+  // isLive). Everything user-facing uses this, never the raw status, so stale data can't show LIVE.
+  function liveNow(g) { return window.GFLive ? GFLive.isLive(g) : g.status === "in"; }
+  // Does this game have a real US watch option (not just a "Network TBA" placeholder)? Games with
+  // none are sunk into a collapsed "Other events" group so they don't flood Today/week.
+  function hasListing(g) { return !!(g.watch && g.watch.some(function (w) { return w && !w.tba; })); }
   // Sort: live first, then upcoming (soonest first), then finished (most recent first) at the bottom.
-  function orderRank(g) { return g.status === "in" ? 0 : (g.status === "post" ? 2 : 1); }
+  function orderRank(g) { return liveNow(g) ? 0 : (g.status === "post" ? 2 : 1); }
   function gameOrder(a, b) {
     var ra = orderRank(a), rb = orderRank(b); if (ra !== rb) return ra - rb;
     var sa = a.start || "", sb = b.start || "";
@@ -124,12 +130,15 @@
   function inView(g) {
     var s = parse(g.start); if (!s) return state.view === "week";
     var now = new Date();
-    if (g.status === "in") return true; // live always shows in time views
-    if (state.view === "live") return g.status === "in";
-    if (state.view === "today") return dayKeyG(g) === dayKeyNow() || (g.multiday && g.status !== "post");
+    if (liveNow(g)) return true; // live always shows in time views
+    if (state.view === "live") return liveNow(g);
+    // Today = starts today OR a multiday event already under way (started on/before today, not over).
+    // Future multiday events (e.g. a test match days out) do NOT belong in Today.
+    if (state.view === "today") return dayKeyG(g) === dayKeyNow() || (g.multiday && g.status !== "post" && dayKeyG(g) <= dayKeyNow());
     if (state.view === "week") return true;
     if (state.view === "weekend") {
-      var d = s.getDay(); // Fri(5) Sat(6) Sun(0), within the next 7 days
+      // Day-of-week in the CHOSEN city, not the device's own time zone.
+      var d = new Date(dayKeyG(g) + "T12:00:00Z").getUTCDay(); // Fri(5) Sat(6) Sun(0)
       var ahead = (s - now) / 864e5;
       return (d === 5 || d === 6 || d === 0) && ahead > -1 && ahead < 7.5;
     }
@@ -204,7 +213,7 @@
       box.appendChild(bb);
       var fg = favGames(state.focus);
       if (!fg.length) box.appendChild(el("div", "empty", "No upcoming games for " + state.focus.name + " this week."));
-      else { var cd = null; fg.forEach(function (g) { var s = parse(g.start); var dk = g.status === "in" ? "LIVE" : (g.start ? fmtDayG(g) : ""); if (dk !== cd) { cd = dk; box.appendChild(el("div", "day", dk)); } box.appendChild(card(g, owned)); }); }
+      else { var cd = null; fg.forEach(function (g) { var s = parse(g.start); var dk = liveNow(g) ? "LIVE" : (g.start ? fmtDayG(g) : ""); if (dk !== cd) { cd = dk; box.appendChild(el("div", "day", dk)); } box.appendChild(card(g, owned)); }); }
       setFoot(); return;
     }
 
@@ -221,7 +230,7 @@
       return inView(g);
     });
     games.sort(function (a, b) {
-      var la = a.status === "in" ? 0 : 1, lb = b.status === "in" ? 0 : 1;
+      var la = liveNow(a) ? 0 : 1, lb = liveNow(b) ? 0 : 1;
       return (la - lb) || ((a.start || "") < (b.start || "") ? -1 : 1);
     });
     if (!games.length) {
@@ -229,13 +238,23 @@
         box.appendChild(el("div", "empty", state.mine ? "Nothing for your teams in this view. Tap Setup to follow more, or turn off My stuff." : "No games in this view."));
       setFoot(); return;
     }
-    var curDay = null;
-    games.forEach(function (g) {
-      var s = parse(g.start);
-      var dk = g.status === "in" ? "LIVE" : (g.start ? fmtDayG(g) : "Scheduled");
-      if (dk !== curDay) { curDay = dk; box.appendChild(el("div", "day", dk)); }
-      box.appendChild(card(g, owned));
-    });
+    var listed = games.filter(hasListing), other = games.filter(function (g) { return !hasListing(g); });
+    var appendByDay = function (arr) {
+      var curDay = null;
+      arr.forEach(function (g) {
+        var dk = liveNow(g) ? "LIVE" : (g.start ? fmtDayG(g) : "Scheduled");
+        if (dk !== curDay) { curDay = dk; box.appendChild(el("div", "day", dk)); }
+        box.appendChild(card(g, owned));
+      });
+    };
+    appendByDay(listed);
+    if (!listed.length && other.length) box.appendChild(el("div", "muted", "No games with a US listing in this view yet."));
+    if (other.length) {
+      var hdr = el("button", "otherhdr", (state.showOther ? "▾ " : "▸ ") + "Other events — no US listing yet (" + other.length + ")");
+      hdr.onclick = function () { state.showOther = !state.showOther; render(); };
+      box.appendChild(hdr);
+      if (state.showOther) appendByDay(other);
+    }
     setFoot();
   }
 
@@ -248,7 +267,7 @@
       var curDay = null;
       games.forEach(function (g) {
         var s = parse(g.start);
-        var dk = g.status === "in" ? "LIVE" : (g.start ? fmtDayG(g) : "Scheduled");
+        var dk = liveNow(g) ? "LIVE" : (g.start ? fmtDayG(g) : "Scheduled");
         if (dk !== curDay) { curDay = dk; box.appendChild(el("div", "day", dk)); }
         box.appendChild(card(g, owned));
       });
@@ -260,7 +279,7 @@
   // Compact horizontal ticker of live games (your teams; or all live if you follow none).
   function renderLiveStrip(myLive) {
     var box = $("#list");
-    var all = (state.data.games || []).filter(function (g) { return g.status === "in"; });
+    var all = (state.data.games || []).filter(function (g) { return liveNow(g) && hasListing(g); });
     var strip = (myLive && myLive.length) ? myLive : all;
     if (!strip.length) return;
     var wrap = el("div", "livestrip");
@@ -290,9 +309,9 @@
       games.forEach(function (g) { box.appendChild(card(g, owned)); });
     }
 
-    var live = mine.filter(function (g) { return g.status === "in"; });
+    var live = mine.filter(function (g) { return liveNow(g); });
     renderLiveStrip(live);
-    var today = mine.filter(function (g) { var s = parse(g.start); return g.status !== "in" && s && dayKeyG(g) === dayKeyNow(); });
+    var today = mine.filter(function (g) { var s = parse(g.start); return !liveNow(g) && s && dayKeyG(g) === dayKeyNow(); });
     var week = mine.filter(function (g) { var s = parse(g.start); return g.status !== "in" && s && dayKeyG(g) !== dayKeyNow(); });
 
     if (!favList().length) {
@@ -327,11 +346,11 @@
 
     var actions = el("div", "betactions");
     var add = el("button", "betbtn", "+ Add a bet"); add.onclick = addBetSheet; actions.appendChild(add);
-    var conn = el("button", "betbtn ghost", "Connect Kalshi / Polymarket"); conn.onclick = connectSheet; actions.appendChild(conn);
+    var conn = el("button", "betbtn ghost", "Import a Polymarket wallet"); conn.onclick = connectSheet; actions.appendChild(conn);
     box.appendChild(actions);
 
     var bets = store.bets;
-    if (!bets.length) { box.appendChild(el("div", "foryou-empty", "No bets yet. Add one, or connect Kalshi (read-only) or a Polymarket wallet. Sportsbook bets (DraftKings, FanDuel…) have no public feed — add those by hand or via the share sheet.")); setFoot(); return; }
+    if (!bets.length) { box.appendChild(el("div", "foryou-empty", "No bets yet. Add one by hand, or import a Polymarket wallet (public). Sportsbook and Kalshi bets have no public feed — add those by hand or via the share sheet.")); setFoot(); return; }
     var open = bets.filter(function (b) { return b.status !== "settled"; }), done = bets.filter(function (b) { return b.status === "settled"; });
     if (open.length) { box.appendChild(el("div", "day", "Open")); open.forEach(function (b) { box.appendChild(betCard(b, owned)); }); }
     if (done.length) { box.appendChild(el("div", "day", "Settled")); done.forEach(function (b) { box.appendChild(betCard(b, owned)); }); }
@@ -356,7 +375,7 @@
     if (g) {
       var gl = el("button", "bet-game");
       var title = (g.away && (g.away.short || g.away.name)) + " @ " + (g.home && (g.home.short || g.home.name));
-      var score = g.score ? (" · " + (g.status_detail || "") + " " + g.score.away + "–" + g.score.home) : (g.status === "in" ? " · " + (g.status_detail || "LIVE") : "");
+      var score = g.score ? (" · " + (g.status_detail || "") + " " + g.score.away + "–" + g.score.home) : (liveNow(g) ? " · " + (g.status_detail || "LIVE") : "");
       gl.appendChild(el("div", "bg1", title + score));
       var why = GFRank.whyLine(g, owned, SVC);
       gl.appendChild(el("div", "bg2 c-" + why.color, "Watch: " + why.text.replace(/^On /, "")));
@@ -367,7 +386,7 @@
     }
 
     var row = el("div", "bet-row");
-    if (b.link) { var m = el("a", "betbtn sm"); m.href = b.link; m.target = "_blank"; m.rel = "noopener"; m.textContent = "Manage bet →"; row.appendChild(m); }
+    var blink = safeUrl(b.link); if (blink) { var m = el("a", "betbtn sm"); m.href = blink; m.target = "_blank"; m.rel = "noopener"; m.textContent = "Manage bet →"; row.appendChild(m); }
     var ed = el("button", "betbtn sm ghost", b.status === "settled" ? "Reopen" : "Mark settled");
     ed.onclick = function () { var a = store.bets; a.forEach(function (x) { if (x.id === b.id) x.status = x.status === "settled" ? "open" : "settled"; }); store.bets = a; render(); };
     row.appendChild(ed);
@@ -380,8 +399,10 @@
 
   function ageGate() {
     var w = el("div", "foryou-empty");
-    w.appendChild(el("div", "age-h", "Bets — 18+ (21+ where required)"));
-    w.appendChild(el("div", null, "My Bets only displays bets you already made and links out to the book. It never takes, places or settles a bet. You must be of legal age in your location to use it."));
+    w.appendChild(el("div", "age-h", "Bets — 21+ (18+ where allowed)"));
+    w.appendChild(el("div", null, "My Bets only displays bets you already made and links out to the book or market. It never takes, places, changes or settles a bet, and never handles money. You must meet the legal betting age where you are — 21+ in most US states, 18+ where the law allows."));
+    w.appendChild(el("div", "muted", "We show plain links to the book — no affiliate codes, and we never take a cut of your bets."));
+    w.appendChild(el("div", "muted", "If gambling stops being fun or feels out of control: call or text 1-800-GAMBLER (US) — free, confidential, 24/7."));
     var row = el("div", "bet-row");
     var ok = el("button", "betbtn", "I'm of legal age"); ok.onclick = function () { store.ageOk = true; render(); };
     var no = el("button", "betbtn ghost", "Not now"); no.onclick = function () { state.view = "foryou"; syncSeg(); render(); };
@@ -436,20 +457,18 @@
 
   function connectSheet() {
     sheet("Connect your bets (read-only)", function (box, close) {
-      box.appendChild(el("div", "muted", "We only READ your positions and link out. We never place bets, and never ask for a password."));
-      // Polymarket: public wallet, no credentials
+      box.appendChild(el("div", "muted", "We only READ public positions and link out. We never place or settle a bet, never ask for a password, and never store API keys."));
+      // Polymarket: PUBLIC wallet address only, no credentials.
       box.appendChild(el("h4", null, "Polymarket"));
       var w = field(box, "Wallet address", "0x… (public, no password)");
+      box.appendChild(el("div", "muted", "Public address only — paste the wallet, not a private key or seed phrase. Polymarket isn't available to users in some locations, including the US; only use it where it's legal for you."));
       var pbtn = el("button", "betbtn sm", "Import positions");
       pbtn.onclick = function () { importPolymarket(w.value.trim(), close); };
       box.appendChild(pbtn);
-      // Kalshi: user's own read-only API key, stored on device only
-      box.appendChild(el("h4", null, "Kalshi"));
-      box.appendChild(el("div", "muted", "Paste your own read-only API key (Settings → API on Kalshi). It stays on this device; we never see your password."));
-      var k = field(box, "Kalshi API key id", "");
-      var kbtn = el("button", "betbtn sm", "Save key");
-      kbtn.onclick = function () { save("gf_kalshi_key", k.value.trim()); close(); alert("Saved on this device. Live position import needs the companion fetcher (see README) — your key is never sent anywhere else."); };
-      box.appendChild(kbtn);
+      // Kalshi / sportsbooks: no API-key field. Those have no public read-only feed we can use
+      // safely, so positions are added by hand or via the phone share sheet.
+      box.appendChild(el("h4", null, "Kalshi & sportsbooks"));
+      box.appendChild(el("div", "muted", "DraftKings, FanDuel, Kalshi and the like have no public read-only feed, so add those by hand (Add a bet) or share a bet slip to Game Finder. We never ask for your login or an API key."));
     });
   }
 
@@ -478,6 +497,7 @@
     var d = state.data, when = d.generated ? new Date(d.generated).toLocaleString([], { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }) : "";
     var ver = window.GF_VERSION || "dev";
     $("#foot").innerHTML = "Data checked " + when + " · no ads, no tracking · " + (PUBLIC ? '<a href="./privacy.html" style="color:inherit">Privacy</a>' : "on-device only") + ' · <span style="opacity:.6">' + ver + "</span>";
+    staleBanner();
   }
 
   function teamBadge(t) {
@@ -520,13 +540,14 @@
     var c = el("div", "card");
     var meta = el("div", "meta");
     var s = parse(g.start);
-    var time = el("span", null, g.status === "in" ? "" : (g.start ? fmtTimeG(g) : ""));
-    if (g.status === "in") {
+    var live = liveNow(g);
+    var time = el("span", null, live ? "" : (g.start ? fmtTimeG(g) : ""));
+    if (live) {
       meta.appendChild(el("span", "livepill", "LIVE"));           // pulsing pill (CSS)
       meta.appendChild(el("span", "livestate", GFLive.liveLine(g)));
     }
     else if (g.status === "post") meta.appendChild(el("span", "finalpill", g.status_detail || "Final"));
-    else meta.appendChild(time);
+    else meta.appendChild(time);   // scheduled (or a stale "in" game past its window -> just its time)
     meta.appendChild(el("span", "lg", g.league_name));
     if (g.stale) meta.appendChild(el("span", "conf", "cached"));
     var star = el("button", "star" + (store.fav.indexOf(g.id) >= 0 ? " on" : ""), store.fav.indexOf(g.id) >= 0 ? "★" : "☆");
@@ -567,7 +588,7 @@
       if (!dividerPut && opts.children.length) opts.appendChild(el("span", "optdiv", "pay / download"));
       opts.appendChild(el("span", "bundlelbl", "or a live-TV bundle:"));
       bl.forEach(function (b) {
-        var web = svcWeb(b);
+        var web = safeUrl(svcWeb(b));
         var a = el(web ? "a" : "span", "opt bundle");
         if (web) { a.href = web; a.onclick = function (e) { e.preventDefault(); handleWatchTap(b, web); }; }
         a.textContent = svcName(b);
@@ -607,11 +628,14 @@
 
     var more = el("button", "more", "Details & sources");
     var det = null;
+    function showDet() { det = detail(g, ranked); c.appendChild(det); more.textContent = "Hide details"; }
     more.onclick = function () {
-      if (det) { det.remove(); det = null; more.textContent = "Details & sources"; return; }
-      det = detail(g, ranked); c.appendChild(det); more.textContent = "Hide details";
+      if (det) { det.remove(); det = null; delete state.open[g.id]; more.textContent = "Details & sources"; return; }
+      state.open[g.id] = 1; showDet();
     };
     c.appendChild(more);
+    // Keep a card's details open across a live re-render (polling every 45s rebuilds the list).
+    if (state.open[g.id]) showDet();
     return c;
   }
 
@@ -715,7 +739,7 @@
 
   function watchBtn(r) {
     if (r.tba) { var t = el("span", "opt c-orange unv"); t.appendChild(document.createTextNode("Network TBA")); t.appendChild(el("small", null, "check listings")); return t; }
-    var url = svcWeb(r.open) || (r.cat === "free" && r.w.free_evidence) || "";
+    var url = safeUrl(svcWeb(r.open) || (r.cat === "free" && r.w.free_evidence) || "");
     var a = el(url ? "a" : "span", "opt c-" + r.color + (r.w.confidence === "unverified" ? " unv" : ""));
     if (url) { a.href = url; a.onclick = function (e) { e.preventDefault(); handleWatchTap(r.open, url); }; }
     a.appendChild(document.createTextNode(r.w.name));
@@ -737,7 +761,7 @@
   }
   function openInBrowser(web) { try { window.open(web, "_blank", "noopener"); } catch (e) { location.href = web; } }
   function openInApp(id, web) {
-    var sv = svcObj(id), store = storeUrl(sv);
+    var sv = svcObj(id), store = safeUrl(storeUrl(sv));
     if (!isIOS() && !isAndroid()) { openInBrowser(web); return; }   // desktop: just open the site
     // Universal link opens the app if installed; if we're still visible after 1.5s, go to the store.
     var opened = false, onhide = function () { opened = true; };
@@ -751,6 +775,7 @@
   function doOpen(choice, id, web) { if (choice === "browser") openInBrowser(web); else openInApp(id, web); }
 
   function handleWatchTap(id, web) {
+    web = safeUrl(web);   // never navigate to a non-http(s) scheme from data
     var perSvc = load("gf_open_svc", {}), global = load("gf_open_default", "ask");
     var pref = (id && perSvc[id]) || global;
     if (pref === "app" || pref === "browser") { doOpen(pref, id, web); return; }
@@ -809,15 +834,16 @@
       g.listen.forEach(function (l) {
         var li = el("li");
         var label = l.name + (l.team ? " (" + l.team + ")" : "") + (l.app ? " · " + l.app : "") + (l.lang === "es" ? " · Spanish" : "");
-        li.innerHTML = l.link ? '<a href="' + esc(l.link) + '" target="_blank" rel="noopener">' + esc(label) + "</a>" : esc(label);
-        li.innerHTML += ' <span class="conf ' + l.confidence + '">' + l.confidence + "</span>";
+        var llink = safeUrl(l.link);
+        li.innerHTML = llink ? '<a href="' + esc(llink) + '" target="_blank" rel="noopener">' + esc(label) + "</a>" : esc(label);
+        li.innerHTML += ' <span class="conf ' + esc(l.confidence) + '">' + esc(l.confidence) + "</span>";
         if (l.source) li.innerHTML += " · " + srcLink(l.source);
         if (l.note) li.appendChild(el("div", "muted", l.note));
         lu.appendChild(li);
       });
       d.appendChild(lu);
     }
-    if (g.link) { var p = el("div"); p.style.marginTop = "8px"; p.innerHTML = '<a href="' + esc(g.link) + '" target="_blank" rel="noopener">Game page ↗</a>'; d.appendChild(p); }
+    var glink = safeUrl(g.link); if (glink) { var p = el("div"); p.style.marginTop = "8px"; p.innerHTML = '<a href="' + esc(glink) + '" target="_blank" rel="noopener">Game page ↗</a>'; d.appendChild(p); }
     return d;
   }
 
@@ -826,6 +852,9 @@
     return '<span class="muted">' + esc(s) + "</span>";
   }
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (m) { return ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[m]; }); }
+  // Only ever open absolute http(s) links. Blocks javascript:/data:/other schemes that could sneak
+  // in through schedule data, a bet link, or a listen/game URL. Returns "" when not safe.
+  function safeUrl(u) { u = String(u == null ? "" : u).trim(); return /^https?:\/\//i.test(u) ? u : ""; }
 
   // ---- settings
   function openSettings() { var dlg = $("#settings"); if (!dlg.open) dlg.showModal(); }
@@ -847,6 +876,17 @@
     chipPicker($("#followLeagues"), Object.keys(leagues).sort(function (a, b) { return leagues[a] < leagues[b] ? -1 : 1; }), function (x) { return leagues[x]; }, "leagues");
     buildFollowedTeams();
     $("#teamQ").addEventListener("input", teamSearch);
+    var pb = $("#privacyBox");
+    if (pb) pb.innerHTML = "Everything you pick — your services, teams, city and any bets — stays on this device only. No ads, no tracking, no account." + (PUBLIC ? ' <a href="./privacy.html" style="color:var(--accent)">Privacy policy</a>' : "");
+    var rb = $("#resetBtn");
+    if (rb && !rb._wired) {
+      rb._wired = 1;
+      rb.onclick = function () {
+        if (!confirm("Clear everything on this device — your services, teams, city and saved bets? This can't be undone.")) return;
+        try { Object.keys(localStorage).forEach(function (k) { if (k.indexOf("gf_") === 0) localStorage.removeItem(k); }); } catch (e) {}
+        location.reload();
+      };
+    }
   }
   function cityLabel(c) { return c.name + " · " + tzShort(c.tz); }
   function buildTzSettings() {
@@ -884,6 +924,19 @@
     var keep = el("button", "tzbtn ghost", "Keep " + city.name); keep.onclick = function () { save("gf_tz_dismiss", dev); b.hidden = true; };
     if (load("gf_tz_dismiss", null) === dev) { b.hidden = true; return; }
     b.appendChild(sw); b.appendChild(keep);
+  }
+
+  // A clear warning when the schedule snapshot is old (cron refreshes every 15 min, so >3h means
+  // the refresh is down or the viewer is offline on a cached copy). Keeps us from quietly showing
+  // stale times/listings as if they were current.
+  function staleBanner() {
+    var b = $("#stalebanner"); if (!b) return;
+    var gen = (state.data && state.data.generated) ? new Date(state.data.generated).getTime() : 0;
+    var ageH = gen ? (Date.now() - gen) / 3600000 : 999;
+    if (gen && ageH < 2) { b.hidden = true; b.innerHTML = ""; return; }
+    var when = gen ? new Date(gen).toLocaleString([], { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }) : "an unknown time";
+    b.hidden = false;
+    b.textContent = "⚠ Schedule may be out of date — last updated " + when + ". Reopen when you're back online to refresh.";
   }
 
   function buildOpenPrefs() {
@@ -977,6 +1030,7 @@
   if ("serviceWorker" in navigator) {
     try { if (sessionStorage.getItem("gf_updated")) { sessionStorage.removeItem("gf_updated"); setTimeout(updatedToast, 400); } } catch (e) {}
     var swReg = null, pendingSwap = false, reloading = false;
+    var hadController = !!navigator.serviceWorker.controller;   // false on a first visit
     var applyUpdate = function () {
       if (!swReg || !swReg.waiting) return;
       if (!safeToSwap()) { pendingSwap = true; return; }   // defer until safe
@@ -985,7 +1039,9 @@
       swReg.waiting.postMessage({ type: "skipWaiting" });
     };
     navigator.serviceWorker.addEventListener("controllerchange", function () {
-      if (reloading) return; reloading = true; location.reload();   // new version took over -> reload once
+      // Only reload on a real UPDATE. On a first visit clients.claim fires this too - reloading
+      // then would wipe the welcome/Setup the user is filling in.
+      if (!hadController || reloading) return; reloading = true; location.reload();
     });
     var reg = navigator.serviceWorker.register("sw.js", { updateViaCache: "none" });
     reg.then(function (r) {

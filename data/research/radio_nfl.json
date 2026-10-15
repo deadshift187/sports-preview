@@ -1,0 +1,1018 @@
+{
+ "league": "NFL",
+ "checked": "2026-10-12",
+ "teams": [
+  {
+   "espn_id": "33",
+   "abbr": "BAL",
+   "team": "Baltimore Ravens",
+   "stations": [
+    {
+     "call": "WIYY-FM",
+     "freq": "97.9 FM",
+     "market": "Baltimore",
+     "lang": "en",
+     "role": "co-flagship",
+     "stream": null
+    },
+    {
+     "call": "WBAL-AM",
+     "freq": "1090 AM",
+     "market": "Baltimore",
+     "lang": "en",
+     "role": "co-flagship",
+     "stream": null
+    },
+    {
+     "call": "WBAL (FM simulcast)",
+     "freq": "101.5 FM",
+     "market": "Baltimore",
+     "lang": "en",
+     "role": "co-flagship",
+     "stream": null
+    },
+    {
+     "call": "WLZL-FM",
+     "freq": "107.9 FM",
+     "market": "Baltimore",
+     "lang": "es",
+     "role": "flagship",
+     "stream": {
+      "app": "Audacy",
+      "url": null
+     }
+    }
+   ],
+   "team_audio_url": "https://www.baltimoreravens.com/broadcast/gameday-radio/",
+   "source": "https://www.baltimoreravens.com/news/ravens-expand-2026-radio-preseason-television-coverage",
+   "verified": true,
+   "note": "2026 release (Aug 12 2026): all games on 98 Rock WIYY 97.9 + WBAL 1090 AM/101.5 FM. Spanish = TICO Sports on WLZL El Zol 107.9 FM + Audacy app per 2026 Week 1 page (baltimoreravens.com/news/how-to-watch-listen-live-stream-ravens-vs-colts-week-1). Ravens.com game stream desktop only; Ravens app in-market only. Gameday-radio page also lists 'ESPN 630 AM' (no call letters given) - omitted."
+  },
+  {
+   "espn_id": "2",
+   "abbr": "BUF",
+   "team": "Buffalo Bills",
+   "stations": [
+    {
+     "call": "WGRF-FM",
+     "freq": "96.9 FM",
+     "market": "Buffalo",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://www.buffalobills.com/news/buffalo-bills-announce-new-flagship-radio-station-and-broadcast-team-additions-for-2026-season",
+   "verified": true,
+   "note": "NEW for 2026: Bills left Audacy's WGR 550 and moved to Cumulus' 97 Rock WGRF-FM (team release May 15 2026); team now produces broadcasts in-house. Frequency 96.9 from Wikipedia Buffalo Bills Radio Network page (team release gives no frequency). Wikipedia also lists WBBF 1120 AM as an AM flagship (Good Karma, Sept 2026) - not confirmed on a team page, omitted. No Spanish flagship found."
+  },
+  {
+   "espn_id": "4",
+   "abbr": "CIN",
+   "team": "Cincinnati Bengals",
+   "stations": [
+    {
+     "call": "WCKY-AM",
+     "freq": "1530 AM",
+     "market": "Cincinnati",
+     "lang": "en",
+     "role": "co-flagship",
+     "stream": null
+    },
+    {
+     "call": "WEBN-FM",
+     "freq": "102.7 FM",
+     "market": "Cincinnati",
+     "lang": "en",
+     "role": "co-flagship",
+     "stream": null
+    },
+    {
+     "call": "WLW-AM",
+     "freq": "700 AM",
+     "market": "Cincinnati",
+     "lang": "en",
+     "role": "co-flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://www.bengals.com/news/how-to-watch-bengals-lions-week-1-2026-preseason",
+   "verified": true,
+   "note": "2026 preseason guide lists Cincinnati flagships WCKY (1530), WEBN-FM (102.7), WLW700; iHeartMedia deal runs through 2028 (bengals.com). Per 2025 team release WLW carries games only when no Reds conflict. Radio stream: bengals.com game center desktop nationwide; Bengals app in-market only. No Spanish flagship found."
+  },
+  {
+   "espn_id": "5",
+   "abbr": "CLE",
+   "team": "Cleveland Browns",
+   "stations": [
+    {
+     "call": "WKNR-AM",
+     "freq": "850 AM",
+     "market": "Cleveland",
+     "lang": "en",
+     "role": "co-flagship",
+     "stream": null
+    },
+    {
+     "call": "WNCX-FM",
+     "freq": "98.5 FM",
+     "market": "Cleveland",
+     "lang": "en",
+     "role": "co-flagship",
+     "stream": null
+    },
+    {
+     "call": "WKRK-FM",
+     "freq": "92.3 FM",
+     "market": "Cleveland",
+     "lang": "en",
+     "role": "co-flagship",
+     "stream": null
+    },
+    {
+     "call": null,
+     "freq": "1300 AM",
+     "market": "Cleveland",
+     "lang": "es",
+     "role": "flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://www.clevelandbrowns.com/news/browns-vs-jaguars-how-to-watch-listen-live-stream",
+   "verified": true,
+   "note": "2026 Week 1 page: game on 850 ESPN Cleveland, 98.5 WNCX, 92.3 The Fan WKRK, 1300AM La Mega (Espanol). Flagship trio renewed multi-year Sept 2025 (barrettmedia.com 2025/09/02); WKNR call letters from insideradio renewal report. La Mega 1300 call letters not given on source. Browns app/Browns.com live radio only inside Cleveland DMA (100 mi) with location services on."
+  },
+  {
+   "espn_id": "7",
+   "abbr": "DEN",
+   "team": "Denver Broncos",
+   "stations": [
+    {
+     "call": "KOA-AM",
+     "freq": "850 AM",
+     "market": "Denver",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "KOA (FM simulcast)",
+     "freq": "94.1 FM",
+     "market": "Denver",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://www.denverbroncos.com/news/denver-broncos-vs-jacksonville-jaguars-how-to-watch-listen-and-live-stream-the-broncos-week-2-game",
+   "verified": true,
+   "note": "2026 Week 2 page (Sept 20 2026): local radio KOA 850 AM / 94.1 FM. Spanish = Tico Sports via Broncos app / Tico Sports website (denverbroncos.com/espanol/donde-ver-partidos, no station listed); KBNO 97.7 FM/1280 AM named only in the 2024 Tico announcement - not confirmed for 2026, omitted. 103.5 The Fox simulcast appears only on a 2018 page - omitted. Out-of-market audio via NFL+."
+  },
+  {
+   "espn_id": "34",
+   "abbr": "HOU",
+   "team": "Houston Texans",
+   "stations": [
+    {
+     "call": "KKHH-FM",
+     "freq": "95.7 FM",
+     "market": "Houston",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "Audacy",
+      "url": null
+     }
+    },
+    {
+     "call": "KILT-AM",
+     "freq": "610 AM",
+     "market": "Houston",
+     "lang": "en",
+     "role": "co-flagship",
+     "stream": {
+      "app": "Audacy",
+      "url": null
+     }
+    },
+    {
+     "call": "KLOL-FM",
+     "freq": "101.1 FM",
+     "market": "Houston",
+     "lang": "es",
+     "role": "flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://www.houstontexans.com/news/houston-texans-vs-buffalo-bills-how-to-watch-listen-live-stream",
+   "verified": true,
+   "note": "CHANGED for 2026: Audacy flipped 95.7 to '95.7 The Fan' (Aug 13 2026), an FM simulcast of SportsRadio 610, and named it the Texans' flagship FM home, replacing 100.3 The Bull (audacyinc.com press release Jul 22 2026). KKHH call letters from trade-press search snippet (Audacy release gives none). 2026 Week 1 page lists 95.7 The Fan, Audacy app, Texans app; Spanish = Mega 101 FM (KLOL-FM per houstontexans.com/news/listen-texans-radio). Texans app radio stream is free per team page; Audacy streams limited to 100 mi of NRG Stadium per an older Audacy guide."
+  },
+  {
+   "espn_id": "11",
+   "abbr": "IND",
+   "team": "Indianapolis Colts",
+   "stations": [
+    {
+     "call": "WIBC-HD2 (WFNI)",
+     "freq": "107.5 FM / 93.5 FM",
+     "market": "Indianapolis",
+     "lang": "en",
+     "role": "co-flagship",
+     "stream": null
+    },
+    {
+     "call": "WLHK-FM",
+     "freq": "97.1 FM",
+     "market": "Indianapolis",
+     "lang": "en",
+     "role": "co-flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://www.colts.com/news/where-to-watch-indianapolis-colts-vs-baltimore-ravens-regular-nfl-season-week-1-2026",
+   "verified": true,
+   "note": "2026 Week 1 page: 93.5/107.5 The Fan + 97.1 HANK + Ascension St Vincent Radio Network. Colts affiliate page (colts.com/audio/radio-affiliates) labels 107.5/93.5 as 'WIBC HD 2' and 97.1 as WLHK; Wikipedia/station sources call The Fan WFNI (translators). Colts app/Colts.com stream in home market (100 mi); outside market Colts.com desktop only; NFL+. No Spanish flagship found."
+  },
+  {
+   "espn_id": "30",
+   "abbr": "JAX",
+   "team": "Jacksonville Jaguars",
+   "stations": [
+    {
+     "call": "WJXL-AM",
+     "freq": "1010 AM",
+     "market": "Jacksonville",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "WJXL-FM",
+     "freq": "92.5 FM",
+     "market": "Jacksonville",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "WGNE-FM",
+     "freq": "99.9 FM",
+     "market": "Jacksonville",
+     "lang": "en",
+     "role": "co-flagship",
+     "stream": null
+    },
+    {
+     "call": null,
+     "freq": "106.9 FM",
+     "market": "Jacksonville",
+     "lang": "es",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "WQIK-HD3",
+     "freq": "99.1 FM HD3",
+     "market": "Jacksonville",
+     "lang": "es",
+     "role": "co-flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://www.jaguars.com/news/jaguars-radio-affiliates",
+   "verified": true,
+   "note": "Team affiliate list (references 2026/27 season): Flagship WJXL AM 1010 / FM 92.5; WGNE-FM 99.9 'Gator Country' listed as Game Day Simulcast; Spanish = Rumba 106.9 (call letters not given) and WQIK 99.1 HD3. 2026 Week 5 page confirms 1010 XL, 92.5, 99.9. Live radio stream on Jaguars.com home page / Jaguars app at kickoff."
+  },
+  {
+   "espn_id": "12",
+   "abbr": "KC",
+   "team": "Kansas City Chiefs",
+   "stations": [
+    {
+     "call": "KFNZ-FM",
+     "freq": "96.5 FM",
+     "market": "Kansas City",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "KWOD-AM",
+     "freq": "1660 AM",
+     "market": "Kansas City",
+     "lang": "es",
+     "role": "flagship",
+     "stream": {
+      "app": "Audacy",
+      "url": null
+     }
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://www.chiefs.com/news/chiefs-preseason-television-crew-flagship-radio-and-spanish-radio-teams-announced-for-2026",
+   "verified": true,
+   "note": "2026 release (Aug 12 2026): flagship Audacy 96.5 The Fan KFNZ-FM. Spanish (Tico Sports) KWOD 1660 AM KC + Audacy app ('Tico Sports | Chiefs en Espanol') and tico-sports.com/chiefsespanol. Chiefs Mobile app streaming 'restrictions apply'; NFL+ membership."
+  },
+  {
+   "espn_id": "13",
+   "abbr": "LV",
+   "team": "Las Vegas Raiders",
+   "stations": [
+    {
+     "call": "KRLV-AM",
+     "freq": "920 AM",
+     "market": "Las Vegas",
+     "lang": "en",
+     "role": "co-flagship",
+     "stream": null
+    },
+    {
+     "call": "KOMP-FM",
+     "freq": "92.3 FM",
+     "market": "Las Vegas",
+     "lang": "en",
+     "role": "co-flagship",
+     "stream": null
+    },
+    {
+     "call": "KENO-AM",
+     "freq": "1460 AM",
+     "market": "Las Vegas",
+     "lang": "es",
+     "role": "flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://www.raiders.com/multimedia/radio-network",
+   "verified": true,
+   "note": "Raiders radio network page: English flagships Raider Nation Radio 920AM (KRLV) and KOMP 92.3; Spanish Deportes Vegas 1460 AM (KENO). Confirmed by 2026 Week 1 page (Sept 13 2026). raiders.com audio stream on desktop anywhere; mobile in-market only via raiders.com or Raiders + Allegiant Stadium app; NFL+ outside market."
+  },
+  {
+   "espn_id": "24",
+   "abbr": "LAC",
+   "team": "Los Angeles Chargers",
+   "stations": [
+    {
+     "call": "KFI-AM",
+     "freq": "640 AM",
+     "market": "Los Angeles",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": null,
+     "freq": "103.9 FM / 89.3 FM",
+     "market": "Los Angeles",
+     "lang": "es",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "KSCA-HD3",
+     "freq": "101.9 FM HD3",
+     "market": "Los Angeles",
+     "lang": "es",
+     "role": "co-flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://www.chargers.com/news/cardinals-week-1-what-to-know",
+   "verified": true,
+   "note": "2026 Week 1 page (Sept 7 2026): English KFI AM-640; Spanish Latino Mix 103.9/89.3 FM (call letters not given). New TelevisaUnivision deal (chargers.com release Aug 13 2026) makes Latino Mix 103.9/89.3 and TUDN Los Angeles KSCA 101.9 FM-HD3 the Spanish radio home, replacing Estrella's Que Buena. No streaming-restriction info found."
+  },
+  {
+   "espn_id": "15",
+   "abbr": "MIA",
+   "team": "Miami Dolphins",
+   "stations": [
+    {
+     "call": "WBGG-FM",
+     "freq": "105.9 FM",
+     "market": "Miami",
+     "lang": "en",
+     "role": "co-flagship",
+     "stream": {
+      "app": "iHeartRadio",
+      "url": null
+     }
+    },
+    {
+     "call": "WINZ-AM",
+     "freq": "940 AM",
+     "market": "Miami",
+     "lang": "en",
+     "role": "co-flagship",
+     "stream": {
+      "app": "iHeartRadio",
+      "url": null
+     }
+    },
+    {
+     "call": "WZTU-HD2",
+     "freq": "94.9 FM HD2",
+     "market": "Miami",
+     "lang": "es",
+     "role": "flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://static.clubs.nfl.com/image/upload/dolphins/roq5llpxnsstbgy9eeuu",
+   "verified": true,
+   "note": "Sourced from search snippets of the Dolphins 2026 media guide/weekly release (not fully fetched): BIG 105.9 FM (WBGG) + Fox Sports 940 (WINZ); Spanish WZTU-HD2 La Mezcla 94.9. iHeartRadio app streaming per older iHeart announcement; games also on Dolphins.com. Out-of-market audio NFL+."
+  },
+  {
+   "espn_id": "17",
+   "abbr": "NE",
+   "team": "New England Patriots",
+   "stations": [
+    {
+     "call": "WBZ-FM",
+     "freq": "98.5 FM",
+     "market": "Boston",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "station site",
+      "url": "https://985thesportshub.com/listen"
+     }
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://www.patriots.com/news/how-to-watch-and-stream-sunday-s-patriots-game-against-the-raiders-nfl-week-5",
+   "verified": true,
+   "note": "2026 Week 5 page (Oct 11 2026): 98.5 The Sports Hub is flagship of 33-station Patriots Radio Network; free live listening at 985thesportshub.com/listen in local market only. WBZ-FM extended through 2033 (radioinsight). No terrestrial Spanish flagship found (only SiriusXM Spanish feed on an older page)."
+  },
+  {
+   "espn_id": "20",
+   "abbr": "NYJ",
+   "team": "New York Jets",
+   "stations": [
+    {
+     "call": "WAXQ-FM",
+     "freq": "104.3 FM",
+     "market": "New York",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "iHeartRadio",
+      "url": "https://q1043.iheart.com"
+     }
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://www.newyorkjets.com/tune-in/radio-information",
+   "verified": true,
+   "note": "Jets radio info page (c. 2026): Q104.3 is the radio home; iHeartRadio app and Jets app streams 'local market only'. Page has a Spanish Radio Broadcast heading but names no station; WBLS 107.5 FM appears only in 2024 game guides - not confirmed for 2026, omitted. No 2026 game-day page found to re-confirm."
+  },
+  {
+   "espn_id": "23",
+   "abbr": "PIT",
+   "team": "Pittsburgh Steelers",
+   "stations": [
+    {
+     "call": "WDVE-FM",
+     "freq": "102.5 FM",
+     "market": "Pittsburgh",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "iHeartRadio",
+      "url": null
+     }
+    },
+    {
+     "call": "WBGG-AM",
+     "freq": "970 AM",
+     "market": "Pittsburgh",
+     "lang": "en",
+     "role": "co-flagship",
+     "stream": {
+      "app": "iHeartRadio",
+      "url": null
+     }
+    }
+   ],
+   "team_audio_url": "https://www.steelers.com/audio/steelers-audio-network/gameday",
+   "source": "https://www.steelers.com/audio/steelers-audio-network/radio",
+   "verified": true,
+   "note": "Steelers audio pages (c. 2026): flagships WDVE 102.5 FM and WBGG 970 AM (FOX Sports Pittsburgh); iHeart deal through 2028. Game stream on Steelers.com/app: 'NFL geographical restrictions apply'. Spanish call is online only (steelers.com/espanol; app Live Audio > Spanish in Pittsburgh area/Mexico) - no US Spanish station. Pages carry no explicit season date."
+  },
+  {
+   "espn_id": "10",
+   "abbr": "TEN",
+   "team": "Tennessee Titans",
+   "stations": [
+    {
+     "call": "WGFX-FM",
+     "freq": "104.5 FM",
+     "market": "Nashville",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://www.tennesseetitans.com/news/houston-texans-vs-tennessee-titans-how-to-watch-listen-and-live-stream-x0647",
+   "verified": true,
+   "note": "2026 Week 5 page (Oct 6 2026): flagship WGFX 104.5 The Zone. Titans app (Nashville market only) and TennesseeTitans.com (local market only); NFL+ outside market. No Spanish flagship found."
+  },
+  {
+   "espn_id": "22",
+   "abbr": "ARI",
+   "team": "Arizona Cardinals",
+   "stations": [
+    {
+     "call": "KMVP-FM",
+     "freq": "98.7 FM",
+     "market": "Phoenix",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "",
+     "freq": "105.1 FM",
+     "market": "Phoenix",
+     "lang": "es",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "",
+     "freq": "100.3 FM",
+     "market": "Phoenix area",
+     "lang": "es",
+     "role": "co-flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://www.azfamily.com/2026/08/04/arizona-cardinals-name-new-radio-play-by-play-announcer/",
+   "verified": true,
+   "note": "English: azfamily 2026-08-04 says 'Fans can listen to all Cardinals games on Arizona Sports 98.7 FM' (new PBP J.P. Shadrick, analyst A.Q. Shipley). The page gives the brand only; the KMVP-FM call sign comes from search results (Wikipedia/myTuner), not from a fetched team page. Spanish: azcardinals.com 2026-08-12 (https://www.azcardinals.com/news/televisaunivision-announces-multiyear-partnership-with-the-arizona-cardinals) names 'TUDN Phoenix 105.1 FM' and 'Latino Mix 100.3 FM' as the official Spanish radio home, with no call letters. Search snippets disagree on the 105.1 call sign (KQBU vs KHOV), so call is left blank. KFFN 1490 AM Tucson is a 2026-27 affiliate, not a flagship. No streaming details found."
+  },
+  {
+   "espn_id": "1",
+   "abbr": "ATL",
+   "team": "Atlanta Falcons",
+   "stations": [
+    {
+     "call": "WZGC-FM",
+     "freq": "92.9 FM",
+     "market": "Atlanta",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://www.atlantafalcons.com/news/how-to-listen-to-falcons-games-on-the-radio",
+   "verified": true,
+   "note": "The Falcons affiliate list (2025-09-08) shows Atlanta WZGC-FM 92.9 FM. Barrett Media (2025-08-06) calls 92.9 The Game (Audacy) the flagship of a 48-affiliate network. A 2026 source (fantasynerds 2026-08-14 preseason guide) confirms local radio on '92.9 The Game and its affiliates' with Archer/Durham. No Spanish-language station found. No team listen-live URL found; SiriusXM and NFL+ carry audio."
+  },
+  {
+   "espn_id": "29",
+   "abbr": "CAR",
+   "team": "Carolina Panthers",
+   "stations": [
+    {
+     "call": "WRFX",
+     "freq": "99.7 FM",
+     "market": "Charlotte",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "Panthers app / panthers.com",
+      "url": "https://www.panthers.com/audio"
+     }
+    },
+    {
+     "call": "WXNC",
+     "freq": "97.3 FM",
+     "market": "Charlotte",
+     "lang": "es",
+     "role": "flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.panthers.com/audio",
+   "source": "https://www.panthers.com/news/how-to-watch-listen-and-follow-panthers-versus-bears-in-week-1",
+   "verified": true,
+   "note": "The 2026 Week 1 page (2026-09-12) lists 'LOCAL RADIO BROADCAST: 99.7 FM The Fox in Charlotte market' and 'SPANISH RADIO BROADCAST: WXNC 97.3 FM'. The WRFX call sign is from search results on the 2022 iHeart flagship deal (RadioInsight/Inside Radio), not the team page. Online listening in the Panthers app works only in the local Carolina market. Mix 101.5 WRAL (Raleigh, through 2027) and 93.3 WTPT (Upstate SC, from 2026) are regional affiliates, not flagships."
+  },
+  {
+   "espn_id": "3",
+   "abbr": "CHI",
+   "team": "Chicago Bears",
+   "stations": [
+    {
+     "call": "WMVP",
+     "freq": "1000 AM / 100.3 FM HD2",
+     "market": "Chicago",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "",
+     "freq": "93.5 FM",
+     "market": "Chicago",
+     "lang": "es",
+     "role": "flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://www.chicagobears.com/news/how-to-watch-chicago-bears-carolina-panthers-2026-week-1-listen-stream-tv-radio-football-online-nfl",
+   "verified": true,
+   "note": "The Bears 2026 Week 1 page (2026-09-10) lists 'RADIO: ESPN Chicago (1000 AM, 100.3 FM HD2), LATINO MIX 93.5 FM (Spanish)', with streaming via NFL+ only. A fantasynerds 2026-08-22 report confirms ESPN 1000 'as the flagship station once again'. The WMVP call sign is from an Inside Radio headline seen in search. Wikipedia (search snippet) gives WVIV for Latino Mix 93.5, but no fetched page confirmed it, so call is blank. The team page gives no team listen-live URL; NFL+ is the digital audio option."
+  },
+  {
+   "espn_id": "6",
+   "abbr": "DAL",
+   "team": "Dallas Cowboys",
+   "stations": [
+    {
+     "call": "KRLD-FM",
+     "freq": "105.3 FM",
+     "market": "Dallas/Fort Worth",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "Audacy",
+      "url": "https://www.audacy.com/stations/1053thefan"
+     }
+    },
+    {
+     "call": "KMVK-FM",
+     "freq": "107.5 FM",
+     "market": "Dallas/Fort Worth",
+     "lang": "es",
+     "role": "flagship",
+     "stream": {
+      "app": "Dallas Cowboys App / DallasCowboys.com",
+      "url": null
+     }
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://www.dallascowboys.com/news/cowboys-bucs-how-to-watch-listen-stream-in-week-5",
+   "verified": true,
+   "note": "The Cowboys 2026 Week 5 page (2026-10-08) lists 'KRLD-FM 105.3 The Fan in Dallas/Fort Worth, Dallas Cowboys App' and Spanish 'KVMK-FM 107.5 La Grande ... Dallas Cowboys App, DallasCowboys.com'. The team page spells it KVMK; Wikipedia and Audacy materials give KMVK (107.5 La Grande), so the call is listed as KMVK-FM. Audacy stream details come from an Audacy page dated 2023-08-30: 'Local blackouts apply', with mobile and smart-speaker listening limited to 100 miles of AT&T Stadium and desktop available anywhere."
+  },
+  {
+   "espn_id": "8",
+   "abbr": "DET",
+   "team": "Detroit Lions",
+   "stations": [
+    {
+     "call": "WXYT-FM",
+     "freq": "97.1 FM",
+     "market": "Detroit",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "Audacy",
+      "url": "https://www.audacy.com/stations/971theticket"
+     }
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://www.detroitlions.com/news/97-1-the-ticket-announces-multi-year-partnership-extension-with-detroit-lions",
+   "verified": true,
+   "note": "Lions/Audacy multi-year extension (release dated 2026-02-11, posted 2026-02-18): 97.1 The Ticket (WXYT-FM) stays the radio home for all preseason, regular-season and postseason games. Audacy guide (dated 2023-08-30): 'Local blackouts apply'; mobile and smart-speaker listening limited to 100 miles of Ford Field, desktop anywhere. No Spanish-language Lions broadcast found."
+  },
+  {
+   "espn_id": "9",
+   "abbr": "GB",
+   "team": "Green Bay Packers",
+   "stations": [
+    {
+     "call": "WRIT-FM",
+     "freq": "95.7 FM",
+     "market": "Milwaukee",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "packers.com / Packers app",
+      "url": "https://www.packers.com/video/radio-network"
+     }
+    }
+   ],
+   "team_audio_url": "https://www.packers.com/video/radio-network",
+   "source": "https://www.packers.com/news/packers-vs-bears-how-to-watch-stream-listen-week-5-2026",
+   "verified": true,
+   "note": "The Packers 2026 Week 5 page (2026-10-11) says 'The flagship station of the Packers Radio Network is 95.7 BIG FM - WRIT' (54 stations). The Milwaukee market comes from the packers.com/iHeart release dated 2026-09-10 (seen in search), which renews 95.7 BIG FM as the Milwaukee flagship, simulcast on WOKY 920 AM. packers.com streams the radio call worldwide on desktop; the Packers app streams it only in the home market 'per NFL broadcast restrictions'. No Spanish broadcast found."
+  },
+  {
+   "espn_id": "14",
+   "abbr": "LAR",
+   "team": "Los Angeles Rams",
+   "stations": [
+    {
+     "call": "KSPN",
+     "freq": "710 AM",
+     "market": "Los Angeles",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "",
+     "freq": "1330 AM",
+     "market": "Los Angeles",
+     "lang": "es",
+     "role": "flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://www.therams.com/news/los-angeles-rams-vs-san-francisco-49ers-how-to-watch-listen-to-and-live-stream-week-1",
+   "verified": true,
+   "note": "The Rams 2026 Week 1 page (game 2026-09-10) lists 'ESPN LA 710 AM (Also on SiriusXM)' and Spanish 'La Primera Radio 1330 AM' (Troy Santiago), with no call letters for the Spanish station. Inside Radio (2025-08-15) confirms KSPN 710 ESPN LA renewed as Rams flagship. 2025 pages also listed a 93.1 Jack FM simulcast, but the 2026 pages do not, so it is omitted. No team listen URL is given."
+  },
+  {
+   "espn_id": "16",
+   "abbr": "MIN",
+   "team": "Minnesota Vikings",
+   "stations": [
+    {
+     "call": "KFAN",
+     "freq": "100.3 FM",
+     "market": "Minneapolis-St. Paul",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "KTLK",
+     "freq": "1130 AM",
+     "market": "Minneapolis-St. Paul",
+     "lang": "en",
+     "role": "co-flagship",
+     "stream": null
+    },
+    {
+     "call": "WREY",
+     "freq": "94.9 FM / 630 AM",
+     "market": "Minneapolis-St. Paul",
+     "lang": "es",
+     "role": "flagship",
+     "stream": {
+      "app": "station site / Tico Sports / vikings.com",
+      "url": "https://elrey949fm.com"
+     }
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://www.vikings.com/news/how-to-watch-listen-stream-packers-2026-week-1",
+   "verified": true,
+   "note": "The Vikings 2026 Week 1 page (2026-09-11) lists 'KFAN (100.3-FM), KTLK 1130-AM' anchoring the Vikings Audio Network of 70 affiliates, plus Spanish Tico Sports on WREY 94.9 FM and 630 AM, also on Tico-Sports.com, elrey949fm.com and Vikings.com. The page does not say 'flagship'; KFAN/KTLK are listed as the network's lead stations. Digital game audio is through NFL+ (home, away and national calls)."
+  },
+  {
+   "espn_id": "18",
+   "abbr": "NO",
+   "team": "New Orleans Saints",
+   "stations": [
+    {
+     "call": "WWL",
+     "freq": "870 AM",
+     "market": "New Orleans",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "WWL-FM",
+     "freq": "105.3 FM",
+     "market": "New Orleans",
+     "lang": "en",
+     "role": "co-flagship",
+     "stream": null
+    },
+    {
+     "call": "",
+     "freq": "830 AM / 105.7 FM (New Orleans), 94.7 FM (Baton Rouge)",
+     "market": "New Orleans / Baton Rouge",
+     "lang": "es",
+     "role": "flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://www.neworleanssaints.com/news/minnesota-vikings-vs-new-orleans-saints-game-watch-listen-stream-tv-channel-radio-10-11-2026",
+   "verified": true,
+   "note": "The Saints 2026-10-11 page lists 'Local radio: WWL (870 AM and 105.3 FM)' and 'Spanish language radio: Tropical Radio (830 AM, 94.7 FM-Baton Rouge and 105.7 FM-New Orleans)'. Tropical Radio call letters are not given, and older Saints pages naming WFNO 830 / WGSO 990 are outdated. The WWL-FM call for 105.3 is inferred from the 'WWL' branding on the page. Digital audio: the page points to NFL+ ('live local and national audio for every NFL game')."
+  },
+  {
+   "espn_id": "19",
+   "abbr": "NYG",
+   "team": "New York Giants",
+   "stations": [
+    {
+     "call": "WFAN",
+     "freq": "101.9 FM / 660 AM",
+     "market": "New York",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "Audacy",
+      "url": "https://www.audacy.com/stations/wfan"
+     }
+    },
+    {
+     "call": "WADO",
+     "freq": "1280 AM",
+     "market": "New York",
+     "lang": "es",
+     "role": "flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.giants.com/fans/giantsapp",
+   "source": "https://www.giants.com/news/giants-vs-jets-how-to-watch-listen-live-stream-preseason-week-3",
+   "verified": true,
+   "note": "The Giants 2026 preseason finale page (2026-08-28) lists 'WFAN 101.9FM, Audacy, Giants.com, Giants App' and Spanish 'Que Buena 1280AM Streaming Only Presentado por Ford'. Giants.com and Giants App streaming is 'in market only'. 660 AM, the Audacy URL, and 'WADO 1280 AM, the official Spanish-language flagship' come from an older giants.com page dated 2023-10-02. That page says Audacy streams are tri-state only and out-of-market listeners use SiriusXM, TuneIn Premium or NFL+. Caveat: the 2026 page calls the 1280 AM Spanish feed 'Streaming Only', so over-air carriage on WADO in 2026 is unconfirmed."
+  },
+  {
+   "espn_id": "21",
+   "abbr": "PHI",
+   "team": "Philadelphia Eagles",
+   "stations": [
+    {
+     "call": "WIP-FM",
+     "freq": "94.1 FM",
+     "market": "Philadelphia",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "philadelphiaeagles.com (desktop)",
+      "url": "http://philadelphiaeagles.com/LiveRadio"
+     }
+    },
+    {
+     "call": "",
+     "freq": "105.7 FM",
+     "market": "Philadelphia",
+     "lang": "es",
+     "role": "flagship",
+     "stream": {
+      "app": "philadelphiaeagles.com (desktop)",
+      "url": "http://philadelphiaeagles.com/LiveRadio"
+     }
+    }
+   ],
+   "team_audio_url": "http://philadelphiaeagles.com/LiveRadio",
+   "source": "https://www.philadelphiaeagles.com/news/how-to-watch-stream-and-listen-eagles-at-jaguars-2026-nfl-week-5-london-international-game-cooper-dejean-trevor-lawrence-travis-hunter",
+   "verified": true,
+   "note": "The Eagles 2026 Week 5 page (2026-10-11) lists SportsRadio 94WIP (Reese/Quick) and Eagles en Espanol (Tico Sports) on La Mega 105.7 FM Philadelphia, 93.9 FM Atlantic City and 103.3 FM Vineland/Millville, with no Spanish call letters. RadioInsight (2023-11-15) confirms WIP-FM 94.1 as flagship through the 2028 season. The English and Spanish radio stream is available everywhere on the desktop Eagles site; the Eagles app stream works in the Philadelphia market only."
+  },
+  {
+   "espn_id": "25",
+   "abbr": "SF",
+   "team": "San Francisco 49ers",
+   "stations": [
+    {
+     "call": "KNBR",
+     "freq": "680 AM / 104.5 FM",
+     "market": "San Francisco",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "KSAN-FM",
+     "freq": "107.7 FM",
+     "market": "San Francisco",
+     "lang": "en",
+     "role": "co-flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": "https://www.49ers.com/esp",
+   "source": "https://www.49ers.com/news/san-francisco-49ers-announce-multi-year-partnership-extension-with-cumulus-media-s-knbr",
+   "verified": true,
+   "note": "49ers.com (2026-04-15): KNBR (104.5 FM/680 AM) extended as flagship, the role it has held since 2005, with sister stations KSAN-FM 107.7 The Bone and KSFO 810 AM also airing 49ers programming. The 2026 Week 5 page (2026-10-11) says games air on KSAN and KNBR and that fans can listen live on the 49ers App or 49ers.com. The Spanish broadcast (Zarate/Yustis) is stream-only, free on the 49ers App or 49ers.com/esp, with no Spanish radio station. W Deportes 730 AM is a Mexico feed, not a US flagship. team_audio_url is the Spanish stream page; no English listen URL was given."
+  },
+  {
+   "espn_id": "26",
+   "abbr": "SEA",
+   "team": "Seattle Seahawks",
+   "stations": [
+    {
+     "call": "KIRO",
+     "freq": "710 AM",
+     "market": "Seattle",
+     "lang": "en",
+     "role": "co-flagship",
+     "stream": null
+    },
+    {
+     "call": "KIRO-FM",
+     "freq": "97.3 FM",
+     "market": "Seattle",
+     "lang": "en",
+     "role": "co-flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://www.seahawks.com/game-day/2026/reg-week6/seahawks-at-broncos/how-to-watch",
+   "verified": true,
+   "note": "The Seahawks 2026 Week 6 page (2026-10-15 game) lists Seattle Sports 710AM and KIRO Newsradio 97.3 FM (Raible/Wyman), plus the Seahawks Mobile App for radio, with no call letters. Seahawks.com (2023-04-27) names both stations 'official flagship radio broadcast partners' and says in-market fans can stream on the Seattle Sports, KIRO Newsradio and Seahawks apps. KIRO (AM) for 710 is from Wikipedia via search. KIRO-FM for 97.3 is inferred from the 'KIRO Newsradio' brand and was not seen as a call sign on a fetched page. No Spanish radio found."
+  },
+  {
+   "espn_id": "27",
+   "abbr": "TB",
+   "team": "Tampa Bay Buccaneers",
+   "stations": [
+    {
+     "call": "WXTB",
+     "freq": "97.9 FM",
+     "market": "Tampa Bay/Sarasota",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "Buccaneers Official App",
+      "url": "https://www.buccaneers.com/fans/app"
+     }
+    },
+    {
+     "call": "WTPM",
+     "freq": "1150 AM / 1590 AM / 96.1 FM / 92.9 FM / 94.9 FM / 102.1 FM / 103.9 FM",
+     "market": "Tampa Bay",
+     "lang": "es",
+     "role": "flagship",
+     "stream": {
+      "app": "Buccaneers Official App",
+      "url": "https://www.buccaneers.com/fans/app"
+     }
+    }
+   ],
+   "team_audio_url": "https://www.buccaneers.com/fans/app",
+   "source": "https://www.buccaneers.com/news/how-to-watch-buccaneers-at-cowboys-week-5-2026",
+   "verified": true,
+   "note": "The Bucs 2026 Week 5 page (2026-10-08) lists flagship 'WXTB 97.9 FM (98ROCK) (Tampa Bay/Sarasota)' and Spanish 'La Invasora' on 1150 AM, 1590 AM, 96.1, 92.9, 94.9, 102.1 and 103.9 FM. The call sign is inconsistent on the page: WTMP in the radio section, WTPM in the FAQ. English and Spanish streams are free in-market in the app and on Buccaneers.com; the FAQ also says desktop streams work in all markets."
+  },
+  {
+   "espn_id": "28",
+   "abbr": "WSH",
+   "team": "Washington Commanders",
+   "stations": [
+    {
+     "call": "WBIG-FM",
+     "freq": "100.3 FM",
+     "market": "Washington, D.C.",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "iHeartRadio",
+      "url": null
+     }
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://www.commanders.com/news/commanders-vs-cowboys-how-to-watch-listen-stream-week-2-2026",
+   "verified": true,
+   "note": "The Commanders 2026 Week 2 page (2026-09-20) calls BIG 100 (WBIG-FM) 'the flagship station for Washington Commanders Football' (Weinstein/Fletcher) and says to listen on the free iHeartRadio app. The 100.3 FM frequency is from the commanders.com radio-network page (2025-09-11). No Spanish-language station is listed on either page."
+  }
+ ],
+ "league_audio": [
+  {
+   "name": "NFL+ (and NFL+ Premium)",
+   "what": "Live Game Audio included in both tiers: home or away live audio broadcasts for every game this season plus live audio of all nationally broadcast games. Available on phone, tablet, desktop, TV via the NFL app. Teams' 2026 guides (Saints Oct 2026) list NFL+ at $6.99/mo or $49.99/yr; Premium $14.99/mo or $99.99/yr.",
+   "url": "https://www.nfl.com/plus/",
+   "source": "https://www.nfl.com/plus/ (fetched; references 2026 season); pricing from search snippet of https://www.neworleanssaints.com/news/atlanta-falcons-vs-new-orleans-saints-monday-night-football-watch-listen-stream-tv-channel-radio-10-5-2026"
+  },
+  {
+   "name": "Westwood One national NFL radio (Cumulus)",
+   "what": "40th consecutive season as national radio partner in 2026: Monday, Sunday and Thursday Night Football, 8 international games, Thanksgiving, Black Friday, Christmas, late-season Saturday games, entire postseason and Super Bowl LXI (Feb 14, 2027). Opened Sep 9, 2026 (Patriots at Seahawks). Free on ~500 affiliate stations; release snippets also cite SiriusXM and Westwood One digital platforms.",
+   "url": "https://news.radio-online.com/articles/n49383/Westwood-One-Sets-40th-Season-of-NFL-Coverage",
+   "source": "https://news.radio-online.com/articles/n49383/Westwood-One-Sets-40th-Season-of-NFL-Coverage (fetched); also https://www.insideradio.com/free/westwood-one-marks-40-years-of-nfl-coverage/article_cb5945c2-c687-43a1-a5db-3a678c9ef88a.html (search snippet)"
+  },
+  {
+   "name": "Westwood One Sports app",
+   "what": "Free Cumulus iOS app with live play-by-play, national/local sports talk and podcasts; NFL named, but the listing does not explicitly confirm every NFL game. Older 2022 NFL deal said Westwood One primetime broadcasts stream free on WestwoodOnesports.com, affiliate apps and the NFL App (2022 terms; not re-confirmed for 2026).",
+   "url": "https://apps.apple.com/app/id6743144592",
+   "source": "https://apps.apple.com/app/id6743144592 (fetched); 2022 deal: https://cumulusmedia.com/?p=10238 (search snippet)"
+  },
+  {
+   "name": "SiriusXM NFL (team broadcasts + SiriusXM NFL Radio ch. 88)",
+   "what": "Sep 2, 2026 release: every NFL game, regular season through Super Bowl, available in vehicles and the SiriusXM app; both home and visiting team broadcasts for every matchup (in-car requires sports play-by-play). SiriusXM NFL Radio is channel 88, 24/7 NFL channel. Per-game channels vary (e.g. Week 4 Cardinals ch. 268 car / 800 app, Giants 199 / 823).",
+   "url": "https://investor.siriusxm.com/news-events/press-releases/detail/2298/siriusxm-announces-nfl-programming-roster-additions-for",
+   "source": "https://investor.siriusxm.com/news-events/press-releases/detail/2298/siriusxm-announces-nfl-programming-roster-additions-for (fetched); channel example from search snippet of https://www.siriusxm.com/blog/cardinals-giants-nfl-radio-2026"
+  }
+ ]
+}

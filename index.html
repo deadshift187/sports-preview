@@ -13,7 +13,7 @@
 <link rel="manifest" href="manifest.json">
 <link rel="icon" href="icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="icon.svg">
-<link rel="stylesheet" href="app.css?v2026.10.14-1702">
+<link rel="stylesheet" href="app.css?d4b785eb7c">
 </head>
 <body>
 <header class="top">
@@ -22,8 +22,8 @@
     <button id="mineBtn" class="pill" aria-pressed="false">My stuff</button>
     <button id="setBtn" class="pill">Setup</button>
   </div>
-  <input id="q" type="search" placeholder="Search: Arsenal, UFC, Dodgers, ESPN" autocomplete="off">
-  <nav id="views" class="seg">
+  <input id="q" type="search" aria-label="Search games, teams, leagues or services" placeholder="Search: Arsenal, UFC, Dodgers, ESPN" autocomplete="off">
+  <nav id="views" class="seg" role="tablist" aria-label="Game views">
     <button data-v="foryou">For You</button>
     <button data-v="live">Live</button>
     <button data-v="today">Today</button>
@@ -33,6 +33,7 @@
   </nav>
   <div id="favbar" class="chips"></div>
   <div id="tzbanner" hidden></div>
+  <div id="stalebanner" hidden></div>
   <div id="groups" class="chips"></div>
   <div class="legend">
     <span class="lgi"><i class="dot green"></i>Free</span>
@@ -49,7 +50,7 @@
     <p class="muted" id="welcome" hidden>Tick the services you pay for. Games you can watch come first, opened in the network's own app.</p>
     <h3>Your city &amp; time zone</h3>
     <div class="muted" id="tzCurrent"></div>
-    <input id="cityQ" type="search" placeholder="Search a city (any city worldwide)" autocomplete="off">
+    <input id="cityQ" type="search" aria-label="Search for your city" placeholder="Search a city (any city worldwide)" autocomplete="off">
     <div id="cityResults" class="chips wrap"></div>
     <label class="checks" style="display:block"><label style="display:flex;gap:8px;align-items:center;font-size:14px;padding:6px 0"><input type="checkbox" id="useLoc"> <span>Use my location (follow my device while traveling)</span></label></label>
     <div class="muted" id="useLocNote">Off by default. When on, times follow your device's time zone. Nothing is sent anywhere — it stays on this device.</div>
@@ -63,14 +64,17 @@
     <h3>Follow leagues</h3>
     <div id="followLeagues" class="chips wrap"></div>
     <h3>Follow teams</h3>
-    <input id="teamQ" type="search" placeholder="Find a team" autocomplete="off">
+    <input id="teamQ" type="search" aria-label="Find a team to follow" placeholder="Find a team" autocomplete="off">
     <div id="teamResults" class="chips wrap"></div>
     <div id="followTeams" class="chips wrap"></div>
+    <h3>Privacy &amp; data</h3>
+    <div id="privacyBox" class="muted"></div>
+    <button id="resetBtn" class="pill ghost">Reset app &amp; clear my data</button>
   </div>
 </dialog>
-<script>window.GF_PUBLIC=true;window.GF_VERSION="v2026.10.14-1702";</script>
-<script src="rank.js?v2026.10.14-1702"></script>
-<script src="live.js?v2026.10.14-1702"></script>
-<script src="app.js?v2026.10.14-1702"></script>
+<script>window.GF_PUBLIC=true;window.GF_VERSION="v2026.10.15-d4b785";</script>
+<script src="rank.js?d4b785eb7c"></script>
+<script src="live.js?d4b785eb7c"></script>
+<script src="app.js?d4b785eb7c"></script>
 </body>
 </html>

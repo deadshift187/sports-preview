@@ -1,0 +1,277 @@
+{
+ "league": "NWSL",
+ "checked": "2026-10-12",
+ "teams": [
+  {
+   "espn_id": "21422",
+   "abbr": "LA",
+   "team": "Angel City FC",
+   "stations": [
+    {
+     "call": "Angel City FC (iHeartRadio station)",
+     "freq": "",
+     "market": "Los Angeles",
+     "lang": "en",
+     "role": "stream-only",
+     "stream": {
+      "app": "iHeartRadio",
+      "url": "https://www.iheart.com/live/angel-city-fc-9419/"
+     }
+    },
+    {
+     "call": "KFWB",
+     "freq": "980 AM",
+     "market": "Los Angeles",
+     "lang": "es",
+     "role": "spanish",
+     "stream": {
+      "app": "web",
+      "url": "https://www.980lameramera.com"
+     }
+    },
+    {
+     "call": "KWKW",
+     "freq": "1330 AM",
+     "market": "Los Angeles",
+     "lang": "es",
+     "role": "spanish",
+     "stream": {
+      "app": "web",
+      "url": "https://www.tuligaradio.com/"
+     }
+    }
+   ],
+   "network": "",
+   "team_audio_url": "https://angelcity.com/matchday/watch-listen",
+   "source": "https://angelcity.com/matchday/watch-listen",
+   "verified": true,
+   "note": "Club's 2026 Watch/Listen page, 'How to Listen' section: iHeartRadio (English), KFWB 980AM (Espanol), KWKW 1330AM (Espanol). The iHeart page calls itself the 'Official Audio Home of Angel City FC'. No per-match audio list was shown."
+  },
+  {
+   "espn_id": "22187",
+   "abbr": "BAY",
+   "team": "Bay FC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "https://bayfc.com/matchday/how-to-watch/",
+   "verified": false,
+   "note": "2026 How to Watch page lists TV/streaming only (ESPN, ION, NWSL+, CBS, Prime, Roku). No radio partner found on the site or in its sitemap."
+  },
+  {
+   "espn_id": "131562",
+   "abbr": "BOS",
+   "team": "Boston Legacy FC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "https://bostonlegacyfc.com/pages/matchday",
+   "verified": false,
+   "note": "No radio or audio partner found on the club site (home, matchday, and a sitemap scan of about 540 pages). TV only as far as found."
+  },
+  {
+   "espn_id": "15360",
+   "abbr": "CHI",
+   "team": "Chicago Stars FC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "https://chicagostars.com/first-team/chicago-stars-vs-denver-summit-match-preview-where-to-watch-stream-tv-channel-start-time-10426/",
+   "verified": false,
+   "note": "2026 match-preview 'where to watch' posts list TV only (e.g. CBS Sports Network). The club has a local TV deal with FOX Chicago. No radio partner found in a scan of about 1,400 sitemap URLs."
+  },
+  {
+   "espn_id": "131563",
+   "abbr": "DEN",
+   "team": "Denver Summit FC",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "https://www.denversummitfc.com/ways-to-watch/",
+   "verified": false,
+   "note": "2026 Ways to Watch page lists TV/streaming only. Spanish is on ESPN Deportes (TV), not radio. No radio partner found."
+  },
+  {
+   "espn_id": "15364",
+   "abbr": "GFC",
+   "team": "Gotham FC",
+   "stations": [],
+   "network": "MSG Networks (TV, local)",
+   "team_audio_url": "",
+   "source": "https://gothamfc.com/news/gotham-fc-msg-networks-renew-broadcast-partnership-for-2025-nwsl-campaign",
+   "verified": false,
+   "note": "The local partner is MSG Networks, which is TV (2025 renewal; a Victory+ regional deal also appears in the sitemap). No radio or audio partner found on the club site."
+  },
+  {
+   "espn_id": "17346",
+   "abbr": "HOU",
+   "team": "Houston Dash",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "https://www.houstondynamofc.com/houstondash/howtowatch",
+   "verified": false,
+   "note": "The Dash How to Watch page (labelled 2025 season) lists TV/streaming only (Prime, ION, CBSSN/Paramount+, NWSL+). The Dynamo /radiostream page (hdfc.radio on Mixlr) is not tied to the Dash on any page found."
+  },
+  {
+   "espn_id": "20907",
+   "abbr": "KC",
+   "team": "Kansas City Current",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "https://www.kansascitycurrent.com/schedule",
+   "verified": false,
+   "note": "The 2026 schedule page shows 'Listen: KC Current Radio' on every match, but the link is a disabled placeholder (href=/broken). No station, frequency or stream URL could be confirmed."
+  },
+  {
+   "espn_id": "15366",
+   "abbr": "NC",
+   "team": "North Carolina Courage",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "https://www.nccourage.com/matchday",
+   "verified": false,
+   "note": "No radio or audio partner found on the club site (home, matchday, partners, and a sitemap of about 100 pages). No how-to-watch page exists."
+  },
+  {
+   "espn_id": "18206",
+   "abbr": "ORL",
+   "team": "Orlando Pride",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "https://www.orlandocitysc.com/pride/schedule/",
+   "verified": false,
+   "note": "The Pride site (orlandocitysc.com/pride) schedule and sitemap show no radio or audio listing. orlandopride.com did not resolve. No radio partner found."
+  },
+  {
+   "espn_id": "15362",
+   "abbr": "POR",
+   "team": "Portland Thorns FC",
+   "stations": [
+    {
+     "call": "KNRK-HD2 (KNRK-2)",
+     "freq": "HD2 subchannel (FM frequency not stated by source)",
+     "market": "Portland",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "Audacy",
+      "url": ""
+     }
+    }
+   ],
+   "network": "",
+   "team_audio_url": "https://www.thorns.com/how-to-watch",
+   "source": "https://www.thorns.com/how-to-watch",
+   "verified": true,
+   "note": "2026: 'All Thorns matches for 2026 will be available for listening on KNKR-2 (KNRK-HD2) through Audacy.' The page spells it KNKR-2 in that sentence but KNRK-2 in the schedule. No direct Audacy URL is given."
+  },
+  {
+   "espn_id": "20905",
+   "abbr": "LOU",
+   "team": "Racing Louisville FC",
+   "stations": [
+    {
+     "call": "WKRD",
+     "freq": "790 AM",
+     "market": "Louisville",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "iHeartRadio",
+      "url": "https://www.iheart.com/live/sports-talk-790am-4836/"
+     }
+    },
+    {
+     "call": "WKJK",
+     "freq": "1080",
+     "market": "Louisville",
+     "lang": "en",
+     "role": "affiliate",
+     "stream": {
+      "app": "iHeartRadio",
+      "url": "https://www.iheart.com/live/talk-radio-1080-4908/"
+     }
+    }
+   ],
+   "network": "iHeartMedia Louisville",
+   "team_audio_url": "https://www.racingloufc.com/2026-broadcast-schedule/",
+   "source": "https://www.racingloufc.com/news/2026/03/12/racing-iheartmedia-louisville-renew-broadcast-partnership-for-2026-season/",
+   "verified": true,
+   "note": "Mar 12 2026 renewal: Sports Talk 790AM is the primary home for all 30 regular-season games, with select games on Talk Radio 1080. Both stream on the iHeartRadio app, 790louisville.com and talkradio1080.com. Call letters come from the station sites (790louisville.iheart.com = WKRD; talkradio1080.iheart.com = WKJK). The club releases give brand names only, and no source states the 1080 band."
+  },
+  {
+   "espn_id": "21423",
+   "abbr": "SD",
+   "team": "San Diego Wave FC",
+   "stations": [],
+   "network": "FOX 5/KUSI (TV, local)",
+   "team_audio_url": "",
+   "source": "https://sandiegowavefc.com/how-to-watch/",
+   "verified": false,
+   "note": "'How to Watch Wave FC in 2026' lists TV/streaming only (Victory+, Prime, ION, CBS, ESPN, NWSL+, Roku, KUSI local TV). No radio partner found in the sitemap."
+  },
+  {
+   "espn_id": "15363",
+   "abbr": "SEA",
+   "team": "Seattle Reign FC",
+   "stations": [
+    {
+     "call": "KJR",
+     "freq": "950 AM",
+     "market": "Seattle",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "iHeartRadio",
+      "url": ""
+     }
+    }
+   ],
+   "network": "iHeartMedia Seattle",
+   "team_audio_url": "",
+   "source": "https://www.reignfc.com/news/seattle-reign-fc-and-sports-radio-950-kjr-am-announce-2026-radio-broadcast-schedule",
+   "verified": true,
+   "note": "2026 release (Apr 16 2026): 11 select matches (Apr 26 vs UTA through Sep 6 vs SD) on Sports Radio 950 KJR AM, streaming on the iHeartRadio app. Announcers: Jackson Felts, Stephanie Verdoia, Kwame Appiah. Not every match is carried, and the 2026 radio schedule ended Sep 6. No direct stream URL is given; sportsradiokjr.iheart.com now redirects to 933kjr.iheart.com (KJR-FM)."
+  },
+  {
+   "espn_id": "19141",
+   "abbr": "UTA",
+   "team": "Utah Royals",
+   "stations": [],
+   "network": "KMYU (TV, local)",
+   "team_audio_url": "",
+   "source": "https://www.rsl.com/utahroyals/schedule/",
+   "verified": false,
+   "note": "The 2026 schedule lists broadcasters per match (Victory+, ION, CBSSN, NWSL+, with KMYU local TV). No radio or audio is listed and none was found in the rsl.com sitemap."
+  },
+  {
+   "espn_id": "15365",
+   "abbr": "WAS",
+   "team": "Washington Spirit",
+   "stations": [],
+   "network": "",
+   "team_audio_url": "",
+   "source": "https://www.washingtonspirit.com/matchdayguide/how-to-watch/",
+   "verified": false,
+   "note": "The 2026 How to Watch page lists TV/streaming only. The club had ESPN 630 AM (DC) radio for 13 matches in 2024 (https://washingtonspirit.com/blog/2024/05/15/washington-spirit-announces-the-clubs-first-ever-radio-partnership/), plus a 2024 playoff radio broadcast. No 2025 or 2026 radio confirmation was found."
+  }
+ ],
+ "league_audio": [
+  {
+   "name": "NWSL+",
+   "what": "The league's free streaming app (iOS/Android, Apple TV, Fire TV, Roku). It is video, not audio-only. The 2026 how-to-watch pages list no audio-only feed, radio, SiriusXM or podcast live calls.",
+   "url": "https://plus.nwslsoccer.com",
+   "source": "https://www.nwslsoccer.com/how-to-watch"
+  },
+  {
+   "name": "NWSL Radio (iHeartRadio)",
+   "what": "HISTORICAL (2021): NWSL and iHeartMedia launched free live play-by-play of the 2 biggest games each week on an iHeartRadio station called NWSL Radio. Not confirmed active for 2025/2026.",
+   "url": "https://www.iheart.com",
+   "source": "https://washingtonspirit.com/blog/2021/05/12/national-womens-soccer-league-and-iheartmedia-kick-off-the-2021-season-with-first-ever-live-audio-streaming-coverage-of-league-games/"
+  }
+ ]
+}

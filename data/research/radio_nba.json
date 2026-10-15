@@ -1,0 +1,752 @@
+{
+ "league": "NBA",
+ "checked": "2026-10-12",
+ "teams": [
+  {
+   "espn_id": "1",
+   "abbr": "ATL",
+   "team": "Atlanta Hawks",
+   "stations": [
+    {
+     "call": "WZGC-FM",
+     "freq": "92.9 FM",
+     "market": "Atlanta",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "Audacy",
+      "url": null
+     }
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://audacyinc.com/press/atlanta-hawks-and-audacy-announce-long-term-partnership-extension/",
+   "verified": true,
+   "note": "Audacy release 2024-12-13: multi-year extension, all 82 games, Audacy app. Search coverage (AJC) says deal runs through 2029. No Spanish station found."
+  },
+  {
+   "espn_id": "2",
+   "abbr": "BOS",
+   "team": "Boston Celtics",
+   "stations": [
+    {
+     "call": "WBZ-FM",
+     "freq": "98.5 FM",
+     "market": "Boston",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "98.5 The Sports Hub app",
+      "url": null
+     }
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://985thesportshub.com/event/boston-celtics-memphis-grizzlies/",
+   "verified": true,
+   "note": "Sports Hub event page (Mar 20, 2026, seen via search snippet; direct fetch returned 403) calls it the flagship, all games on 98.5 FM + Celtics Radio Network + free Sports Hub app. Multi-year extension announced Oct 2023 (term undisclosed)."
+  },
+  {
+   "espn_id": "17",
+   "abbr": "BKN",
+   "team": "Brooklyn Nets",
+   "stations": [
+    {
+     "call": "WFAN",
+     "freq": "660 AM",
+     "market": "New York",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "WFAN-FM",
+     "freq": "101.9 FM",
+     "market": "New York",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Brooklyn_Nets_season",
+   "verified": true,
+   "note": "2026-27 season page lists WFAN-AM and WFAN-FM; WFAN (AM) article confirms it currently airs Nets and gives 660 AM / 101.9 FM. Long-running Audacy deal (Radio Ink). No official 2026-27 team release fetched."
+  },
+  {
+   "espn_id": "30",
+   "abbr": "CHA",
+   "team": "Charlotte Hornets",
+   "stations": [
+    {
+     "call": "WFNZ-FM",
+     "freq": "92.7 FM",
+     "market": "Charlotte",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "Hornets app / WFNZ.com",
+      "url": "https://wfnz.com"
+     }
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://barrettmedia.com/2026/09/03/wfnz-extension-charlotte-hornets/",
+   "verified": true,
+   "note": "Barrett Media 2026-09-03: multi-year extension, 2026-27 is WFNZ's 18th straight season as flagship; streams via Hornets app and WFNZ.com. No Spanish station found."
+  },
+  {
+   "espn_id": "4",
+   "abbr": "CHI",
+   "team": "Chicago Bulls",
+   "stations": [
+    {
+     "call": "WSCR",
+     "freq": "670 AM",
+     "market": "Chicago",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "Audacy",
+      "url": null
+     }
+    },
+    {
+     "call": null,
+     "freq": "104.3 FM",
+     "market": "Chicago",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "Audacy",
+      "url": null
+     },
+     "note": "FM simulcast of 670 The Score launched Feb 2026; Radio Ink brands it '104.3 The Score' WSCR; separate FM call sign not confirmed"
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://radioink.com/2026/06/22/104-3-the-score-keeps-chicago-bulls-radio-rights/",
+   "verified": true,
+   "note": "Radio Ink 2026-06-22: multi-year extension keeps 104.3 The Score (WSCR) as flagship for all regular and postseason games. Audacy 'how to listen' page (seen in search) lists 104.3 FM / 670 AM and free Audacy streaming; that page 404'd on direct fetch."
+  },
+  {
+   "espn_id": "5",
+   "abbr": "CLE",
+   "team": "Cleveland Cavaliers",
+   "stations": [
+    {
+     "call": "WTAM",
+     "freq": "1100 AM / 106.9 FM",
+     "market": "Cleveland",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "WMMS",
+     "freq": "100.7 FM",
+     "market": "Cleveland",
+     "lang": "en",
+     "role": "co-flagship",
+     "stream": null
+    },
+    {
+     "call": "WJMO",
+     "freq": "1300 AM",
+     "market": "Cleveland",
+     "lang": "es",
+     "role": "flagship",
+     "stream": null,
+     "note": "Spanish home games only, per Wikipedia broadcaster list (undated); not confirmed for 2026-27"
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Cleveland_Cavaliers_season",
+   "verified": true,
+   "note": "2025-26 and 2026-27 season pages list radio WTAM and WMMS (iHeartMedia). Frequencies and 'Cavaliers AudioVerse' branding from Wikipedia List of Cavaliers broadcasters. No official 2026 team release found."
+  },
+  {
+   "espn_id": "6",
+   "abbr": "DAL",
+   "team": "Dallas Mavericks",
+   "stations": [
+    {
+     "call": "KRLD-FM",
+     "freq": "105.3 FM",
+     "market": "Dallas-Fort Worth",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://radioink.com/?p=106762",
+   "verified": true,
+   "note": "NEW for 2026-27: Radio Ink / Barrett Media 2026-09-03 — Mavs moved to Audacy's 105.3 The Fan (KRLD), multi-year; Chuck Cooperstein returns; Texas State Network for outlying markets. Previous flagship through 2025-26 was KEGL 97.1 The Eagle. No Spanish station found."
+  },
+  {
+   "espn_id": "7",
+   "abbr": "DEN",
+   "team": "Denver Nuggets",
+   "stations": [
+    {
+     "call": "KKSE-FM",
+     "freq": "92.5 FM",
+     "market": "Denver",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "station site (listenlive player)",
+      "url": "http://player.listenlive.co/20551"
+     }
+    },
+    {
+     "call": "KKSE",
+     "freq": "950 AM",
+     "market": "Denver",
+     "lang": "en",
+     "role": "co-flagship",
+     "stream": {
+      "app": "station site (listenlive player)",
+      "url": "http://player.listenlive.co/48751"
+     },
+     "note": "select games"
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://www.altitudesportsradio.com/static-pages/affiliates",
+   "verified": true,
+   "note": "Altitude Sports Radio affiliates page (2026-dated) lists 'FLAGSHIP STATION: ALTITUDE SPORTS RADIO 92.5 FM' KKSE; 16-station Altitude Radio Network; select games on 950 AM. Wikipedia 2025-26 season infobox lists 'KKSE (AM)'. Nuggets how-to-watch page has no radio info."
+  },
+  {
+   "espn_id": "8",
+   "abbr": "DET",
+   "team": "Detroit Pistons",
+   "stations": [
+    {
+     "call": "WXYT-FM",
+     "freq": "97.1 FM",
+     "market": "Detroit",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://thedesk.net/2026/09/detroit-pistons-more-broadcast-partners-dazn/",
+   "verified": true,
+   "note": "The Desk 2026-09-28: 2026-27 games also on radio partner WXYT (97.1 FM, Audacy's 97.1 The Ticket). Flagship since 2017-18. Conflicts historically moved to WWJ 950 (2017 report)."
+  },
+  {
+   "espn_id": "9",
+   "abbr": "GS",
+   "team": "Golden State Warriors",
+   "stations": [
+    {
+     "call": "KGMZ-FM",
+     "freq": "95.7 FM",
+     "market": "San Francisco Bay Area",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "Audacy / Warriors app",
+      "url": null
+     }
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://barrettmedia.com/2025/10/24/95-7-the-game-extends-broadcast-rights-partnership-with-golden-state-warriors/",
+   "verified": true,
+   "note": "Barrett Media 2025-10-24: multi-year extension, 95.7 The Game remains flagship (10th season in 2025-26). Call letters KGMZ-FM and streaming list (Warriors app, Audacy app, NBA.com/NBA app, SiriusXM) from Radio Ink/Inside Radio search snippets. No Spanish station found."
+  },
+  {
+   "espn_id": "10",
+   "abbr": "HOU",
+   "team": "Houston Rockets",
+   "stations": [
+    {
+     "call": "KBME",
+     "freq": "790 AM",
+     "market": "Houston",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Houston_Rockets_season",
+   "verified": true,
+   "note": "2026-27 season infobox: radio Sportstalk 790 (KBME, iHeartMedia). KBME article: games also on 94.5 HD2, some simulcast on KTRH 740. No official 2026 team release fetched; no Spanish flagship found. TuneIn also lists the station."
+  },
+  {
+   "espn_id": "11",
+   "abbr": "IND",
+   "team": "Indiana Pacers",
+   "stations": [
+    {
+     "call": "WFNI (via W298BB / W228CX)",
+     "freq": "107.5 FM / 93.5 FM",
+     "market": "Indianapolis",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "station site / 107.5 The Fan app",
+      "url": "https://1075thefan.com"
+     }
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://www.nba.com/pacers/where-to-watch",
+   "verified": true,
+   "note": "Pacers where-to-watch page (2026-27 TV content): '107.5 the Fan & 93.5 FM, Indianapolis (Flagship)'; all preseason and regular season games. FM signals are translators of WFNI 1070 AM (Inside Radio 2025). Station listen-live page (May 2025) says streaming is for fans outside the area; no blackout mentioned."
+  },
+  {
+   "espn_id": "12",
+   "abbr": "LAC",
+   "team": "LA Clippers",
+   "stations": [
+    {
+     "call": "KLAC",
+     "freq": "570 AM",
+     "market": "Los Angeles",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Los_Angeles_Clippers_season",
+   "verified": false,
+   "note": "2025-26 and 2026-27 season infoboxes list KLAC (AM 570 LA Sports, iHeart/Dodgers JV; Clippers Audio Network listed in KLAC affiliations). No official team or station page confirming current deal was found (original iHeart deal 2015/16). Spanish outlet (KWKW 1330) only in old/low-quality sources, omitted."
+  },
+  {
+   "espn_id": "13",
+   "abbr": "LAL",
+   "team": "Los Angeles Lakers",
+   "stations": [
+    {
+     "call": "KSPN",
+     "freq": "710 AM",
+     "market": "Los Angeles",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "ESPN radio player",
+      "url": "https://www.espn.com/radio/play/_/s/la"
+     }
+    },
+    {
+     "call": "KFWB",
+     "freq": "980 AM",
+     "market": "Los Angeles",
+     "lang": "es",
+     "role": "flagship",
+     "stream": {
+      "app": "980 La Mera Mera app",
+      "url": null
+     },
+     "note": "Spanish games moved from KWKW 1330 to KFWB '980 La Mera Mera' on 2025-12-18 (Inside Radio 2025-12-16). Wikipedia 2025-26/2026-27 infoboxes instead say '1020 Radio AM (Spanish)' — conflict unresolved for 2026-27."
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://radioink.com/?p=93843",
+   "verified": true,
+   "note": "English verified: Radio Ink 2025-08-08 renewal keeps ESPN LA 710 (KSPN) as flagship (regular, pre and postseason); 2026-27 season page still lists ESPN LA 710. Spanish NOT verified for 2026-27 (see station note)."
+  },
+  {
+   "espn_id": "29",
+   "abbr": "MEM",
+   "team": "Memphis Grizzlies",
+   "stations": [
+    {
+     "call": "WMFS-FM",
+     "freq": "92.9 FM",
+     "market": "Memphis",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Memphis_Grizzlies_season",
+   "verified": true,
+   "note": "2025-26 and 2026-27 season infoboxes list WMFS-FM (ESPN 92.9, Audacy). No official team radio page fetched."
+  },
+  {
+   "espn_id": "14",
+   "abbr": "MIA",
+   "team": "Miami Heat",
+   "stations": [
+    {
+     "call": "WQAM-FM",
+     "freq": "104.3 FM",
+     "market": "Miami",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null,
+     "note": "former WSFS; WQAM-FM calls were pending FCC approval in Aug 2025"
+    },
+    {
+     "call": "WQAM",
+     "freq": "560 AM",
+     "market": "Miami",
+     "lang": "en",
+     "role": "co-flagship",
+     "stream": null
+    },
+    {
+     "call": "WAQI",
+     "freq": "710 AM",
+     "market": "Miami",
+     "lang": "es",
+     "role": "flagship",
+     "stream": null,
+     "note": "Radio Mambi; Dec 2025 reports say station kept Heat games after ending news/talk format. Not confirmed for 2026-27."
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://radioinsight.com/headlines/306163/miamis-shark-dies-as-wqam-moves-to-fm",
+   "verified": true,
+   "note": "RadioInsight 2025-08-07: WQAM and WQAM-FM continue as Heat flagships. Heat 2025-26 schedule PDF (search snippet): 'ALL GAMES CAN BE HEARD IN ENGLISH ON WQAM 104.3 FM.' Spanish per WUSF 2025-12-13. No 2026-27 confirmation found."
+  },
+  {
+   "espn_id": "15",
+   "abbr": "MIL",
+   "team": "Milwaukee Bucks",
+   "stations": [
+    {
+     "call": "WTMJ",
+     "freq": "620 AM / 103.3 FM",
+     "market": "Milwaukee",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://cdn.nba.com/teams/uploads/sites/1610612749/2025/08/2025-26-Milwaukee-Bucks-Schedule.pdf",
+   "verified": true,
+   "note": "Bucks 2025-26 schedule (search snippet; PDF fetch timed out): all games on 620 WTMJ AM or 103.3 FM plus BMO Bucks Radio Network. WTMJ flagship since 1968 (Good Karma). No 2026-27-specific source found."
+  },
+  {
+   "espn_id": "16",
+   "abbr": "MIN",
+   "team": "Minnesota Timberwolves",
+   "stations": [
+    {
+     "call": "WCCO",
+     "freq": "830 AM",
+     "market": "Minneapolis-St. Paul",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "Audacy",
+      "url": null
+     }
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://barrettmedia.com/?p=284810",
+   "verified": true,
+   "note": "NEW for 2026-27: Barrett Media 2026-09-29 — 830 WCCO becomes flagship, every regular season game, Alan Horton, streaming on Audacy app. 2023-24 to 2025-26 were iHeart (KFAN 100.3 for select games + iHeartRadio app channel). Learfield affiliates in MN/IA/ND/SD."
+  },
+  {
+   "espn_id": "3",
+   "abbr": "NO",
+   "team": "New Orleans Pelicans",
+   "stations": [
+    {
+     "call": "WWL",
+     "freq": "870 AM / 105.3 FM",
+     "market": "New Orleans",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://crescentcitysports.com/pelicans-announce-broadcast-information-for-2025-26-season/",
+   "verified": true,
+   "note": "Pelicans 2025-26 broadcast announcement (2025-10-13): Audacy's WWL Radio (870AM / 105.3FM) exclusive radio home, all 82 games. Multi-year deal from June 2024. No 2026-27-specific source found; no Spanish station found."
+  },
+  {
+   "espn_id": "18",
+   "abbr": "NY",
+   "team": "New York Knicks",
+   "stations": [
+    {
+     "call": "WHSQ",
+     "freq": "880 AM",
+     "market": "New York",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://ramp247.com/?p=54126",
+   "verified": false,
+   "note": "Ramp (Aug 2024): Good Karma's 880 ESPN New York (new calls WHSQ) is flagship for Knicks and Rangers, replacing 98.7 FM. Multi-year ESPN NY/MSG deal from 2022. Not re-confirmed for 2025-26/2026-27 (Wikipedia 2025-26 infobox still says WEPN-FM, likely stale)."
+  },
+  {
+   "espn_id": "25",
+   "abbr": "OKC",
+   "team": "Oklahoma City Thunder",
+   "stations": [
+    {
+     "call": "WWLS-FM",
+     "freq": "98.1 FM",
+     "market": "Oklahoma City",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "KWPN",
+     "freq": "640 AM",
+     "market": "Oklahoma City",
+     "lang": "en",
+     "role": "co-flagship",
+     "stream": null,
+     "note": "listed with WWLS-FM in 2026-27 season infobox; 640 frequency from older simulcast coverage"
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Oklahoma_City_Thunder_season",
+   "verified": true,
+   "note": "2025-26 and 2026-27 infoboxes list KWPN and WWLS-FM; WWLS-FM article: 'flagship station for the Oklahoma City Thunder' (Cumulus, The Sports Animal). WKY simulcast ended ~Sept 2026. No official team page fetched."
+  },
+  {
+   "espn_id": "19",
+   "abbr": "ORL",
+   "team": "Orlando Magic",
+   "stations": [
+    {
+     "call": "WYGM",
+     "freq": "96.9 FM / 740 AM",
+     "market": "Orlando",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "iHeartRadio / Orlando Magic App",
+      "url": null
+     },
+     "note": "app/iHeart streams limited to within 75 miles of Orlando; select games on FM 104.5"
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://www.nba.com/magic/broadcast",
+   "verified": true,
+   "note": "Magic broadcast page (2026-27 content): 'WYGM FM 96.9/AM 740 (FLAGSHIP)', select games on FM 104.5; all preseason/regular/postseason games on Magic Radio Network. Out-of-market: NBA League Pass Audio, SiriusXM 106/212. No Spanish radio listed."
+  },
+  {
+   "espn_id": "20",
+   "abbr": "PHI",
+   "team": "Philadelphia 76ers",
+   "stations": [
+    {
+     "call": "WPEN",
+     "freq": "97.5 FM",
+     "market": "Philadelphia",
+     "lang": "en",
+     "role": "flagship",
+     "stream": {
+      "app": "station site",
+      "url": "https://975thefanatic.com"
+     }
+    }
+   ],
+   "team_audio_url": "https://www.nba.com/sixers/76ers-radio-network",
+   "source": "https://www.nba.com/sixers/76ers-radio-network",
+   "verified": true,
+   "note": "Sixers radio network page (2025-26): 97.5 The Fanatic 'entering its 14th full season as the team's flagship station'; affiliates 97.3 ESPN Atlantic City, WEEU 830 Reading, WOYK 98.9 York. No 2026-27-specific confirmation; no Spanish station listed."
+  },
+  {
+   "espn_id": "21",
+   "abbr": "PHX",
+   "team": "Phoenix Suns",
+   "stations": [
+    {
+     "call": "KMVP-FM",
+     "freq": "98.7 FM",
+     "market": "Phoenix",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null,
+     "note": "select games on ESPN 620 instead"
+    },
+    {
+     "call": "KSUN",
+     "freq": "1400 AM / 106.5 FM",
+     "market": "Phoenix",
+     "lang": "es",
+     "role": "flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://www.si.com/nba/suns/news/suns-reveal-2025-26-broadcast-schedule",
+   "verified": true,
+   "note": "SI 2025-09-22: Arizona Sports 98.7 is Suns flagship (since 1968 relationship); Spanish on KSUN La Mejor Radio 1400 AM/106.5 FM. Call sign KMVP-FM from Muck Rack listing for Arizona Sports. No 2026-27-specific source found."
+  },
+  {
+   "espn_id": "22",
+   "abbr": "POR",
+   "team": "Portland Trail Blazers",
+   "stations": [
+    {
+     "call": "KPOJ",
+     "freq": "620 AM",
+     "market": "Portland",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://radioink.com/2025/08/20/portland-trail-blazers-renew-radio-partnership-with-iheartmedia/",
+   "verified": true,
+   "note": "Radio Ink 2025-08-20: multi-year extension keeps Rip City Radio 620 (KPOJ-AM) as flagship of Trail Blazers Audio Network (12 stations OR/WA)."
+  },
+  {
+   "espn_id": "23",
+   "abbr": "SAC",
+   "team": "Sacramento Kings",
+   "stations": [],
+   "team_audio_url": "https://www.kings.com",
+   "source": "https://barrettmedia.com/2026/09/18/sacramento-kings-end-radio-sactown-sports/",
+   "verified": true,
+   "note": "NEW for 2026-27: Kings ended 32-year run on KHTK 1140 (flagship through 2025-26). In-house 'Kings Radio' launched Oct 5, 2026 — listen on Kings.com, the Kings app and SiriusXM; no terrestrial flagship named (unclear if one will be added). Team says a Spanish-language broadcast is coming; no station/platform named."
+  },
+  {
+   "espn_id": "24",
+   "abbr": "SA",
+   "team": "San Antonio Spurs",
+   "stations": [
+    {
+     "call": "WOAI",
+     "freq": "1200 AM",
+     "market": "San Antonio",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "KXTN",
+     "freq": "1350 AM",
+     "market": "San Antonio",
+     "lang": "es",
+     "role": "flagship",
+     "stream": null,
+     "note": "KXTN lists 'San Antonio Spurs (Spanish)' affiliation; 107.5 HD2 mentioned in older Spurs releases (2021-22). Not confirmed for 2026-27."
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_San_Antonio_Spurs_season",
+   "verified": false,
+   "note": "2025-26 and 2026-27 season infoboxes list '1200 WOAI'; last official Spurs release found was 2021-22 (WOAI English, KXTN 1350 + 107.5 HD2 Spanish). No 2025+ official/news source confirming deal."
+  },
+  {
+   "espn_id": "28",
+   "abbr": "TOR",
+   "team": "Toronto Raptors",
+   "stations": [
+    {
+     "call": "CHUM",
+     "freq": "1050 AM",
+     "market": "Toronto",
+     "lang": "en",
+     "role": "co-flagship",
+     "stream": null,
+     "note": "TSN 1050: 40 regular-season + 1 preseason games in 2025-26"
+    },
+    {
+     "call": "CJCL",
+     "freq": "590 AM",
+     "market": "Toronto",
+     "lang": "en",
+     "role": "co-flagship",
+     "stream": null,
+     "note": "Sportsnet 590 The FAN: remaining games (split shown game-by-game on Raptors schedule); not confirmed for 2025-26/2026-27 by a dated source"
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://www.tsn.ca/radio/toronto-1050/raps/article/tsn-1050-raptors-broadcast-schedule/",
+   "verified": false,
+   "note": "TSN 1050 2025-26 schedule (pub. 2025-10-01) confirmed. Sportsnet 590 share from undated NBA.com Raptors schedule snippets and Wikipedia broadcaster list (2014-present). No 2026-27 source; no French-language radio found."
+  },
+  {
+   "espn_id": "26",
+   "abbr": "UTAH",
+   "team": "Utah Jazz",
+   "stations": [
+    {
+     "call": "KZNS",
+     "freq": "1280 AM",
+     "market": "Salt Lake City",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    },
+    {
+     "call": "KZNS-FM",
+     "freq": "97.5 FM",
+     "market": "Salt Lake City",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Utah_Jazz_season",
+   "verified": true,
+   "note": "2025-26 season infobox: 1280 KZNS (AM) and 97.5 The Zone (KZNS-FM), operated by Bonneville; select games/playoffs simulcast on KSL NewsRadio 1160/102.7 (2021 agreement). Branding may now be 'KSL Sports Zone'. No 2026-27-specific source found."
+  },
+  {
+   "espn_id": "27",
+   "abbr": "WSH",
+   "team": "Washington Wizards",
+   "stations": [
+    {
+     "call": "WJFK-FM",
+     "freq": "106.7 FM",
+     "market": "Washington, D.C.",
+     "lang": "en",
+     "role": "flagship",
+     "stream": null,
+     "note": "when Wizards and Capitals overlap, Wizards move to WTEM 980 / WDCH 99.1"
+    }
+   ],
+   "team_audio_url": null,
+   "source": "https://barrettmedia.com/2025/10/13/106-7-the-fan-extends-media-rights-partnership-with-monumental-sports-adds-washington-wizards-broadcasts/",
+   "verified": true,
+   "note": "Oct 2025 Audacy/Monumental multi-year extension made 106.7 The Fan (WJFK-FM) flagship of 10-station Wizards Radio Network (previously The Team 980 WTEM). Dave Johnson / Glenn Consor."
+  }
+ ],
+ "league_audio": [
+  {
+   "name": "NBA League Pass (audio)",
+   "what": "Every League Pass subscription includes live radio broadcasts of all NBA games (League Pass $109.99 / Premium $159.99 per season prepay, monthly plans also offered).",
+   "url": "https://www.nba.com/watch/league-pass-stream",
+   "source": "https://www.nba.com/watch/league-pass-stream"
+  },
+  {
+   "name": "SiriusXM NBA Radio",
+   "what": "Team radio feeds on SiriusXM (subscription, available anywhere); Orlando Magic page lists SiriusXM channels 106 or 212 for Magic games. Kings Radio (2026-27) also on SiriusXM.",
+   "url": null,
+   "source": "https://www.nba.com/magic/broadcast"
+  },
+  {
+   "name": "ESPN Radio national NBA package",
+   "what": "ESPN Radio nationally broadcast the 2026 NBA Finals (30th year of Finals coverage; Marc Kestecher, Doris Burke, P.J. Carlesimo) plus NBA Countdown pregame; ESPN Unlimited subscribers got dedicated home/away team audio feeds (KnicksCast/SpursCast) in the ESPN App. Regular-season national games also air (e.g. ESPN Radio carried 9 Warriors games in 2025-26 per Warriors/Audacy release).",
+   "url": null,
+   "source": "https://www.nba.com/news/abcs-exclusive-coverage-of-the-2026-nba-finals-begins-june-3-new-york-knicks-vs-san-antonio-spurs"
+  },
+  {
+   "name": "Team apps / NBA App",
+   "what": "Teams stream their radio calls in team apps (often geo-limited, e.g. Magic app and iHeart stream only within 75 miles of Orlando); Warriors broadcasts also stream via NBA.com and the NBA app per the 2025-26 Warriors/95.7 extension coverage.",
+   "url": null,
+   "source": "https://www.insideradio.com/free/nba-s-warriors-95-7-the-game-extend-flagship-partnership/article_8c79d479-424c-408d-9753-f353f7e18a57.html"
+  }
+ ]
+}
