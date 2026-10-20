@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T02:32:01Z",
+ "generated": "2026-10-20T03:32:01Z",
  "leagues": {
   "ATP": {
    "group": "Tennis",
@@ -409,11 +409,11 @@
   "MLB": {
    "group": "Baseball",
    "league": "mlb",
-   "games": 6,
-   "watch_confirmed": 6,
-   "watch_any": 6,
-   "listen_any": 6,
-   "listen_team": 6
+   "games": 5,
+   "watch_confirmed": 5,
+   "watch_any": 5,
+   "listen_any": 5,
+   "listen_team": 5
   },
   "MLS": {
    "group": "Soccer",
