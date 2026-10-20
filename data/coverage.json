@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T06:02:01Z",
+ "generated": "2026-10-20T06:32:01Z",
  "leagues": {
   "ATP": {
    "group": "Tennis",
@@ -22,7 +22,7 @@
   "WWE": {
    "group": "Fights",
    "league": "tsdb:wwe",
-   "games": 5,
+   "games": 6,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -505,6 +505,15 @@
    "listen_any": 0,
    "listen_team": 0
   },
+  "Russian Volleyball Super League": {
+   "group": "Other",
+   "league": "tsdb:russian-volleyball-super-league",
+   "games": 4,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
   "Primeira Liga": {
    "group": "Soccer",
    "league": "primeira",
@@ -653,15 +662,6 @@
    "group": "Cricket",
    "league": "ireland-tour-of-namibia-2026-27",
    "games": 2,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "Russian Volleyball Super League": {
-   "group": "Other",
-   "league": "tsdb:russian-volleyball-super-league",
-   "games": 3,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
