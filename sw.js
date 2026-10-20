@@ -3,7 +3,7 @@
 // version every few minutes / on foreground / on launch. A new version installs in the background
 // and only swaps in when the page says it's safe (not mid-popup / typing) - see app.js.
 // SHELL is stamped per publish by build_public.py so each deploy is its own cache.
-var SHELL = "gf-d4b785eb7c";   // build_public.py replaces this with gf-<timestamp>
+var SHELL = "gf-b86592d826";   // build_public.py replaces this with gf-<timestamp>
 var SHELL_FILES = ["./index.html", "./app.css", "./app.js", "./rank.js", "./live.js"];
 var STATIC = ["./manifest.json", "./icon.svg", "./icon-192.png", "./icon-512.png"];
 

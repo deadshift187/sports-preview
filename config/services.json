@@ -270,6 +270,60 @@
    "ios_store": "https://apps.apple.com/app/id307184892",
    "play_pkg": "com.handmark.sportcaster",
    "scheme": null
+  },
+  {
+   "id": "tubi",
+   "name": "Tubi (free)",
+   "web": "https://tubitv.com/",
+   "color": "#fa541c",
+   "ios_store": null,
+   "play_pkg": null,
+   "scheme": null
+  },
+  {
+   "id": "pluto",
+   "name": "Pluto TV (free)",
+   "web": "https://pluto.tv/",
+   "color": "#1a1a4b",
+   "ios_store": null,
+   "play_pkg": null,
+   "scheme": null
+  },
+  {
+   "id": "rokuchannel",
+   "name": "The Roku Channel (free)",
+   "web": "https://therokuchannel.roku.com/",
+   "color": "#662d91",
+   "ios_store": null,
+   "play_pkg": null,
+   "scheme": null
+  },
+  {
+   "id": "fandango",
+   "name": "Fandango at Home (free)",
+   "web": "https://www.fandangoathome.com/",
+   "color": "#ff7a00",
+   "ios_store": null,
+   "play_pkg": null,
+   "scheme": null
+  },
+  {
+   "id": "youtube",
+   "name": "YouTube (free)",
+   "web": "https://www.youtube.com/",
+   "color": "#ff0000",
+   "ios_store": null,
+   "play_pkg": null,
+   "scheme": null
+  },
+  {
+   "id": "nwslplus",
+   "name": "NWSL+ (free)",
+   "web": "https://www.nwslsoccer.com/",
+   "color": "#c8102e",
+   "ios_store": null,
+   "play_pkg": null,
+   "scheme": null
   }
  ],
  "channels": [
@@ -375,14 +429,6 @@
    "bundle": "usa"
   },
   {
-   "match": "NBCSN",
-   "label": "NBCSN",
-   "services": [
-    "cable"
-   ],
-   "bundle": "nbcsn"
-  },
-  {
    "match": "CNBC",
    "label": "CNBC",
    "services": [
@@ -421,6 +467,14 @@
    "bundle": "fox"
   },
   {
+   "match": "KCOP|KCOP 13|KONG|KONG 6/16|KING|KING 5|KING5|KTVD|KTVD 20|KUTV|KUTV 2|Utah 16|KMYU",
+   "label": null,
+   "services": [
+    "antenna"
+   ],
+   "free_ota": true
+  },
+  {
    "match": "FS1|FS2|Fox Sports 1|Fox Sports 2|BTN|Big Ten Network|FOX Deportes|Fox Deportes",
    "label": null,
    "services": [
@@ -430,7 +484,7 @@
    "bundle": "fs"
   },
   {
-   "match": "BN\\+|B1G\\+|Big Ten Plus",
+   "match": "B1G\\+|Big Ten Plus",
    "label": "B1G+",
    "services": [],
    "stream_only": true
@@ -493,8 +547,8 @@
    "stream_only": true
   },
   {
-   "match": "Hulu",
-   "label": "Hulu",
+   "match": "Hulu \\+ Live TV|Hulu \\+ Live|Hulu Live|Hulu Live TV",
+   "label": "Hulu + Live TV",
    "services": [
     "hululive"
    ],
@@ -649,7 +703,9 @@
   {
    "match": "NWSL\\+",
    "label": "NWSL+ (free)",
-   "services": [],
+   "services": [
+    "nwslplus"
+   ],
    "stream_only": true,
    "free": true,
    "needs_account": true,
@@ -658,7 +714,9 @@
   {
    "match": "Roku|The Roku Channel",
    "label": "The Roku Channel (free)",
-   "services": [],
+   "services": [
+    "rokuchannel"
+   ],
    "stream_only": true,
    "free": true,
    "needs_account": true,
@@ -667,16 +725,20 @@
   {
    "match": "Fandango|Fandango at Home",
    "label": "Fandango at Home (free)",
-   "services": [],
+   "services": [
+    "fandango"
+   ],
    "stream_only": true,
    "free": true,
    "needs_account": true,
-   "free_evidence": "https://www.businesswire.com/news/home/20260813/"
+   "free_evidence": "https://www.fandangoathome.com/"
   },
   {
    "match": "YouTube",
    "label": "YouTube (free)",
-   "services": [],
+   "services": [
+    "youtube"
+   ],
    "stream_only": true,
    "free": true,
    "free_evidence": "https://www.youtube.com/"
@@ -684,7 +746,9 @@
   {
    "match": "Tubi",
    "label": "Tubi (free)",
-   "services": [],
+   "services": [
+    "tubi"
+   ],
    "stream_only": true,
    "free": true,
    "needs_account": true,
@@ -693,7 +757,9 @@
   {
    "match": "Pluto|Pluto TV",
    "label": "Pluto TV (free)",
-   "services": [],
+   "services": [
+    "pluto"
+   ],
    "stream_only": true,
    "free": true,
    "free_evidence": "https://pluto.tv/"

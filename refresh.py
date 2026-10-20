@@ -115,6 +115,19 @@ def is_network_tba(name):
     return n.count("/") >= 2 or n.count(" / ") >= 2
 
 
+def dedup_freq(name):
+    """Collapse a radio name that repeats its frequency, e.g. '97.1 The Fan 97.1 FM' -> '97.1 The
+    Fan'. Removes the first bare occurrence of any frequency that appears 2+ times in the string."""
+    n = (name or "").strip()
+    if not n:
+        return n
+    for num in set(re.findall(r"\d{2,3}\.\d", n)):
+        if n.count(num) >= 2:
+            n = re.sub(r"\s*\b" + re.escape(num) + r"\s*(FM|AM)?\b", " ", n, count=1)
+            n = re.sub(r"\s{2,}", " ", n).strip(" /·-")
+    return n or (name or "").strip()
+
+
 def clean_radio_name(name):
     """Return a human radio name, or None to drop an internal code.
     US/Canada call signs start with W, K or C; anything else all-caps and codey is an internal id."""
@@ -507,7 +520,14 @@ def build_listen(g, radio):
         if not entry:
             continue
         for st in entry.get("stations", []):
-            label = " ".join(x for x in [st.get("call"), st.get("freq")] if x)
+            call, freq = st.get("call"), st.get("freq")
+            # De-dupe a frequency that's already in the call name (e.g. call "97.1 The Fan" + freq
+            # "97.1 FM" -> just "97.1 The Fan", not "97.1 The Fan 97.1 FM").
+            if call and freq:
+                m = re.search(r"\d{2,3}\.\d", call)
+                if m and m.group(0) in freq:
+                    freq = None
+            label = " ".join(x for x in [call, freq] if x)
             listen.append({
                 "name": label or st.get("name", "Team radio"),
                 "kind": "team",
@@ -543,6 +563,8 @@ def build_listen(g, radio):
             "lang": r.get("lang", "en"), "source": r.get("source", ""), "confidence": r.get("confidence", "unverified"),
             "checked": r.get("checked"), "note": r.get("note", ""),
         })
+    for l in listen:
+        l["name"] = dedup_freq(l.get("name"))
     g["listen"] = listen
     g.pop("_radio", None)
 
@@ -626,11 +648,16 @@ def main():
         days = [(today + dt.timedelta(days=i)).strftime("%Y%m%d") for i in range(-1, 8)]
     log(f"refresh {'soon' if soon else 'full'}: {len(leagues)} leagues x {len(days)} days")
 
+    # Source policy: ESPN + ESPN scorepanel are DEV-ONLY (undocumented API, not licensed for
+    # commercial use). TheSportsDB needs a written commercial OK (GF_TSDB_OK) in release. Release
+    # builds (GF_RELEASE=1) take schedules/scores ONLY from licensed providers (providers.py).
+    RELEASE = os.environ.get("GF_RELEASE") == "1"
+    tsdb_ok = (not RELEASE) or os.environ.get("GF_TSDB_OK") == "1"
     with ThreadPoolExecutor(3) as ex:
-        f_tsdb = ex.submit(fetch_tsdb, days) if not soon else None
-        f_panel = ex.submit(fetch_scorepanel, days) if not soon else None
-        games = fetch_espn(leagues, days)
-        log(f"  ESPN: {len(games)} events")
+        f_tsdb = ex.submit(fetch_tsdb, days) if (not soon and tsdb_ok) else None
+        f_panel = ex.submit(fetch_scorepanel, days) if (not soon and not RELEASE) else None
+        games = [] if RELEASE else fetch_espn(leagues, days)
+        log(f"  ESPN: {len(games)} events" + (" [dev-only — OFF in release]" if RELEASE else ""))
         if f_panel:
             have = {g["id"] for g in games}
             panel = [g for g in f_panel.result() if g["id"] not in have]
@@ -640,6 +667,18 @@ def main():
             extra = [g for g in f_tsdb.result() if g["id"] not in {x["id"] for x in games}]
             log(f"  TheSportsDB: {len(extra)} events")
             games += extra
+    # Licensed providers (BALLDONTLIE etc.): the ONLY schedule/score source in release builds, and
+    # also run in dev when configured (so a key can be validated before flipping GF_RELEASE on).
+    # These run server-side here, never on user devices.
+    try:
+        import providers as _providers
+        for prov in _providers.active(release=RELEASE):
+            have = {g["id"] for g in games}
+            pg = [g for g in prov.fetch(days) if g["id"] not in have]
+            log(f"  provider {prov.name}: {len(pg)} events")
+            games += pg
+    except Exception as e:
+        log(f"  providers error: {e}")
 
     # Never let a network blip blank a league: carry over last good games for any league/day that failed.
     if FAILED and prev.get("games"):
@@ -734,6 +773,7 @@ def main():
         for l in g.get("listen", []):
             if l.get("kind") == "game":
                 l["name"] = clean_radio_name(l["name"]) or l["name"]
+            l["name"] = dedup_freq(l.get("name"))
 
     games.sort(key=lambda g: (g.get("start") or "", g["league_name"]))
     # Publish guard: never overwrite good data with a broken/empty pull (a bad fetch day, an outage).

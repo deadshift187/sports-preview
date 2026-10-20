@@ -69,6 +69,9 @@
 
   // Update live/soon ESPN games in `games` in place; call onUpdate(nChanged) if anything changed.
   function refreshLive(games, onUpdate) {
+    // RELEASE builds must NOT call ESPN from users' devices (licensing + privacy). Live scores come
+    // from our server-side refresh (games.json / our backend). Dev builds poll directly for speed.
+    if (typeof root !== "undefined" && root && root.GF_RELEASE) return Promise.resolve(0);
     var bySlug = {};   // slug -> set of YYYYMMDD dates to query
     (games || []).forEach(function (g) {
       if (!pollable(g.espn) || !(g.status === "in" || isSoon(g))) return;
