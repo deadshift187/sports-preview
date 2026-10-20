@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T18:02:01Z",
+ "generated": "2026-10-20T18:32:01Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -223,15 +223,6 @@
    "games": 15,
    "watch_confirmed": 15,
    "watch_any": 15,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "German Handball-Bundesliga": {
-   "group": "Other",
-   "league": "tsdb:german-handball-bundesliga",
-   "games": 9,
-   "watch_confirmed": 0,
-   "watch_any": 0,
    "listen_any": 0,
    "listen_team": 0
   },
@@ -538,6 +529,15 @@
    "games": 18,
    "watch_confirmed": 18,
    "watch_any": 18,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "German Handball-Bundesliga": {
+   "group": "Other",
+   "league": "tsdb:german-handball-bundesliga",
+   "games": 8,
+   "watch_confirmed": 0,
+   "watch_any": 0,
    "listen_any": 0,
    "listen_team": 0
   },
