@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T03:32:01Z",
+ "generated": "2026-10-20T04:02:01Z",
  "leagues": {
   "ATP": {
    "group": "Tennis",
@@ -518,15 +518,6 @@
    "group": "Soccer",
    "league": "primeira",
    "games": 10,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "World Snooker": {
-   "group": "Other",
-   "league": "tsdb:world-snooker",
-   "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
