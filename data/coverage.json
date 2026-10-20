@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T12:32:01Z",
+ "generated": "2026-10-20T13:02:01Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -478,15 +478,6 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "West Indies tour of Bangladesh 2026/27": {
-   "group": "Cricket",
-   "league": "west-indies-tour-of-bangladesh-2026-27",
-   "games": 1,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
   "PGA Tour": {
    "group": "Golf",
    "league": "pga",
@@ -494,6 +485,15 @@
    "watch_confirmed": 1,
    "watch_any": 1,
    "listen_any": 1,
+   "listen_team": 0
+  },
+  "West Indies tour of Bangladesh 2026/27": {
+   "group": "Cricket",
+   "league": "west-indies-tour-of-bangladesh-2026-27",
+   "games": 1,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
    "listen_team": 0
   },
   "India tour of New Zealand 2026/27": {
