@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T09:32:01Z",
+ "generated": "2026-10-21T10:02:01Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -226,6 +226,15 @@
    "listen_any": 0,
    "listen_team": 0
   },
+  "German 1. Bundesliga": {
+   "group": "Other",
+   "league": "tsdb:german-1-bundesliga",
+   "games": 16,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
   "Champions League": {
    "group": "Soccer",
    "league": "ucl",
@@ -302,15 +311,6 @@
    "group": "Cricket",
    "league": "united-arab-emirates-tri-nation-series",
    "games": 2,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "German 1. Bundesliga": {
-   "group": "Other",
-   "league": "tsdb:german-1-bundesliga",
-   "games": 13,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
