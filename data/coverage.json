@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T22:32:02Z",
+ "generated": "2026-10-21T23:02:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -298,6 +298,15 @@
    "listen_any": 0,
    "listen_team": 0
   },
+  "LPGA": {
+   "group": "Golf",
+   "league": "lpga",
+   "games": 1,
+   "watch_confirmed": 1,
+   "watch_any": 1,
+   "listen_any": 0,
+   "listen_team": 0
+  },
   "Bangladesh Under-19s tour of Oman 2026/27": {
    "group": "Cricket",
    "league": "bangladesh-under-19s-tour-of-oman-2026-27",
@@ -382,15 +391,6 @@
   "DP World Tour": {
    "group": "Golf",
    "league": "dpwt",
-   "games": 1,
-   "watch_confirmed": 1,
-   "watch_any": 1,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "LPGA": {
-   "group": "Golf",
-   "league": "lpga",
    "games": 1,
    "watch_confirmed": 1,
    "watch_any": 1,
