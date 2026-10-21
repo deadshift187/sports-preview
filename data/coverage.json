@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T08:32:01Z",
+ "generated": "2026-10-21T09:02:01Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -31,9 +31,9 @@
   "WTA": {
    "group": "Tennis",
    "league": "wta",
-   "games": 8,
+   "games": 7,
    "watch_confirmed": 0,
-   "watch_any": 8,
+   "watch_any": 7,
    "listen_any": 0,
    "listen_team": 0
   },
