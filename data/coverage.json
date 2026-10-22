@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T10:02:02Z",
+ "generated": "2026-10-22T10:32:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -40,7 +40,7 @@
   "PDC Darts": {
    "group": "Other",
    "league": "tsdb:pdc-darts",
-   "games": 6,
+   "games": 5,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -157,7 +157,7 @@
   "German 1. Bundesliga": {
    "group": "Other",
    "league": "tsdb:german-1-bundesliga",
-   "games": 14,
+   "games": 17,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
