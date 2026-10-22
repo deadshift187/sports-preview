@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T03:32:02Z",
+ "generated": "2026-10-22T04:02:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -13,7 +13,7 @@
   "EHF Champions League": {
    "group": "Other",
    "league": "tsdb:ehf-champions-league",
-   "games": 8,
+   "games": 7,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -229,7 +229,7 @@
   "German 1. Bundesliga": {
    "group": "Other",
    "league": "tsdb:german-1-bundesliga",
-   "games": 13,
+   "games": 16,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -325,15 +325,6 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "Danish Mens Handball League": {
-   "group": "Other",
-   "league": "tsdb:danish-mens-handball-league",
-   "games": 4,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
   "La Liga": {
    "group": "Soccer",
    "league": "laliga",
@@ -360,15 +351,6 @@
    "watch_any": 30,
    "listen_any": 1,
    "listen_team": 1
-  },
-  "Lamborghini Super Trofeo North America": {
-   "group": "Racing",
-   "league": "tsdb:lamborghini-super-trofeo-north-america",
-   "games": 1,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
   },
   "TNA Wrestling": {
    "group": "Fights",
@@ -397,6 +379,15 @@
    "listen_any": 0,
    "listen_team": 0
   },
+  "West Indies tour of Bangladesh 2026/27": {
+   "group": "Cricket",
+   "league": "west-indies-tour-of-bangladesh-2026-27",
+   "games": 2,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
   "DP World Tour": {
    "group": "Golf",
    "league": "dpwt",
@@ -413,15 +404,6 @@
    "watch_confirmed": 1,
    "watch_any": 1,
    "listen_any": 1,
-   "listen_team": 0
-  },
-  "West Indies tour of Bangladesh 2026/27": {
-   "group": "Cricket",
-   "league": "west-indies-tour-of-bangladesh-2026-27",
-   "games": 2,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
    "listen_team": 0
   },
   "India tour of New Zealand 2026/27": {
@@ -457,6 +439,15 @@
    "games": 18,
    "watch_confirmed": 18,
    "watch_any": 18,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Danish Mens Handball League": {
+   "group": "Other",
+   "league": "tsdb:danish-mens-handball-league",
+   "games": 3,
+   "watch_confirmed": 0,
+   "watch_any": 0,
    "listen_any": 0,
    "listen_team": 0
   },
