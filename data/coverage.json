@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T21:02:02Z",
+ "generated": "2026-10-22T21:32:01Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -13,7 +13,7 @@
   "EHF Champions League": {
    "group": "Other",
    "league": "tsdb:ehf-champions-league",
-   "games": 9,
+   "games": 8,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -40,7 +40,7 @@
   "PDC Darts": {
    "group": "Other",
    "league": "tsdb:pdc-darts",
-   "games": 5,
+   "games": 6,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -148,7 +148,7 @@
   "German Handball-Bundesliga": {
    "group": "Other",
    "league": "tsdb:german-handball-bundesliga",
-   "games": 11,
+   "games": 10,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -223,15 +223,6 @@
    "games": 9,
    "watch_confirmed": 9,
    "watch_any": 9,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "Danish Mens Handball League": {
-   "group": "Other",
-   "league": "tsdb:danish-mens-handball-league",
-   "games": 4,
-   "watch_confirmed": 0,
-   "watch_any": 0,
    "listen_any": 0,
    "listen_team": 0
   },
@@ -421,6 +412,15 @@
    "games": 18,
    "watch_confirmed": 18,
    "watch_any": 18,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Danish Mens Handball League": {
+   "group": "Other",
+   "league": "tsdb:danish-mens-handball-league",
+   "games": 2,
+   "watch_confirmed": 0,
+   "watch_any": 0,
    "listen_any": 0,
    "listen_team": 0
   },
