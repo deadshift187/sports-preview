@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T12:02:02Z",
+ "generated": "2026-10-22T12:32:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -878,6 +878,15 @@
    "group": "Cricket",
    "league": "women-s-big-bash-league",
    "games": 2,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "ICC Men's Cricket World Cup League 2": {
+   "group": "Cricket",
+   "league": "icc-men-s-cricket-world-cup-league-2",
+   "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
