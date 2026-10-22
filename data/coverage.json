@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T05:32:02Z",
+ "generated": "2026-10-22T06:02:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -352,15 +352,6 @@
    "listen_any": 1,
    "listen_team": 1
   },
-  "TNA Wrestling": {
-   "group": "Fights",
-   "league": "tsdb:tna-wrestling",
-   "games": 1,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
   "WNBA": {
    "group": "Basketball",
    "league": "wnba",
@@ -376,15 +367,6 @@
    "games": 2,
    "watch_confirmed": 2,
    "watch_any": 2,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "West Indies tour of Bangladesh 2026/27": {
-   "group": "Cricket",
-   "league": "west-indies-tour-of-bangladesh-2026-27",
-   "games": 2,
-   "watch_confirmed": 0,
-   "watch_any": 0,
    "listen_any": 0,
    "listen_team": 0
   },
@@ -404,6 +386,15 @@
    "watch_confirmed": 1,
    "watch_any": 1,
    "listen_any": 1,
+   "listen_team": 0
+  },
+  "West Indies tour of Bangladesh 2026/27": {
+   "group": "Cricket",
+   "league": "west-indies-tour-of-bangladesh-2026-27",
+   "games": 2,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
    "listen_team": 0
   },
   "India tour of New Zealand 2026/27": {
