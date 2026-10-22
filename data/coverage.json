@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T06:02:02Z",
+ "generated": "2026-10-22T06:32:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -67,7 +67,7 @@
   "Polish PlusLiga": {
    "group": "Other",
    "league": "tsdb:polish-plusliga",
-   "games": 7,
+   "games": 8,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -829,18 +829,18 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "Zimbabwe tour of United Arab Emirates 2026/27": {
+  "Afghanistan Under-19s tour of Oman 2026/27": {
    "group": "Cricket",
-   "league": "zimbabwe-tour-of-united-arab-emirates-2026-27",
+   "league": "afghanistan-under-19s-tour-of-oman-2026-27",
    "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
    "listen_team": 0
   },
-  "Afghanistan Under-19s tour of Oman 2026/27": {
+  "Zimbabwe tour of United Arab Emirates 2026/27": {
    "group": "Cricket",
-   "league": "afghanistan-under-19s-tour-of-oman-2026-27",
+   "league": "zimbabwe-tour-of-united-arab-emirates-2026-27",
    "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
