@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T06:32:01Z",
+ "generated": "2026-10-23T07:02:01Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -415,15 +415,6 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "French Ligue A Mens Volleyball": {
-   "group": "Other",
-   "league": "tsdb:french-ligue-a-mens-volleyball",
-   "games": 2,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
   "BKFC": {
    "group": "Fights",
    "league": "tsdb:bkfc",
@@ -466,6 +457,15 @@
    "games": 1,
    "watch_confirmed": 1,
    "watch_any": 1,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Pro50 Championship": {
+   "group": "Cricket",
+   "league": "pro50-championship",
+   "games": 2,
+   "watch_confirmed": 0,
+   "watch_any": 0,
    "listen_any": 0,
    "listen_team": 0
   },
@@ -904,6 +904,15 @@
   "CEV Champions League": {
    "group": "Other",
    "league": "tsdb:cev-champions-league",
+   "games": 1,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "French Ligue A Mens Volleyball": {
+   "group": "Other",
+   "league": "tsdb:french-ligue-a-mens-volleyball",
    "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
