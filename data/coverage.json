@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T08:32:01Z",
+ "generated": "2026-10-23T09:02:01Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -140,15 +140,6 @@
    "group": "Other",
    "league": "tsdb:german-1-bundesliga",
    "games": 17,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "World Snooker": {
-   "group": "Other",
-   "league": "tsdb:world-snooker",
-   "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -409,7 +400,7 @@
   "Formula 1": {
    "group": "Racing",
    "league": "tsdb:formula-1",
-   "games": 6,
+   "games": 8,
    "watch_confirmed": 2,
    "watch_any": 2,
    "listen_any": 0,
@@ -517,7 +508,7 @@
   "NASCAR Truck Series": {
    "group": "Racing",
    "league": "tsdb:nascar-truck-series",
-   "games": 1,
+   "games": 2,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
