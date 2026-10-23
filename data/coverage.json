@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T01:02:01Z",
+ "generated": "2026-10-23T01:32:01Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -279,15 +279,6 @@
    "watch_any": 62,
    "listen_any": 62,
    "listen_team": 62
-  },
-  "Lamborghini Super Trofeo North America": {
-   "group": "Racing",
-   "league": "tsdb:lamborghini-super-trofeo-north-america",
-   "games": 1,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
   },
   "College Football": {
    "group": "Football",
