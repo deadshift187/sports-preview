@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T09:32:01Z",
+ "generated": "2026-10-23T10:02:01Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -145,15 +145,6 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "World Snooker": {
-   "group": "Other",
-   "league": "tsdb:world-snooker",
-   "games": 1,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
   "DP World Tour": {
    "group": "Golf",
    "league": "dpwt",
@@ -271,10 +262,10 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "Danish Mens Handball League": {
+  "French Ligue A Mens Volleyball": {
    "group": "Other",
-   "league": "tsdb:danish-mens-handball-league",
-   "games": 4,
+   "league": "tsdb:french-ligue-a-mens-volleyball",
+   "games": 2,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -667,6 +658,15 @@
    "listen_any": 0,
    "listen_team": 0
   },
+  "Danish Mens Handball League": {
+   "group": "Other",
+   "league": "tsdb:danish-mens-handball-league",
+   "games": 2,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
   "Argentina Women tour of Mexico 2026/27": {
    "group": "Cricket",
    "league": "argentina-women-tour-of-mexico-2026-27",
@@ -886,15 +886,6 @@
   "CEV Champions League": {
    "group": "Other",
    "league": "tsdb:cev-champions-league",
-   "games": 1,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "French Ligue A Mens Volleyball": {
-   "group": "Other",
-   "league": "tsdb:french-ligue-a-mens-volleyball",
    "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
