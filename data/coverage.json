@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T02:32:01Z",
+ "generated": "2026-10-23T03:02:01Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -148,7 +148,7 @@
   "German Handball-Bundesliga": {
    "group": "Other",
    "league": "tsdb:german-handball-bundesliga",
-   "games": 11,
+   "games": 10,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -412,15 +412,6 @@
    "games": 18,
    "watch_confirmed": 18,
    "watch_any": 18,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "Danish Mens Handball League": {
-   "group": "Other",
-   "league": "tsdb:danish-mens-handball-league",
-   "games": 3,
-   "watch_confirmed": 0,
-   "watch_any": 0,
    "listen_any": 0,
    "listen_team": 0
   },
@@ -707,6 +698,15 @@
    "group": "Rugby",
    "league": "french-top-14",
    "games": 7,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Danish Mens Handball League": {
+   "group": "Other",
+   "league": "tsdb:danish-mens-handball-league",
+   "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
