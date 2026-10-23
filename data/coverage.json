@@ -1,10 +1,10 @@
 {
- "generated": "2026-10-23T05:32:01Z",
+ "generated": "2026-10-23T06:32:01Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
    "league": "tsdb:wwe",
-   "games": 6,
+   "games": 5,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -436,6 +436,15 @@
   "Legacy Fighting Alliance": {
    "group": "Fights",
    "league": "tsdb:legacy-fighting-alliance",
+   "games": 1,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "TNA Wrestling": {
+   "group": "Fights",
+   "league": "tsdb:tna-wrestling",
    "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
