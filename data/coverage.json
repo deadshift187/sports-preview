@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T00:32:01Z",
+ "generated": "2026-10-23T01:02:01Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -13,7 +13,7 @@
   "EHF Champions League": {
    "group": "Other",
    "league": "tsdb:ehf-champions-league",
-   "games": 9,
+   "games": 8,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -148,7 +148,7 @@
   "German Handball-Bundesliga": {
    "group": "Other",
    "league": "tsdb:german-handball-bundesliga",
-   "games": 11,
+   "games": 10,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -226,15 +226,6 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "Danish Mens Handball League": {
-   "group": "Other",
-   "league": "tsdb:danish-mens-handball-league",
-   "games": 4,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
   "La Liga": {
    "group": "Soccer",
    "league": "laliga",
@@ -288,6 +279,15 @@
    "watch_any": 62,
    "listen_any": 62,
    "listen_team": 62
+  },
+  "Lamborghini Super Trofeo North America": {
+   "group": "Racing",
+   "league": "tsdb:lamborghini-super-trofeo-north-america",
+   "games": 1,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
   },
   "College Football": {
    "group": "Football",
@@ -707,6 +707,15 @@
    "group": "Rugby",
    "league": "french-top-14",
    "games": 7,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Danish Mens Handball League": {
+   "group": "Other",
+   "league": "tsdb:danish-mens-handball-league",
+   "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
