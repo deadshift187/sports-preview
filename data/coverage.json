@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T09:02:01Z",
+ "generated": "2026-10-23T09:32:01Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -40,7 +40,7 @@
   "PDC Darts": {
    "group": "Other",
    "league": "tsdb:pdc-darts",
-   "games": 4,
+   "games": 6,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -121,7 +121,7 @@
   "Russian Volleyball Super League": {
    "group": "Other",
    "league": "tsdb:russian-volleyball-super-league",
-   "games": 5,
+   "games": 6,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -130,7 +130,7 @@
   "German Handball-Bundesliga": {
    "group": "Other",
    "league": "tsdb:german-handball-bundesliga",
-   "games": 12,
+   "games": 13,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -139,7 +139,16 @@
   "German 1. Bundesliga": {
    "group": "Other",
    "league": "tsdb:german-1-bundesliga",
-   "games": 17,
+   "games": 19,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "World Snooker": {
+   "group": "Other",
+   "league": "tsdb:world-snooker",
+   "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -262,10 +271,10 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "French Ligue A Mens Volleyball": {
+  "Danish Mens Handball League": {
    "group": "Other",
-   "league": "tsdb:french-ligue-a-mens-volleyball",
-   "games": 2,
+   "league": "tsdb:danish-mens-handball-league",
+   "games": 4,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -658,15 +667,6 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "Danish Mens Handball League": {
-   "group": "Other",
-   "league": "tsdb:danish-mens-handball-league",
-   "games": 2,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
   "Argentina Women tour of Mexico 2026/27": {
    "group": "Cricket",
    "league": "argentina-women-tour-of-mexico-2026-27",
@@ -886,6 +886,15 @@
   "CEV Champions League": {
    "group": "Other",
    "league": "tsdb:cev-champions-league",
+   "games": 1,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "French Ligue A Mens Volleyball": {
+   "group": "Other",
+   "league": "tsdb:french-ligue-a-mens-volleyball",
    "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
