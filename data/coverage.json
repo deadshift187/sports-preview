@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T01:02:02Z",
+ "generated": "2026-10-24T01:32:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -22,7 +22,7 @@
   "AEW": {
    "group": "Fights",
    "league": "tsdb:aew",
-   "games": 5,
+   "games": 6,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
