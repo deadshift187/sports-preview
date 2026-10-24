@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T00:02:02Z",
+ "generated": "2026-10-24T00:32:01Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -22,7 +22,7 @@
   "AEW": {
    "group": "Fights",
    "league": "tsdb:aew",
-   "games": 4,
+   "games": 5,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -67,7 +67,7 @@
   "Polish PlusLiga": {
    "group": "Other",
    "league": "tsdb:polish-plusliga",
-   "games": 6,
+   "games": 8,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -130,7 +130,7 @@
   "German Handball-Bundesliga": {
    "group": "Other",
    "league": "tsdb:german-handball-bundesliga",
-   "games": 13,
+   "games": 11,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -259,15 +259,6 @@
    "games": 18,
    "watch_confirmed": 18,
    "watch_any": 18,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "Danish Mens Handball League": {
-   "group": "Other",
-   "league": "tsdb:danish-mens-handball-league",
-   "games": 4,
-   "watch_confirmed": 0,
-   "watch_any": 0,
    "listen_any": 0,
    "listen_team": 0
   },
@@ -412,15 +403,6 @@
    "games": 7,
    "watch_confirmed": 2,
    "watch_any": 2,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "French LNH Division 1": {
-   "group": "Other",
-   "league": "tsdb:french-lnh-division-1",
-   "games": 1,
-   "watch_confirmed": 0,
-   "watch_any": 0,
    "listen_any": 0,
    "listen_team": 0
   },
@@ -653,6 +635,15 @@
    "group": "Rugby",
    "league": "french-top-14",
    "games": 7,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Danish Mens Handball League": {
+   "group": "Other",
+   "league": "tsdb:danish-mens-handball-league",
+   "games": 2,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
