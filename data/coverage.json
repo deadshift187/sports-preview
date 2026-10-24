@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T19:32:02Z",
+ "generated": "2026-10-24T20:02:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -40,7 +40,7 @@
   "PDC Darts": {
    "group": "Other",
    "league": "tsdb:pdc-darts",
-   "games": 5,
+   "games": 6,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -103,7 +103,7 @@
   "German Handball-Bundesliga": {
    "group": "Other",
    "league": "tsdb:german-handball-bundesliga",
-   "games": 16,
+   "games": 15,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -268,15 +268,6 @@
    "games": 6,
    "watch_confirmed": 2,
    "watch_any": 2,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "French LNH Division 1": {
-   "group": "Other",
-   "league": "tsdb:french-lnh-division-1",
-   "games": 1,
-   "watch_confirmed": 0,
-   "watch_any": 0,
    "listen_any": 0,
    "listen_team": 0
   },
@@ -545,15 +536,6 @@
    "group": "Rugby",
    "league": "french-top-14",
    "games": 13,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "Danish Mens Handball League": {
-   "group": "Other",
-   "league": "tsdb:danish-mens-handball-league",
-   "games": 2,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -851,6 +833,15 @@
    "group": "Cricket",
    "league": "hong-kong-international-cricket-sixes",
    "games": 18,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Danish Mens Handball League": {
+   "group": "Other",
+   "league": "tsdb:danish-mens-handball-league",
+   "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
