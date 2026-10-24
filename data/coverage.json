@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T00:32:01Z",
+ "generated": "2026-10-24T01:02:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -400,7 +400,7 @@
   "Formula 1": {
    "group": "Racing",
    "league": "f1",
-   "games": 7,
+   "games": 6,
    "watch_confirmed": 2,
    "watch_any": 2,
    "listen_any": 0,
