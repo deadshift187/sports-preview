@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T06:32:01Z",
+ "generated": "2026-10-25T07:02:01Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -40,7 +40,7 @@
   "PDC Darts": {
    "group": "Other",
    "league": "tsdb:pdc-darts",
-   "games": 6,
+   "games": 4,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -631,15 +631,6 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "MotoGP": {
-   "group": "Racing",
-   "league": "tsdb:motogp",
-   "games": 2,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
   "ICC Men's Cricket World Cup League 2": {
    "group": "Cricket",
    "league": "icc-men-s-cricket-world-cup-league-2",
@@ -868,6 +859,15 @@
   "NASCAR Xfinity Series": {
    "group": "Racing",
    "league": "tsdb:nascar-xfinity-series",
+   "games": 1,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "MotoGP": {
+   "group": "Racing",
+   "league": "tsdb:motogp",
    "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
