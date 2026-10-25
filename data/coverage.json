@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T14:32:01Z",
+ "generated": "2026-10-25T15:02:01Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -283,7 +283,7 @@
   "South Africa Domestic T20/Pro20": {
    "group": "Cricket",
    "league": "south-africa-domestic-t20-pro20",
-   "games": 12,
+   "games": 13,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
