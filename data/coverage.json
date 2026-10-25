@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T03:32:02Z",
+ "generated": "2026-10-25T04:02:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -112,7 +112,7 @@
   "German 1. Bundesliga": {
    "group": "Other",
    "league": "tsdb:german-1-bundesliga",
-   "games": 19,
+   "games": 22,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -268,15 +268,6 @@
    "games": 6,
    "watch_confirmed": 2,
    "watch_any": 2,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "French LNH Division 1": {
-   "group": "Other",
-   "league": "tsdb:french-lnh-division-1",
-   "games": 1,
-   "watch_confirmed": 0,
-   "watch_any": 0,
    "listen_any": 0,
    "listen_team": 0
   },
@@ -550,15 +541,6 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "Danish Mens Handball League": {
-   "group": "Other",
-   "league": "tsdb:danish-mens-handball-league",
-   "games": 2,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
   "Argentina Women tour of Mexico 2026/27": {
    "group": "Cricket",
    "league": "argentina-women-tour-of-mexico-2026-27",
@@ -619,15 +601,6 @@
    "games": 12,
    "watch_confirmed": 10,
    "watch_any": 10,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "Q Tour": {
-   "group": "Other",
-   "league": "tsdb:q-tour",
-   "games": 3,
-   "watch_confirmed": 0,
-   "watch_any": 0,
    "listen_any": 0,
    "listen_team": 0
   },
@@ -851,6 +824,15 @@
    "group": "Cricket",
    "league": "hong-kong-international-cricket-sixes",
    "games": 18,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Danish Mens Handball League": {
+   "group": "Other",
+   "league": "tsdb:danish-mens-handball-league",
+   "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
