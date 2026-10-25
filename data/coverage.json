@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T02:32:02Z",
+ "generated": "2026-10-25T03:02:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -112,7 +112,7 @@
   "German 1. Bundesliga": {
    "group": "Other",
    "league": "tsdb:german-1-bundesliga",
-   "games": 19,
+   "games": 22,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -410,7 +410,7 @@
    "group": "Football",
    "league": "cfb",
    "games": 105,
-   "watch_confirmed": 97,
+   "watch_confirmed": 98,
    "watch_any": 105,
    "listen_any": 105,
    "listen_team": 15
