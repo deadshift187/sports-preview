@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T16:32:02Z",
+ "generated": "2026-10-25T17:02:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -40,7 +40,7 @@
   "PDC Darts": {
    "group": "Other",
    "league": "tsdb:pdc-darts",
-   "games": 5,
+   "games": 4,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -203,6 +203,15 @@
    "group": "Cricket",
    "league": "australian-domestic-one-day-competition",
    "games": 2,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "World Snooker": {
+   "group": "Other",
+   "league": "tsdb:world-snooker",
+   "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -547,6 +556,15 @@
    "games": 17,
    "watch_confirmed": 0,
    "watch_any": 17,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Q Tour": {
+   "group": "Other",
+   "league": "tsdb:q-tour",
+   "games": 3,
+   "watch_confirmed": 0,
+   "watch_any": 0,
    "listen_any": 0,
    "listen_team": 0
   },
