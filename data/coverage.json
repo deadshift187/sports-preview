@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T12:02:02Z",
+ "generated": "2026-10-25T12:32:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -374,6 +374,15 @@
    "group": "Cricket",
    "league": "argentina-women-tour-of-mexico-2026-27",
    "games": 3,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "NCL GT20 Canada 2026/27": {
+   "group": "Cricket",
+   "league": "ncl-gt20-canada-2026-27",
+   "games": 11,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -761,15 +770,6 @@
    "group": "Cricket",
    "league": "women-s-big-bash-league",
    "games": 7,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "NCL GT20 Canada 2026/27": {
-   "group": "Cricket",
-   "league": "ncl-gt20-canada-2026-27",
-   "games": 6,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
