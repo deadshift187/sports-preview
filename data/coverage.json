@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T16:32:02Z",
+ "generated": "2026-10-26T17:02:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -40,7 +40,7 @@
   "PDC Darts": {
    "group": "Other",
    "league": "tsdb:pdc-darts",
-   "games": 5,
+   "games": 7,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -103,7 +103,7 @@
   "German Handball-Bundesliga": {
    "group": "Other",
    "league": "tsdb:german-handball-bundesliga",
-   "games": 16,
+   "games": 19,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -112,7 +112,7 @@
   "German 1. Bundesliga": {
    "group": "Other",
    "league": "tsdb:german-1-bundesliga",
-   "games": 22,
+   "games": 21,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -202,7 +202,7 @@
   "World Snooker": {
    "group": "Other",
    "league": "tsdb:world-snooker",
-   "games": 1,
+   "games": 3,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
