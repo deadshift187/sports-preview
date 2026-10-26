@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T14:32:02Z",
+ "generated": "2026-10-26T15:02:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -763,6 +763,15 @@
    "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "USL Championship": {
+   "group": "Soccer",
+   "league": "usl",
+   "games": 8,
+   "watch_confirmed": 7,
+   "watch_any": 7,
    "listen_any": 0,
    "listen_team": 0
   },
