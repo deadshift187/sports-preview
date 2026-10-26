@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T23:02:02Z",
+ "generated": "2026-10-26T23:32:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -94,7 +94,7 @@
   "Russian Volleyball Super League": {
    "group": "Other",
    "league": "tsdb:russian-volleyball-super-league",
-   "games": 6,
+   "games": 5,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -230,6 +230,15 @@
    "group": "Other",
    "league": "tsdb:danish-mens-handball-league",
    "games": 2,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Q Tour": {
+   "group": "Other",
+   "league": "tsdb:q-tour",
+   "games": 3,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
