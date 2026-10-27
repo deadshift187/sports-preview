@@ -1,10 +1,10 @@
 {
- "generated": "2026-10-27T07:32:02Z",
+ "generated": "2026-10-27T08:02:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
    "league": "tsdb:wwe",
-   "games": 6,
+   "games": 7,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -22,18 +22,9 @@
   "AEW": {
    "group": "Fights",
    "league": "tsdb:aew",
-   "games": 7,
+   "games": 6,
    "watch_confirmed": 0,
    "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "WTA": {
-   "group": "Tennis",
-   "league": "wta",
-   "games": 13,
-   "watch_confirmed": 0,
-   "watch_any": 13,
    "listen_any": 0,
    "listen_team": 0
   },
@@ -50,15 +41,6 @@
    "group": "Other",
    "league": "tsdb:afl-womens",
    "games": 20,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "ATP": {
-   "group": "Tennis",
-   "league": "atp",
-   "games": 7,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -172,12 +154,12 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "Formula 1": {
-   "group": "Racing",
-   "league": "f1",
-   "games": 7,
-   "watch_confirmed": 2,
-   "watch_any": 2,
+  "WTA": {
+   "group": "Tennis",
+   "league": "wta",
+   "games": 10,
+   "watch_confirmed": 0,
+   "watch_any": 10,
    "listen_any": 0,
    "listen_team": 0
   },
@@ -226,6 +208,15 @@
    "listen_any": 0,
    "listen_team": 0
   },
+  "ATP": {
+   "group": "Tennis",
+   "league": "atp",
+   "games": 3,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
   "Danish Mens Handball League": {
    "group": "Other",
    "league": "tsdb:danish-mens-handball-league",
@@ -235,262 +226,19 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "RevPro": {
-   "group": "Fights",
-   "league": "tsdb:revpro",
-   "games": 2,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "ICC Men's Cricket World Cup League 2": {
-   "group": "Cricket",
-   "league": "icc-men-s-cricket-world-cup-league-2",
-   "games": 5,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "CWC Challenge League Group A": {
-   "group": "Cricket",
-   "league": "cwc-challenge-league-group-a",
-   "games": 10,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "Pro50 Championship": {
-   "group": "Cricket",
-   "league": "pro50-championship",
+  "Formula 1": {
+   "group": "Racing",
+   "league": "tsdb:formula-1",
    "games": 6,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "CSA Women Pro20 Series 2026/27": {
-   "group": "Cricket",
-   "league": "csa-women-pro20-series-2026-27",
-   "games": 2,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "CSA Women's Division Two T20": {
-   "group": "Cricket",
-   "league": "csa-women-s-division-two-t20",
-   "games": 2,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "Pakistan ODI Tri-Series": {
-   "group": "Cricket",
-   "league": "pakistan-odi-tri-series",
-   "games": 4,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "Zimbabwe Women tour of India 2026/27": {
-   "group": "Cricket",
-   "league": "zimbabwe-women-tour-of-india-2026-27",
-   "games": 2,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "ICC Men's T20 World Cup Sub Regional Africa Qualifier Group C": {
-   "group": "Cricket",
-   "league": "icc-men-s-t20-world-cup-sub-regional-africa-qualifier-group-c",
-   "games": 3,
-   "watch_confirmed": 0,
-   "watch_any": 0,
+   "watch_confirmed": 1,
+   "watch_any": 1,
    "listen_any": 0,
    "listen_team": 0
   },
   "NJPW": {
    "group": "Fights",
    "league": "tsdb:njpw",
-   "games": 6,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "South Africa Domestic T20/Pro20": {
-   "group": "Cricket",
-   "league": "south-africa-domestic-t20-pro20",
-   "games": 10,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "Eredivisie": {
-   "group": "Soccer",
-   "league": "eredivisie",
-   "games": 14,
-   "watch_confirmed": 8,
-   "watch_any": 8,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "Serie A": {
-   "group": "Soccer",
-   "league": "seriea",
-   "games": 25,
-   "watch_confirmed": 25,
-   "watch_any": 25,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "Scottish Premiership": {
-   "group": "Soccer",
-   "league": "spl",
-   "games": 12,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "Women's Super League": {
-   "group": "Soccer",
-   "league": "wsl",
-   "games": 12,
-   "watch_confirmed": 12,
-   "watch_any": 12,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "La Liga": {
-   "group": "Soccer",
-   "league": "laliga",
-   "games": 15,
-   "watch_confirmed": 15,
-   "watch_any": 15,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "NFL": {
-   "group": "Football",
-   "league": "nfl",
-   "games": 27,
-   "watch_confirmed": 27,
-   "watch_any": 27,
-   "listen_any": 27,
-   "listen_team": 27
-  },
-  "Argentina Women tour of Mexico 2026/27": {
-   "group": "Cricket",
-   "league": "argentina-women-tour-of-mexico-2026-27",
-   "games": 1,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "Ligue 1": {
-   "group": "Soccer",
-   "league": "ligue1",
-   "games": 16,
-   "watch_confirmed": 4,
-   "watch_any": 16,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "NCL GT20 Canada 2026/27": {
-   "group": "Cricket",
-   "league": "ncl-gt20-canada-2026-27",
-   "games": 15,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "Premier League": {
-   "group": "Soccer",
-   "league": "epl",
-   "games": 15,
-   "watch_confirmed": 5,
-   "watch_any": 15,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "Bundesliga": {
-   "group": "Soccer",
-   "league": "bundesliga",
-   "games": 11,
-   "watch_confirmed": 2,
-   "watch_any": 11,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "Gallagher Prem": {
-   "group": "Rugby",
-   "league": "gallagher-prem",
-   "games": 6,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "Primeira Liga": {
-   "group": "Soccer",
-   "league": "primeira",
-   "games": 14,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "Liga Profesional (ARG)": {
-   "group": "Soccer",
-   "league": "argentina",
-   "games": 23,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "NASCAR Cup": {
-   "group": "Racing",
-   "league": "nascar",
-   "games": 2,
-   "watch_confirmed": 2,
-   "watch_any": 2,
-   "listen_any": 2,
-   "listen_team": 0
-  },
-  "NHL": {
-   "group": "Hockey",
-   "league": "nhl",
-   "games": 56,
-   "watch_confirmed": 56,
-   "watch_any": 56,
-   "listen_any": 56,
-   "listen_team": 56
-  },
-  "NWSL": {
-   "group": "Soccer",
-   "league": "nwsl",
-   "games": 11,
-   "watch_confirmed": 3,
-   "watch_any": 11,
-   "listen_any": 4,
-   "listen_team": 4
-  },
-  "French Top 14": {
-   "group": "Rugby",
-   "league": "french-top-14",
-   "games": 8,
+   "games": 7,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -505,33 +253,6 @@
    "listen_any": 71,
    "listen_team": 71
   },
-  "Liga MX": {
-   "group": "Soccer",
-   "league": "ligamx",
-   "games": 14,
-   "watch_confirmed": 0,
-   "watch_any": 14,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "MLS": {
-   "group": "Soccer",
-   "league": "mls",
-   "games": 30,
-   "watch_confirmed": 30,
-   "watch_any": 30,
-   "listen_any": 2,
-   "listen_team": 2
-  },
-  "Mitre 10 Cup": {
-   "group": "Rugby",
-   "league": "mitre-10-cup",
-   "games": 1,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
   "Ranji Trophy": {
    "group": "Cricket",
    "league": "ranji-trophy",
@@ -544,7 +265,52 @@
   "Nepal Premier League": {
    "group": "Cricket",
    "league": "nepal-premier-league",
+   "games": 13,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "NCL GT20 Canada 2026/27": {
+   "group": "Cricket",
+   "league": "ncl-gt20-canada-2026-27",
+   "games": 13,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Primeira Liga": {
+   "group": "Soccer",
+   "league": "primeira",
+   "games": 10,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Ligue 1": {
+   "group": "Soccer",
+   "league": "ligue1",
+   "games": 10,
+   "watch_confirmed": 1,
+   "watch_any": 10,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "La Liga": {
+   "group": "Soccer",
+   "league": "laliga",
    "games": 11,
+   "watch_confirmed": 11,
+   "watch_any": 11,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Liga Profesional (ARG)": {
+   "group": "Soccer",
+   "league": "argentina",
+   "games": 18,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -553,11 +319,20 @@
   "Brasileirão": {
    "group": "Soccer",
    "league": "brasileirao",
-   "games": 13,
+   "games": 15,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
    "listen_team": 0
+  },
+  "NHL": {
+   "group": "Hockey",
+   "league": "nhl",
+   "games": 62,
+   "watch_confirmed": 62,
+   "watch_any": 62,
+   "listen_any": 62,
+   "listen_team": 62
   },
   "MLB": {
    "group": "Baseball",
@@ -577,6 +352,15 @@
    "listen_any": 3,
    "listen_team": 3
   },
+  "NFL": {
+   "group": "Football",
+   "league": "nfl",
+   "games": 15,
+   "watch_confirmed": 15,
+   "watch_any": 15,
+   "listen_any": 15,
+   "listen_team": 15
+  },
   "President's Trophy": {
    "group": "Cricket",
    "league": "president-s-trophy",
@@ -595,6 +379,24 @@
    "listen_any": 0,
    "listen_team": 0
   },
+  "ICC Men's Cricket World Cup League 2": {
+   "group": "Cricket",
+   "league": "icc-men-s-cricket-world-cup-league-2",
+   "games": 4,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "CWC Challenge League Group A": {
+   "group": "Cricket",
+   "league": "cwc-challenge-league-group-a",
+   "games": 8,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
   "India tour of New Zealand 2026/27": {
    "group": "Cricket",
    "league": "india-tour-of-new-zealand-2026-27",
@@ -607,6 +409,15 @@
   "Ireland tour of Namibia 2026/27": {
    "group": "Cricket",
    "league": "ireland-tour-of-namibia-2026-27",
+   "games": 3,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Pakistan ODI Tri-Series": {
+   "group": "Cricket",
+   "league": "pakistan-odi-tri-series",
    "games": 3,
    "watch_confirmed": 0,
    "watch_any": 0,
@@ -640,6 +451,15 @@
    "listen_any": 0,
    "listen_team": 0
   },
+  "Serie A": {
+   "group": "Soccer",
+   "league": "seriea",
+   "games": 20,
+   "watch_confirmed": 20,
+   "watch_any": 20,
+   "listen_any": 0,
+   "listen_team": 0
+  },
   "Carabao Cup": {
    "group": "Soccer",
    "league": "carabao",
@@ -661,10 +481,10 @@
   "College Football": {
    "group": "Football",
    "league": "cfb",
-   "games": 56,
-   "watch_confirmed": 56,
-   "watch_any": 56,
-   "listen_any": 56,
+   "games": 58,
+   "watch_confirmed": 58,
+   "watch_any": 58,
+   "listen_any": 58,
    "listen_team": 7
   },
   "Sheffield Shield": {
@@ -685,12 +505,57 @@
    "listen_any": 0,
    "listen_team": 0
   },
+  "Zimbabwe Women tour of India 2026/27": {
+   "group": "Cricket",
+   "league": "zimbabwe-women-tour-of-india-2026-27",
+   "games": 1,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "South Africa Domestic T20/Pro20": {
+   "group": "Cricket",
+   "league": "south-africa-domestic-t20-pro20",
+   "games": 7,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
   "Women's Champions League": {
    "group": "Soccer",
    "league": "uwcl",
    "games": 9,
    "watch_confirmed": 9,
    "watch_any": 9,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Scottish Premiership": {
+   "group": "Soccer",
+   "league": "spl",
+   "games": 10,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "MLS": {
+   "group": "Soccer",
+   "league": "mls",
+   "games": 29,
+   "watch_confirmed": 29,
+   "watch_any": 29,
+   "listen_any": 1,
+   "listen_team": 1
+  },
+  "Liga MX": {
+   "group": "Soccer",
+   "league": "ligamx",
+   "games": 10,
+   "watch_confirmed": 0,
+   "watch_any": 10,
    "listen_any": 0,
    "listen_team": 0
   },
@@ -730,6 +595,33 @@
    "listen_any": 0,
    "listen_team": 0
   },
+  "Pro50 Championship": {
+   "group": "Cricket",
+   "league": "pro50-championship",
+   "games": 4,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Bundesliga": {
+   "group": "Soccer",
+   "league": "bundesliga",
+   "games": 9,
+   "watch_confirmed": 0,
+   "watch_any": 9,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Gallagher Prem": {
+   "group": "Rugby",
+   "league": "gallagher-prem",
+   "games": 5,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
   "United Rugby Championship": {
    "group": "Rugby",
    "league": "united-rugby-championship",
@@ -742,9 +634,9 @@
   "EFL Championship": {
    "group": "Soccer",
    "league": "efl",
-   "games": 12,
-   "watch_confirmed": 8,
-   "watch_any": 8,
+   "games": 21,
+   "watch_confirmed": 11,
+   "watch_any": 11,
    "listen_any": 0,
    "listen_team": 0
   },
@@ -793,6 +685,42 @@
    "listen_any": 0,
    "listen_team": 0
   },
+  "Premier League": {
+   "group": "Soccer",
+   "league": "epl",
+   "games": 10,
+   "watch_confirmed": 0,
+   "watch_any": 10,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Women's Super League": {
+   "group": "Soccer",
+   "league": "wsl",
+   "games": 7,
+   "watch_confirmed": 7,
+   "watch_any": 7,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "French Top 14": {
+   "group": "Rugby",
+   "league": "french-top-14",
+   "games": 7,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Eredivisie": {
+   "group": "Soccer",
+   "league": "eredivisie",
+   "games": 9,
+   "watch_confirmed": 4,
+   "watch_any": 4,
+   "listen_any": 0,
+   "listen_team": 0
+  },
   "Oktagon MMA": {
    "group": "Fights",
    "league": "tsdb:oktagon-mma",
@@ -829,10 +757,19 @@
    "listen_any": 0,
    "listen_team": 0
   },
+  "RevPro": {
+   "group": "Fights",
+   "league": "tsdb:revpro",
+   "games": 1,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
   "England Lions tour of West Indies 2026/27": {
    "group": "Cricket",
    "league": "england-lions-tour-of-west-indies-2026-27",
-   "games": 1,
+   "games": 2,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -841,20 +778,20 @@
   "College Basketball (M)": {
    "group": "Basketball",
    "league": "mcbb",
-   "games": 184,
-   "watch_confirmed": 108,
-   "watch_any": 184,
-   "listen_any": 15,
-   "listen_team": 15
+   "games": 213,
+   "watch_confirmed": 129,
+   "watch_any": 213,
+   "listen_any": 16,
+   "listen_team": 16
   },
   "College Basketball (W)": {
    "group": "Basketball",
    "league": "wcbb",
-   "games": 165,
-   "watch_confirmed": 104,
-   "watch_any": 104,
-   "listen_any": 7,
-   "listen_team": 7
+   "games": 206,
+   "watch_confirmed": 126,
+   "watch_any": 126,
+   "listen_any": 13,
+   "listen_team": 13
   },
   "NASCAR Cup Series": {
    "group": "Racing",
@@ -862,6 +799,33 @@
    "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "NASCAR Cup": {
+   "group": "Racing",
+   "league": "nascar",
+   "games": 1,
+   "watch_confirmed": 1,
+   "watch_any": 1,
+   "listen_any": 1,
+   "listen_team": 0
+  },
+  "NWSL": {
+   "group": "Soccer",
+   "league": "nwsl",
+   "games": 8,
+   "watch_confirmed": 0,
+   "watch_any": 8,
+   "listen_any": 4,
+   "listen_team": 4
+  },
+  "Champions League": {
+   "group": "Soccer",
+   "league": "ucl",
+   "games": 9,
+   "watch_confirmed": 9,
+   "watch_any": 9,
    "listen_any": 0,
    "listen_team": 0
   }
