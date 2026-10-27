@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T08:02:02Z",
+ "generated": "2026-10-27T08:32:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -94,7 +94,7 @@
   "German 1. Bundesliga": {
    "group": "Other",
    "league": "tsdb:german-1-bundesliga",
-   "games": 22,
+   "games": 25,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -244,15 +244,6 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "NBA": {
-   "group": "Basketball",
-   "league": "nba",
-   "games": 71,
-   "watch_confirmed": 71,
-   "watch_any": 71,
-   "listen_any": 71,
-   "listen_team": 71
-  },
   "Ranji Trophy": {
    "group": "Cricket",
    "league": "ranji-trophy",
@@ -324,6 +315,15 @@
    "watch_any": 0,
    "listen_any": 0,
    "listen_team": 0
+  },
+  "NBA": {
+   "group": "Basketball",
+   "league": "nba",
+   "games": 64,
+   "watch_confirmed": 64,
+   "watch_any": 64,
+   "listen_any": 64,
+   "listen_team": 64
   },
   "NHL": {
    "group": "Hockey",
