@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T16:32:02Z",
+ "generated": "2026-10-27T17:02:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -76,7 +76,7 @@
   "Russian Volleyball Super League": {
    "group": "Other",
    "league": "tsdb:russian-volleyball-super-league",
-   "games": 5,
+   "games": 6,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -779,7 +779,7 @@
    "group": "Basketball",
    "league": "mcbb",
    "games": 213,
-   "watch_confirmed": 129,
+   "watch_confirmed": 130,
    "watch_any": 213,
    "listen_any": 16,
    "listen_team": 16
