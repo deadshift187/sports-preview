@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T20:32:01Z",
+ "generated": "2026-10-28T21:02:01Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -31,7 +31,7 @@
   "PDC Darts": {
    "group": "Other",
    "league": "tsdb:pdc-darts",
-   "games": 7,
+   "games": 8,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -568,6 +568,15 @@
    "listen_any": 0,
    "listen_team": 0
   },
+  "ONE": {
+   "group": "Fights",
+   "league": "tsdb:one",
+   "games": 1,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
   "Ligue 1": {
    "group": "Soccer",
    "league": "ligue1",
@@ -779,8 +788,8 @@
    "group": "Basketball",
    "league": "wcbb",
    "games": 242,
-   "watch_confirmed": 180,
-   "watch_any": 180,
+   "watch_confirmed": 181,
+   "watch_any": 181,
    "listen_any": 15,
    "listen_team": 15
   },
