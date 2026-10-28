@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T23:02:01Z",
+ "generated": "2026-10-28T23:32:01Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -94,7 +94,7 @@
   "German 1. Bundesliga": {
    "group": "Other",
    "league": "tsdb:german-1-bundesliga",
-   "games": 25,
+   "games": 28,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -433,6 +433,15 @@
    "listen_any": 0,
    "listen_team": 0
   },
+  "LPGA": {
+   "group": "Golf",
+   "league": "lpga",
+   "games": 1,
+   "watch_confirmed": 1,
+   "watch_any": 1,
+   "listen_any": 0,
+   "listen_team": 0
+  },
   "Zimbabwe Women tour of India 2026/27": {
    "group": "Cricket",
    "league": "zimbabwe-women-tour-of-india-2026-27",
@@ -502,15 +511,6 @@
    "games": 10,
    "watch_confirmed": 0,
    "watch_any": 10,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "LPGA": {
-   "group": "Golf",
-   "league": "lpga",
-   "games": 1,
-   "watch_confirmed": 1,
-   "watch_any": 1,
    "listen_any": 0,
    "listen_team": 0
   },
