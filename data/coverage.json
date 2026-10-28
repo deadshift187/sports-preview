@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T06:32:01Z",
+ "generated": "2026-10-28T07:02:01Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -49,7 +49,7 @@
   "Polish PlusLiga": {
    "group": "Other",
    "league": "tsdb:polish-plusliga",
-   "games": 9,
+   "games": 10,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -94,7 +94,7 @@
   "German 1. Bundesliga": {
    "group": "Other",
    "league": "tsdb:german-1-bundesliga",
-   "games": 23,
+   "games": 25,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
