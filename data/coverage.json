@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T15:32:01Z",
+ "generated": "2026-10-28T16:02:01Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -31,7 +31,7 @@
   "PDC Darts": {
    "group": "Other",
    "league": "tsdb:pdc-darts",
-   "games": 7,
+   "games": 8,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -770,7 +770,7 @@
    "group": "Basketball",
    "league": "mcbb",
    "games": 239,
-   "watch_confirmed": 173,
+   "watch_confirmed": 172,
    "watch_any": 239,
    "listen_any": 16,
    "listen_team": 16
