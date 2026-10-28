@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T08:32:01Z",
+ "generated": "2026-10-28T09:02:01Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -94,7 +94,7 @@
   "German 1. Bundesliga": {
    "group": "Other",
    "league": "tsdb:german-1-bundesliga",
-   "games": 26,
+   "games": 28,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -824,6 +824,15 @@
    "group": "Cricket",
    "league": "sri-lanka-tour-of-pakistan-2026-27",
    "games": 1,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "European Mens Handball Championship": {
+   "group": "Other",
+   "league": "tsdb:european-mens-handball-championship",
+   "games": 3,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
