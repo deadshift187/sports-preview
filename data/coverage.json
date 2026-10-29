@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T03:02:01Z",
+ "generated": "2026-10-29T03:32:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -22,7 +22,7 @@
   "AEW": {
    "group": "Fights",
    "league": "tsdb:aew",
-   "games": 6,
+   "games": 5,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -409,11 +409,11 @@
   "MLB": {
    "group": "Baseball",
    "league": "mlb",
-   "games": 4,
-   "watch_confirmed": 4,
-   "watch_any": 4,
-   "listen_any": 4,
-   "listen_team": 4
+   "games": 2,
+   "watch_confirmed": 2,
+   "watch_any": 2,
+   "listen_any": 2,
+   "listen_team": 2
   },
   "Sheffield Shield": {
    "group": "Cricket",
