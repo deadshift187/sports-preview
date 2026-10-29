@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T02:02:01Z",
+ "generated": "2026-10-29T02:32:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -13,7 +13,7 @@
   "EHF Champions League": {
    "group": "Other",
    "league": "tsdb:ehf-champions-league",
-   "games": 8,
+   "games": 5,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
