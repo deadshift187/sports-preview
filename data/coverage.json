@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T21:02:02Z",
+ "generated": "2026-10-29T21:32:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -13,7 +13,7 @@
   "EHF Champions League": {
    "group": "Other",
    "league": "tsdb:ehf-champions-league",
-   "games": 5,
+   "games": 8,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -49,7 +49,7 @@
   "Polish PlusLiga": {
    "group": "Other",
    "league": "tsdb:polish-plusliga",
-   "games": 10,
+   "games": 9,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -475,15 +475,6 @@
    "games": 12,
    "watch_confirmed": 0,
    "watch_any": 12,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "CEV Champions League": {
-   "group": "Other",
-   "league": "tsdb:cev-champions-league",
-   "games": 1,
-   "watch_confirmed": 0,
-   "watch_any": 0,
    "listen_any": 0,
    "listen_team": 0
   },
