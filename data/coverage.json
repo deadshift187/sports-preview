@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T23:02:01Z",
+ "generated": "2026-10-30T23:32:01Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -238,7 +238,7 @@
   "The Ford Trophy": {
    "group": "Cricket",
    "league": "the-ford-trophy",
-   "games": 7,
+   "games": 6,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
