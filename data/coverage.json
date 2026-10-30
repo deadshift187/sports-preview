@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T21:02:01Z",
+ "generated": "2026-10-30T21:32:01Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -166,7 +166,7 @@
   "Danish Mens Handball League": {
    "group": "Other",
    "league": "tsdb:danish-mens-handball-league",
-   "games": 2,
+   "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -761,7 +761,7 @@
    "group": "Basketball",
    "league": "mcbb",
    "games": 377,
-   "watch_confirmed": 337,
+   "watch_confirmed": 344,
    "watch_any": 377,
    "listen_any": 30,
    "listen_team": 30
@@ -770,8 +770,8 @@
    "group": "Basketball",
    "league": "wcbb",
    "games": 373,
-   "watch_confirmed": 325,
-   "watch_any": 325,
+   "watch_confirmed": 336,
+   "watch_any": 336,
    "listen_any": 28,
    "listen_team": 28
   },
