@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T15:02:01Z",
+ "generated": "2026-10-31T15:32:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -40,7 +40,7 @@
   "AFL Womens": {
    "group": "Other",
    "league": "tsdb:afl-womens",
-   "games": 20,
+   "games": 19,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -716,8 +716,8 @@
    "group": "Basketball",
    "league": "wcbb",
    "games": 419,
-   "watch_confirmed": 378,
-   "watch_any": 378,
+   "watch_confirmed": 379,
+   "watch_any": 379,
    "listen_any": 31,
    "listen_team": 31
   },
