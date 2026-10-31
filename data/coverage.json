@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T03:32:02Z",
+ "generated": "2026-10-31T04:02:01Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -139,7 +139,7 @@
   "World Snooker": {
    "group": "Other",
    "league": "tsdb:world-snooker",
-   "games": 3,
+   "games": 2,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -608,15 +608,6 @@
    "group": "Rugby",
    "league": "urba-top-14",
    "games": 2,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "NASCAR Xfinity Series": {
-   "group": "Racing",
-   "league": "tsdb:nascar-xfinity-series",
-   "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
