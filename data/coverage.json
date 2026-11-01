@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T22:32:02Z",
+ "generated": "2026-11-01T23:02:01Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -685,15 +685,6 @@
    "listen_any": 27,
    "listen_team": 27
   },
-  "NASCAR Cup Series": {
-   "group": "Racing",
-   "league": "tsdb:nascar-cup-series",
-   "games": 2,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
   "NASCAR Cup": {
    "group": "Racing",
    "league": "nascar",
@@ -914,6 +905,15 @@
    "group": "Other",
    "league": "tsdb:ehf-euro-cup",
    "games": 2,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "NASCAR Cup Series": {
+   "group": "Racing",
+   "league": "tsdb:nascar-cup-series",
+   "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
