@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T12:32:03Z",
+ "generated": "2026-11-01T13:02:01Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -49,7 +49,7 @@
   "Polish PlusLiga": {
    "group": "Other",
    "league": "tsdb:polish-plusliga",
-   "games": 14,
+   "games": 15,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -85,7 +85,7 @@
   "German Handball-Bundesliga": {
    "group": "Other",
    "league": "tsdb:german-handball-bundesliga",
-   "games": 9,
+   "games": 12,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -895,6 +895,15 @@
   "CSA Women Pro20 Series 2026/27": {
    "group": "Cricket",
    "league": "csa-women-pro20-series-2026-27",
+   "games": 2,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "EHF Euro Cup": {
+   "group": "Other",
+   "league": "tsdb:ehf-euro-cup",
    "games": 2,
    "watch_confirmed": 0,
    "watch_any": 0,
