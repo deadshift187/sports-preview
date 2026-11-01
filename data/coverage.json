@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T11:32:01Z",
+ "generated": "2026-11-01T12:02:01Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -148,7 +148,7 @@
   "MotoGP": {
    "group": "Racing",
    "league": "tsdb:motogp",
-   "games": 3,
+   "games": 2,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -640,15 +640,6 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "England Lions tour of West Indies 2026/27": {
-   "group": "Cricket",
-   "league": "england-lions-tour-of-west-indies-2026-27",
-   "games": 4,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
   "College Basketball (M)": {
    "group": "Basketball",
    "league": "mcbb",
@@ -675,6 +666,15 @@
    "watch_any": 442,
    "listen_any": 37,
    "listen_team": 37
+  },
+  "England Lions tour of West Indies 2026/27": {
+   "group": "Cricket",
+   "league": "england-lions-tour-of-west-indies-2026-27",
+   "games": 4,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
   },
   "NFL": {
    "group": "Football",
