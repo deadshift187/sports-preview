@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T18:02:02Z",
+ "generated": "2026-11-02T18:32:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -85,7 +85,7 @@
   "German Handball-Bundesliga": {
    "group": "Other",
    "league": "tsdb:german-handball-bundesliga",
-   "games": 12,
+   "games": 9,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -464,8 +464,8 @@
    "group": "Basketball",
    "league": "wcbb",
    "games": 527,
-   "watch_confirmed": 475,
-   "watch_any": 475,
+   "watch_confirmed": 476,
+   "watch_any": 476,
    "listen_any": 41,
    "listen_team": 41
   },
@@ -504,15 +504,6 @@
    "watch_any": 59,
    "listen_any": 59,
    "listen_team": 59
-  },
-  "NASCAR Cup Series": {
-   "group": "Racing",
-   "league": "tsdb:nascar-cup-series",
-   "games": 2,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
   },
   "NASCAR Cup": {
    "group": "Racing",
@@ -851,6 +842,15 @@
    "group": "Other",
    "league": "tsdb:ehf-euro-cup",
    "games": 2,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "NASCAR Cup Series": {
+   "group": "Racing",
+   "league": "tsdb:nascar-cup-series",
+   "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
