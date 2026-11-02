@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T18:32:02Z",
+ "generated": "2026-11-02T19:02:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -391,7 +391,7 @@
   "French Top 14": {
    "group": "Rugby",
    "league": "french-top-14",
-   "games": 9,
+   "games": 10,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
