@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T12:02:03Z",
+ "generated": "2026-11-03T12:32:03Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -715,7 +715,7 @@
   "Abu Dhabi T10": {
    "group": "Cricket",
    "league": "abu-dhabi-t10",
-   "games": 8,
+   "games": 10,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
