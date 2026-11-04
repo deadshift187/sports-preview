@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T09:02:02Z",
+ "generated": "2026-11-04T09:32:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -827,6 +827,15 @@
    "watch_confirmed": 1,
    "watch_any": 1,
    "listen_any": 1,
+   "listen_team": 0
+  },
+  "Sumo": {
+   "group": "Fights",
+   "league": "tsdb:sumo",
+   "games": 2,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
    "listen_team": 0
   },
   "International Test Match": {
