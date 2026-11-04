@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T09:32:02Z",
+ "generated": "2026-11-04T10:02:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -487,15 +487,6 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "Saudi Pro League": {
-   "group": "Soccer",
-   "league": "saudi",
-   "games": 9,
-   "watch_confirmed": 0,
-   "watch_any": 9,
-   "listen_any": 0,
-   "listen_team": 0
-  },
   "Conference League": {
    "group": "Soccer",
    "league": "uecl",
@@ -511,6 +502,15 @@
    "games": 15,
    "watch_confirmed": 0,
    "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Saudi Pro League": {
+   "group": "Soccer",
+   "league": "saudi",
+   "games": 9,
+   "watch_confirmed": 0,
+   "watch_any": 9,
    "listen_any": 0,
    "listen_team": 0
   },
@@ -784,6 +784,15 @@
    "listen_any": 0,
    "listen_team": 0
   },
+  "Sumo": {
+   "group": "Fights",
+   "league": "tsdb:sumo",
+   "games": 4,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
   "CSA Women's Division Two T20": {
    "group": "Cricket",
    "league": "csa-women-s-division-two-t20",
@@ -827,15 +836,6 @@
    "watch_confirmed": 1,
    "watch_any": 1,
    "listen_any": 1,
-   "listen_team": 0
-  },
-  "Sumo": {
-   "group": "Fights",
-   "league": "tsdb:sumo",
-   "games": 2,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
    "listen_team": 0
   },
   "International Test Match": {
