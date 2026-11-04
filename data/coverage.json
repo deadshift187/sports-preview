@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T23:02:02Z",
+ "generated": "2026-11-04T23:32:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -424,15 +424,6 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "European Mens Handball Championship": {
-   "group": "Other",
-   "league": "tsdb:european-mens-handball-championship",
-   "games": 10,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
   "NBA": {
    "group": "Basketball",
    "league": "nba",
@@ -482,6 +473,15 @@
    "group": "Cricket",
    "league": "zimbabwe-tour-of-united-arab-emirates-2026-27",
    "games": 1,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "European Mens Handball Championship": {
+   "group": "Other",
+   "league": "tsdb:european-mens-handball-championship",
+   "games": 9,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
