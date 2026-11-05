@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T12:02:02Z",
+ "generated": "2026-11-05T12:32:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -391,7 +391,7 @@
   "Asian Cricket Council Under-19s Asia Cup 2026/27": {
    "group": "Cricket",
    "league": "asian-cricket-council-under-19s-asia-cup-2026-27",
-   "games": 14,
+   "games": 2,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -504,6 +504,15 @@
    "watch_any": 16,
    "listen_any": 16,
    "listen_team": 16
+  },
+  "Asia Youth/Under-19s Cup": {
+   "group": "Cricket",
+   "league": "asia-youth-under-19s-cup",
+   "games": 12,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
   },
   "Victoria Women T20 Series": {
    "group": "Cricket",
