@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T05:02:02Z",
+ "generated": "2026-11-05T05:32:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -31,7 +31,7 @@
   "PDC Darts": {
    "group": "Other",
    "league": "tsdb:pdc-darts",
-   "games": 7,
+   "games": 9,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -283,7 +283,7 @@
   "South Africa Domestic T20/Pro20": {
    "group": "Cricket",
    "league": "south-africa-domestic-t20-pro20",
-   "games": 10,
+   "games": 9,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -379,15 +379,6 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "LPGA": {
-   "group": "Golf",
-   "league": "lpga",
-   "games": 1,
-   "watch_confirmed": 1,
-   "watch_any": 1,
-   "listen_any": 0,
-   "listen_team": 0
-  },
   "ICC Men's Cricket World Cup League 2": {
    "group": "Cricket",
    "league": "icc-men-s-cricket-world-cup-league-2",
@@ -454,6 +445,15 @@
   "DP World Tour": {
    "group": "Golf",
    "league": "dpwt",
+   "games": 1,
+   "watch_confirmed": 1,
+   "watch_any": 1,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "LPGA": {
+   "group": "Golf",
+   "league": "lpga",
    "games": 1,
    "watch_confirmed": 1,
    "watch_any": 1,
