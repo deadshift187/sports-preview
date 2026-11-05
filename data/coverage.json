@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T18:32:02Z",
+ "generated": "2026-11-05T19:02:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -31,7 +31,7 @@
   "PDC Darts": {
    "group": "Other",
    "league": "tsdb:pdc-darts",
-   "games": 8,
+   "games": 9,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -94,7 +94,7 @@
   "German 1. Bundesliga": {
    "group": "Other",
    "league": "tsdb:german-1-bundesliga",
-   "games": 26,
+   "games": 29,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -298,15 +298,6 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "European Mens Handball Championship": {
-   "group": "Other",
-   "league": "tsdb:european-mens-handball-championship",
-   "games": 12,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
   "College Basketball (W)": {
    "group": "Basketball",
    "league": "wcbb",
@@ -455,6 +446,15 @@
    "group": "Cricket",
    "league": "ireland-a-tour-of-zimbabwe-2026-27",
    "games": 2,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "European Mens Handball Championship": {
+   "group": "Other",
+   "league": "tsdb:european-mens-handball-championship",
+   "games": 9,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
