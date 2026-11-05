@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T20:32:02Z",
+ "generated": "2026-11-05T21:02:03Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -31,7 +31,7 @@
   "PDC Darts": {
    "group": "Other",
    "league": "tsdb:pdc-darts",
-   "games": 8,
+   "games": 9,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -175,7 +175,7 @@
   "CEV Champions League": {
    "group": "Other",
    "league": "tsdb:cev-champions-league",
-   "games": 3,
+   "games": 2,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -460,15 +460,6 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "European Mens Handball Championship": {
-   "group": "Other",
-   "league": "tsdb:european-mens-handball-championship",
-   "games": 8,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
   "Conference League": {
    "group": "Soccer",
    "league": "uecl",
@@ -482,6 +473,15 @@
    "group": "Soccer",
    "league": "argentina",
    "games": 15,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "European Mens Handball Championship": {
+   "group": "Other",
+   "league": "tsdb:european-mens-handball-championship",
+   "games": 7,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
