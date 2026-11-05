@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T22:02:01Z",
+ "generated": "2026-11-05T22:32:01Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -49,7 +49,7 @@
   "Polish PlusLiga": {
    "group": "Other",
    "league": "tsdb:polish-plusliga",
-   "games": 17,
+   "games": 20,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -76,7 +76,7 @@
   "Russian Volleyball Super League": {
    "group": "Other",
    "league": "tsdb:russian-volleyball-super-league",
-   "games": 9,
+   "games": 10,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -94,7 +94,7 @@
   "German 1. Bundesliga": {
    "group": "Other",
    "league": "tsdb:german-1-bundesliga",
-   "games": 26,
+   "games": 29,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -478,15 +478,6 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "European Mens Handball Championship": {
-   "group": "Other",
-   "league": "tsdb:european-mens-handball-championship",
-   "games": 7,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
   "Saudi Pro League": {
    "group": "Soccer",
    "league": "saudi",
@@ -716,6 +707,15 @@
    "group": "Rugby",
    "league": "french-top-14",
    "games": 8,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "European Mens Handball Championship": {
+   "group": "Other",
+   "league": "tsdb:european-mens-handball-championship",
+   "games": 6,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
