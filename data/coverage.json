@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T22:02:02Z",
+ "generated": "2026-11-06T22:32:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -103,7 +103,7 @@
   "French Ligue A Mens Volleyball": {
    "group": "Other",
    "league": "tsdb:french-ligue-a-mens-volleyball",
-   "games": 4,
+   "games": 2,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -338,8 +338,8 @@
    "group": "Basketball",
    "league": "wcbb",
    "games": 495,
-   "watch_confirmed": 464,
-   "watch_any": 464,
+   "watch_confirmed": 465,
+   "watch_any": 465,
    "listen_any": 45,
    "listen_team": 45
   },
@@ -392,7 +392,7 @@
    "group": "Basketball",
    "league": "mcbb",
    "games": 510,
-   "watch_confirmed": 486,
+   "watch_confirmed": 487,
    "watch_any": 510,
    "listen_any": 37,
    "listen_team": 37
