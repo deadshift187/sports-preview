@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T15:02:02Z",
+ "generated": "2026-11-06T15:32:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -446,15 +446,6 @@
    "group": "Cricket",
    "league": "pro50-championship",
    "games": 6,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "NASCAR Truck Series": {
-   "group": "Racing",
-   "league": "tsdb:nascar-truck-series",
-   "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
