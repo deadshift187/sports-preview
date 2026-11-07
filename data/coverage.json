@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T23:02:02Z",
+ "generated": "2026-11-07T23:32:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -640,15 +640,6 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "European Mens Handball Championship": {
-   "group": "Other",
-   "league": "tsdb:european-mens-handball-championship",
-   "games": 4,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
   "URBA Top 14": {
    "group": "Rugby",
    "league": "urba-top-14",
@@ -734,6 +725,15 @@
    "group": "Cricket",
    "league": "csa-women-pro20-series-2026-27",
    "games": 2,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "European Mens Handball Championship": {
+   "group": "Other",
+   "league": "tsdb:european-mens-handball-championship",
+   "games": 3,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
