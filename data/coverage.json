@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T03:02:02Z",
+ "generated": "2026-11-07T04:02:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -553,15 +553,6 @@
   "India A tour of New Zealand 2026/27": {
    "group": "Cricket",
    "league": "india-a-tour-of-new-zealand-2026-27",
-   "games": 1,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "NASCAR Xfinity Series": {
-   "group": "Racing",
-   "league": "tsdb:nascar-xfinity-series",
    "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
