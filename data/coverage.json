@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T16:32:03Z",
+ "generated": "2026-11-08T17:02:03Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -473,8 +473,8 @@
    "group": "Basketball",
    "league": "wcbb",
    "games": 495,
-   "watch_confirmed": 464,
-   "watch_any": 464,
+   "watch_confirmed": 466,
+   "watch_any": 466,
    "listen_any": 44,
    "listen_team": 44
   },
@@ -482,7 +482,7 @@
    "group": "Basketball",
    "league": "mcbb",
    "games": 488,
-   "watch_confirmed": 462,
+   "watch_confirmed": 463,
    "watch_any": 488,
    "listen_any": 29,
    "listen_team": 29
@@ -491,7 +491,7 @@
    "group": "Football",
    "league": "cfb",
    "games": 118,
-   "watch_confirmed": 104,
+   "watch_confirmed": 109,
    "watch_any": 118,
    "listen_any": 118,
    "listen_team": 15
