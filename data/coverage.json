@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T18:32:04Z",
+ "generated": "2026-11-08T19:02:03Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -67,7 +67,7 @@
   "Italian Volleyball League": {
    "group": "Other",
    "league": "tsdb:italian-volleyball-league",
-   "games": 7,
+   "games": 6,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -697,7 +697,7 @@
   "EHF Euro Cup": {
    "group": "Other",
    "league": "tsdb:ehf-euro-cup",
-   "games": 2,
+   "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -706,7 +706,7 @@
   "European Mens Handball Championship": {
    "group": "Other",
    "league": "tsdb:european-mens-handball-championship",
-   "games": 2,
+   "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
