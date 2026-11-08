@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T20:32:04Z",
+ "generated": "2026-11-08T21:02:21Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -31,7 +31,7 @@
   "PDC Darts": {
    "group": "Other",
    "league": "tsdb:pdc-darts",
-   "games": 9,
+   "games": 10,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -49,7 +49,7 @@
   "Polish PlusLiga": {
    "group": "Other",
    "league": "tsdb:polish-plusliga",
-   "games": 21,
+   "games": 20,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -67,7 +67,7 @@
   "Italian Volleyball League": {
    "group": "Other",
    "league": "tsdb:italian-volleyball-league",
-   "games": 6,
+   "games": 5,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -157,7 +157,7 @@
   "Formula 1": {
    "group": "Racing",
    "league": "tsdb:formula-1",
-   "games": 4,
+   "games": 3,
    "watch_confirmed": 1,
    "watch_any": 1,
    "listen_any": 0,
@@ -693,24 +693,6 @@
    "watch_any": 27,
    "listen_any": 27,
    "listen_team": 27
-  },
-  "EHF Euro Cup": {
-   "group": "Other",
-   "league": "tsdb:ehf-euro-cup",
-   "games": 1,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "European Mens Handball Championship": {
-   "group": "Other",
-   "league": "tsdb:european-mens-handball-championship",
-   "games": 1,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
   },
   "NASCAR Cup Series": {
    "group": "Racing",
