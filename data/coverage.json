@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T21:02:21Z",
+ "generated": "2026-11-08T21:32:04Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -491,7 +491,7 @@
    "group": "Football",
    "league": "cfb",
    "games": 118,
-   "watch_confirmed": 116,
+   "watch_confirmed": 117,
    "watch_any": 118,
    "listen_any": 118,
    "listen_team": 15
