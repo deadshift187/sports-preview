@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T23:32:04Z",
+ "generated": "2026-11-09T00:02:03Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -693,15 +693,6 @@
    "watch_any": 27,
    "listen_any": 27,
    "listen_team": 27
-  },
-  "NASCAR Cup Series": {
-   "group": "Racing",
-   "league": "tsdb:nascar-cup-series",
-   "games": 1,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
   },
   "NASCAR Cup": {
    "group": "Racing",
