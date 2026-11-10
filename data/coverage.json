@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T21:32:03Z",
+ "generated": "2026-11-10T22:02:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -469,24 +469,6 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "CEV Challenge Cup": {
-   "group": "Other",
-   "league": "tsdb:cev-challenge-cup",
-   "games": 8,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "Spanish Liga ASOBAL": {
-   "group": "Other",
-   "league": "tsdb:spanish-liga-asobal",
-   "games": 1,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
   "Sheffield Shield": {
    "group": "Cricket",
    "league": "sheffield-shield",
@@ -527,6 +509,15 @@
    "group": "Soccer",
    "league": "friendly",
    "games": 43,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "CEV Challenge Cup": {
+   "group": "Other",
+   "league": "tsdb:cev-challenge-cup",
+   "games": 6,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
