@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T05:02:03Z",
+ "generated": "2026-11-10T05:32:03Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -500,7 +500,7 @@
    "group": "Basketball",
    "league": "mcbb",
    "games": 460,
-   "watch_confirmed": 436,
+   "watch_confirmed": 437,
    "watch_any": 460,
    "listen_any": 30,
    "listen_team": 30
