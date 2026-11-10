@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T16:02:02Z",
+ "generated": "2026-11-10T16:32:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -40,7 +40,7 @@
   "AFL Womens": {
    "group": "Other",
    "league": "tsdb:afl-womens",
-   "games": 20,
+   "games": 22,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -49,7 +49,7 @@
   "Polish PlusLiga": {
    "group": "Other",
    "league": "tsdb:polish-plusliga",
-   "games": 20,
+   "games": 21,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -76,7 +76,7 @@
   "Russian Volleyball Super League": {
    "group": "Other",
    "league": "tsdb:russian-volleyball-super-league",
-   "games": 12,
+   "games": 13,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -347,7 +347,7 @@
    "group": "Basketball",
    "league": "mcbb",
    "games": 490,
-   "watch_confirmed": 465,
+   "watch_confirmed": 467,
    "watch_any": 490,
    "listen_any": 34,
    "listen_team": 34
@@ -779,6 +779,15 @@
    "group": "Fights",
    "league": "tsdb:aaa",
    "games": 1,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "EHF European League": {
+   "group": "Other",
+   "league": "tsdb:ehf-european-league",
+   "games": 3,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
