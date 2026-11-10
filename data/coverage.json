@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T09:32:02Z",
+ "generated": "2026-11-10T10:02:03Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -589,7 +589,7 @@
   "Blast Premier": {
    "group": "Other",
    "league": "tsdb:blast-premier",
-   "games": 2,
+   "games": 3,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
