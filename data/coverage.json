@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T19:32:02Z",
+ "generated": "2026-11-10T20:02:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -274,7 +274,7 @@
   "Sumo": {
    "group": "Fights",
    "league": "tsdb:sumo",
-   "games": 7,
+   "games": 8,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -733,6 +733,15 @@
   "RevPro": {
    "group": "Fights",
    "league": "tsdb:revpro",
+   "games": 1,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "TNA Wrestling": {
+   "group": "Fights",
+   "league": "tsdb:tna-wrestling",
    "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
