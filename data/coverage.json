@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T12:02:02Z",
+ "generated": "2026-11-10T12:32:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -517,7 +517,7 @@
   "International Friendly": {
    "group": "Soccer",
    "league": "friendly",
-   "games": 40,
+   "games": 41,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
