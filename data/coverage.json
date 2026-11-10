@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T19:02:02Z",
+ "generated": "2026-11-10T19:32:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -356,8 +356,8 @@
    "group": "Basketball",
    "league": "wcbb",
    "games": 457,
-   "watch_confirmed": 431,
-   "watch_any": 431,
+   "watch_confirmed": 432,
+   "watch_any": 432,
    "listen_any": 41,
    "listen_team": 41
   },
@@ -491,6 +491,15 @@
    "group": "Cricket",
    "league": "sheffield-shield",
    "games": 3,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "DDT Pro": {
+   "group": "Fights",
+   "league": "tsdb:ddt-pro",
+   "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
