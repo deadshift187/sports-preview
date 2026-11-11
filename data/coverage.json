@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T10:32:02Z",
+ "generated": "2026-11-11T11:02:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -742,6 +742,15 @@
   "CSA Women's Division Two T20": {
    "group": "Cricket",
    "league": "csa-women-s-division-two-t20",
+   "games": 2,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Costa Rica tour of Falkland Islands 2026/27": {
+   "group": "Cricket",
+   "league": "costa-rica-tour-of-falkland-islands-2026-27",
    "games": 2,
    "watch_confirmed": 0,
    "watch_any": 0,
