@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T23:32:01Z",
+ "generated": "2026-11-11T00:02:01Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -130,7 +130,7 @@
   "World Snooker": {
    "group": "Other",
    "league": "tsdb:world-snooker",
-   "games": 4,
+   "games": 8,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -680,7 +680,7 @@
    "group": "Soccer",
    "league": "nwsl",
    "games": 2,
-   "watch_confirmed": 1,
+   "watch_confirmed": 2,
    "watch_any": 2,
    "listen_any": 0,
    "listen_team": 0
@@ -716,6 +716,15 @@
    "group": "Soccer",
    "league": "usl",
    "games": 2,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Q Tour": {
+   "group": "Other",
+   "league": "tsdb:q-tour",
+   "games": 3,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
