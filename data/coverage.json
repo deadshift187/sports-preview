@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T17:02:02Z",
+ "generated": "2026-11-11T17:32:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -365,15 +365,6 @@
    "group": "Other",
    "league": "tsdb:cev-challenge-cup",
    "games": 8,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "Spanish Liga ASOBAL": {
-   "group": "Other",
-   "league": "tsdb:spanish-liga-asobal",
-   "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
