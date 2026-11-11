@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T15:02:01Z",
+ "generated": "2026-11-11T15:32:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -391,6 +391,15 @@
   "DDT Pro": {
    "group": "Fights",
    "league": "tsdb:ddt-pro",
+   "games": 1,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "WRC": {
+   "group": "Racing",
+   "league": "tsdb:wrc",
    "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
