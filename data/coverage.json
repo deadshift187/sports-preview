@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T11:02:02Z",
+ "generated": "2026-11-11T11:32:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -751,7 +751,7 @@
   "Costa Rica tour of Falkland Islands 2026/27": {
    "group": "Cricket",
    "league": "costa-rica-tour-of-falkland-islands-2026-27",
-   "games": 2,
+   "games": 6,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
