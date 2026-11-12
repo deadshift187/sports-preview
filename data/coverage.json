@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T23:32:02Z",
+ "generated": "2026-11-12T00:02:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -235,28 +235,10 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "Sri Lanka tour of Pakistan 2026/27": {
-   "group": "Cricket",
-   "league": "sri-lanka-tour-of-pakistan-2026-27",
-   "games": 2,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "Quaid-e-Azam Trophy Gold 2026/27": {
-   "group": "Cricket",
-   "league": "quaid-e-azam-trophy-gold-2026-27",
-   "games": 8,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
   "Quaid-e-Azam Trophy Silver League 2026/27": {
    "group": "Cricket",
    "league": "quaid-e-azam-trophy-silver-league-2026-27",
-   "games": 12,
+   "games": 10,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -334,15 +316,6 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "College Basketball (W)": {
-   "group": "Basketball",
-   "league": "wcbb",
-   "games": 485,
-   "watch_confirmed": 465,
-   "watch_any": 465,
-   "listen_any": 44,
-   "listen_team": 44
-  },
   "South Africa Domestic T20/Pro20": {
    "group": "Cricket",
    "league": "south-africa-domestic-t20-pro20",
@@ -370,6 +343,15 @@
    "listen_any": 0,
    "listen_team": 0
   },
+  "College Basketball (W)": {
+   "group": "Basketball",
+   "league": "wcbb",
+   "games": 160,
+   "watch_confirmed": 151,
+   "watch_any": 151,
+   "listen_any": 21,
+   "listen_team": 21
+  },
   "College Basketball (M)": {
    "group": "Basketball",
    "league": "mcbb",
@@ -378,15 +360,6 @@
    "watch_any": 511,
    "listen_any": 40,
    "listen_team": 40
-  },
-  "Sheffield Shield": {
-   "group": "Cricket",
-   "league": "sheffield-shield",
-   "games": 3,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
   },
   "DDT Pro": {
    "group": "Fights",
@@ -428,15 +401,6 @@
    "group": "Soccer",
    "league": "friendly",
    "games": 43,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "England Lions tour of West Indies 2026/27": {
-   "group": "Cricket",
-   "league": "england-lions-tour-of-west-indies-2026-27",
-   "games": 3,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -658,6 +622,15 @@
    "listen_any": 0,
    "listen_team": 0
   },
+  "England Lions tour of West Indies 2026/27": {
+   "group": "Cricket",
+   "league": "england-lions-tour-of-west-indies-2026-27",
+   "games": 2,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
   "Brasileirão": {
    "group": "Soccer",
    "league": "brasileirao",
@@ -730,6 +703,15 @@
    "listen_any": 0,
    "listen_team": 0
   },
+  "Quaid-e-Azam Trophy Gold 2026/27": {
+   "group": "Cricket",
+   "league": "quaid-e-azam-trophy-gold-2026-27",
+   "games": 4,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
   "Bangladesh tour of South Africa 2026/27": {
    "group": "Cricket",
    "league": "bangladesh-tour-of-south-africa-2026-27",
@@ -778,6 +760,15 @@
   "AAA": {
    "group": "Fights",
    "league": "tsdb:aaa",
+   "games": 1,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Sri Lanka tour of Pakistan 2026/27": {
+   "group": "Cricket",
+   "league": "sri-lanka-tour-of-pakistan-2026-27",
    "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
