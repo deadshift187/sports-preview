@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T17:02:02Z",
+ "generated": "2026-11-12T17:32:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -49,7 +49,7 @@
   "Polish PlusLiga": {
    "group": "Other",
    "league": "tsdb:polish-plusliga",
-   "games": 26,
+   "games": 29,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -94,7 +94,7 @@
   "German 1. Bundesliga": {
    "group": "Other",
    "league": "tsdb:german-1-bundesliga",
-   "games": 33,
+   "games": 34,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -130,7 +130,7 @@
   "World Snooker": {
    "group": "Other",
    "league": "tsdb:world-snooker",
-   "games": 5,
+   "games": 8,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -175,7 +175,7 @@
   "CEV Champions League": {
    "group": "Other",
    "league": "tsdb:cev-champions-league",
-   "games": 1,
+   "games": 2,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -271,6 +271,15 @@
    "listen_any": 0,
    "listen_team": 0
   },
+  "WRC": {
+   "group": "Racing",
+   "league": "tsdb:wrc",
+   "games": 1,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
   "Victoria Women T20 Series": {
    "group": "Cricket",
    "league": "victoria-women-t20-series",
@@ -338,7 +347,7 @@
    "group": "Basketball",
    "league": "mcbb",
    "games": 478,
-   "watch_confirmed": 456,
+   "watch_confirmed": 457,
    "watch_any": 478,
    "listen_any": 29,
    "listen_team": 29
@@ -356,6 +365,15 @@
    "group": "Cricket",
    "league": "the-ford-trophy",
    "games": 3,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "NHRA Drag Racing": {
+   "group": "Racing",
+   "league": "tsdb:nhra-drag-racing",
+   "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
