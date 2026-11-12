@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T09:02:02Z",
+ "generated": "2026-11-12T09:32:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -779,6 +779,15 @@
    "group": "Cricket",
    "league": "slc-major-league-tournament",
    "games": 6,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Asia Cup Rising Stars": {
+   "group": "Cricket",
+   "league": "asia-cup-rising-stars",
+   "games": 2,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
