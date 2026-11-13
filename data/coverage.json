@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T01:32:03Z",
+ "generated": "2026-11-13T02:02:03Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -76,7 +76,7 @@
   "Russian Volleyball Super League": {
    "group": "Other",
    "league": "tsdb:russian-volleyball-super-league",
-   "games": 16,
+   "games": 17,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -247,7 +247,7 @@
   "CEV Challenge Cup": {
    "group": "Other",
    "league": "tsdb:cev-challenge-cup",
-   "games": 6,
+   "games": 8,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -356,6 +356,15 @@
    "group": "Cricket",
    "league": "the-ford-trophy",
    "games": 3,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "NHRA Drag Racing": {
+   "group": "Racing",
+   "league": "tsdb:nhra-drag-racing",
+   "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
