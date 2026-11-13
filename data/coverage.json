@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T13:32:02Z",
+ "generated": "2026-11-13T14:02:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -211,7 +211,7 @@
   "Sumo": {
    "group": "Fights",
    "league": "tsdb:sumo",
-   "games": 10,
+   "games": 9,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -248,15 +248,6 @@
    "group": "Other",
    "league": "tsdb:cev-challenge-cup",
    "games": 6,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "Sheffield Shield": {
-   "group": "Cricket",
-   "league": "sheffield-shield",
-   "games": 3,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -356,15 +347,6 @@
    "group": "Cricket",
    "league": "nepal-premier-league",
    "games": 10,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "Ireland A tour of Zimbabwe 2026/27": {
-   "group": "Cricket",
-   "league": "ireland-a-tour-of-zimbabwe-2026-27",
-   "games": 2,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -491,15 +473,6 @@
    "group": "Cricket",
    "league": "england-tour-of-australia-2026-27",
    "games": 3,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "Zimbabwe tour of United Arab Emirates 2026/27": {
-   "group": "Cricket",
-   "league": "zimbabwe-tour-of-united-arab-emirates-2026-27",
-   "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -779,6 +752,15 @@
    "group": "Cricket",
    "league": "asia-cup-rising-stars",
    "games": 4,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Ireland A tour of Zimbabwe 2026/27": {
+   "group": "Cricket",
+   "league": "ireland-a-tour-of-zimbabwe-2026-27",
+   "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
