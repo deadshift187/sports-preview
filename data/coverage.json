@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T03:02:02Z",
+ "generated": "2026-11-13T03:32:03Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -58,7 +58,7 @@
   "Boxing": {
    "group": "Fights",
    "league": "tsdb:boxing",
-   "games": 7,
+   "games": 6,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
