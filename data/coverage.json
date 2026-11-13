@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T22:32:01Z",
+ "generated": "2026-11-13T23:02:01Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -121,7 +121,7 @@
   "French LNH Division 1": {
    "group": "Other",
    "league": "tsdb:french-lnh-division-1",
-   "games": 5,
+   "games": 3,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -419,7 +419,7 @@
    "group": "Basketball",
    "league": "mcbb",
    "games": 470,
-   "watch_confirmed": 443,
+   "watch_confirmed": 444,
    "watch_any": 470,
    "listen_any": 32,
    "listen_team": 32
