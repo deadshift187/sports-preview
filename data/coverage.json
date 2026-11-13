@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T09:02:02Z",
+ "generated": "2026-11-13T09:32:04Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -58,7 +58,7 @@
   "Boxing": {
    "group": "Fights",
    "league": "tsdb:boxing",
-   "games": 6,
+   "games": 5,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -433,6 +433,15 @@
    "listen_any": 0,
    "listen_team": 0
   },
+  "CMLL": {
+   "group": "Fights",
+   "league": "tsdb:cmll",
+   "games": 2,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
   "wXw": {
    "group": "Fights",
    "league": "tsdb:wxw",
@@ -733,15 +742,6 @@
   "AAA": {
    "group": "Fights",
    "league": "tsdb:aaa",
-   "games": 1,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "CMLL": {
-   "group": "Fights",
-   "league": "tsdb:cmll",
    "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
