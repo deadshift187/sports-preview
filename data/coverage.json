@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T05:02:01Z",
+ "generated": "2026-11-14T05:32:01Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -49,7 +49,7 @@
   "Polish PlusLiga": {
    "group": "Other",
    "league": "tsdb:polish-plusliga",
-   "games": 28,
+   "games": 30,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -85,7 +85,7 @@
   "German Handball-Bundesliga": {
    "group": "Other",
    "league": "tsdb:german-handball-bundesliga",
-   "games": 15,
+   "games": 17,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -94,7 +94,7 @@
   "German 1. Bundesliga": {
    "group": "Other",
    "league": "tsdb:german-1-bundesliga",
-   "games": 34,
+   "games": 35,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -148,7 +148,7 @@
   "Danish Mens Handball League": {
    "group": "Other",
    "league": "tsdb:danish-mens-handball-league",
-   "games": 3,
+   "games": 4,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -247,7 +247,7 @@
   "CEV Challenge Cup": {
    "group": "Other",
    "league": "tsdb:cev-challenge-cup",
-   "games": 6,
+   "games": 8,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -374,8 +374,8 @@
    "group": "Basketball",
    "league": "wcbb",
    "games": 454,
-   "watch_confirmed": 429,
-   "watch_any": 429,
+   "watch_confirmed": 428,
+   "watch_any": 428,
    "listen_any": 42,
    "listen_team": 42
   },
@@ -423,15 +423,6 @@
    "watch_any": 470,
    "listen_any": 32,
    "listen_team": 32
-  },
-  "Blast Premier": {
-   "group": "Other",
-   "league": "tsdb:blast-premier",
-   "games": 3,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
   },
   "CMLL": {
    "group": "Fights",
@@ -655,6 +646,15 @@
    "games": 2,
    "watch_confirmed": 2,
    "watch_any": 2,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Blast Premier": {
+   "group": "Other",
+   "league": "tsdb:blast-premier",
+   "games": 1,
+   "watch_confirmed": 0,
+   "watch_any": 0,
    "listen_any": 0,
    "listen_team": 0
   },
