@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T09:02:01Z",
+ "generated": "2026-11-14T09:32:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -40,7 +40,7 @@
   "AFL Womens": {
    "group": "Other",
    "league": "tsdb:afl-womens",
-   "games": 22,
+   "games": 21,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -442,15 +442,6 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "Professional Fighters League": {
-   "group": "Fights",
-   "league": "tsdb:professional-fighters-league",
-   "games": 1,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
   "College Football": {
    "group": "Football",
    "league": "cfb",
@@ -547,6 +538,15 @@
    "games": 9,
    "watch_confirmed": 9,
    "watch_any": 9,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Professional Fighters League": {
+   "group": "Fights",
+   "league": "tsdb:professional-fighters-league",
+   "games": 1,
+   "watch_confirmed": 0,
+   "watch_any": 0,
    "listen_any": 0,
    "listen_team": 0
   },
