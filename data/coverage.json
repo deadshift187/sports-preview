@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T03:32:01Z",
+ "generated": "2026-11-14T04:02:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -130,7 +130,7 @@
   "World Snooker": {
    "group": "Other",
    "league": "tsdb:world-snooker",
-   "games": 8,
+   "games": 7,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -464,7 +464,7 @@
    "group": "Football",
    "league": "cfb",
    "games": 73,
-   "watch_confirmed": 73,
+   "watch_confirmed": 70,
    "watch_any": 73,
    "listen_any": 73,
    "listen_team": 9
