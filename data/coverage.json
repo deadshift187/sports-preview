@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T18:02:02Z",
+ "generated": "2026-11-14T18:32:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -31,7 +31,7 @@
   "PDC Darts": {
    "group": "Other",
    "league": "tsdb:pdc-darts",
-   "games": 10,
+   "games": 9,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -40,7 +40,7 @@
   "AFL Womens": {
    "group": "Other",
    "league": "tsdb:afl-womens",
-   "games": 20,
+   "games": 22,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -130,7 +130,7 @@
   "World Snooker": {
    "group": "Other",
    "league": "tsdb:world-snooker",
-   "games": 7,
+   "games": 9,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -139,7 +139,7 @@
   "MotoGP": {
    "group": "Racing",
    "league": "tsdb:motogp",
-   "games": 2,
+   "games": 3,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -157,7 +157,7 @@
   "Formula 1": {
    "group": "Racing",
    "league": "tsdb:formula-1",
-   "games": 3,
+   "games": 7,
    "watch_confirmed": 1,
    "watch_any": 1,
    "listen_any": 0,
@@ -400,11 +400,11 @@
   "College Basketball (M)": {
    "group": "Basketball",
    "league": "mcbb",
-   "games": 498,
-   "watch_confirmed": 465,
-   "watch_any": 498,
-   "listen_any": 29,
-   "listen_team": 29
+   "games": 378,
+   "watch_confirmed": 354,
+   "watch_any": 378,
+   "listen_any": 22,
+   "listen_team": 22
   },
   "UEFA Nations League": {
    "group": "Soccer",
@@ -788,6 +788,15 @@
    "group": "Cricket",
    "league": "csa-4-day-series-division-1",
    "games": 4,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "F1 Academy": {
+   "group": "Racing",
+   "league": "tsdb:f1-academy",
+   "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
