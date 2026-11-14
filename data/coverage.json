@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T18:32:02Z",
+ "generated": "2026-11-14T19:02:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -31,7 +31,7 @@
   "PDC Darts": {
    "group": "Other",
    "league": "tsdb:pdc-darts",
-   "games": 9,
+   "games": 10,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -85,7 +85,7 @@
   "German Handball-Bundesliga": {
    "group": "Other",
    "league": "tsdb:german-handball-bundesliga",
-   "games": 17,
+   "games": 16,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -130,7 +130,7 @@
   "World Snooker": {
    "group": "Other",
    "league": "tsdb:world-snooker",
-   "games": 9,
+   "games": 8,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -400,11 +400,11 @@
   "College Basketball (M)": {
    "group": "Basketball",
    "league": "mcbb",
-   "games": 378,
-   "watch_confirmed": 354,
-   "watch_any": 378,
-   "listen_any": 22,
-   "listen_team": 22
+   "games": 498,
+   "watch_confirmed": 465,
+   "watch_any": 498,
+   "listen_any": 29,
+   "listen_team": 29
   },
   "UEFA Nations League": {
    "group": "Soccer",
@@ -464,7 +464,7 @@
    "group": "Basketball",
    "league": "nba",
    "games": 67,
-   "watch_confirmed": 60,
+   "watch_confirmed": 61,
    "watch_any": 67,
    "listen_any": 67,
    "listen_team": 67
