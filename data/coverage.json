@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T22:32:01Z",
+ "generated": "2026-11-15T23:02:01Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -31,7 +31,7 @@
   "PDC Darts": {
    "group": "Other",
    "league": "tsdb:pdc-darts",
-   "games": 11,
+   "games": 10,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -49,7 +49,7 @@
   "Polish PlusLiga": {
    "group": "Other",
    "league": "tsdb:polish-plusliga",
-   "games": 28,
+   "games": 30,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -85,7 +85,7 @@
   "German Handball-Bundesliga": {
    "group": "Other",
    "league": "tsdb:german-handball-bundesliga",
-   "games": 11,
+   "games": 17,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -94,7 +94,7 @@
   "German 1. Bundesliga": {
    "group": "Other",
    "league": "tsdb:german-1-bundesliga",
-   "games": 36,
+   "games": 40,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -298,15 +298,6 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "Blast Premier": {
-   "group": "Other",
-   "league": "tsdb:blast-premier",
-   "games": 2,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
   "wXw": {
    "group": "Fights",
    "league": "tsdb:wxw",
@@ -472,9 +463,9 @@
   "NWSL": {
    "group": "Soccer",
    "league": "nwsl",
-   "games": 2,
-   "watch_confirmed": 2,
-   "watch_any": 2,
+   "games": 3,
+   "watch_confirmed": 3,
+   "watch_any": 3,
    "listen_any": 0,
    "listen_team": 0
   },
