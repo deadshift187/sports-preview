@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T23:02:01Z",
+ "generated": "2026-11-15T23:32:01Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -31,7 +31,7 @@
   "PDC Darts": {
    "group": "Other",
    "league": "tsdb:pdc-darts",
-   "games": 10,
+   "games": 11,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -49,7 +49,7 @@
   "Polish PlusLiga": {
    "group": "Other",
    "league": "tsdb:polish-plusliga",
-   "games": 30,
+   "games": 29,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -94,7 +94,7 @@
   "German 1. Bundesliga": {
    "group": "Other",
    "league": "tsdb:german-1-bundesliga",
-   "games": 40,
+   "games": 39,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -293,6 +293,15 @@
    "group": "Cricket",
    "league": "new-zealand-cricket-women-s-one-day-competition",
    "games": 6,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Blast Premier": {
+   "group": "Other",
+   "league": "tsdb:blast-premier",
+   "games": 2,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
