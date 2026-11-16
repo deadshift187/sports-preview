@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T07:02:01Z",
+ "generated": "2026-11-16T07:32:01Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -442,14 +442,23 @@
    "listen_any": 0,
    "listen_team": 0
   },
+  "College Basketball (M)": {
+   "group": "Basketball",
+   "league": "mcbb",
+   "games": 480,
+   "watch_confirmed": 435,
+   "watch_any": 480,
+   "listen_any": 27,
+   "listen_team": 27
+  },
   "College Basketball (W)": {
    "group": "Basketball",
    "league": "wcbb",
-   "games": 439,
-   "watch_confirmed": 410,
-   "watch_any": 410,
-   "listen_any": 42,
-   "listen_team": 42
+   "games": 475,
+   "watch_confirmed": 444,
+   "watch_any": 444,
+   "listen_any": 44,
+   "listen_team": 44
   },
   "College Football": {
    "group": "Football",
@@ -495,15 +504,6 @@
    "watch_any": 3,
    "listen_any": 0,
    "listen_team": 0
-  },
-  "College Basketball (M)": {
-   "group": "Basketball",
-   "league": "mcbb",
-   "games": 308,
-   "watch_confirmed": 273,
-   "watch_any": 308,
-   "listen_any": 20,
-   "listen_team": 20
   },
   "Brasileirão": {
    "group": "Soccer",
