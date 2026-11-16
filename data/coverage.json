@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T18:32:01Z",
+ "generated": "2026-11-16T19:02:01Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -49,7 +49,7 @@
   "Polish PlusLiga": {
    "group": "Other",
    "league": "tsdb:polish-plusliga",
-   "games": 30,
+   "games": 31,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -85,7 +85,7 @@
   "German Handball-Bundesliga": {
    "group": "Other",
    "league": "tsdb:german-handball-bundesliga",
-   "games": 17,
+   "games": 20,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -94,7 +94,7 @@
   "German 1. Bundesliga": {
    "group": "Other",
    "league": "tsdb:german-1-bundesliga",
-   "games": 39,
+   "games": 40,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -292,6 +292,15 @@
   "New Zealand Cricket Women's One Day Competition": {
    "group": "Cricket",
    "league": "new-zealand-cricket-women-s-one-day-competition",
+   "games": 3,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Q Tour": {
+   "group": "Other",
+   "league": "tsdb:q-tour",
    "games": 3,
    "watch_confirmed": 0,
    "watch_any": 0,
