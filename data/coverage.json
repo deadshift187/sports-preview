@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T22:32:01Z",
+ "generated": "2026-11-16T23:02:01Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -85,7 +85,7 @@
   "German Handball-Bundesliga": {
    "group": "Other",
    "league": "tsdb:german-handball-bundesliga",
-   "games": 17,
+   "games": 20,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -262,10 +262,19 @@
    "listen_any": 0,
    "listen_team": 0
   },
+  "Zimbabwe tour of United Arab Emirates 2026/27": {
+   "group": "Cricket",
+   "league": "zimbabwe-tour-of-united-arab-emirates-2026-27",
+   "games": 1,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
   "Blast Premier": {
    "group": "Other",
    "league": "tsdb:blast-premier",
-   "games": 2,
+   "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -274,7 +283,7 @@
   "National Cricket League": {
    "group": "Cricket",
    "league": "national-cricket-league",
-   "games": 1,
+   "games": 4,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -283,15 +292,6 @@
   "New Zealand Cricket Women's One Day Competition": {
    "group": "Cricket",
    "league": "new-zealand-cricket-women-s-one-day-competition",
-   "games": 3,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "Q Tour": {
-   "group": "Other",
-   "league": "tsdb:q-tour",
    "games": 3,
    "watch_confirmed": 0,
    "watch_any": 0,
@@ -370,10 +370,19 @@
    "listen_any": 0,
    "listen_team": 0
   },
+  "Quaid-e-Azam Trophy Gold 2026/27": {
+   "group": "Cricket",
+   "league": "quaid-e-azam-trophy-gold-2026-27",
+   "games": 8,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
   "Quaid-e-Azam Trophy Silver League 2026/27": {
    "group": "Cricket",
    "league": "quaid-e-azam-trophy-silver-league-2026-27",
-   "games": 7,
+   "games": 12,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -392,6 +401,15 @@
    "group": "Cricket",
    "league": "pro50-championship",
    "games": 4,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Bangladesh tour of South Africa 2026/27": {
+   "group": "Cricket",
+   "league": "bangladesh-tour-of-south-africa-2026-27",
+   "games": 2,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -418,7 +436,7 @@
   "Costa Rica tour of Falkland Islands 2026/27": {
    "group": "Cricket",
    "league": "costa-rica-tour-of-falkland-islands-2026-27",
-   "games": 7,
+   "games": 8,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -563,6 +581,15 @@
    "group": "Cricket",
    "league": "syed-mushtaq-ali-trophy",
    "games": 76,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "England Lions tour of West Indies 2026/27": {
+   "group": "Cricket",
+   "league": "england-lions-tour-of-west-indies-2026-27",
+   "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -748,15 +775,6 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "Quaid-e-Azam Trophy Gold 2026/27": {
-   "group": "Cricket",
-   "league": "quaid-e-azam-trophy-gold-2026-27",
-   "games": 4,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
   "CSA Women Pro50 Series 2026/27": {
    "group": "Cricket",
    "league": "csa-women-pro50-series-2026-27",
@@ -887,15 +905,6 @@
    "group": "Cricket",
    "league": "csa-women-pro20-series-2026-27",
    "games": 2,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "Bangladesh tour of South Africa 2026/27": {
-   "group": "Cricket",
-   "league": "bangladesh-tour-of-south-africa-2026-27",
-   "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
