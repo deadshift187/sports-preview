@@ -1,6 +1,24 @@
 {
- "generated": "2026-11-17T20:02:03Z",
+ "generated": "2026-11-17T20:32:02Z",
  "leagues": {
+  "College Football": {
+   "group": "Football",
+   "league": "cfb",
+   "games": 72,
+   "watch_confirmed": 72,
+   "watch_any": 72,
+   "listen_any": 72,
+   "listen_team": 8
+  },
+  "NFL": {
+   "group": "Football",
+   "league": "nfl",
+   "games": 14,
+   "watch_confirmed": 14,
+   "watch_any": 14,
+   "listen_any": 14,
+   "listen_team": 14
+  },
   "WWE": {
    "group": "Fights",
    "league": "tsdb:wwe",
@@ -202,7 +220,7 @@
   "CEV Challenge Cup": {
    "group": "Other",
    "league": "tsdb:cev-challenge-cup",
-   "games": 8,
+   "games": 7,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -410,8 +428,8 @@
    "group": "Basketball",
    "league": "wcbb",
    "games": 447,
-   "watch_confirmed": 406,
-   "watch_any": 406,
+   "watch_confirmed": 409,
+   "watch_any": 409,
    "listen_any": 40,
    "listen_team": 40
   },
@@ -460,15 +478,6 @@
    "listen_any": 55,
    "listen_team": 55
   },
-  "NFL": {
-   "group": "Football",
-   "league": "nfl",
-   "games": 14,
-   "watch_confirmed": 14,
-   "watch_any": 14,
-   "listen_any": 14,
-   "listen_team": 14
-  },
   "USL Championship": {
    "group": "Soccer",
    "league": "usl",
@@ -513,15 +522,6 @@
    "watch_any": 0,
    "listen_any": 0,
    "listen_team": 0
-  },
-  "College Football": {
-   "group": "Football",
-   "league": "cfb",
-   "games": 72,
-   "watch_confirmed": 72,
-   "watch_any": 72,
-   "listen_any": 72,
-   "listen_team": 8
   },
   "England tour of Australia 2026/27": {
    "group": "Cricket",
