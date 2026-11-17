@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T23:32:02Z",
+ "generated": "2026-11-17T00:02:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -22,7 +22,7 @@
   "AEW": {
    "group": "Fights",
    "league": "tsdb:aew",
-   "games": 8,
+   "games": 7,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -262,15 +262,6 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "Zimbabwe tour of United Arab Emirates 2026/27": {
-   "group": "Cricket",
-   "league": "zimbabwe-tour-of-united-arab-emirates-2026-27",
-   "games": 1,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
   "Blast Premier": {
    "group": "Other",
    "league": "tsdb:blast-premier",
@@ -283,7 +274,7 @@
   "National Cricket League": {
    "group": "Cricket",
    "league": "national-cricket-league",
-   "games": 4,
+   "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -298,19 +289,10 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "TNA Wrestling": {
-   "group": "Fights",
-   "league": "tsdb:tna-wrestling",
-   "games": 1,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "wXw": {
-   "group": "Fights",
-   "league": "tsdb:wxw",
-   "games": 2,
+  "Q Tour": {
+   "group": "Other",
+   "league": "tsdb:q-tour",
+   "games": 3,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -370,19 +352,10 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "Quaid-e-Azam Trophy Gold 2026/27": {
-   "group": "Cricket",
-   "league": "quaid-e-azam-trophy-gold-2026-27",
-   "games": 8,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
   "Quaid-e-Azam Trophy Silver League 2026/27": {
    "group": "Cricket",
    "league": "quaid-e-azam-trophy-silver-league-2026-27",
-   "games": 12,
+   "games": 7,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -401,15 +374,6 @@
    "group": "Cricket",
    "league": "pro50-championship",
    "games": 4,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "Bangladesh tour of South Africa 2026/27": {
-   "group": "Cricket",
-   "league": "bangladesh-tour-of-south-africa-2026-27",
-   "games": 2,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -436,7 +400,7 @@
   "Costa Rica tour of Falkland Islands 2026/27": {
    "group": "Cricket",
    "league": "costa-rica-tour-of-falkland-islands-2026-27",
-   "games": 8,
+   "games": 7,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -581,15 +545,6 @@
    "group": "Cricket",
    "league": "syed-mushtaq-ali-trophy",
    "games": 76,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "England Lions tour of West Indies 2026/27": {
-   "group": "Cricket",
-   "league": "england-lions-tour-of-west-indies-2026-27",
-   "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -766,12 +721,30 @@
    "listen_any": 0,
    "listen_team": 0
   },
+  "wXw": {
+   "group": "Fights",
+   "league": "tsdb:wxw",
+   "games": 1,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
   "Liga MX": {
    "group": "Soccer",
    "league": "ligamx",
    "games": 9,
    "watch_confirmed": 0,
    "watch_any": 9,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Quaid-e-Azam Trophy Gold 2026/27": {
+   "group": "Cricket",
+   "league": "quaid-e-azam-trophy-gold-2026-27",
+   "games": 4,
+   "watch_confirmed": 0,
+   "watch_any": 0,
    "listen_any": 0,
    "listen_team": 0
   },
@@ -905,6 +878,15 @@
    "group": "Cricket",
    "league": "csa-women-pro20-series-2026-27",
    "games": 2,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Bangladesh tour of South Africa 2026/27": {
+   "group": "Cricket",
+   "league": "bangladesh-tour-of-south-africa-2026-27",
+   "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
