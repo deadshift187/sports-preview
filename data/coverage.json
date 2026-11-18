@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T11:02:02Z",
+ "generated": "2026-11-18T11:32:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -454,7 +454,7 @@
   "Ireland A tour of Zimbabwe 2026/27": {
    "group": "Cricket",
    "league": "ireland-a-tour-of-zimbabwe-2026-27",
-   "games": 3,
+   "games": 4,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -517,7 +517,7 @@
   "Asia Cup Rising Stars (50 Overs) 2026/27": {
    "group": "Cricket",
    "league": "asia-cup-rising-stars-50-overs-2026-27",
-   "games": 6,
+   "games": 8,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -580,7 +580,7 @@
   "Asia Cup Rising Stars": {
    "group": "Cricket",
    "league": "asia-cup-rising-stars",
-   "games": 6,
+   "games": 4,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
