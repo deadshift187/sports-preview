@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T13:32:02Z",
+ "generated": "2026-11-18T14:02:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -378,15 +378,6 @@
    "watch_any": 534,
    "listen_any": 33,
    "listen_team": 33
-  },
-  "EHF European League": {
-   "group": "Other",
-   "league": "tsdb:ehf-european-league",
-   "games": 6,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
   },
   "CONCACAF Nations League": {
    "group": "Soccer",
@@ -833,6 +824,15 @@
    "group": "Cricket",
    "league": "csa-women-pro20-series-2026-27",
    "games": 2,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "EHF European League": {
+   "group": "Other",
+   "league": "tsdb:ehf-european-league",
+   "games": 3,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
