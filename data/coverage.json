@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T10:32:02Z",
+ "generated": "2026-11-18T11:02:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -13,7 +13,7 @@
   "EHF Champions League": {
    "group": "Other",
    "league": "tsdb:ehf-champions-league",
-   "games": 8,
+   "games": 10,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -148,7 +148,7 @@
   "Danish Mens Handball League": {
    "group": "Other",
    "league": "tsdb:danish-mens-handball-league",
-   "games": 3,
+   "games": 4,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -202,7 +202,7 @@
   "CEV Challenge Cup": {
    "group": "Other",
    "league": "tsdb:cev-challenge-cup",
-   "games": 5,
+   "games": 8,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -514,10 +514,10 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "Asia Cup Rising Stars": {
+  "Asia Cup Rising Stars (50 Overs) 2026/27": {
    "group": "Cricket",
-   "league": "asia-cup-rising-stars",
-   "games": 12,
+   "league": "asia-cup-rising-stars-50-overs-2026-27",
+   "games": 6,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -571,6 +571,15 @@
   "Malaysia Women's T20I Tri-Series 2026/27": {
    "group": "Cricket",
    "league": "malaysia-women-s-t20i-tri-series-2026-27",
+   "games": 6,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Asia Cup Rising Stars": {
+   "group": "Cricket",
+   "league": "asia-cup-rising-stars",
    "games": 6,
    "watch_confirmed": 0,
    "watch_any": 0,
@@ -824,6 +833,15 @@
    "group": "Cricket",
    "league": "csa-women-pro20-series-2026-27",
    "games": 2,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "EHF European League": {
+   "group": "Other",
+   "league": "tsdb:ehf-european-league",
+   "games": 3,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
