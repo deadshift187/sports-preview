@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T11:32:02Z",
+ "generated": "2026-11-18T12:02:03Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -517,7 +517,7 @@
   "Asia Cup Rising Stars (50 Overs) 2026/27": {
    "group": "Cricket",
    "league": "asia-cup-rising-stars-50-overs-2026-27",
-   "games": 8,
+   "games": 12,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -572,15 +572,6 @@
    "group": "Cricket",
    "league": "malaysia-women-s-t20i-tri-series-2026-27",
    "games": 6,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "Asia Cup Rising Stars": {
-   "group": "Cricket",
-   "league": "asia-cup-rising-stars",
-   "games": 4,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
