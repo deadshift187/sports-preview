@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T14:02:02Z",
+ "generated": "2026-11-18T14:32:01Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -514,9 +514,9 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "Asia Cup Rising Stars (50 Overs) 2026/27": {
+  "Asia Cup Rising Stars (50 Overs)": {
    "group": "Cricket",
-   "league": "asia-cup-rising-stars-50-overs-2026-27",
+   "league": "asia-cup-rising-stars-50-overs",
    "games": 12,
    "watch_confirmed": 0,
    "watch_any": 0,
@@ -671,7 +671,7 @@
    "group": "Soccer",
    "league": "epl",
    "games": 10,
-   "watch_confirmed": 0,
+   "watch_confirmed": 9,
    "watch_any": 10,
    "listen_any": 0,
    "listen_team": 0
