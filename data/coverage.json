@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T04:32:02Z",
+ "generated": "2026-11-19T05:02:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -376,8 +376,8 @@
    "games": 535,
    "watch_confirmed": 471,
    "watch_any": 535,
-   "listen_any": 34,
-   "listen_team": 34
+   "listen_any": 35,
+   "listen_team": 35
   },
   "CONCACAF Nations League": {
    "group": "Soccer",
