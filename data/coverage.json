@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T03:32:02Z",
+ "generated": "2026-11-20T04:02:08Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -482,15 +482,6 @@
    "group": "Cricket",
    "league": "csa-4-day-series-division-1",
    "games": 8,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "F1 Academy": {
-   "group": "Racing",
-   "league": "tsdb:f1-academy",
-   "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
