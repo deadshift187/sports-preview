@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T09:32:02Z",
+ "generated": "2026-11-20T10:02:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -523,15 +523,6 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "KOK": {
-   "group": "Fights",
-   "league": "tsdb:kok",
-   "games": 1,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
   "wXw": {
    "group": "Fights",
    "league": "tsdb:wxw",
@@ -671,6 +662,15 @@
    "group": "Soccer",
    "league": "eredivisie",
    "games": 10,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "KOK": {
+   "group": "Fights",
+   "league": "tsdb:kok",
+   "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
