@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T14:02:03Z",
+ "generated": "2026-11-20T14:32:03Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -442,9 +442,9 @@
    "listen_any": 18,
    "listen_team": 18
   },
-  "Malaysia Women's T20I Tri-Series 2026/27": {
+  "Malaysia Women's T20I Tri-Series": {
    "group": "Cricket",
-   "league": "malaysia-women-s-t20i-tri-series-2026-27",
+   "league": "malaysia-women-s-t20i-tri-series",
    "games": 7,
    "watch_confirmed": 0,
    "watch_any": 0,
