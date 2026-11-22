@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T03:32:01Z",
+ "generated": "2026-11-22T04:02:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -671,15 +671,6 @@
    "group": "Cricket",
    "league": "sheffield-shield",
    "games": 3,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "Moto3": {
-   "group": "Racing",
-   "league": "tsdb:moto3",
-   "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
