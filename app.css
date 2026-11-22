@@ -71,7 +71,12 @@ main { padding: 4px 16px 40px; max-width: 760px; margin: 0 auto; }
 .optdiv { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .5px; width: 100%; margin: 4px 0 0; }
 .bundlelbl { font-size: 12px; color: var(--muted); width: 100%; margin: 2px 0 -2px; }
 .opt.bundle { font-size: 12px; padding: 4px 8px; color: var(--muted); border-color: var(--line); }
-.listen { font-size: 13px; color: var(--muted); margin-top: 8px; }
+/* Primary "how to watch" button — names the exact app; the big variant is the biggest thing on the card. */
+.opt.watchmain { font-size: 14px; font-weight: 600; }
+.opt.watchmain.big { display: flex; width: 100%; justify-content: space-between; align-items: center; font-size: 15px; font-weight: 700; padding: 12px 14px; border-width: 2px; border-radius: 10px; margin: 2px 0; }
+.opt.watchmain.big small { font-size: 12px; font-weight: 600; white-space: nowrap; }
+.freenote { font-size: 12px; color: #35c17f; width: 100%; margin: 1px 0 3px; }
+.listen { font-size: 12px; color: var(--muted); margin-top: 8px; opacity: .8; }
 .listen b { color: var(--text); font-weight: 500; }
 .more { background: none; border: 0; color: var(--muted); font-size: 12px; padding: 6px 0 0; text-decoration: underline; }
 .detail { border-top: 1px solid var(--line); margin-top: 10px; padding-top: 8px; font-size: 13px; }

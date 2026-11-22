@@ -126,6 +126,8 @@
   // Does this game have a real US watch option (not just a "Network TBA" placeholder)? Games with
   // none are sunk into a collapsed "Other events" group so they don't flood Today/week.
   function hasListing(g) { return !!(g.watch && g.watch.some(function (w) { return w && !w.tba; })); }
+  // Services that are free to use (so a button for them reads "free", not "subscription").
+  var FREE_SVC = { antenna: 1, tubi: 1, pluto: 1, rokuchannel: 1, roku: 1, fandango: 1, youtube: 1, nwslplus: 1, freevee: 1, vix: 1, kanopy: 1 };
   // Readable short team label for compact spots (ticker): short name beats a cryptic college abbr
   // like "TOW"/"AMER". Falls back to name, then abbr.
   function tkName(t) { if (!t) return "?"; return String(t.short || t.name || t.abbr || "?").slice(0, 11); }
@@ -614,22 +616,49 @@
 
     var opts = el("div", "opts");
     var dividerPut = false, shown = {};
-    function ensureDivider() { if (!dividerPut && opts.children.length) { opts.appendChild(el("span", "optdiv", "stream / pay")); dividerPut = true; } }
+    function ensureDivider() { if (!dividerPut && opts.children.length) { opts.appendChild(el("span", "optdiv", "more ways to watch")); dividerPut = true; } }
+    function firstStream(apps) { for (var i = 0; i < (apps || []).length; i++) { var a = apps[i]; if (a !== "antenna" && a !== "cable") return a; } return null; }
+    function ownedOf(apps) { for (var i = 0; i < (apps || []).length; i++) if (owned.has(apps[i])) return apps[i]; return null; }
+    // The big, primary "how to watch" button for one network. Names the exact app in plain words
+    // ("📺 CBS → Watch in the Paramount+ app") so there's no guessing which of a network's apps to open.
+    function netBtn(r, big) {
+      if (r.tba) return watchBtn(r);
+      var app = ownedOf(r.w.apps) || firstStream(r.w.apps);
+      var color, sub, url = "", label;
+      if (app) {
+        shown[app] = 1;
+        url = safeUrl(svcWeb(app));
+        var isOwned = owned.has(app), isFree = FREE_SVC[app];
+        color = isOwned ? "gold" : (isFree ? "green" : "orange");
+        sub = isOwned ? "you have it" : (isFree ? "free" : "subscription");
+        label = "📺 " + r.w.name + " → Watch in the " + svcName(app) + " app";
+      } else {
+        color = r.w.free_ota ? "green" : "orange";
+        sub = r.w.free_ota ? "free with a TV antenna" : "check listings";
+        label = "📺 " + r.w.name + (r.w.free_ota ? " → Free with a TV antenna" : "");
+      }
+      var a = el(url ? "a" : "span", "opt watchmain c-" + color + (big ? " big" : ""));
+      if (url) { a.href = url; a.onclick = function (e) { e.preventDefault(); handleWatchTap(app, url); }; }
+      a.appendChild(document.createTextNode(label));
+      if (sub) a.appendChild(el("small", null, sub));
+      return a;
+    }
+    ranked.forEach(function (r, i) {
+      if (!r.tba && r.cat === "pay" && i > 0) ensureDivider();
+      opts.appendChild(netBtn(r, i === 0));
+    });
+    // If the top network is also free over the air (we named its stream app above), say so.
+    var t0 = ranked[0];
+    if (t0 && t0.w && t0.w.free_ota && firstStream(t0.w.apps)) opts.appendChild(el("div", "freenote", "✅ Also free on " + t0.w.name + " with a TV antenna"));
+    // Any OTHER apps these networks carry (deduped), as smaller tappable links.
     ranked.forEach(function (r) {
-      if (r.tba) { opts.appendChild(watchBtn(r)); return; }
-      if (r.cat === "pay") ensureDivider();   // divider before the first pay (orange) option
-      opts.appendChild(watchBtn(r));
-      if (r.open) shown[r.open] = 1;
-      // ALWAYS surface the network's own stream app(s) too (e.g. CBS -> Paramount+, FOX -> Fox One),
-      // so an over-the-air game still has a tappable link. Gold if the user has it, else pay.
+      if (r.tba) return;
       (r.w.apps || []).forEach(function (id) {
         if (id === "antenna" || id === "cable" || shown[id]) return;
-        shown[id] = 1;
-        if (!owned.has(id)) ensureDivider();
-        opts.appendChild(svcBtn(id, owned));
+        shown[id] = 1; ensureDivider(); opts.appendChild(svcBtn(id, owned));
       });
     });
-    // Live-TV bundles that carry these channels (YouTube TV, Fubo, Sling, DIRECTV…) - from ANY option.
+    // Live-TV bundles that carry these channels (YouTube TV, Fubo, Sling, DIRECTV…).
     var bundleIds = {};
     ranked.forEach(function (r) { if (!r.tba) (r.w.bundles || []).forEach(function (b) { if (b !== "cable" && !owned.has(b) && !shown[b]) bundleIds[b] = 1; }); });
     var bl = Object.keys(bundleIds);
@@ -646,24 +675,11 @@
     }
     if (ranked.length) c.appendChild(opts);
 
-    // LISTEN (short line + expand) — show BOTH teams' flagships + a national feed, not just one side.
+    // LISTEN — radio is secondary to watch links (per Saint): one small muted line; the full station
+    // list lives under "Details & sources". Never render it ahead of the watch options above.
     if ((g.listen || []).length) {
-      var team = g.listen.filter(function (l) { return l.kind === "team" || l.kind === "game"; });
-      var nat = g.listen.filter(function (l) { return l.kind !== "team" && l.kind !== "game"; });
-      var parts = [];
-      var away = team.filter(function (l) { return l.side === "away"; })[0];
-      var home = team.filter(function (l) { return l.side === "home"; })[0];
-      var sideLabel = function (l, t) { return esc(l.name) + (t ? ' <span class="rteam">' + esc(t) + "</span>" : ""); };
-      if (away || home) {
-        if (away) parts.push(sideLabel(away, away.team));
-        if (home) parts.push(sideLabel(home, home.team));
-      } else { parts = team.slice(0, 2).map(function (l) { return esc(l.name); }); }
-      // prefer a true national feed (ESPN Radio) over a satellite channel on the one-liner
-      var national = nat.filter(function (l) { return l.kind === "national"; })[0] || nat.filter(function (l) { return l.kind === "satellite"; })[0];
-      if (national) parts.push(esc(national.name));
-      if (!parts.length && nat[0]) parts.push(esc(nat[0].name));
-      var line = el("div", "listen");
-      line.innerHTML = "📻 <b>Listen:</b> " + (parts.join("  ·  ") || "see options");
+      var line = el("div", "listen muted");
+      line.textContent = "📻 Listen: radio available — see Details";
       c.appendChild(line);
     }
 
