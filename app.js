@@ -122,13 +122,35 @@
   // Does this game have a real US watch option (not just a "Network TBA" placeholder)? Games with
   // none are sunk into a collapsed "Other events" group so they don't flood Today/week.
   function hasListing(g) { return !!(g.watch && g.watch.some(function (w) { return w && !w.tba; })); }
-  // Sort: live first, then upcoming (soonest first), then finished (most recent first) at the bottom.
+  // Readable short team label for compact spots (ticker): short name beats a cryptic college abbr
+  // like "TOW"/"AMER". Falls back to name, then abbr.
+  function tkName(t) { if (!t) return "?"; return String(t.short || t.name || t.abbr || "?").slice(0, 11); }
+  // Fan-priority by sport/league so the games most people want lead every list. NFL first on any day,
+  // then NBA/CFB, MLB/NHL, top soccer, college hoops; golf/racing/niche go last.
+  var SPORT_PRI = { nfl: 0, nba: 10, cfb: 11, mlb: 20, nhl: 21,
+    epl: 30, mls: 31, laliga: 32, seriea: 33, bundesliga: 34, ligue1: 35, ucl: 36, uel: 37, uecl: 37,
+    "liga-mx": 38, ligamx: 38, efl: 39, champ: 39, mcbb: 50, wcbb: 51, wnba: 52 };
+  function sportPri(g) {
+    var k = (g.league || "").toLowerCase();
+    if (k in SPORT_PRI) return SPORT_PRI[k];
+    var grp = (g.group || "").toLowerCase();
+    if (grp === "football") return 5;        // any other football
+    if (grp === "soccer") return 40;         // other soccer leagues
+    if (grp === "basketball") return 53;     // other hoops
+    if (grp === "hockey" || grp === "baseball") return 25;
+    if (grp === "golf" || grp === "racing") return 95;   // golf/racing near the bottom
+    return 85;                               // tennis, fights, cricket, niche
+  }
   function orderRank(g) { return liveNow(g) ? 0 : (g.status === "post" ? 2 : 1); }
+  // Order: finished games sink; then fan-priority sport; then live-first within a sport; then time.
   function gameOrder(a, b) {
-    var ra = orderRank(a), rb = orderRank(b); if (ra !== rb) return ra - rb;
+    var pa2 = (orderRank(a) === 2) ? 1 : 0, pb2 = (orderRank(b) === 2) ? 1 : 0;
+    if (pa2 !== pb2) return pa2 - pb2;
+    var pa = sportPri(a), pb = sportPri(b); if (pa !== pb) return pa - pb;
+    var la = liveNow(a) ? 0 : 1, lb = liveNow(b) ? 0 : 1; if (la !== lb) return la - lb;
     var sa = a.start || "", sb = b.start || "";
-    if (ra === 2) return sa < sb ? 1 : (sa > sb ? -1 : 0);   // past: recent first
-    return sa < sb ? -1 : (sa > sb ? 1 : 0);                 // live/upcoming: soonest first
+    if (pa2) return sa < sb ? 1 : (sa > sb ? -1 : 0);   // past: recent first
+    return sa < sb ? -1 : (sa > sb ? 1 : 0);            // soonest first
   }
   function inView(g) {
     var s = parse(g.start); if (!s) return state.view === "week";
@@ -233,8 +255,11 @@
       return inView(g);
     });
     games.sort(function (a, b) {
-      var la = liveNow(a) ? 0 : 1, lb = liveNow(b) ? 0 : 1;
-      return (la - lb) || ((a.start || "") < (b.start || "") ? -1 : 1);
+      // Live games first (one group), then days in order; WITHIN each group, fan-priority sport then time.
+      var da = liveNow(a) ? "0" : (dayKeyG(a) || "~"), db = liveNow(b) ? "0" : (dayKeyG(b) || "~");
+      if (da !== db) return da < db ? -1 : 1;
+      var pa = sportPri(a), pb = sportPri(b); if (pa !== pb) return pa - pb;
+      return (a.start || "") < (b.start || "") ? -1 : 1;
     });
     if (!games.length) {
       if (!(state.q && titles.length))  // if titles already shown for the search, don't nag
@@ -285,12 +310,18 @@
     var all = (state.data.games || []).filter(function (g) { return liveNow(g) && hasListing(g); });
     var strip = (myLive && myLive.length) ? myLive : all;
     if (!strip.length) return;
+    strip = strip.slice().sort(function (a, b) { var pa = sportPri(a), pb = sportPri(b); return pa !== pb ? pa - pb : ((a.start || "") < (b.start || "") ? -1 : 1); });
     var wrap = el("div", "livestrip");
     strip.slice(0, 12).forEach(function (g) {
       var c = el("button", "livecard");
       c.appendChild(el("span", "lc-lg", g.league_name));
-      var sc = g.score ? ((g.away && g.away.abbr || "") + " " + g.score.away + " · " + g.score.home + " " + (g.home && g.home.abbr || "")) :
-        ((g.away && g.away.abbr || "?") + " · " + (g.home && g.home.abbr || "?"));
+      var sc;
+      if (g.home || g.away) {   // team sport
+        var aw = tkName(g.away), hm = tkName(g.home);
+        sc = g.score ? (aw + " " + g.score.away + " · " + g.score.home + " " + hm) : (aw + " · " + hm);
+      } else {                  // individual sport (golf/racing/tennis): the event, not "? · ?"
+        sc = (g.short || g.name || g.league_name || "").slice(0, 26);
+      }
       c.appendChild(el("span", "lc-score", sc));
       c.appendChild(el("span", "lc-state", GFLive.liveLine(g)));
       c.onclick = function () { state.q = (g.home && g.home.name) || (g.away && g.away.name) || ""; $("#q").value = state.q; render(); };

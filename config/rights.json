@@ -82,6 +82,15 @@
   "nba": {
    "holders": [
     {
+     "name": "NBA League Pass",
+     "share": "out-of-market default (games without a confirmed national-TV window) — check listings; nationally televised games are blacked out",
+     "lang": "en",
+     "all": true,
+     "only_if_empty": true,
+     "verified": true,
+     "source": "https://www.sportsmediawatch.com/nba-tv-schedule/"
+    },
+    {
      "name": "ABC / ESPN",
      "share": "select national",
      "lang": "en",
@@ -110,15 +119,6 @@
      "share": "select",
      "lang": "en",
      "all": false,
-     "verified": true,
-     "source": "https://www.sportsmediawatch.com/nba-tv-schedule/"
-    },
-    {
-     "name": "NBA League Pass",
-     "share": "out-of-market (all out-of-market locally televised games + NBA TV)",
-     "lang": "en",
-     "all": true,
-     "only_if_empty": true,
      "verified": true,
      "source": "https://www.sportsmediawatch.com/nba-tv-schedule/"
     },
