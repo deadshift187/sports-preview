@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T23:32:01Z",
+ "generated": "2026-11-22T00:02:01Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -31,7 +31,7 @@
   "PDC Darts": {
    "group": "Other",
    "league": "tsdb:pdc-darts",
-   "games": 15,
+   "games": 16,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -571,7 +571,7 @@
   "Nations Championship": {
    "group": "Rugby",
    "league": "nations-championship",
-   "games": 7,
+   "games": 10,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
