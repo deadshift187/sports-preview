@@ -4,6 +4,10 @@
   var el = function (t, c, x) { var e = document.createElement(t); if (c) e.className = c; if (x != null) e.textContent = x; return e; };
   // Public build (GitHub Pages) sets window.GF_PUBLIC and serves data/ beside index.html.
   var PUBLIC = !!window.GF_PUBLIC;
+  // My Bets is on by default; a store/individual-account build sets window.GF_BETS=false to remove it
+  // entirely (the tab AND all sportsbook links), so v1 can ship sports-only (no 18+/gambling review).
+  var BETS = (window.GF_BETS !== false);
+  if (!BETS) { try { var _bt = document.querySelector('[data-v="bets"]'); if (_bt) _bt.style.display = "none"; } catch (e) {} }
   var BASE = /\/app\//.test(location.pathname) ? "../" : "./";
   var DATA = BASE + "data/games.json";
   // Apply the configurable app name (config.js) to the title + header, so renaming is one-string.
@@ -245,6 +249,7 @@
     // Search works from ANY tab: a non-empty query shows matching games across all days.
     if (state.q) { renderSearch(owned); return; }
     tzBanner();
+    if (state.view === "bets" && !BETS) state.view = "foryou";   // bets removed in this build
     if (state.view === "bets") { renderBets(owned); return; }
     if (state.view === "foryou") { renderForYou(owned); return; }
 
@@ -653,7 +658,7 @@
     }
 
     // Your bets on this game (organizer link; only if the user has any)
-    var mybets = betsForGame(g.id);
+    var mybets = BETS ? betsForGame(g.id) : [];
     if (mybets.length) {
       var bl = el("button", "yourbets", "💰 Your bet" + (mybets.length > 1 ? "s" : "") + " on this game (" + mybets.length + ")");
       bl.onclick = function () { state.view = "bets"; state.focus = null; syncSeg(); render(); };
