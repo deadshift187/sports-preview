@@ -1125,6 +1125,15 @@
   "mcbb": {
    "holders": [
     {
+     "name": "ESPN+",
+     "share": "Most Division I men's basketball without a national-TV window streams on ESPN+ (or the home school's conference network) — check listings",
+     "lang": "en",
+     "all": true,
+     "only_if_empty": true,
+     "verified": true,
+     "source": "https://www.espn.com/espnplus/sport/college-basketball"
+    },
+    {
      "name": "ESPN family (ABC/ESPN/ESPN2/ESPNU/SECN/ACCN/ESPN+)",
      "share": "SEC, ACC (all), Big 12 select",
      "lang": "en",
@@ -1166,6 +1175,27 @@
     }
    ],
    "note": "Big East deal 2025-26 through 2030-31 (official). Per-conference split for other leagues only from a secondary 2026-27 guide. March Madness 2027 reportedly expands to 76 teams (secondary source, not verified)."
+  },
+  "wcbb": {
+   "holders": [
+    {
+     "name": "ESPN+",
+     "share": "Most Division I women's basketball without a national-TV window streams on ESPN+ (or the home school's conference network) — check listings",
+     "lang": "en",
+     "all": true,
+     "only_if_empty": true,
+     "verified": true,
+     "source": "https://www.espn.com/espnplus/sport/college-basketball"
+    },
+    {
+     "name": "ESPN family (ABC/ESPN/ESPN2/ESPNU/SECN/ACCN/ESPN+)",
+     "share": "SEC, ACC, Big 12 and most conferences (ESPN is the lead women's rights holder)",
+     "lang": "en",
+     "all": false,
+     "verified": false,
+     "source": "https://www.espn.com/espnplus/sport/college-basketball"
+    }
+   ]
   },
   "brasileirao": {
    "holders": [

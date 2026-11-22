@@ -6,6 +6,8 @@
   var PUBLIC = !!window.GF_PUBLIC;
   var BASE = /\/app\//.test(location.pathname) ? "../" : "./";
   var DATA = BASE + "data/games.json";
+  // Apply the configurable app name (config.js) to the title + header, so renaming is one-string.
+  (function () { var n = window.GF_APP_NAME; if (!n) return; try { document.title = n; var h = document.getElementById("appName"); if (h) h.textContent = n; } catch (e) {} })();
 
   var store = {
     get services() { return load("gf_services", []); },
@@ -34,6 +36,7 @@
 
   fetch(DATA, { cache: "no-store" }).then(function (r) { return r.json(); }).then(function (d) {
     state.data = d; SVC = d.services || [];
+    if (window.GF_NATIVE) window.__GF_GAMES__ = d.games;   // let native.js schedule game reminders
     buildSettings(); buildGroups(); render();
     // First run: offer Setup, but never steal focus while the user is already typing a search.
     if (!store.seen) {

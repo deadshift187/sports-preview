@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T19:32:04Z",
+ "generated": "2026-11-22T20:02:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -40,7 +40,7 @@
   "AFL Womens": {
    "group": "Other",
    "league": "tsdb:afl-womens",
-   "games": 23,
+   "games": 25,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -85,7 +85,7 @@
   "German Handball-Bundesliga": {
    "group": "Other",
    "league": "tsdb:german-handball-bundesliga",
-   "games": 15,
+   "games": 23,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -94,7 +94,7 @@
   "German 1. Bundesliga": {
    "group": "Other",
    "league": "tsdb:german-1-bundesliga",
-   "games": 40,
+   "games": 44,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -121,7 +121,7 @@
   "French LNH Division 1": {
    "group": "Other",
    "league": "tsdb:french-lnh-division-1",
-   "games": 1,
+   "games": 3,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -130,7 +130,7 @@
   "World Snooker": {
    "group": "Other",
    "league": "tsdb:world-snooker",
-   "games": 9,
+   "games": 11,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -139,7 +139,7 @@
   "MotoGP": {
    "group": "Racing",
    "league": "tsdb:motogp",
-   "games": 2,
+   "games": 6,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -157,7 +157,7 @@
   "Formula 1": {
    "group": "Racing",
    "league": "tsdb:formula-1",
-   "games": 4,
+   "games": 12,
    "watch_confirmed": 2,
    "watch_any": 2,
    "listen_any": 0,
@@ -528,7 +528,7 @@
    "league": "wcbb",
    "games": 504,
    "watch_confirmed": 395,
-   "watch_any": 395,
+   "watch_any": 504,
    "listen_any": 47,
    "listen_team": 47
   },
@@ -617,6 +617,15 @@
    "group": "Cricket",
    "league": "sheffield-shield",
    "games": 3,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Moto3": {
+   "group": "Racing",
+   "league": "tsdb:moto3",
+   "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -742,7 +751,7 @@
   "V8 Supercars": {
    "group": "Racing",
    "league": "tsdb:v8-supercars",
-   "games": 2,
+   "games": 3,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -844,6 +853,15 @@
    "games": 1,
    "watch_confirmed": 1,
    "watch_any": 1,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Formula 2": {
+   "group": "Racing",
+   "league": "tsdb:formula-2",
+   "games": 1,
+   "watch_confirmed": 0,
+   "watch_any": 0,
    "listen_any": 0,
    "listen_team": 0
   }

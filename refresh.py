@@ -30,6 +30,8 @@ DATA = os.path.join(ROOT, "data")
 RESEARCH = os.path.join(DATA, "research")
 ESPN = "https://site.api.espn.com/apis/site/v2/sports/"
 TSDB = "https://www.thesportsdb.com/api/v1/json/123/"
+TSDB_TTL = 4 * 3600   # cache TheSportsDB responses 4h: the free key rate-limits (429), and the
+                      # laptop refresh runs every 30 min, so most TSDB days are served from cache.
 UA = {"User-Agent": "Mozilla/5.0 (GameFinder personal schedule app)"}
 
 NOW = dt.datetime.now(dt.timezone.utc)
@@ -41,16 +43,63 @@ def log(*a):
 
 
 def get_json(url, tries=2):
+    err = None
     for i in range(tries):
         try:
             req = urllib.request.Request(url, headers=UA)
             with urllib.request.urlopen(req, timeout=25) as r:
                 return json.load(r)
-        except Exception as e:  # network blips: retry once, then give up quietly
+        except Exception as e:  # network blips: retry, then give up quietly
             err = e
-            time.sleep(1 + i)
+            # HTTP 429 = rate limited (TheSportsDB free key): short backoff, then give up and let the
+            # cache / carry-over cover it (a long per-call sleep would bloat the run past the 30-min cadence).
+            if getattr(e, "code", None) == 429:
+                time.sleep(3 + 2 * i)
+            else:
+                time.sleep(1 + i)
     log("  fetch failed", url[:110], err)
     return None
+
+
+CACHE_DIR = os.path.join(DATA, "cache")
+
+
+def cache_get(url, ttl):
+    """Return a cached JSON body for url if newer than ttl seconds, else None."""
+    import hashlib
+    p = os.path.join(CACHE_DIR, hashlib.sha1(url.encode()).hexdigest() + ".json")
+    try:
+        if os.path.exists(p) and (time.time() - os.path.getmtime(p)) < ttl:
+            with open(p, encoding="utf-8") as f:
+                return json.load(f)
+    except Exception:
+        pass
+    return None
+
+
+def cache_put(url, body):
+    import hashlib
+    try:
+        os.makedirs(CACHE_DIR, exist_ok=True)
+        p = os.path.join(CACHE_DIR, hashlib.sha1(url.encode()).hexdigest() + ".json")
+        with open(p, "w", encoding="utf-8") as f:
+            json.dump(body, f)
+    except Exception:
+        pass
+
+
+def get_json_cached(url, ttl, tries=2):
+    """get_json with a disk cache: serve fresh cache without a request; on a failed/ratelimited
+    fetch, fall back to a STALE cached copy (better than blanking the data)."""
+    hit = cache_get(url, ttl)
+    if hit is not None:
+        return hit, True   # (body, from_cache) - caller can skip its rate-limit sleep
+    body = get_json(url, tries=tries)
+    if body is not None:
+        cache_put(url, body)
+        return body, False
+    stale = cache_get(url, ttl * 1000)   # any age: last-good beats nothing on a 429 storm
+    return stale, (stale is not None)
 
 
 def load(path, default=None):
@@ -363,8 +412,10 @@ def fetch_tsdb(days):
     def one(j):
         s, d = j
         iso = f"{d[:4]}-{d[4:6]}-{d[6:]}"
-        time.sleep(2.1)  # free key = 30 requests/minute
-        r = get_json(TSDB + "eventsday.php?" + urllib.parse.urlencode({"d": iso, "s": s}))
+        url = TSDB + "eventsday.php?" + urllib.parse.urlencode({"d": iso, "s": s})
+        r, cached = get_json_cached(url, TSDB_TTL)
+        if not cached:
+            time.sleep(2.1)  # free key = 30 requests/minute (only when we actually hit the network)
         if r is None:
             SRC_FAILED.add("tsdb")   # so TheSportsDB-sourced games carry over instead of vanishing
         return s, (r or {}).get("events") or []
@@ -398,8 +449,10 @@ def fetch_tsdb(days):
     # TV listings (free key returns a sample; US entries only)
     for d in days:
         iso = f"{d[:4]}-{d[4:6]}-{d[6:]}"
-        time.sleep(2.1)
-        r = get_json(TSDB + "eventstv.php?d=" + iso) or {}
+        r, cached = get_json_cached(TSDB + "eventstv.php?d=" + iso, TSDB_TTL)
+        r = r or {}
+        if not cached:
+            time.sleep(2.1)
         for t in r.get("tvevents") or []:
             if (t.get("strCountry") or "") not in ("United States", "USA"):
                 continue
@@ -636,8 +689,29 @@ def coverage(games):
 
 def main():
     soon = "--soon" in sys.argv
-    leagues = load(os.path.join(CFG, "leagues.json"))["leagues"]
     os.makedirs(DATA, exist_ok=True)
+    # Single-runner lock: the laptop task fires every 30 min, and a slow run (TheSportsDB rate limits)
+    # could otherwise overlap the next one - two refreshers then blow past TheSportsDB's 30/min and
+    # amplify 429s. If a fresh lock exists, skip this run.
+    lock = os.path.join(DATA, ".refresh.lock")
+    try:
+        if os.path.exists(lock) and (time.time() - os.path.getmtime(lock)) < 25 * 60:
+            log("  another refresh is running (lock fresh) - skipping this run")
+            return
+        with open(lock, "w") as f:
+            f.write(str(os.getpid()))
+    except Exception:
+        lock = None
+    try:
+        _run(soon)
+    finally:
+        if lock:
+            try: os.remove(lock)
+            except Exception: pass
+
+
+def _run(soon):
+    leagues = load(os.path.join(CFG, "leagues.json"))["leagues"]
     out_path = os.path.join(DATA, "games.json")
     prev = load(out_path, {}) or {}
 
