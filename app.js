@@ -613,18 +613,28 @@
     var w = el("div", "why c-" + why.color, why.text); c.appendChild(w);
 
     var opts = el("div", "opts");
-    var dividerPut = false;
+    var dividerPut = false, shown = {};
+    function ensureDivider() { if (!dividerPut && opts.children.length) { opts.appendChild(el("span", "optdiv", "stream / pay")); dividerPut = true; } }
     ranked.forEach(function (r) {
-      // one divider before the first pay (orange) option
-      if (r.cat === "pay" && !dividerPut && opts.children.length) { opts.appendChild(el("span", "optdiv", "pay / download")); dividerPut = true; }
+      if (r.tba) { opts.appendChild(watchBtn(r)); return; }
+      if (r.cat === "pay") ensureDivider();   // divider before the first pay (orange) option
       opts.appendChild(watchBtn(r));
+      if (r.open) shown[r.open] = 1;
+      // ALWAYS surface the network's own stream app(s) too (e.g. CBS -> Paramount+, FOX -> Fox One),
+      // so an over-the-air game still has a tappable link. Gold if the user has it, else pay.
+      (r.w.apps || []).forEach(function (id) {
+        if (id === "antenna" || id === "cable" || shown[id]) return;
+        shown[id] = 1;
+        if (!owned.has(id)) ensureDivider();
+        opts.appendChild(svcBtn(id, owned));
+      });
     });
-    // Fallback pay-TV bundles that carry these channels (YouTube TV, Fubo, Sling…), shown last.
+    // Live-TV bundles that carry these channels (YouTube TV, Fubo, Sling, DIRECTV…) - from ANY option.
     var bundleIds = {};
-    ranked.forEach(function (r) { if (r.cat === "pay" && !r.tba) (r.w.bundles || []).forEach(function (b) { if (b !== "cable" && !owned.has(b)) bundleIds[b] = 1; }); });
+    ranked.forEach(function (r) { if (!r.tba) (r.w.bundles || []).forEach(function (b) { if (b !== "cable" && !owned.has(b) && !shown[b]) bundleIds[b] = 1; }); });
     var bl = Object.keys(bundleIds);
     if (bl.length) {
-      if (!dividerPut && opts.children.length) opts.appendChild(el("span", "optdiv", "pay / download"));
+      ensureDivider();
       opts.appendChild(el("span", "bundlelbl", "or a live-TV bundle:"));
       bl.forEach(function (b) {
         var web = safeUrl(svcWeb(b));
@@ -776,6 +786,16 @@
     document.body.appendChild(back);
   }
 
+  // A tappable button for one service app (the network's own stream, a pay app, etc.). Never a dead
+  // chip: if the service has a web/app link it is a link; gold when the user has it, else orange.
+  function svcBtn(id, owned) {
+    var web = safeUrl(svcWeb(id)), have = owned.has(id);
+    var a = el(web ? "a" : "span", "opt c-" + (have ? "gold" : "orange"));
+    if (web) { a.href = web; a.onclick = function (e) { e.preventDefault(); handleWatchTap(id, web); }; }
+    a.appendChild(document.createTextNode(svcName(id)));
+    a.appendChild(el("small", null, have ? "you have it" : "subscription"));
+    return a;
+  }
   function watchBtn(r) {
     if (r.tba) { var t = el("span", "opt c-orange unv"); t.appendChild(document.createTextNode("Network TBA")); t.appendChild(el("small", null, "check listings")); return t; }
     var url = safeUrl(svcWeb(r.open) || (r.cat === "free" && r.w.free_evidence) || "");
