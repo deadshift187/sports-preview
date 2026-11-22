@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1920, height=1080">
+<title>Game Finder TV</title>
+<link rel="stylesheet" href="tv.css">
+</head>
+<body>
+<div id="app">
+  <header id="bar">
+    <div class="brand">Game Finder</div>
+    <nav id="views" class="row">
+      <button class="seg" data-v="live">Live now</button>
+      <button class="seg" data-v="today">Today</button>
+      <button class="seg" data-v="weekend">This weekend</button>
+      <button class="seg" data-v="week">Week</button>
+      <button class="seg" data-v="mine">My teams</button>
+      <button class="seg" data-v="setup">Setup</button>
+    </nav>
+    <div id="groups" class="row"></div>
+    <div id="live" class="live-ind"></div>
+    <div id="clock"></div>
+  </header>
+  <div id="legend">
+    <span class="lgi"><i class="dot green"></i>Free</span>
+    <span class="lgi"><i class="dot gold"></i>You have it</span>
+    <span class="lgi"><i class="dot orange"></i>Pay / download</span>
+  </div>
+  <main id="list"></main>
+  <footer id="foot"></footer>
+</div>
+
+<div id="overlay" hidden>
+  <div id="sheet">
+    <div id="sheetTitle"></div>
+    <div id="sheetWhy"></div>
+    <div id="watchOpts"></div>
+    <div id="listenBox"></div>
+    <div class="hint">OK = open the app on this TV &nbsp;·&nbsp; BACK = close</div>
+  </div>
+</div>
+
+<div id="toast" hidden></div>
+
+<script src="rank.js"></script>
+<script src="live.js"></script>
+<script src="tv.js"></script>
+</body>
+</html>

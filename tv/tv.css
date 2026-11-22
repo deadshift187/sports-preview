@@ -1,0 +1,83 @@
+/* 10-foot UI for the Samsung Frame. Designed at 1920x1080, remote-navigable. */
+:root {
+  --bg: #0b0e13; --panel: #161b22; --line: #2a313c; --text: #f2f4f7; --muted: #9aa5b3;
+  --accent: #3fb68b; --accent-ink: #052418; --focus: #8ecdff; --live: #ff5a4d; --warn: #e0a84a;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; background: var(--bg); color: var(--text);
+  font-family: "Segoe UI", Roboto, "Samsung One", sans-serif; overflow: hidden;
+  -webkit-user-select: none; user-select: none; }
+#app { height: 100vh; display: flex; flex-direction: column; padding: 36px 56px; }
+#bar { display: flex; align-items: center; gap: 28px; }
+.brand { font-size: 34px; font-weight: 800; letter-spacing: .5px; }
+.row { display: flex; gap: 12px; align-items: center; }
+#groups { flex: 1; overflow: hidden; flex-wrap: nowrap; }
+#clock { font-size: 24px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.seg, .chip { background: var(--panel); border: 2px solid transparent; border-radius: 12px;
+  padding: 10px 20px; font-size: 22px; color: var(--text); }
+.chip { padding: 8px 16px; font-size: 20px; color: var(--muted); }
+.seg.on, .chip.on { background: var(--accent); color: var(--accent-ink); font-weight: 700; }
+.focus { border-color: var(--focus); box-shadow: 0 0 0 4px rgba(142,205,255,.35); outline: none; }
+
+#list { flex: 1; margin-top: 26px; overflow: hidden; display: flex; flex-direction: column; gap: 14px; }
+.game { background: var(--panel); border: 2px solid transparent; border-radius: 16px;
+  padding: 18px 26px; display: flex; align-items: center; gap: 26px; min-height: 92px; }
+.game .when { width: 150px; font-size: 22px; color: var(--muted); }
+.game .when .lv { color: var(--live); font-weight: 800; }
+.game .mid { flex: 1; min-width: 0; }
+.game .lg { font-size: 18px; color: var(--muted); text-transform: uppercase; letter-spacing: .6px; }
+.game .mt { font-size: 28px; font-weight: 600; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.game .where { width: 560px; font-size: 24px; text-align: right; font-weight: 600; }
+.game .where.c-green { color: #46d08f; } .game .where.c-gold { color: #f5c542; }
+.game .where.c-orange { color: #ef9a4e; } .game .where.c-none { color: var(--muted); font-weight: 400; }
+#legend { display: flex; gap: 32px; padding: 14px 0 0; font-size: 20px; color: var(--muted); }
+#legend .lgi { display: inline-flex; align-items: center; gap: 10px; }
+#legend .dot { width: 16px; height: 16px; border-radius: 50%; display: inline-block; }
+.dot.green { background: #46d08f; } .dot.gold { background: #f5c542; } .dot.orange { background: #ef9a4e; }
+.game .pill { display: inline-block; margin-left: 12px; font-size: 18px; background: #0c3; color: #000; }
+.game.focus { border-color: var(--focus); box-shadow: 0 0 0 5px rgba(142,205,255,.4); transform: scale(1.012); }
+
+#foot { margin-top: 18px; font-size: 18px; color: var(--muted); }
+
+#overlay { position: fixed; inset: 0; background: rgba(0,0,0,.72); display: flex; align-items: center; justify-content: center; }
+#overlay[hidden] { display: none; }
+#toast[hidden] { display: none; }
+#sheet { width: 1100px; max-height: 84vh; overflow: hidden; background: var(--bg); border: 2px solid var(--line);
+  border-radius: 22px; padding: 40px 48px; }
+#sheetTitle { font-size: 38px; font-weight: 800; }
+#sheetWhy { font-size: 26px; margin: 10px 0 24px; }
+#sheetWhy.have { color: var(--accent); } #sheetWhy.need { color: var(--muted); }
+#watchOpts { display: flex; flex-direction: column; gap: 12px; }
+.opt { display: flex; align-items: center; gap: 18px; background: var(--panel); border: 2px solid transparent;
+  border-radius: 14px; padding: 18px 26px; font-size: 26px; }
+.opt .svc { flex: 1; } .opt .tag { font-size: 20px; color: var(--muted); }
+.opt.c-green { border-color: #46d08f; color: #46d08f; }
+.opt.c-gold { background: #f5c542; color: #3a2e00; font-weight: 700; }
+.opt.c-gold .tag { color: #3a2e00; opacity: .85; }
+.opt.c-orange { border-color: #ef9a4e; color: #ef9a4e; }
+.opt.getapp .tag { color: #46d08f; font-weight: 700; }
+.opt.focus { border-color: var(--focus); box-shadow: 0 0 0 5px rgba(142,205,255,.45); }
+.divider { font-size: 18px; color: var(--muted); text-transform: uppercase; letter-spacing: .8px; margin: 8px 0 2px; }
+#listenBox { margin-top: 24px; font-size: 22px; color: var(--muted); line-height: 1.5; }
+#listenBox b { color: var(--text); font-weight: 500; }
+.hint { margin-top: 26px; font-size: 20px; color: var(--muted); }
+
+#toast { position: fixed; bottom: 56px; left: 50%; transform: translateX(-50%);
+  background: var(--accent); color: var(--accent-ink); font-size: 26px; font-weight: 700;
+  padding: 18px 34px; border-radius: 14px; box-shadow: 0 8px 30px rgba(0,0,0,.5); }
+.empty { text-align: center; color: var(--muted); font-size: 28px; margin-top: 120px; }
+.live-ind { font-size: 22px; color: var(--muted); display: inline-flex; align-items: center; gap: 8px; margin-right: 20px; }
+.live-ind .dot { width: 14px; height: 14px; border-radius: 50%; display: inline-block; }
+.live-ind .green { background: #46d08f; }
+.live-ind .livedot { background: #ff5a4d; animation: pulse 1.4s infinite; }
+@keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+.setup-head { font-size: 26px; color: var(--muted); margin: 8px 0 18px; }
+.setup-row { display: flex; align-items: center; gap: 22px; }
+.setup-row .chk { font-size: 34px; width: 44px; }
+.setup-row.on { border-color: #f5c542; }
+.setup-row.on .chk { color: #f5c542; }
+.chip.toggle { border-style: dashed; color: var(--muted); }
+.chip.toggle.on { background: var(--accent); color: var(--accent-ink); border-style: solid; }
+.game .when .lv { animation: tvpulse 1.4s infinite; }
+.game .when .lvstate { display: block; color: var(--live); font-size: 18px; font-weight: 600; margin-top: 4px; }
+@keyframes tvpulse { 0%,100% { opacity: 1; } 50% { opacity: .4; } }
