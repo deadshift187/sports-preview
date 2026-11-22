@@ -12,7 +12,8 @@
   var $ = function (s, r) { return (r || document).querySelector(s); };
   var el = function (t, c, x) { var e = document.createElement(t); if (c) e.className = c; if (x != null) e.textContent = x; return e; };
   var IS_TV = !!(window.tizen && tizen.application);          // Samsung Tizen
-  var IS_ANDROID = !!(window.AndroidTV && window.AndroidTV.launch); // Sony / Google TV
+  var IS_ANDROID = !!(window.AndroidTV && window.AndroidTV.launch) ||
+    (/Android/i.test(navigator.userAgent) && /TV|AFT|BRAVIA|GoogleTV|SmartTV|Chromecast/i.test(navigator.userAgent)); // Sony / Google TV
   var IS_WEBOS = !!(window.PalmSystem || /Web0S|webOS/i.test(navigator.userAgent)); // LG
   var ON_TV = IS_TV || IS_ANDROID || IS_WEBOS;
 
@@ -163,7 +164,8 @@
       else plain();
       return;
     }
-    if (IS_ANDROID) { try { window.AndroidTV.launch(sid, deepUrl || "", svcName(sid)); } catch (e) {} return; }
+    // Check the native bridge lazily (Capacitor may inject it after load); else fall through to the instruction.
+    if (window.AndroidTV && window.AndroidTV.launch) { try { window.AndroidTV.launch(sid, deepUrl || "", svcName(sid)); } catch (e) {} return; }
     // Plain TV browser (Samsung Internet, etc.): can't launch apps — tell the user which app to open.
     if (!IS_TV) { toast("📺 Open the " + svcName(sid) + " app on your TV" + (deepUrl ? " and find this game" : "")); return; }
     var app = appFor(sid);
