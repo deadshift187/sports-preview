@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T14:02:02Z",
+ "generated": "2026-11-22T14:32:02Z",
  "leagues": {
   "WWE": {
    "group": "Fights",
@@ -262,9 +262,9 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "SLC Major League Tournament": {
+  "Major League 4-day Tournament 2026/27": {
    "group": "Cricket",
-   "league": "slc-major-league-tournament",
+   "league": "major-league-4-day-tournament-2026-27",
    "games": 6,
    "watch_confirmed": 0,
    "watch_any": 0,
