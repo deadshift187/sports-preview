@@ -128,6 +128,28 @@
   function hasListing(g) { return !!(g.watch && g.watch.some(function (w) { return w && !w.tba; })); }
   // Services that are free to use (so a button for them reads "free", not "subscription").
   var FREE_SVC = { antenna: 1, tubi: 1, pluto: 1, rokuchannel: 1, roku: 1, fandango: 1, youtube: 1, nwslplus: 1, freevee: 1, vix: 1, kanopy: 1 };
+  // Weekday + 24h hour of a game in US Eastern (NFL windows are defined in ET).
+  function etParts(iso) {
+    try {
+      var f = new Intl.DateTimeFormat("en-US", { timeZone: "America/New_York", weekday: "short", hour: "numeric", hour12: false });
+      var o = {}; f.formatToParts(new Date(iso)).forEach(function (p) { o[p.type] = p.value; });
+      return { wd: o.weekday, hr: parseInt(o.hour, 10) };
+    } catch (e) { return {}; }
+  }
+  // A CBS/FOX Sunday-afternoon NFL game is REGIONAL: the network's stream app (Paramount+/Fox One)
+  // only carries the ONE game picked for the viewer's market, so "watch in the app" misleads for
+  // out-of-market games. National windows (SNF/MNF/TNF, NFL Net) play everywhere.
+  function nflRegional(g, net) {
+    if (g.league !== "nfl" || !/^(CBS|FOX)$/i.test(net || "")) return false;
+    var p = etParts(g.start);
+    return p.wd === "Sun" && typeof p.hr === "number" && p.hr >= 11 && p.hr < 19;  // ~1pm & 4pm ET windows
+  }
+  function nflNational(g, net) {
+    if (g.league !== "nfl") return false;
+    if (/\b(NBC|Peacock|ESPN|ABC|Prime|Amazon|NFL Net|NFL Network|Netflix)\b/i.test(net || "")) return true;
+    if (/^(CBS|FOX)$/i.test(net || "")) return !nflRegional(g, net);   // CBS/FOX outside the Sunday windows = national/special
+    return false;
+  }
   // Readable short team label for compact spots (ticker): short name beats a cryptic college abbr
   // like "TOW"/"AMER". Falls back to name, then abbr.
   function tkName(t) { if (!t) return "?"; return String(t.short || t.name || t.abbr || "?").slice(0, 11); }
@@ -643,13 +665,30 @@
       if (sub) a.appendChild(el("small", null, sub));
       return a;
     }
+    // Regional vs national (NFL): a CBS/FOX Sunday-afternoon game only streams YOUR market's game in
+    // Paramount+/Fox One, so warn and offer Sunday Ticket. (Per-market accuracy needs the weekly DMA
+    // maps - a follow-up; until then every regional game is treated as "market unknown".)
+    var topNet = (ranked[0] && ranked[0].w) ? ranked[0].w.name : "";
+    var isReg = ranked[0] && nflRegional(g, topNet), isNatl = ranked[0] && nflNational(g, topNet);
+    if (isReg) opts.appendChild(el("div", "warnline", "⚠️ Regional game — your local " + topNet + " may show a DIFFERENT game in your area. " + topNet + "'s app only streams the one game picked for your market."));
+    else if (isNatl) opts.appendChild(el("div", "freenote", "✅ National game — on everywhere."));
     ranked.forEach(function (r, i) {
       if (!r.tba && r.cat === "pay" && i > 0) ensureDivider();
       opts.appendChild(netBtn(r, i === 0));
     });
+    // Regional: always offer NFL Sunday Ticket (YouTube TV) - the only way to watch an out-of-market game.
+    if (isReg) {
+      shown["sundayticket"] = 1;
+      var stweb = safeUrl(svcWeb("sundayticket") || "https://tv.youtube.com/learn/nflsundayticket/");
+      var st = el(stweb ? "a" : "span", "opt watchmain c-orange");
+      if (stweb) { st.href = stweb; st.onclick = function (e) { e.preventDefault(); handleWatchTap("sundayticket", stweb); }; }
+      st.appendChild(document.createTextNode("📡 Out of your market? → NFL Sunday Ticket"));
+      st.appendChild(el("small", null, "YouTube TV"));
+      opts.appendChild(st);
+    }
     // If the top network is also free over the air (we named its stream app above), say so.
     var t0 = ranked[0];
-    if (t0 && t0.w && t0.w.free_ota && firstStream(t0.w.apps)) opts.appendChild(el("div", "freenote", "✅ Also free on " + t0.w.name + " with a TV antenna"));
+    if (t0 && t0.w && t0.w.free_ota && firstStream(t0.w.apps)) opts.appendChild(el("div", "freenote", "✅ Also free on " + t0.w.name + " with a TV antenna (if it's the game in your area)"));
     // Any OTHER apps these networks carry (deduped), as smaller tappable links.
     ranked.forEach(function (r) {
       if (r.tba) return;
