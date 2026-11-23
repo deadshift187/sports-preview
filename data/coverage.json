@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T10:32:02Z",
+ "generated": "2026-11-23T17:02:04Z",
  "leagues": {
   "ATP": {
    "group": "Tennis",
@@ -356,7 +356,7 @@
    "group": "Basketball",
    "league": "wcbb",
    "games": 477,
-   "watch_confirmed": 368,
+   "watch_confirmed": 373,
    "watch_any": 477,
    "listen_any": 43,
    "listen_team": 43
@@ -365,7 +365,7 @@
    "group": "Basketball",
    "league": "mcbb",
    "games": 461,
-   "watch_confirmed": 382,
+   "watch_confirmed": 401,
    "watch_any": 461,
    "listen_any": 25,
    "listen_team": 25
@@ -670,7 +670,7 @@
   "Women's Int'l Friendly": {
    "group": "Soccer",
    "league": "wfriendly",
-   "games": 16,
+   "games": 18,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
