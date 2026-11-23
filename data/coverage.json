@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T18:02:01Z",
+ "generated": "2026-11-23T18:32:01Z",
  "leagues": {
   "ATP": {
    "group": "Tennis",
@@ -581,7 +581,7 @@
    "group": "Golf",
    "league": "dpwt",
    "games": 1,
-   "watch_confirmed": 0,
+   "watch_confirmed": 1,
    "watch_any": 1,
    "listen_any": 0,
    "listen_team": 0
