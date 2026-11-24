@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T06:02:02Z",
+ "generated": "2026-11-24T06:32:02Z",
  "leagues": {
   "ATP": {
    "group": "Tennis",
@@ -76,7 +76,7 @@
   "Pro50 Championship": {
    "group": "Cricket",
    "league": "pro50-championship",
-   "games": 5,
+   "games": 4,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -436,9 +436,9 @@
   "Liga MX": {
    "group": "Soccer",
    "league": "ligamx",
-   "games": 8,
+   "games": 10,
    "watch_confirmed": 0,
-   "watch_any": 8,
+   "watch_any": 10,
    "listen_any": 0,
    "listen_team": 0
   },
@@ -559,15 +559,6 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "Boxing": {
-   "group": "Fights",
-   "league": "tsdb:boxing",
-   "games": 3,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
   "V8 Supercars": {
    "group": "Racing",
    "league": "tsdb:v8-supercars",
@@ -583,6 +574,15 @@
    "games": 1,
    "watch_confirmed": 1,
    "watch_any": 1,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Boxing": {
+   "group": "Fights",
+   "league": "tsdb:boxing",
+   "games": 3,
+   "watch_confirmed": 0,
+   "watch_any": 0,
    "listen_any": 0,
    "listen_team": 0
   },
