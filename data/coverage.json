@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T18:02:02Z",
+ "generated": "2026-11-24T18:32:02Z",
  "leagues": {
   "India tour of New Zealand 2026/27": {
    "group": "Cricket",
@@ -121,7 +121,7 @@
   "International League T20": {
    "group": "Cricket",
    "league": "international-league-t20",
-   "games": 11,
+   "games": 10,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
