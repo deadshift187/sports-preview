@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T21:32:02Z",
+ "generated": "2026-11-24T22:02:02Z",
  "leagues": {
   "India tour of New Zealand 2026/27": {
    "group": "Cricket",
@@ -140,7 +140,7 @@
    "group": "Basketball",
    "league": "wcbb",
    "games": 441,
-   "watch_confirmed": 370,
+   "watch_confirmed": 371,
    "watch_any": 441,
    "listen_any": 41,
    "listen_team": 41
@@ -554,6 +554,15 @@
    "group": "Fights",
    "league": "tsdb:cage-warriors",
    "games": 2,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "PDC Darts": {
+   "group": "Other",
+   "league": "tsdb:pdc-darts",
+   "games": 3,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
