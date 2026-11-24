@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T03:02:01Z",
+ "generated": "2026-11-24T03:32:01Z",
  "leagues": {
   "ATP": {
    "group": "Tennis",
@@ -356,7 +356,7 @@
    "group": "Basketball",
    "league": "wcbb",
    "games": 477,
-   "watch_confirmed": 373,
+   "watch_confirmed": 372,
    "watch_any": 477,
    "listen_any": 43,
    "listen_team": 43
