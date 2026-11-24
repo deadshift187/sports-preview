@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T08:32:02Z",
+ "generated": "2026-11-24T09:02:02Z",
  "leagues": {
   "India tour of New Zealand 2026/27": {
    "group": "Cricket",
@@ -55,42 +55,6 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "Moto3": {
-   "group": "Racing",
-   "league": "tsdb:moto3",
-   "games": 1,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "PDC Darts": {
-   "group": "Other",
-   "league": "tsdb:pdc-darts",
-   "games": 1,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "AEW": {
-   "group": "Fights",
-   "league": "tsdb:aew",
-   "games": 3,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "Formula 1": {
-   "group": "Racing",
-   "league": "tsdb:formula-1",
-   "games": 7,
-   "watch_confirmed": 1,
-   "watch_any": 1,
-   "listen_any": 0,
-   "listen_team": 0
-  },
   "WTA": {
    "group": "Tennis",
    "league": "wta",
@@ -100,54 +64,9 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "Sumo": {
-   "group": "Fights",
-   "league": "tsdb:sumo",
-   "games": 1,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
   "Pro50 Championship": {
    "group": "Cricket",
    "league": "pro50-championship",
-   "games": 3,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "MotoGP": {
-   "group": "Racing",
-   "league": "tsdb:motogp",
-   "games": 3,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "German Handball-Bundesliga": {
-   "group": "Other",
-   "league": "tsdb:german-handball-bundesliga",
-   "games": 12,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "German 1. Bundesliga": {
-   "group": "Other",
-   "league": "tsdb:german-1-bundesliga",
-   "games": 9,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "Italian Volleyball League": {
-   "group": "Other",
-   "league": "tsdb:italian-volleyball-league",
    "games": 3,
    "watch_confirmed": 0,
    "watch_any": 0,
@@ -442,6 +361,15 @@
    "listen_any": 0,
    "listen_team": 0
   },
+  "AEW": {
+   "group": "Fights",
+   "league": "tsdb:aew",
+   "games": 2,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
   "Liga MX": {
    "group": "Soccer",
    "league": "ligamx",
@@ -532,6 +460,15 @@
    "listen_any": 0,
    "listen_team": 0
   },
+  "German Handball-Bundesliga": {
+   "group": "Other",
+   "league": "tsdb:german-handball-bundesliga",
+   "games": 9,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
   "CEV Champions League": {
    "group": "Other",
    "league": "tsdb:cev-champions-league",
@@ -545,6 +482,15 @@
    "group": "Other",
    "league": "tsdb:french-ligue-a-mens-volleyball",
    "games": 1,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Italian Volleyball League": {
+   "group": "Other",
+   "league": "tsdb:italian-volleyball-league",
+   "games": 2,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -583,6 +529,15 @@
    "games": 26,
    "watch_confirmed": 0,
    "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Formula 1": {
+   "group": "Racing",
+   "league": "tsdb:formula-1",
+   "games": 6,
+   "watch_confirmed": 1,
+   "watch_any": 1,
    "listen_any": 0,
    "listen_team": 0
   },
@@ -643,7 +598,7 @@
   "World Snooker": {
    "group": "Other",
    "league": "tsdb:world-snooker",
-   "games": 3,
+   "games": 4,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -676,10 +631,28 @@
    "listen_any": 0,
    "listen_team": 0
   },
+  "MotoGP": {
+   "group": "Racing",
+   "league": "tsdb:motogp",
+   "games": 2,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
   "French LNH Division 1": {
    "group": "Other",
    "league": "tsdb:french-lnh-division-1",
    "games": 2,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "German 1. Bundesliga": {
+   "group": "Other",
+   "league": "tsdb:german-1-bundesliga",
+   "games": 7,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
