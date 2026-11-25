@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T17:32:01Z",
+ "generated": "2026-11-25T18:02:01Z",
  "leagues": {
   "India tour of New Zealand 2026/27": {
    "group": "Cricket",
@@ -698,6 +698,15 @@
    "group": "Cricket",
    "league": "hong-kong-premier-league-one-day-tournament",
    "games": 1,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Naresh Shrestha Memorial U19 Men's National Cricket Tournament 2026/27": {
+   "group": "Cricket",
+   "league": "naresh-shrestha-memorial-u19-men-s-national-cricket-tournament-2026-27",
+   "games": 4,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
