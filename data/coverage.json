@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T08:02:02Z",
+ "generated": "2026-11-25T08:32:02Z",
  "leagues": {
   "India tour of New Zealand 2026/27": {
    "group": "Cricket",
@@ -100,24 +100,6 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "Polish PlusLiga": {
-   "group": "Other",
-   "league": "tsdb:polish-plusliga",
-   "games": 8,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "WWE": {
-   "group": "Fights",
-   "league": "tsdb:wwe",
-   "games": 4,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
   "DDT Pro": {
    "group": "Fights",
    "league": "tsdb:ddt-pro",
@@ -185,10 +167,10 @@
    "group": "Basketball",
    "league": "mcbb",
    "games": 510,
-   "watch_confirmed": 476,
+   "watch_confirmed": 481,
    "watch_any": 510,
-   "listen_any": 38,
-   "listen_team": 38
+   "listen_any": 39,
+   "listen_team": 39
   },
   "College Basketball (W)": {
    "group": "Basketball",
@@ -198,6 +180,15 @@
    "watch_any": 477,
    "listen_any": 41,
    "listen_team": 41
+  },
+  "Polish PlusLiga": {
+   "group": "Other",
+   "league": "tsdb:polish-plusliga",
+   "games": 7,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
   },
   "EHF European League": {
    "group": "Other",
@@ -514,6 +505,15 @@
    "listen_any": 0,
    "listen_team": 0
   },
+  "WWE": {
+   "group": "Fights",
+   "league": "tsdb:wwe",
+   "games": 3,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
   "AFL Womens": {
    "group": "Other",
    "league": "tsdb:afl-womens",
@@ -679,7 +679,7 @@
   "German 1. Bundesliga": {
    "group": "Other",
    "league": "tsdb:german-1-bundesliga",
-   "games": 7,
+   "games": 10,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
