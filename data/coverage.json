@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T21:02:01Z",
+ "generated": "2026-11-26T21:32:01Z",
  "leagues": {
   "Sheffield Shield": {
    "group": "Cricket",
@@ -40,7 +40,7 @@
   "WWE": {
    "group": "Fights",
    "league": "tsdb:wwe",
-   "games": 4,
+   "games": 5,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -697,6 +697,15 @@
   "Formula 2": {
    "group": "Racing",
    "league": "tsdb:formula-2",
+   "games": 1,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "CMLL": {
+   "group": "Fights",
+   "league": "tsdb:cmll",
    "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
