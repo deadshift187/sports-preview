@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T12:02:02Z",
+ "generated": "2026-11-26T12:32:02Z",
  "leagues": {
   "Sheffield Shield": {
    "group": "Cricket",
@@ -85,7 +85,7 @@
   "NJPW": {
    "group": "Fights",
    "league": "tsdb:njpw",
-   "games": 5,
+   "games": 4,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -190,6 +190,15 @@
    "listen_any": 0,
    "listen_team": 0
   },
+  "DDT Pro": {
+   "group": "Fights",
+   "league": "tsdb:ddt-pro",
+   "games": 1,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
   "Liga Profesional (ARG)": {
    "group": "Soccer",
    "league": "argentina",
@@ -268,6 +277,15 @@
    "games": 3,
    "watch_confirmed": 3,
    "watch_any": 3,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Quaid-e-Azam Trophy Gold 2026/27": {
+   "group": "Cricket",
+   "league": "quaid-e-azam-trophy-gold-2026-27",
+   "games": 8,
+   "watch_confirmed": 0,
+   "watch_any": 0,
    "listen_any": 0,
    "listen_team": 0
   },
@@ -423,15 +441,6 @@
    "watch_any": 67,
    "listen_any": 67,
    "listen_team": 8
-  },
-  "Quaid-e-Azam Trophy Gold 2026/27": {
-   "group": "Cricket",
-   "league": "quaid-e-azam-trophy-gold-2026-27",
-   "games": 8,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
   },
   "Quaid-e-Azam Trophy Silver League 2026/27": {
    "group": "Cricket",
