@@ -1,15 +1,6 @@
 {
- "generated": "2026-11-26T01:02:02Z",
+ "generated": "2026-11-26T01:32:02Z",
  "leagues": {
-  "India tour of New Zealand 2026/27": {
-   "group": "Cricket",
-   "league": "india-tour-of-new-zealand-2026-27",
-   "games": 2,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
   "PGA Tour": {
    "group": "Golf",
    "league": "pga",
@@ -22,7 +13,7 @@
   "Quaid-e-Azam Trophy Gold 2026/27": {
    "group": "Cricket",
    "league": "quaid-e-azam-trophy-gold-2026-27",
-   "games": 8,
+   "games": 5,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -31,7 +22,7 @@
   "Quaid-e-Azam Trophy Silver League 2026/27": {
    "group": "Cricket",
    "league": "quaid-e-azam-trophy-silver-league-2026-27",
-   "games": 10,
+   "games": 8,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -55,46 +46,10 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "Malaysia Women's T20I Tri-Series": {
-   "group": "Cricket",
-   "league": "malaysia-women-s-t20i-tri-series",
-   "games": 4,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "ICC Women's Emerging Nations Trophy": {
-   "group": "Cricket",
-   "league": "icc-women-s-emerging-nations-trophy",
-   "games": 4,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "Asia Cup Rising Stars (50 Overs)": {
-   "group": "Cricket",
-   "league": "asia-cup-rising-stars-50-overs",
-   "games": 7,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
   "Bangladesh tour of South Africa 2026/27": {
    "group": "Cricket",
    "league": "bangladesh-tour-of-south-africa-2026-27",
    "games": 2,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "International League T20": {
-   "group": "Cricket",
-   "league": "international-league-t20",
-   "games": 12,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -118,10 +73,37 @@
    "listen_any": 0,
    "listen_team": 0
   },
+  "Malaysia Women's T20I Tri-Series": {
+   "group": "Cricket",
+   "league": "malaysia-women-s-t20i-tri-series",
+   "games": 3,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
   "Syed Mushtaq Ali Trophy": {
    "group": "Cricket",
    "league": "syed-mushtaq-ali-trophy",
    "games": 41,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Asia Cup Rising Stars (50 Overs)": {
+   "group": "Cricket",
+   "league": "asia-cup-rising-stars-50-overs",
+   "games": 5,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Pro50 Championship": {
+   "group": "Cricket",
+   "league": "pro50-championship",
+   "games": 3,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -158,6 +140,15 @@
    "group": "Rugby",
    "league": "international-test-match",
    "games": 1,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "International League T20": {
+   "group": "Cricket",
+   "league": "international-league-t20",
+   "games": 12,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -289,6 +280,15 @@
    "listen_any": 0,
    "listen_team": 0
   },
+  "ICC Women's Emerging Nations Trophy": {
+   "group": "Cricket",
+   "league": "icc-women-s-emerging-nations-trophy",
+   "games": 1,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
   "Ireland A tour of Zimbabwe 2026/27": {
    "group": "Cricket",
    "league": "ireland-a-tour-of-zimbabwe-2026-27",
@@ -397,15 +397,6 @@
    "listen_any": 0,
    "listen_team": 0
   },
-  "Pro50 Championship": {
-   "group": "Cricket",
-   "league": "pro50-championship",
-   "games": 2,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
   "CSA 3-Day Series Division 2 2026/27": {
    "group": "Cricket",
    "league": "csa-3-day-series-division-2-2026-27",
@@ -500,6 +491,15 @@
    "group": "Cricket",
    "league": "plunket-shield",
    "games": 3,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "India tour of New Zealand 2026/27": {
+   "group": "Cricket",
+   "league": "india-tour-of-new-zealand-2026-27",
+   "games": 1,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
