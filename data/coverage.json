@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T08:02:01Z",
+ "generated": "2026-11-27T08:32:01Z",
  "leagues": {
   "WTA": {
    "group": "Tennis",
@@ -400,7 +400,7 @@
   "Women's Int'l Friendly": {
    "group": "Soccer",
    "league": "wfriendly",
-   "games": 46,
+   "games": 47,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
