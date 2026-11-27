@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T14:32:01Z",
+ "generated": "2026-11-27T15:02:01Z",
  "leagues": {
   "WTA": {
    "group": "Tennis",
@@ -185,7 +185,7 @@
    "group": "Basketball",
    "league": "mcbb",
    "games": 403,
-   "watch_confirmed": 386,
+   "watch_confirmed": 387,
    "watch_any": 403,
    "listen_any": 31,
    "listen_team": 31
