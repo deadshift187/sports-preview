@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T09:02:01Z",
+ "generated": "2026-11-27T09:32:01Z",
  "leagues": {
   "WTA": {
    "group": "Tennis",
@@ -14,60 +14,6 @@
    "group": "Cricket",
    "league": "sheffield-shield",
    "games": 5,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "WWE": {
-   "group": "Fights",
-   "league": "tsdb:wwe",
-   "games": 6,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "NJPW": {
-   "group": "Fights",
-   "league": "tsdb:njpw",
-   "games": 5,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "Russian Volleyball Super League": {
-   "group": "Other",
-   "league": "tsdb:russian-volleyball-super-league",
-   "games": 5,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "Polish PlusLiga": {
-   "group": "Other",
-   "league": "tsdb:polish-plusliga",
-   "games": 8,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "EHF Champions League": {
-   "group": "Other",
-   "league": "tsdb:ehf-champions-league",
-   "games": 6,
-   "watch_confirmed": 0,
-   "watch_any": 0,
-   "listen_any": 0,
-   "listen_team": 0
-  },
-  "Danish Mens Handball League": {
-   "group": "Other",
-   "league": "tsdb:danish-mens-handball-league",
-   "games": 3,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -244,6 +190,24 @@
    "listen_any": 31,
    "listen_team": 31
   },
+  "Danish Mens Handball League": {
+   "group": "Other",
+   "league": "tsdb:danish-mens-handball-league",
+   "games": 3,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "EHF Champions League": {
+   "group": "Other",
+   "league": "tsdb:ehf-champions-league",
+   "games": 4,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
   "Europa League": {
    "group": "Soccer",
    "league": "uel",
@@ -256,7 +220,7 @@
   "German Handball-Bundesliga": {
    "group": "Other",
    "league": "tsdb:german-handball-bundesliga",
-   "games": 10,
+   "games": 11,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -329,6 +293,15 @@
    "group": "Fights",
    "league": "tsdb:cage-warriors",
    "games": 2,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "WWE": {
+   "group": "Fights",
+   "league": "tsdb:wwe",
+   "games": 5,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -421,6 +394,15 @@
    "games": 9,
    "watch_confirmed": 2,
    "watch_any": 2,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Russian Volleyball Super League": {
+   "group": "Other",
+   "league": "tsdb:russian-volleyball-super-league",
+   "games": 4,
+   "watch_confirmed": 0,
+   "watch_any": 0,
    "listen_any": 0,
    "listen_team": 0
   },
@@ -598,7 +580,7 @@
   "French LNH Division 1": {
    "group": "Other",
    "league": "tsdb:french-lnh-division-1",
-   "games": 3,
+   "games": 4,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
@@ -640,6 +622,15 @@
    "listen_any": 0,
    "listen_team": 0
   },
+  "NJPW": {
+   "group": "Fights",
+   "league": "tsdb:njpw",
+   "games": 4,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
   "CSA Women Pro20 Series 2026/27": {
    "group": "Cricket",
    "league": "csa-women-pro20-series-2026-27",
@@ -662,6 +653,15 @@
    "group": "Racing",
    "league": "tsdb:formula-2",
    "games": 1,
+   "watch_confirmed": 0,
+   "watch_any": 0,
+   "listen_any": 0,
+   "listen_team": 0
+  },
+  "Polish PlusLiga": {
+   "group": "Other",
+   "league": "tsdb:polish-plusliga",
+   "games": 6,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
