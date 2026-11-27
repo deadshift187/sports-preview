@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T05:02:01Z",
+ "generated": "2026-11-27T05:32:01Z",
  "leagues": {
   "Sheffield Shield": {
    "group": "Cricket",
@@ -104,10 +104,10 @@
    "group": "Basketball",
    "league": "mcbb",
    "games": 452,
-   "watch_confirmed": 426,
+   "watch_confirmed": 429,
    "watch_any": 452,
-   "listen_any": 33,
-   "listen_team": 33
+   "listen_any": 34,
+   "listen_team": 34
   },
   "College Basketball (W)": {
    "group": "Basketball",
