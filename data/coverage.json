@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T07:02:01Z",
+ "generated": "2026-11-27T07:32:01Z",
  "leagues": {
   "Sheffield Shield": {
    "group": "Cricket",
@@ -104,10 +104,10 @@
    "group": "Basketball",
    "league": "mcbb",
    "games": 452,
-   "watch_confirmed": 430,
+   "watch_confirmed": 434,
    "watch_any": 452,
-   "listen_any": 34,
-   "listen_team": 34
+   "listen_any": 35,
+   "listen_team": 35
   },
   "College Basketball (W)": {
    "group": "Basketball",
@@ -715,7 +715,7 @@
   "England A Women tour of India 2026/27": {
    "group": "Cricket",
    "league": "england-a-women-tour-of-india-2026-27",
-   "games": 1,
+   "games": 2,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
