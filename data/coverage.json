@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T17:02:01Z",
+ "generated": "2026-11-27T17:32:01Z",
  "leagues": {
   "WTA": {
    "group": "Tennis",
@@ -508,7 +508,7 @@
   "World Snooker": {
    "group": "Other",
    "league": "tsdb:world-snooker",
-   "games": 4,
+   "games": 6,
    "watch_confirmed": 0,
    "watch_any": 0,
    "listen_any": 0,
